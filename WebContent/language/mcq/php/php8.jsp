@@ -1,0 +1,117 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="wrapper bg-white rounded">
+    <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.1  Which function in PHP is used to get the length of string variable? </p>
+        <div class="options py-3">
+         <label class="rounded p-2 option"> count() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> strcount <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> strlen <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> len<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div>
+       
+    </div> 
+    <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.2  Which of the below symbols is a newline character?</p>
+        <div class="options py-3">
+         <label class="rounded p-2 option"> \n <input type="radio" name="radio"> <span class="checkmark"></span> </label>
+         <label class="rounded p-2 option"> \r <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+         <label class="rounded p-2 option"> /n </stylesheet> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+         <label class="rounded p-2 option"> /r <input type="radio" name="radio"> 
+         <span class="crossmark"></span> </label> </div> 
+    </div> 
+    <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.3  Who is the father of PHP? </p>
+        <div class="options py-3">
+         <label class="rounded p-2 option"> Drek Kolkevi<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> Rasmus Lerdorf<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> Willam Makepiece<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> List Barely <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+     <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Type Hinting was introduced in which version of PHP? </p>
+        <div class="options py-3">
+         <label class="rounded p-2 option"> PHP 5 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> PHP 5.3 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> PHP 4 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> PHP 6<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+     <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 A function in PHP which starts with __ (double underscore) is known as __________ .
+
+         </p>
+        <div class="options py-3"> <label class="rounded p-2 option"> Inbuilt Function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> Default Function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> Magic Function <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> User Defined Function<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+     <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following PHP functions accepts any number of parameters? </p>
+        <div class="options py-3"> 
+        <label class="rounded p-2 option"> func_get_args()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> func_get_argv() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> get_argv() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> get_argc()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+     <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.7  PHP’s numerically indexed array begin with position ___________ . </p>
+        <div class="options py-3">
+         <label class="rounded p-2 option"> -1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> 0 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> 1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> 2<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+     <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the functions is used to sort an array in descending order?
+
+         </p>
+        <div class="options py-3"> 
+        <label class="rounded p-2 option"> asort() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> sort()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> rsort() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> dsort()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+     <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which one of the following property scopes is not supported by PHP? </p>
+        <div class="options py-3"> 
+        <label class="rounded p-2 option"> public <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> final <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> friendly <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> static <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+     <div class="content"> 
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.10  PHP stands for .......... </p>
+        <div class="options py-3"> 
+        <label class="rounded p-2 option"> Personal Home Page <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> PHP Hypertext Preprocessor <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> Pro Hypertext Preprocessor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+    </div> 
+    
+  
+    <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='/mcq/html-programming-questions-answers/page/2/'>2</a>
+				
+				<a class='page' href='/mcq/html-programming-questions-answers/page/3/'>3</a>
+				<a class='page next' href='/mcq/html-programming-questions-answers/page/2/' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
+</div>
+</body>
+</html>
