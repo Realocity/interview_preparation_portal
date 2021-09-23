@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/mystyle.css" rel="stylesheet" type="text/css"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -12,7 +12,8 @@
   </head>
   <body>
   
- 
+ <!-- navbar -->
+<%@include file="../common/normal_navbar.jsp" %>
   <br><br>
     <div id="accordion">
   <div class="card">
@@ -21,7 +22,7 @@
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           AMAZON RDS
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='amazonrdsoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
 
@@ -37,7 +38,7 @@
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           CLOUDERA
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='amazonrdsoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -55,7 +56,7 @@ utilities, etc.
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           COUCH DB
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='couchdboptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -70,7 +71,7 @@ utilities, etc.
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           DbVisualizer
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='dbVisualizeramazonrdsoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
 
@@ -87,7 +88,7 @@ database tool for developers, analysts and DBAs. It runs on all  major OSes  and
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
          FileMaker
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='filemakeroptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -102,7 +103,7 @@ database tool for developers, analysts and DBAs. It runs on all  major OSes  and
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
          Hadoop
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='hadoopoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
@@ -119,7 +120,7 @@ major components of Apache Hadoop, the others being MapReduce and YARN
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
          IBM DB2
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='ibmdb2optionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
@@ -134,7 +135,7 @@ major components of Apache Hadoop, the others being MapReduce and YARN
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
           ManageEngine Application Manager
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='manageEngineoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
@@ -149,7 +150,7 @@ major components of Apache Hadoop, the others being MapReduce and YARN
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
           Microsoft Access
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='microsoftaccessoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
@@ -164,7 +165,7 @@ major components of Apache Hadoop, the others being MapReduce and YARN
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
           Neo4j
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='neo4joptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
@@ -179,7 +180,7 @@ major components of Apache Hadoop, the others being MapReduce and YARN
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
         Oracle RDBMS
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='oraclerdbmsoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
@@ -193,7 +194,7 @@ major components of Apache Hadoop, the others being MapReduce and YARN
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
          SAP Sybase ASE
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='sybaseoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
@@ -207,7 +208,7 @@ major components of Apache Hadoop, the others being MapReduce and YARN
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
           SolarWinds Database Performance Analyzer
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='solarwindoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
@@ -222,7 +223,7 @@ DPA has agentless architecture and uses wait-based analytics for extended databa
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
          TeraData
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='teradataoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
@@ -236,7 +237,7 @@ DPA has agentless architecture and uses wait-based analytics for extended databa
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
           TOAD
         </button>
-        <button type="button" class="btn btn-success float-right">Success</button>
+        <button type="button" onclick="location.href='toadoptionsView.jsp'" class="btn btn-Let's Prepare float-right">Let's Prepare</button>
       </h5>
     </div>
     <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion">
@@ -253,7 +254,7 @@ economy.
 
 <br><br>
 
- 
+ <%@ include file="../common/footer.jsp" %>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
