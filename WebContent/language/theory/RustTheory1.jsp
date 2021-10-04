@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Rust Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -43,7 +42,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Is Rust Garbage Collected? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question3" class="collapse show" style="">
-                    <div class="card-body"> No, One of Rust’s key innovations is guaranteeing memory safety without requiring garbage collection.	  </div>
+                    <div class="card-body"> No, One of Rustâs key innovations is guaranteeing memory safety without requiring garbage collection.	  </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -86,7 +85,7 @@
                     <div class="card-body"> Rust compilation seems slow
 Rust has a moderately-complex type system
 The Rust compiler does not compile with optimizations unless asked to, as optimizations slow down compilation and are usually undesirable during development.
-ü  Rust use of LLVM for code generation
+Ã¼  Rust use of LLVM for code generation
                      </div>
                 </div>
             </div>
@@ -126,9 +125,9 @@ CString - C-compatible
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Are The Differences Between The Two Different String Types? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> The “String” is an owned buffer of UTF-8 bytes allocated on the heap.
-The “Strings” are Mutable and it can be modified.
-The “&str” is a primitive type and it is implemented by the Rust language while String is implemented in the standard library.
+                    <div class="card-body"> The âStringâ is an owned buffer of UTF-8 bytes allocated on the heap.
+The âStringsâ are Mutable and it can be modified.
+The â&strâ is a primitive type and it is implemented by the Rust language while String is implemented in the standard library.
                      </div>
                 </div>
             </div>
@@ -149,9 +148,9 @@ The “&str” is a primitive type and it is implemented by the Rust language wh
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What Are The Rules For Using Self, & Self, Or & Mut Self In A Method Declaration? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question12" class="collapse show" style="">
-                    <div class="card-body"> The “self” is use, when a function needs to consume the value.
-The “& self” is use, when a function only needs a read-only reference to the value.
-The “& mut self” is use, when a function needs to mutate the value without consuming it.
+                    <div class="card-body"> The âselfâ is use, when a function needs to consume the value.
+The â& selfâ is use, when a function only needs a read-only reference to the value.
+The â& mut selfâ is use, when a function needs to mutate the value without consuming it.
                      </div>
                 </div>
             </div>
@@ -179,7 +178,7 @@ And so on
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Is The Deal With Unwrap() Everywhere? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
-                    <div class="card-body"> The unwrap() function is use to handle errors that extracts the value inside an Option, if no value is present and It is also useful for quick prototypes where you don’t want to handle an error yet. </div>
+                    <div class="card-body"> The unwrap() function is use to handle errors that extracts the value inside an Option, if no value is present and It is also useful for quick prototypes where you donât want to handle an error yet. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -253,12 +252,29 @@ Crate - A Crate is a compilation unit and it contains an implicit and un-named t
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='RustTheory2.jsp'>2</a>
+				
+				<a class='page next' href='RustTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

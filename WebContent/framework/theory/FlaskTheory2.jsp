@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Flask Theory 2</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,8 +22,8 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the g object in Flask? How does it differ from the session object? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body"> Flask’s g object is used as a global namespace for holding any data during the application context. g object is not appropriate for storing the data between requests. The letter g, in a sense, stands for global.
-In situations, when you need to keep global variables during an application context, then rather than creating your global variable, it is best to use the g object as each request in Flask has a separate g object. Flask’s g object saves us from accidental modifications of self-defined global variables.
+                    <div class="card-body"> Flaskâs g object is used as a global namespace for holding any data during the application context. g object is not appropriate for storing the data between requests. The letter g, in a sense, stands for global.
+In situations, when you need to keep global variables during an application context, then rather than creating your global variable, it is best to use the g object as each request in Flask has a separate g object. Flaskâs g object saves us from accidental modifications of self-defined global variables.
                      </div>
                 </div>
             </div>
@@ -83,7 +82,7 @@ from flask import Flask
 app = Flask(__name__)
 app.run(host='127.0.0.1', debug=True)
 However, we need to disable the debug mode before deploying the application on production to avoid full stack trace display in the browser. Such a stack trace can reveal a lot of essential details and is prone to exploitation by bad actors.
-Further, we can make use of the Flask-DebugToolbar extension for easy debugging in the browser. We can also make use of Python’s pdb module and the debugging statement import pdb;pdb.set_trace() to support the debugging process.
+Further, we can make use of the Flask-DebugToolbar extension for easy debugging in the browser. We can also make use of Pythonâs pdb module and the debugging statement import pdb;pdb.set_trace() to support the debugging process.
                      </div>
                 </div>
             </div>
@@ -233,7 +232,7 @@ Manually that is by calling app.test_request_context
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> There are two ways by which users can enable debugging in Flask. They are as follows:
 By setting the flag on the applications object
-By passing the flag as a parameter to run. If the user is enabling to debug support, the server will reload it when the code will change and the user doesn’t have to restart after each change made in the code.
+By passing the flag as a parameter to run. If the user is enabling to debug support, the server will reload it when the code will change and the user doesnât have to restart after each change made in the code.
                      </div>
                 </div>
             </div>
@@ -244,7 +243,7 @@ By passing the flag as a parameter to run. If the user is enabling to debug supp
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What do you mean by the Thread-Local object in Flask Python? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question16" class="collapse show" style="">
-                    <div class="card-body"> Flask Python makes use of thread local objects internally so that the user doesn’t have to pass objects around from one function to another function within a request so as to stay thread safe. This approach is quite useful, but it requires a pure request context for dependency injection or while attempting to reuse code, which uses a value indulged in the requests.
+                    <div class="card-body"> Flask Python makes use of thread local objects internally so that the user doesnât have to pass objects around from one function to another function within a request so as to stay thread safe. This approach is quite useful, but it requires a pure request context for dependency injection or while attempting to reuse code, which uses a value indulged in the requests.
 Flask Python supports all kinds of database-powered applications like RDBS. Such systems require creating of a schema, which further requires connecting the schema.sql file to a sqlite3 command. So users need to install sqlite3 command if they want to create or start the database in Flask Python.
                      </div>
                 </div>
@@ -310,6 +309,27 @@ On the contrary, retrieving objects from the stored string forms is called as un
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+     <a class="page-link" href="FlaskTheory1.jsp">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="FlaskTheory3.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

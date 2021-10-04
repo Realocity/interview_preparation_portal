@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>RubyOnRails Theory 2</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -33,9 +32,9 @@
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain how you define Instance Variable, Global Variable and Class Variable in Ruby? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> 	Ruby Instance variable begins with — @
-	Ruby Class variables begin with — @@
-	Ruby Global variables begin with — $
+                    <div class="card-body"> 	Ruby Instance variable begins with â @
+	Ruby Class variables begin with â @@
+	Ruby Global variables begin with â $
                      </div>
                 </div>
             </div>
@@ -47,7 +46,7 @@
                 </div>
                 <div id="question3" class="collapse show" style="">
                     <div class="card-body"> 	Rails Observers: Observers is same as Callback, but it is used when method is not directly associated to object lifecycle. Also, the observer lives longer, and it can be detached or attached at any time. For example, displaying values from a model in the UI and updating model from user input.
-	Rails Callback: Callbacks are methods, which can be called at certain moments of an object’s life cycle for example it can be called when an object is validated, created, updated, deleted, A call back is short lived. For example, running a thread and giving a call-back that is called when thread terminates
+	Rails Callback: Callbacks are methods, which can be called at certain moments of an objectâs life cycle for example it can be called when an object is validated, created, updated, deleted, A call back is short lived. For example, running a thread and giving a call-back that is called when thread terminates
                      </div>
                 </div>
             </div>
@@ -58,7 +57,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain what is rake in Rails? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body">Rake is a Ruby Make; it is a Ruby utility that substitutes the Unix utility ‘make’, and uses a ‘Rakefile’ and ‘.rake files’ to build up a list of tasks. In Rails, Rake is used for normal administration tasks like migrating the database through scripts, loading a schema into the database, etc.  </div>
+                    <div class="card-body">Rake is a Ruby Make; it is a Ruby utility that substitutes the Unix utility âmakeâ, and uses a âRakefileâ and â.rake filesâ to build up a list of tasks. In Rails, Rake is used for normal administration tasks like migrating the database through scripts, loading a schema into the database, etc.  </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -160,7 +159,7 @@
                 </div>
                 <div id="question13" class="collapse show" style="">
                     <div class="card-body"> 	super(): A call to super() invokes the parent method without any arguments, as presumably expected. As always, being explicit in your code is a good thing.
-	super call: A call to super invokes the parent method with the same arguments that were passed to the child method. An error will therefore occur if the arguments passed to the child method don’t match what the parent is expecting.
+	super call: A call to super invokes the parent method with the same arguments that were passed to the child method. An error will therefore occur if the arguments passed to the child method donât match what the parent is expecting.
                      </div>
                 </div>
             </div>
@@ -204,9 +203,9 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> List out the few features of Ruby? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question17" class="collapse show" style="">
-                    <div class="card-body"> 	Free format – You can start writing from program from any line and column
-	Case sensitive – The uppercase and lowercase letters are distinct
-	Comments – Anything followed by an unquoted #, to the end of the line on which it appears, is ignored by the interpreter
+                    <div class="card-body"> 	Free format â You can start writing from program from any line and column
+	Case sensitive â The uppercase and lowercase letters are distinct
+	Comments â Anything followed by an unquoted #, to the end of the line on which it appears, is ignored by the interpreter
 	Statement delimiters- Multiple statements on one line must be separated by semicolons, but they are not required at the end of a line.
                      </div>
                 </div>
@@ -233,7 +232,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain how can you declare a block in Ruby?	 <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> In Ruby, the code in the block is always enclosed within braces ({}).  You can invoke a block by using “yield statement”. </div>
+                    <div class="card-body"> In Ruby, the code in the block is always enclosed within braces ({}).  You can invoke a block by using âyield statementâ. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -252,6 +251,26 @@
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+     <a class="page-link" href="RubyOnRailsTheory1.jsp">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory3.jsp">3</a></li>
+      <a class="page-link" href="RubyOnRailsTheory3.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

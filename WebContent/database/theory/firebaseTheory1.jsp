@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Database Theory</title>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -163,8 +163,8 @@ Firebase Analytics is a part of the core Firebase SDK. Integrating Firebase Anal
 Flow 1: Screen A, Screen B, Screen C, Screen D
 Flow 2: Screen X, Screen Y, Screen C, Screen D
 You could log the following events :
-Flow 1 → A, B, C_1, D_1
-Flow 2 → X, Y, C_2, D_2
+Flow 1 â A, B, C_1, D_1
+Flow 2 â X, Y, C_2, D_2
 Each set of these creates a closed funnel in Firebase Analytics. You can then create an audience of users who log all events in each Flow.
                     </div>
                 </div>
@@ -200,7 +200,7 @@ Crash Reporting automatically exports captured errors to Firebase Analytics as a
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> I Am An Existing Google Cloud Messaging (gcm) Developer. Should I Move To Firebase Cloud Messaging? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question15" class="collapse show" style="">
-                    <div class="card-body"> FCM is the new version of GCM under the Firebase brand. It inherits GCM’s core infrastructure, with new SDKs to make Cloud Messaging development easier.
+                    <div class="card-body"> FCM is the new version of GCM under the Firebase brand. It inherits GCMâs core infrastructure, with new SDKs to make Cloud Messaging development easier.
 Benefits of upgrading to FCM SDK include:
 Simpler client development. You no longer have to write your own registration or subscription retry logic.
 An out-of-the-box notification solution. You can use Firebase Notifications, a serverless notifications solution with a web console that lets anyone send notifications to target specific audiences based on Firebase Analytics insights.
@@ -269,7 +269,7 @@ Our default limits are large enough for most applications. If you are building a
 If you're over your download limit, you can upgrade your Firebase plan or wait until your download limit resets at the start of your next billing cycle. To decrease your downloads, try the following steps:
 o	Add queries to limit the data that your listen operations return.
 o	Check for unindexed queries.
-o	Use listeners that only download updates to data — for example, on() instead of once().
+o	Use listeners that only download updates to data â for example, on() instead of once().
 o	Use security rules to block unauthorized downloads.
 If you're over your storage limit, upgrade your plan to avoid service disruptions. To reduce the amount of data in your database, try the following steps:
 o	Run periodic cleanup jobs.
@@ -279,12 +279,29 @@ If you're over your simultaneous database connections limit, upgrade your plan t
                     </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='firebaseTheory2.jsp'>2</a>
+				<a class='page' href='firebaseTheory3.jsp'>3</a>
+				<a class='page next' href='firebaseTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>CSS Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -48,7 +47,7 @@
                 <div id="question3" class="collapse show" style="">
                     <div class="card-body"> Browser Compatibility: Some style selectors are supported and some are not. We have to determine which style is supported or not using the @support selector).
 Cross Browser issue: Some selectors behave differently in a different browser).
-There is no parent selector: Currently, Using CSS, you can’t select a parent tag.
+There is no parent selector: Currently, Using CSS, you canât select a parent tag.
 You can download a PDF version of Css Interview Questions.
                      </div>
                 </div>
@@ -95,12 +94,12 @@ border: solid 1px #ccc;
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is a CSS Preprocessor? What are Sass, Less, and Stylus? Why do people use them? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
-                    <div class="card-body"> A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. It helps us to use complex logical syntax like – variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS.
-SASS: Sass is the acronym for “Syntactically Awesome Style Sheets”. SASS can be written in two different syntaxes using SASS or SCSS
+                    <div class="card-body"> A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. It helps us to use complex logical syntax like â variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS.
+SASS: Sass is the acronym for âSyntactically Awesome Style Sheetsâ. SASS can be written in two different syntaxes using SASS or SCSS
 SASS vs SCSS
 SASS is based on indentation and SCSS(Sassy CSS) is not.
 SASS uses .sass extension while SCSS uses .scss extension.
-SASS doesn’t use curly brackets or semicolons. SCSS uses it, just like the CSS.
+SASS doesnât use curly brackets or semicolons. SCSS uses it, just like the CSS.
                      </div>
                 </div>
             </div>
@@ -111,7 +110,7 @@ SASS doesn’t use curly brackets or semicolons. SCSS uses it, just like the CSS
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is VH/VW (viewport height/ viewport width) in CSS? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> It’s a CSS unit used to measure the height and width in percentage with respect to the viewport. It is used mainly in responsive design techniques. The measure VH is equal to 1/100 of the height of the viewport. If the height of the browser is 1000px, 1vh is equal to 10px. Similarly, if the width is 1000px, then 1 vw is equal to 10px. </div>
+                    <div class="card-body"> Itâs a CSS unit used to measure the height and width in percentage with respect to the viewport. It is used mainly in responsive design techniques. The measure VH is equal to 1/100 of the height of the viewport. If the height of the browser is 1000px, 1vh is equal to 10px. Similarly, if the width is 1000px, then 1 vw is equal to 10px. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -146,7 +145,7 @@ Inline Block Elements: Inline-block elements are similar to inline elements, exc
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How do you test the webpage in different browsers? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> It’s most important to test a website in different browsers when you’re first designing it, or when making major changes. However, it’s also important to repeat these tests periodically, since browsers go through a lot of updates and changes. </div>
+                    <div class="card-body"> Itâs most important to test a website in different browsers when youâre first designing it, or when making major changes. However, itâs also important to repeat these tests periodically, since browsers go through a lot of updates and changes. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -162,7 +161,7 @@ Inline Block Elements: Inline-block elements are similar to inline elements, exc
 :hover
 :active
 :focus
-Example of the pseudo-class, In the below example, the color applies to the anchor tag when it’s hovered.
+Example of the pseudo-class, In the below example, the color applies to the anchor tag when itâs hovered.
                      </div>
                 </div>
             </div>
@@ -186,7 +185,7 @@ pt(point) are traditionally used in print. 1pt = 1/72 inch and it is a fixed-siz
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Does margin-top or margin-bottom have an effect on inline elements? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body"> No, it doesn’t affect the inline elements. Inline elements flow with the contents of the page. </div>
+                    <div class="card-body"> No, it doesnât affect the inline elements. Inline elements flow with the contents of the page. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -250,7 +249,7 @@ Border-box: Width and height values apply to the content, padding, and border.
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> Centering with table
 HTML:
-<div class=”cn”><div class=”inner”>your content</div></div>
+<div class=âcnâ><div class=âinnerâ>your content</div></div>
 CSS:
 .cn {
 display: table-cell;
@@ -275,10 +274,10 @@ width: 200px; height: 200px;
                 </div>
                 <div id="question18" class="collapse show" style="">
                     <div class="card-body"> The four types of @media properties are:
-All → It’s the default property. Used for all media-type devices.
-Screen → Used for computer screen, mobile screen.
-Print → Used for printers.
-Speech → Used for screen readers.
+All â Itâs the default property. Used for all media-type devices.
+Screen â Used for computer screen, mobile screen.
+Print â Used for printers.
+Speech â Used for screen readers.
                      </div>
                 </div>
             </div>
@@ -299,18 +298,35 @@ Speech → Used for screen readers.
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are the different ways to hide the element using CSS? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
-                    <div class="card-body"> Using display property(display: none). It’s not available for screen readers. The element will not exist in the DOM if display: none is used.
+                    <div class="card-body"> Using display property(display: none). Itâs not available for screen readers. The element will not exist in the DOM if display: none is used.
 Using visibility property(visibility: hidden), will take up the space of the element. It will be available to screen reader users. The element will actually be present in the DOM, but not shown on the screen.
 Using position property (position: absolute). Make it available outside the screen.
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='cssTheory2.jsp'>2</a>
+				<a class='page' href='cssTheory3.jsp'>3</a>
+				<a class='page next' href='cssTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

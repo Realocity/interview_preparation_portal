@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -27,12 +26,12 @@
 at Berkeley and has more than 30 years of active development on the core platform. It runs on all the major
 operating systems and has been ACID-compliant since 2001. It also has add-on like PostGIS database extender.
 In MAC OS Postgresql is the default database. Michel Stonebraker is Father of Postgresql who has started the
-Post Ingres project for supporting Contemporary Database systems.PostgreSQL’s developers pronounce
+Post Ingres project for supporting Contemporary Database systems.PostgreSQLâs developers pronounce
 PostgreSQL as It is abbreviated as Postgres because of ubiquitous support for the SQL Standard among most
 relational databases.PostgreSQL, originally called Postgres, was created at UCB by a computer science
 professor named Michael Stonebraker, who went on to become the CTO of Informix Corporation.
 Stonebraker started Postgres in 1986 as a followup project to its predecessor, Ingres, now owned by Computer
-Associates. The name Postgres thus plays off of its predecessor (as in “after Ingres”). Ingres, developed from
+Associates. The name Postgres thus plays off of its predecessor (as in âafter Ingresâ). Ingres, developed from
 1977 to 1985, had been an exercise in creating a database system according to classic RDBMS theory. </div>
                 </div>
             </div>
@@ -143,7 +142,7 @@ This creates a new database and a message displays CREATE DATABASE which indicat
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How To Create A Postgresql User? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question11" class="collapse show" style="">
-                    <div class="card-body"> CREATE USER user WITH password ‘password’; </div>
+                    <div class="card-body"> CREATE USER user WITH password âpasswordâ; </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -236,7 +235,7 @@ contrib/dblink allows cross-database queries using function calls. Of course, a 
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How To Pronounce Postgresql? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> post-GRES-que-ell, per this audio file. Many people, however, just say “post-GRES”. </div>
+                    <div class="card-body"> post-GRES-que-ell, per this audio file. Many people, however, just say âpost-GRESâ. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -246,15 +245,33 @@ contrib/dblink allows cross-database queries using function calls. Of course, a 
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Are New Features Postgre 9.1? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
-                    <div class="card-body"> As always, we can’t be certain what will go in and what won’t; the project has strict quality standards that not all patches can make before deadline. All we can tell you is what’s being worked on, which includes: synchronous replication, JSON support, security labels, nearest-neighbor geographic searches, SQL/MED external data connections, column-level collations, and index-only access. By the time 9.1 is released, though, this feature list will have changed considerably. </div>
+                    <div class="card-body"> As always, we canât be certain what will go in and what wonât; the project has strict quality standards that not all patches can make before deadline. All we can tell you is whatâs being worked on, which includes: synchronous replication, JSON support, security labels, nearest-neighbor geographic searches, SQL/MED external data connections, column-level collations, and index-only access. By the time 9.1 is released, though, this feature list will have changed considerably. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='postgresqlTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='postgresqlTheory3.jsp'>3</a>
+				<a class='page next' href='postgresqlTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

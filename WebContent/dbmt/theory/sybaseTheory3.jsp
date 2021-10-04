@@ -127,7 +127,17 @@ select * from sysengines.
                 </div>
             </div>
              
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                
+				<a class='page' href='sybaseTheory1.jsp'>1</a>
+				<a class='page' href='sybaseTheory2.jsp'>2</a>
+				<span class="page current">3</span>
+				
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

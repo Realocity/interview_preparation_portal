@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -276,15 +275,15 @@ o	TRUNCATE TABLE removes the data by deallocating the data pages used to store t
                 </div>
                 <div id="question14" class="collapse show" style="">
                     <div class="card-body"> It has a lot of unique features that make it more useful and wonderful to work over it than MySQL. Some features are: -
-•	MariaDB is licensed under GPL, LGPL, or BSD.
-•	It is authorized under the BSD, LGPL, GPLMariaDB.
-•	It is suitable to work with the data sources like RDBMS.
-•	It provides a great number of storage engines.
-•	It provides some great extraordinary performance engines.
-•	It has a good paradigm inquiring language.
-•	It supports a lot of operating systems and can work on it.
-•	It supports a large number of programming language.
-•	It even supports the most used web development language that is PHP.
+<br>⦿	MariaDB is licensed under GPL, LGPL, or BSD.
+<br>⦿	It is authorized under the BSD, LGPL, GPLMariaDB.
+<br>⦿	It is suitable to work with the data sources like RDBMS.
+<br>⦿	It provides a great number of storage engines.
+<br>⦿	It provides some great extraordinary performance engines.
+<br>⦿	It has a good paradigm inquiring language.
+<br>⦿	It supports a lot of operating systems and can work on it.
+<br>⦿	It supports a large number of programming language.
+<br>⦿	It even supports the most used web development language that is PHP.
                     
                      </div>
                 </div>
@@ -303,24 +302,24 @@ o	TRUNCATE TABLE removes the data by deallocating the data pages used to store t
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question16"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  Which command is used to delete the table in MariaDB’s database?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  Which command is used to delete the table in MariaDBâs database?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question16" class="collapse show" style="">
-                    <div class="card-body">  The command DROP TABLE is used to delete the table in MariaDB’s database. It is needed to make sure if you really want to delete the table because it permanently deletes the table and it can’t be recovered. Triggers are also removed with the table definitions and table data so it needs to do when you are sure.</div>
+                    <div class="card-body">  The command DROP TABLE is used to delete the table in MariaDBâs database. It is needed to make sure if you really want to delete the table because it permanently deletes the table and it canât be recovered. Triggers are also removed with the table definitions and table data so it needs to do when you are sure.</div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question17"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Which command is used to create the table in MariaDB’s database? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Which command is used to create the table in MariaDBâs database? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> It is done by step after step. These steps are: -
-•	First of all, it needs to construct a database.
-•	When it is done, select the database.
-•	After that create a table by commanding CREATE TABLE statement.
-•	If you want to create or delete the table you must have the privilege for it
+<br>⦿	First of all, it needs to construct a database.
+<br>⦿	When it is done, select the database.
+<br>⦿	After that create a table by commanding CREATE TABLE statement.
+<br>⦿	If you want to create or delete the table you must have the privilege for it
                      </div>
                 </div>
             </div>
@@ -341,7 +340,7 @@ o	TRUNCATE TABLE removes the data by deallocating the data pages used to store t
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  Who is the founder of MariaDB?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> MariaDB has founded by the Michael “Monty” Widenius, the founder of MYSQL. The main focus of MariaDB foundation to keep the quality of MariaDB project high. </div>
+                    <div class="card-body"> MariaDB has founded by the Michael âMontyâ Widenius, the founder of MYSQL. The main focus of MariaDB foundation to keep the quality of MariaDB project high. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -360,6 +359,16 @@ o	TRUNCATE TABLE removes the data by deallocating the data pages used to store t
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

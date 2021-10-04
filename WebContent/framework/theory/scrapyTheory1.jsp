@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Scrapy Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -24,7 +23,7 @@
                 </div>
                 <div id="question1" class="collapse show" style="">
                     <div class="card-body"> BeautifulSoup and lxml are libraries for parsing HTML and XML. Scrapy is an application framework for writing web spiders that crawl web sites and extract data from them.
-<br>Scrapy provides a built-in mechanism for extracting data (called selectors) but you can easily use BeautifulSoup (or lxml) instead, if you feel more comfortable working with them. After all, they’re just parsing libraries which can be imported and used from any Python code.
+<br>Scrapy provides a built-in mechanism for extracting data (called selectors) but you can easily use BeautifulSoup (or lxml) instead, if you feel more comfortable working with them. After all, theyâre just parsing libraries which can be imported and used from any Python code.
 <br>In other words, comparing BeautifulSoup (or lxml) to Scrapy is like comparing jinja2 to Django.
                      </div>
                 </div>
@@ -36,8 +35,8 @@
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Can I Use Scrapy With Beautifulsoup? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> Yes, you can. As mentioned above, BeautifulSoup can be used for parsing HTML responses in Scrapy callbacks. You just have to feed the response’s body into a BeautifulSoup object and extract whatever data you need from it.
-<br>Here’s an example spider using BeautifulSoup API, with lxml as the HTML parser:
+                    <div class="card-body"> Yes, you can. As mentioned above, BeautifulSoup can be used for parsing HTML responses in Scrapy callbacks. You just have to feed the responseâs body into a BeautifulSoup object and extract whatever data you need from it.
+<br>Hereâs an example spider using BeautifulSoup API, with lxml as the HTML parser:
 <br>from bs4 import BeautifulSoup
 <br>import scrapy
 class ExampleSpider(scrapy.Spider):
@@ -71,11 +70,11 @@ class ExampleSpider(scrapy.Spider):
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question4"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Did Scrapy “steal” X From Django? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Did Scrapy âstealâ X From Django? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> Probably, but we don’t like that word. We think Django is a great open source project and an example to follow, so we’ve used it as an inspiration for Scrapy.
-<br>We believe that, if something is already done well, there’s no need to reinvent it. This concept, besides being one of the foundations for open source and free software, not only applies to software but also to documentation, procedures, policies, etc. So, instead of going through each problem ourselves, we choose to copy ideas from those projects that have already solved them properly, and focus on the real problems we need to solve.
+                    <div class="card-body"> Probably, but we donât like that word. We think Django is a great open source project and an example to follow, so weâve used it as an inspiration for Scrapy.
+<br>We believe that, if something is already done well, thereâs no need to reinvent it. This concept, besides being one of the foundations for open source and free software, not only applies to software but also to documentation, procedures, policies, etc. So, instead of going through each problem ourselves, we choose to copy ideas from those projects that have already solved them properly, and focus on the real problems we need to solve.
                      </div>
                 </div>
             </div>
@@ -171,7 +170,7 @@ Or by setting a global download delay in your project with the DOWNLOAD_DELAY se
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question12"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What’s The Best Way To Parse Big Xml/csv Data Feeds? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Whatâs The Best Way To Parse Big Xml/csv Data Feeds? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question12" class="collapse show" style="">
                     <div class="card-body"> Parsing big feeds with XPath selectors can be problematic since they need to build the DOM of the entire feed in memory, and this can be quite slow and consume a lot of memory.
@@ -216,7 +215,7 @@ Or by setting a global download delay in your project with the DOWNLOAD_DELAY se
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Should I Use Spider Arguments Or Settings To Configure My Spider? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question16" class="collapse show" style="">
-                    <div class="card-body"> Both spider arguments and settings can be used to configure your spider. There is no strict rule that mandates to use one or the other, but settings are more suited for parameters that, once set, don’t change much, while spider arguments are meant to change more often, even on each spider run and sometimes are required for the spider to run at all (for example, to set the start url of a spider).</div>
+                    <div class="card-body"> Both spider arguments and settings can be used to configure your spider. There is no strict rule that mandates to use one or the other, but settings are more suited for parameters that, once set, donât change much, while spider arguments are meant to change more often, even on each spider run and sometimes are required for the spider to run at all (for example, to set the start url of a spider).</div>
                 </div>
             </div>
               
@@ -225,6 +224,15 @@ Or by setting a global download delay in your project with the DOWNLOAD_DELAY se
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

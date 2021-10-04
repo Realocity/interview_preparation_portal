@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>CSS Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,7 +22,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What does the :root pseudo-class refer to? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body"> The :root selector allows you to target the highest-level “parent” element in the DOM, or document tree. It is defined in the CSS Selectors Level 3 specification.	 </div>
+                    <div class="card-body"> The :root selector allows you to target the highest-level âparentâ element in the DOM, or document tree. It is defined in the CSS Selectors Level 3 specification.	 </div>
                 </div>
             </div>
                  <div class="card mb-2 w-100">
@@ -34,7 +33,7 @@
                 </div>
                 <div id="question2" class="collapse show" style="">
                     <div class="card-body"> Accessibility refers to how software or hardware combinations are designed to make a system accessible to persons with disabilities, such as visual impairment, hearing loss, or limited dexterity.
-For example, a website developed with accessibility in mind might have text-to-speech capabilities. In the USA public websites have to have accessible compliance. It’s defined in 508 compliance. It gives the guidelines and best practices for all website users that should be met with key areas of accessibility.
+For example, a website developed with accessibility in mind might have text-to-speech capabilities. In the USA public websites have to have accessible compliance. Itâs defined in 508 compliance. It gives the guidelines and best practices for all website users that should be met with key areas of accessibility.
                      </div>
                 </div>
             </div>
@@ -55,7 +54,7 @@ For example, a website developed with accessibility in mind might have text-to-s
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Difference between CSS grid vs flexbox? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> CSS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows. Grid layout is intended for larger-scale layouts which aren’t linear in design.
+                    <div class="card-body"> CSS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows. Grid layout is intended for larger-scale layouts which arenât linear in design.
 Flexbox is largely a one-dimensional system (either in a column or a row). Flexbox layout is most appropriate to the components of an application.
                      </div>
                 </div>
@@ -92,7 +91,7 @@ Width: calc(100px + 50px)
                 </div>
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> CSS variables can be used without the need of the preprocessor. Currently, all the major browsers support the CSS variables. 
-CSS variable cascade. But the preprocessor variables don’t cascade. 
+CSS variable cascade. But the preprocessor variables donât cascade. 
 CSS variable can be accessed and manipulated javascript.
                      </div>
                 </div>
@@ -104,7 +103,7 @@ CSS variable can be accessed and manipulated javascript.
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What does * { box-sizing: border-box; } do? What are its advantages? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> It makes every element in the document include the padding and border in the element’s inner dimension for the height and width computation.  In box-sizing: border-box, The height of an element is now calculated by the content's height + vertical padding + vertical border width.
+                    <div class="card-body"> It makes every element in the document include the padding and border in the elementâs inner dimension for the height and width computation.  In box-sizing: border-box, The height of an element is now calculated by the content's height + vertical padding + vertical border width.
 The width of an element is now calculated by the content's width + horizontal padding + horizontal border width.
                      </div>
                 </div>
@@ -275,12 +274,31 @@ So, if we do any changes in that external file, then the changes can also be obs
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='cssTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='cssTheory3.jsp'>3</a>
+				<a class='page next' href='cssTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

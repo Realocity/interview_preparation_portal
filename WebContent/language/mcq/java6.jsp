@@ -1,19 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<title>java 6</title>
 </head>
-
 <body>
-
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Re-implementing an inherited method in a sub class to perform a different task from the parent class is called </p>
@@ -35,7 +33,7 @@
     </div> 
     <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Consider the following statements about Java packages:
-I. Packages don’t provide a mechanism to partition all class names into more manageable chunks.
+I. Packages donat provide a mechanism to partition all class names into more manageable chunks.
 II. Packages provide a visibility control mechanism.
 III. One of the important properties of a package is that all classes defined inside a package is accessible by code outside that package.
 IV. The .class files for classes declared to be part of a package can be stored in multiple directories.
@@ -63,8 +61,8 @@ Identify the correct statement from the following:
     </div> 
      <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Identify, from among the following, the incorrect descriptions related to Java : </p>
-        <div class="options py-3"> <label class="rounded p-2 option"> The arithmetic operations *, /, %, + and – have the same level of precedence <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option"> Java Virtual Machine translates byte code into its own system’s machine language and runs the resulting machine code <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <div class="options py-3"> <label class="rounded p-2 option"> The arithmetic operations *, /, %, + and a have the same level of precedence <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> Java Virtual Machine translates byte code into its own systemas machine language and runs the resulting machine code <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Comments do not cause any action to be performed during the program execution <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Java variable names are case-sensitive. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
@@ -127,7 +125,7 @@ Which of the following will be the output of the above program?
      <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following statements about Java Threads is correct?</p>
         <div class="options py-3"> 
-        <label class="rounded p-2 option"> Java threads don’t allow parts of a program to be executed in parallel <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> Java threads donat allow parts of a program to be executed in parallel <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Java is a single-threaded language <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Ready, running and sleeping are three states that a thread can be in during its life cycle <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Every java application is not multithreaded. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
@@ -136,14 +134,25 @@ Which of the following will be the output of the above program?
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">1</span>
-				<a class='page' href='/mcq/html-programming-questions-answers/page/2/'>2</a>
+     <div><span class="page current">6</span>
+				<a class='page' href='java5.jsp'>5</a>
 				
-				<a class='page' href='/mcq/html-programming-questions-answers/page/3/'>3</a>
-				<a class='page next' href='/mcq/html-programming-questions-answers/page/2/' title='Next'>&raquo;</a>
+				<a class='page' href='java7.jsp'>7</a>
+				<a class='page next' href='java7.jsp' title='Next'>&raquo;</a>
 				</div>
 				</div>
 				<center>
 </div>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

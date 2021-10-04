@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Swift Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -78,8 +77,8 @@ An array is a value type, whereas NSArray is an immutable reference type.
 Classes are reference types, whereas structs are value types.
 Classes can be built on other classes, whereas struct cannot inherit from another struct.
 Classes have an inheritance, whereas structs cannot have an inheritance.
-In class, we can create an instance with “let” keywords and attempt to mutate its property, whereas there is no Mutability in Structs.
-Classes have Type Casting, whereas struct doesn’t have Type Casting.
+In class, we can create an instance with âletâ keywords and attempt to mutate its property, whereas there is no Mutability in Structs.
+Classes have Type Casting, whereas struct doesnât have Type Casting.
                      </div>
                 </div>
             </div>
@@ -104,7 +103,7 @@ Operation queues
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How to create a constant in Swift programming? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> We have to use the “let” keyword to declare a constant in the Swift Programming. </div>
+                    <div class="card-body"> We have to use the âletâ keyword to declare a constant in the Swift Programming. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -138,7 +137,7 @@ Using Delegate (Backword).
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How can we make a property Optional in swift? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> Declaring a Question mark “?” in the swift code can make a property optional. This question mark “?” helps to avoid the runtime error when a property doesn’t hold a value. </div>
+                    <div class="card-body"> Declaring a Question mark â?â in the swift code can make a property optional. This question mark â?â helps to avoid the runtime error when a property doesnât hold a value. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -266,12 +265,29 @@ Allows managing the notifications with interface in the notification center.
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='SwiftTheory2.jsp'>2</a>
+				<a class='page' href='SwiftTheory3.jsp'>3</a>
+				<a class='page next' href='SwiftTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

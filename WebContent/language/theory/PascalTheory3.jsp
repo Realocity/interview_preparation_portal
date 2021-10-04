@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Pascal Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -102,7 +101,7 @@ For a case or block statement, there is no need for semi-colon as it needs to ge
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the process to perform string operations in Pascal? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> Firstly Pascal can’t handle the string of characters and it is one of the top disadvantages of the language. </div>
+                    <div class="card-body"> Firstly Pascal canât handle the string of characters and it is one of the top disadvantages of the language. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -125,7 +124,7 @@ If you put a code in a unit, it becomes easy to call and use it again.
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the pointer and explain different pointer concepts in Pascal? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question9" class="collapse show" style="">
-                    <div class="card-body"> A pointer is a dynamic variable and its value it the address of some other variable. This means it shows the address of memory location of another variable. You need to learn the pointer because some tasks are easily performed with the use of it. Sometimes, the tasks like dynamic memory location can’t be performed without the use of a pointer. You must declare the pointer like other variables or constants, to use in the program later. There are different pointer concepts in Pascal:
+                    <div class="card-body"> A pointer is a dynamic variable and its value it the address of some other variable. This means it shows the address of memory location of another variable. You need to learn the pointer because some tasks are easily performed with the use of it. Sometimes, the tasks like dynamic memory location canât be performed without the use of a pointer. You must declare the pointer like other variables or constants, to use in the program later. There are different pointer concepts in Pascal:
 Arithmetic Pointer: The operations such as +, -, increment and decrement can be performed on pointers.
 Pointer to Pointer: pascal allows to have pointer on another pointer and so on.
 Array of Pointers: Array is used to define the number of pointers in it.
@@ -141,19 +140,37 @@ passing Pointer to Subprogram: Pascal allows to pass the pointer as an argument 
                 </div>
                 <div id="question10" class="collapse show" style="">
                     <div class="card-body"> Modern Pascal provides more securities and fewer ambiguities during programming and coding. Whereas Standard Pascal provides more ambiguities, errors and fewer securities while coding or programming.
-Modern Pascal offers the removal of the limit of any string length if the size is defined. Whereas, standard Pascal doesn’t allow the removal of limit of length.
+Modern Pascal offers the removal of the limit of any string length if the size is defined. Whereas, standard Pascal doesnât allow the removal of limit of length.
 Modern Pascal makes advancement over the standard Pascal by providing the var parameters that are used in functions and procedures.
-Modern Pascal provides backward compatibility with the use of parameters in functions and procedures. But standard Pascal doesn’t provide backward compatibility.
-Modern Pascal provides definitive compatibility with the use of symbols, whereas Standard Pascal doesn’t provide any compatibility related to symbols.
+Modern Pascal provides backward compatibility with the use of parameters in functions and procedures. But standard Pascal doesnât provide backward compatibility.
+Modern Pascal provides definitive compatibility with the use of symbols, whereas Standard Pascal doesnât provide any compatibility related to symbols.
                      </div>
                 </div>
             </div>
-             
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='PascalTheory1.jsp'>1</a>
+				<a class='page' href='PascalTheory2.jsp'>2</a>
+				<span class="page current">3</span>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

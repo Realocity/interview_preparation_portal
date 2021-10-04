@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>XHTML Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,7 +22,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How Comfortable Are You With Writing Html Entirely By Hand? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body"> I don’t usually use WYSIWYG. The only occasions when I do use Dreamweaver are when I want to draw something to see what it looks like, and then I’ll usually either take that design and hand-modify it or build it all over again from scratch in code. I have actually written my own desktop HTML IDE for Windows (it’s called Less Than Slash) with the intention of deploying it for use in web development training. If has built-in reference features, and will autocomplete code by parsing the DTD you specify in the file. That is to say, the program doesn’t know anything about HTML until after it parses the HTML DTD you specified. This should give you some idea of my skill level with HTML. </div>
+                    <div class="card-body"> I donât usually use WYSIWYG. The only occasions when I do use Dreamweaver are when I want to draw something to see what it looks like, and then Iâll usually either take that design and hand-modify it or build it all over again from scratch in code. I have actually written my own desktop HTML IDE for Windows (itâs called Less Than Slash) with the intention of deploying it for use in web development training. If has built-in reference features, and will autocomplete code by parsing the DTD you specify in the file. That is to say, the program doesnât know anything about HTML until after it parses the HTML DTD you specified. This should give you some idea of my skill level with HTML. </div>
                 </div>
             </div>
                  <div class="card mb-2 w-100">
@@ -50,7 +49,7 @@
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question4"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What About Conversion Of Existing Html Pages – Especially Bulk Conversion, As I Have Many Thousands Of Html Files! <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What About Conversion Of Existing Html Pages â Especially Bulk Conversion, As I Have Many Thousands Of Html Files! <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body"> W3C has written a utility program called Tidy which can be used to convert HTML pages to XHTML. Tidy can be used in batch mode to bulk-convert documents. Tidy is an open source program, which has been incorporated into an number of authoring tools, most notably HTML-Kit. </div>
@@ -111,7 +110,7 @@ a abbr acronym address area b base bdo big blockquote body br button caption cit
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Is The Relation Between Xhtml And Sgml? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question9" class="collapse show" style="">
-                    <div class="card-body"> SGML (Standard Generalized Markup Language) is a metalanguage in which one can define markup languages, like HTML, for documents. SGML is a descendant of IBM’s Generalized Markup Language (GML), developed in the 1960s by Charles Goldfarb, Edward Mosher and Raymond Lorie (whose surname initials also happen to be GML). XHTML is not directly related to SGML. But it is indirectly to SGML through HTML. </div>
+                    <div class="card-body"> SGML (Standard Generalized Markup Language) is a metalanguage in which one can define markup languages, like HTML, for documents. SGML is a descendant of IBMâs Generalized Markup Language (GML), developed in the 1960s by Charles Goldfarb, Edward Mosher and Raymond Lorie (whose surname initials also happen to be GML). XHTML is not directly related to SGML. But it is indirectly to SGML through HTML. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -121,7 +120,7 @@ a abbr acronym address area b base bdo big blockquote body br button caption cit
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Is The Relation Between Xhtml And Http? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> HTTP (Hyper¬Text Transfer Protocol) is an Internet communication protocol, that allows a viewer’s computer talking to a publisher’s computer to fetch XHTML documents. The viewer’s computer issues a HTTP request message to the publisher computer first. Then the publisher returns a HTTP response message back to the viewer’s computer with the requested XHTML document included in the message. </div>
+                    <div class="card-body"> HTTP (HyperÂ¬Text Transfer Protocol) is an Internet communication protocol, that allows a viewerâs computer talking to a publisherâs computer to fetch XHTML documents. The viewerâs computer issues a HTTP request message to the publisher computer first. Then the publisher returns a HTTP response message back to the viewerâs computer with the requested XHTML document included in the message. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -198,18 +197,35 @@ The Most Important Differences:
                 <div id="question16" class="collapse show" style="">
                     <div class="card-body"> Serving XHTML with a MIME type of text/html is wrong.
 
-The whole point of XHTML is that it’s XML so that you can benefit from namespaces and the like.
+The whole point of XHTML is that itâs XML so that you can benefit from namespaces and the like.
 
-In particular, ‘text/html’ is NOT suitable for XHTML Family document types that adds elements and attributes from foreign namespaces, such as XHTML+MathML [XHTML+MathML].
+In particular, âtext/htmlâ is NOT suitable for XHTML Family document types that adds elements and attributes from foreign namespaces, such as XHTML+MathML [XHTML+MathML].
                      </div>
                 </div>
             </div>
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='XhtmlTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				</div>
+				</div>
               
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

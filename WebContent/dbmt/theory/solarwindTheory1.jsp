@@ -251,7 +251,15 @@
 <br>⦿	Orion Platform integration. </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                <span class="page current">1</span>
+				<a class='page' href='solarwindTheory2.jsp'>2</a>
+				<a class='page next' href='solarwindTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>CSS Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -24,7 +23,7 @@
                 </div>
                 <div id="question1" class="collapse show" style="">
                     <div class="card-body"> By using the CSS selector, we can choose the content which we want to style so that we can say that it is a bridge between the style sheet and the HTML files.
-The syntax for CSS selector is “select” HTML elements created on their id, class, type, etc.
+The syntax for CSS selector is âselectâ HTML elements created on their id, class, type, etc.
                      </div>
                 </div>
             </div>
@@ -103,7 +102,7 @@ Elements and pseudo-elements.
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How do we make a rounded corner by using CSS? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> We can make a rounded corner by using the property “border-radius”. We can apply this property to any element </div>
+                    <div class="card-body"> We can make a rounded corner by using the property âborder-radiusâ. We can apply this property to any element </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -113,7 +112,7 @@ Elements and pseudo-elements.
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How will you add border images to an HTML element? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question9" class="collapse show" style="">
-                    <div class="card-body"> We can set the image to be used as the border-image alongside an element by using the property of CSS “border-image”.
+                    <div class="card-body"> We can set the image to be used as the border-image alongside an element by using the property of CSS âborder-imageâ.
 Example:
 #borderimg {
 border: 15px solid transparent;
@@ -189,11 +188,11 @@ margin-right
 margin-bottom
 Margin-left
 Margin property has some defined values as shown below.
-Auto – Using this property browser calculates the margin.
-Length – It sets the margin values in px,pt,cm etc.
-% – It sets the width % of the element.
-Inherit – By this property we can inherit the margin property from the parent element.
-In CSS, padding is the property by which we can generate space around an element’s content as well as inside any known border.
+Auto â Using this property browser calculates the margin.
+Length â It sets the margin values in px,pt,cm etc.
+% â It sets the width % of the element.
+Inherit â By this property we can inherit the margin property from the parent element.
+In CSS, padding is the property by which we can generate space around an elementâs content as well as inside any known border.
 CSS padding also has properties like,
 Padding-top
 Padding-right
@@ -286,12 +285,30 @@ Fixed
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='cssTheory1.jsp'>1</a>
+				<a class='page' href='cssTheory2.jsp'>2</a>
+				<span class="page current">3</span>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

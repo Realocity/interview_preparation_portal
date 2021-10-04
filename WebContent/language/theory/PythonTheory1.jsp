@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Python Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -72,7 +71,7 @@ The plus point of the Python programming language is that its programs tend to r
                      <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> Modules can be defined as the Python files with an extension “.py”. The module name will be same as that of the file name. A Python module can own a collection of classes, functions or variables defined as well as applied.
+                    <div class="card-body"> Modules can be defined as the Python files with an extension â.pyâ. The module name will be same as that of the file name. A Python module can own a collection of classes, functions or variables defined as well as applied.
 On the other side, Packages are namespaces which has various packages and modules themselves. They are merely directories.
 
 Every package in Python programming language is a directory which should have a special file known as
@@ -88,7 +87,7 @@ _init_.py. This file can be void and it shows that the directory it consists is 
                 </div>
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body"> There are many differences that makes list different from tuple. They are-
-List is mutable, which means that it can’t be utilized as a key in a dictionary. Whereas, tuples are immutable due to which you can’t change the value in a tuple once you have made it.
+List is mutable, which means that it canât be utilized as a key in a dictionary. Whereas, tuples are immutable due to which you canât change the value in a tuple once you have made it.
 The accurate syntax of tuples is displayed by parentheses {} while the accurate syntax of lists is displayed by square brackets [].
 Tuples are varied data structures (i.e., their entries contain diverse implications), whereas lists are uniform series.
 Tuples are for fixed length, lists are for uneven length. Tuples illustrate structure while lists illustrate order.
@@ -127,7 +126,7 @@ execution path is not present.
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question8"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  Explain In detail – Inheritance in Python? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  Explain In detail â Inheritance in Python? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
                     <div class="card-body"> Python also supports Inheritance as well as Multiple Inheritance. Any class can inherit behaviour as well as attributes methods from different class, known as superclass. A class that inherits from a superclass is known as subclass. Another name for superclasses is ancestors too. There presents a hierarchy association between classes.
@@ -140,10 +139,10 @@ class DerivedClass(BaseClass): Body of derived class
 
 Various types of Inheritance
 
-Single Inheritance – In this type of inheritance, derived class obtains the members of a particular super class.
-Multi-Level Inheritance – In this type of inheritance, a derived class d1 is inheriting the properties of base class base1, and another derived class is inheriting the properties of base2.
-Hierarchical Inheritance – In this type of inheritance, from single base class you can inherit many child classes
-Multiple Inheritance – In this type of inheritance, a derived class is inheriting the properties of many base classes.
+Single Inheritance â In this type of inheritance, derived class obtains the members of a particular super class.
+Multi-Level Inheritance â In this type of inheritance, a derived class d1 is inheriting the properties of base class base1, and another derived class is inheriting the properties of base2.
+Hierarchical Inheritance â In this type of inheritance, from single base class you can inherit many child classes
+Multiple Inheritance â In this type of inheritance, a derived class is inheriting the properties of many base classes.
                      </div>
                 </div>
             </div>
@@ -189,9 +188,9 @@ Class variables can be obtained by making use of class name of object reference.
                 </div>
                 <div id="question11" class="collapse show" style="">
                     <div class="card-body"> Here are some of the key features:
-Python is basically an interpreted language, which means that unlike other programming languages and its variants, Python doesn’t need compiling before being run. Other interpreted languages include Ruby and PHP.
-Another feature that makes Python special is that its dynamically typed. This simply means that one doesn’t need to state the types of variables when you declare them or anything like that.
-It is very well suited to object orientated programming. It allows the definition of classes along with inheritance and composition. Python does not have access specifiers like public, private or C++, the justification for this point is given as “we are all adults here”
+Python is basically an interpreted language, which means that unlike other programming languages and its variants, Python doesnât need compiling before being run. Other interpreted languages include Ruby and PHP.
+Another feature that makes Python special is that its dynamically typed. This simply means that one doesnât need to state the types of variables when you declare them or anything like that.
+It is very well suited to object orientated programming. It allows the definition of classes along with inheritance and composition. Python does not have access specifiers like public, private or C++, the justification for this point is given as âwe are all adults hereâ
 In this programming language the functions are all first-class objects. As the language can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects
                      </div>
                 </div>
@@ -204,7 +203,7 @@ In this programming language the functions are all first-class objects. As the l
                 </div>
                 <div id="question12" class="collapse show" style="">
                     <div class="card-body"> Python consists of two parameter passing mechanism named as-
-Pass by references: Every parameter (argument) is passed “by reference” to the functions by default. However, in case you modify the value of the parameter in the function, the impact can also be reflected in the called function.
+Pass by references: Every parameter (argument) is passed âby referenceâ to the functions by default. However, in case you modify the value of the parameter in the function, the impact can also be reflected in the called function.
 Pass by value: The pass by value is that at whatever time you pass the parameters to functions which are of the type such as strings, numbers, tuples. This is due to the immutable nature of them.
                      </div>
                 </div>
@@ -242,7 +241,7 @@ Python also has an inbuilt garbage collector, which recycle all the unused memor
                 </div>
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> Python programming has a multi-threading package that can be used if one wants to multi-thread to speed their code up.
-A construct called the Global Interpreter Lock (GIL) is available in Python. It is the work of the GIL to make sure that only one of the ‘threads’ can execute at any one point of time. Normally a thread accepts the GIL, does a little work, then passes it on the GIL to the next thread. All this happens very quickly that will seem so to the human eye and it may seem like your threads are executing in parallel, but they are really just taking turns using the same CPU core. All this GIL passing adds overhead to execution. This means that if you want to make your code run faster then using the threading package often isn’t a good idea.
+A construct called the Global Interpreter Lock (GIL) is available in Python. It is the work of the GIL to make sure that only one of the âthreadsâ can execute at any one point of time. Normally a thread accepts the GIL, does a little work, then passes it on the GIL to the next thread. All this happens very quickly that will seem so to the human eye and it may seem like your threads are executing in parallel, but they are really just taking turns using the same CPU core. All this GIL passing adds overhead to execution. This means that if you want to make your code run faster then using the threading package often isnât a good idea.
                      </div>
                 </div>
             </div>
@@ -285,12 +284,12 @@ Whereas, **kwargs is used when you are unsure about the number of keyword argume
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question19"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain split(), sub(), subn() methods of “re” module in Python. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain split(), sub(), subn() methods of âreâ module in Python. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> To modify the strings, Python’s “re” module is providing 3 methods. They are:
-sub() – finds all substrings where the regex pattern matches and then replace them with a different string split() – uses a regex pattern to “split” a given string into a list.
-subn() – being similar to sub() it also returns the new string along with the number of replacements.
+                    <div class="card-body"> To modify the strings, Pythonâs âreâ module is providing 3 methods. They are:
+sub() â finds all substrings where the regex pattern matches and then replace them with a different string split() â uses a regex pattern to âsplitâ a given string into a list.
+subn() â being similar to sub() it also returns the new string along with the number of replacements.
                      </div>
                 </div>
             </div>
@@ -307,12 +306,30 @@ Script Mode: The script mode is basically used to save or compile the programs o
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='PythonTheory2.jsp'>2</a>
+				<a class='page' href='PythonTheory3.jsp'>3</a>
+				<a class='page next' href='PythonTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

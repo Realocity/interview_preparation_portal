@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Database Management Tool Options</title>
 
 </head>
 <body>

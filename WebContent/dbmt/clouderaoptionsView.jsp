@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Database Management Tool Options</title>
 
 </head>
 <body>
@@ -218,7 +218,7 @@ a {
 
   <div class="card-four-grid-space">
     <div class="num">MCQ</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+    <a class="card-four" href="mcq/cloudderaMcq.jsp" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
       <div>
         <h1>Basic types of Cloudera tags</h1>
         <p>Learn about some of the most common Cloudera tags…</p>
@@ -232,7 +232,7 @@ a {
 
   <div class="card-four-grid-space">
     <div class="num">TEST</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+    <a class="card-four" href="test/cloudderaTest.jsp" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
       <div>
         <h1>Cloudera Syntax</h1>
         <p>The syntax of a language is how it works. How to actually write it. Learn Cloudera syntax…</p>

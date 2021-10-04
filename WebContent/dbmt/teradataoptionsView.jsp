@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Database Management Tool Options</title>
 
 </head>
 <body>
@@ -209,101 +209,54 @@ a {
   }
 }
 </style>
-<nav class="navbar navbar-expand-lg navbar-dark primary-background">
-  <a class="navbar-brand" href="${pageContext.request.contextPath}/dashboard.jsp"><img src="${pageContext.request.contextPath}/img/logo.png" style="height:30px;width:60px" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="${pageContext.request.contextPath}/dashboard.jsp"> Explore <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         <img class = "problem-of-the-day-logo hide" src="https://media.geeksforgeeks.org/img-practice/problem-of-the-day-1617702331.svg" style="padding-bottom:1%"/> Courses
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/language/languages.jsp">Programming Languages</a>
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/database/database.jsp">Database</a>
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/dbmt/dbmt.jps">Database Management Tools</a>
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/framework/framework.jsp">Frameworks</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath}/company/company.jsp">Companies</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath}/personal-development/personal-development.jsp">Personal Development</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath}/resume/resume.jsp">Resume Templates</a>
-      </li>
-      
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+ <!-- navbar -->
+<%@include file="../common/normal_navbar.jsp" %>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="../css/mystyle.css" rel="stylesheet" type="text/css"/>
 
 <section class="cards-wrapper-four">
-  <div class="card-four-grid-space">
-    <div class="num">CODE</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
-      <div>
-        <h1>HTML Syntax</h1>
-        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
-        <div class="date">CODE</div>
-        <div class="tags">
-          <div class="tag">HTML</div>
-        </div>
-      </div>
-    </a>
-  </div>
+ 
   <div class="card-four-grid-space">
     <div class="num">MCQ</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/09/basic-types-of-html-tags/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+    <a class="card-four" href="mcq/teradataMcq1.jsp" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
       <div>
-        <h1>Basic types of HTML tags</h1>
-        <p>Learn about some of the most common HTML tags…</p>
+        <h1>Basic types of Tera Data tags</h1>
+        <p>Learn about some of the most common Tera Data tags…</p>
         <div class="date">MCQ</div>
         <div class="tags">
-          <div class="tag">HTML</div>
+          <div class="tag">Tera Data</div>
         </div>
       </div>
     </a>
   </div>
   <div class="card-four-grid-space">
     <div class="num">THEORY</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+    <a class="card-four" href="theory/teradataTheory1.jsp" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
       <div>
         <h1>Links, images and about file paths</h1>
         <p>Learn how to use links and images along with file paths…</p>
         <div class="date">THEORY</div>
         <div class="tags">
-          <div class="tag">HTML</div>
+          <div class="tag">Tera Data</div>
         </div>
       </div>
     </a>
   </div>
   <div class="card-four-grid-space">
     <div class="num">TEST</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+    <a class="card-four" href="test/teradataTest.jsp" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
       <div>
-        <h1>HTML Syntax</h1>
-        <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+        <h1>Tera Data Syntax</h1>
+        <p>The syntax of a language is how it works. How to actually write it. Learn Tera Data syntax…</p>
         <div class="date">PRACTICE TEST</div>
         <div class="tags">
-          <div class="tag">HTML</div>
+          <div class="tag">Tera Data</div>
         </div>
       </div>
     </a>
   </div>
+  
   <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
 </section>
 

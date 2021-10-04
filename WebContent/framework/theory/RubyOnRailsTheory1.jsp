@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>RubyOnRails Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -57,10 +56,10 @@
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question4"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain what is “Yield” in Ruby on Rails? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain what is âYieldâ in Ruby on Rails? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> A Ruby method that receives a code block invokes it by calling it with the “Yield”. </div>
+                    <div class="card-body"> A Ruby method that receives a code block invokes it by calling it with the âYieldâ. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -108,7 +107,7 @@
                 </div>
                 <div id="question8" class="collapse show" style="">
                     <div class="card-body"> 	App/controllers: A web request from the user is handled by the Controller. The controller sub-directory is where Rails looks to find controller classes
-	App/helpers: The helper’s sub-directory holds any helper classes used to assist the view, model and controller classes.
+	App/helpers: The helperâs sub-directory holds any helper classes used to assist the view, model and controller classes.
                      </div>
                 </div>
             </div>
@@ -247,10 +246,10 @@ C:\ruby\application>ruby script/generate migration table_name
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question19"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what is the difference between Active support’s “HashWithIndifferent” and Ruby’s “Hash” ? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what is the difference between Active supportâs âHashWithIndifferentâ and Rubyâs âHashâ ? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> The Hash class in Ruby’s core library returns value by using a standard “= =” comparison on the keys. It means that the value stored for a symbol key cannot be retrieved using the equivalent string. While the HashWithIndifferentAccess treats Symbol keys and String keys as equivalent. </div>
+                    <div class="card-body"> The Hash class in Rubyâs core library returns value by using a standard â= =â comparison on the keys. It means that the value stored for a symbol key cannot be retrieved using the equivalent string. While the HashWithIndifferentAccess treats Symbol keys and String keys as equivalent. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -260,7 +259,7 @@ C:\ruby\application>ruby script/generate migration table_name
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain what is Cross-Site Request Forgery (CSRF) and how Rails is protected against it? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
-                    <div class="card-body"> CSRF is a form of attack where hacker submits a page request on your behalf to a different website, causing damage or revealing your sensitive data. To protect from CSRF attacks, you have to add “protect_from_forgery” to your ApplicationController. This will cause Rails to require a CSRF token to process the request. CSRF token is given as a hidden field in every form created using Rails form builders. </div>
+                    <div class="card-body"> CSRF is a form of attack where hacker submits a page request on your behalf to a different website, causing damage or revealing your sensitive data. To protect from CSRF attacks, you have to add âprotect_from_forgeryâ to your ApplicationController. This will cause Rails to require a CSRF token to process the request. CSRF token is given as a hidden field in every form created using Rails form builders. </div>
                 </div>
             </div>
             
@@ -269,6 +268,27 @@ C:\ruby\application>ruby script/generate migration table_name
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="RubyOnRailsTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

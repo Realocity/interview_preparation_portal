@@ -1,15 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
+<meta charset="UTF-8">
+<title>Feedback</title>
+</head>
+<body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <style>
-body {
-  
-}
-
 .container-feed {
   width: 90%;
   max-width: 500px;
@@ -86,8 +89,6 @@ button[type="submit"]:hover {
   }
 }
 </style>
-</head>
-<body>
 
 
 <script type="text/javascript">
@@ -137,62 +138,40 @@ window.addEventListener("DOMContentLoaded", function () {
 	  xhr.send(data);
 	}
 
+	// Example starter JavaScript for disabling form submissions if there are invalid fields
+	(function() {
+	  'use strict';
+	  window.addEventListener('load', function() {
+	    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+	    var forms = document.getElementsByClassName('needs-validation');
+	    // Loop over them and prevent submission
+	    var validation = Array.prototype.filter.call(forms, function(form) {
+	      form.addEventListener('submit', function(event) {
+	        if (form.checkValidity() === false) {
+	          event.preventDefault();
+	          event.stopPropagation();
+	        }
+	        form.classList.add('was-validated');
+	      }, false);
+	    });
+	  }, false);
+	})();
 </script>
-<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
-<nav class="navbar navbar-expand-lg navbar-dark primary-background">
-  <a class="navbar-brand" href="${pageContext.request.contextPath}/dashboard.jsp"><img src="${pageContext.request.contextPath}/img/logo.png" style="height:30px;width:60px" /></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="${pageContext.request.contextPath}/dashboard.jsp"> Explore <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         <img class = "problem-of-the-day-logo hide" src="https://media.geeksforgeeks.org/img-practice/problem-of-the-day-1617702331.svg" style="padding-bottom:1%"/> Courses
-        </a>
-        <div class="dropdown-menu" aria-labelledby="${pageContext.request.contextPath}navbarDropdown">
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/language/languages.jsp">Programming Languages</a>
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/database/database.jsp">Database</a>
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/dbmt/dbmt.jps">Database Management Tools</a>
-          <a class="dropdown-item" href="${pageContext.request.contextPath}/framework/framework.jsp">Frameworks</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath}/company/company.jsp">Companies</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath}/personal-development/personal-development.jsp">Personal Development</a>
-      </li>    
-      <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath}/resume/resume.jsp">Resume Templates</a>
-      </li>
-      
-    </ul>
-    
-    </form>
-  </div>
-</nav>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<br>
 
 <div>
 <section-feed>
   <div class="container-feed">
-    <form action="https://formspree.io/f/xqkwwkwk" method="POST" id="my-form">
+    <form action="https://formspree.io/f/xqkwwkwk" method="POST" id="my-form"  class="needs-validation" novalidate>
 
-      <div class="form-group">
-        <label for="firstName"> First Name</label>
-        <input type="text" id="firstName" name="firstName">
+      <div class="form-group" class="form-row">
+        <label for="firstName" for="validationCustom01"> First Name</label>
+        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" id="firstName" name="firstName" required>
       </div>
 
       <div class="form-group">
-        <label for="latsName">Last Name</label>
-        <input type="text" id="lastName" name="lastName">
+        <label for="latsName" for="validationCustom02">Last Name</label>
+        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" id="lastName" name="lastName" required>
       </div>
 
       <div class="form-group">
@@ -211,8 +190,16 @@ window.addEventListener("DOMContentLoaded", function () {
   <div id="status"></div>
 </section-feed>
  </div>      
-<!-- footer -->  
+<br><br>
+  <!-- footer -->  
          
- <%@ include file="../common/footer.jsp" %>        
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

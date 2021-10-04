@@ -222,7 +222,16 @@
                     <div class="card-body"> FileMaker Advanced enables you to generate your database DDR. This information is needed to help FMTouch create your database. Once the DDR is created you can use regular FileMaker Pro 8-10. </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                
+				<a class='page' href='filemakerTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>meteor Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,7 +22,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What Makes Meteor Different From Javascript Frameworks Like Angular Or React?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body"> Meteor is a full-stack JavaScript App Platform that assembles all the pieces you need to build modern web and mobile apps, with a single JavaScript codebase. Angularand React are JavaScript UI frameworks that can be used in conjunction with Meteor, as an alternative to Meteor’s Blaze library. Think of Angular, React, and Blaze as the 'V' in MVC. Meteor automatically manages the data flow between cloud and client applications, as well as client UI state and rendering, regardless of which UI framework you use. </div>
+                    <div class="card-body"> Meteor is a full-stack JavaScript App Platform that assembles all the pieces you need to build modern web and mobile apps, with a single JavaScript codebase. Angularand React are JavaScript UI frameworks that can be used in conjunction with Meteor, as an alternative to Meteorâs Blaze library. Think of Angular, React, and Blaze as the 'V' in MVC. Meteor automatically manages the data flow between cloud and client applications, as well as client UI state and rendering, regardless of which UI framework you use. </div>
                 </div>
             </div>
                  <div class="card mb-2 w-100">
@@ -33,7 +32,7 @@
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What Mobile Platforms And Devices Does Meteor Support?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> Meteor makes it easy to create iOS apps that can be installed through the App Store, and Android apps that can be installed through Google Play. Meteor compiles your apps using Apache Cordova so you don’t have to create separate codebases for iOS and Android. This results in high-quality apps that run a mix of web and native code. </div>
+                    <div class="card-body"> Meteor makes it easy to create iOS apps that can be installed through the App Store, and Android apps that can be installed through Google Play. Meteor compiles your apps using Apache Cordova so you donât have to create separate codebases for iOS and Android. This results in high-quality apps that run a mix of web and native code. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -63,7 +62,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> We Use Meteor To Build Apps, How Do We Get Involved With The Project? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question5" class="collapse show" style="">
-                    <div class="card-body"> You can get involved with Meteor’s community in any number of ways. We’d love it if you helped answer questions on Stackoverflow or joined us at one of our meetups. If you happen to have written a package to extend Meteor, consider publishing it to the community. If you’d like to file or fix bugs in Meteor, check out how to contribute on GitHub. And if you really want to help, please consider working at Meteor! </div>
+                    <div class="card-body"> You can get involved with Meteorâs community in any number of ways. Weâd love it if you helped answer questions on Stackoverflow or joined us at one of our meetups. If you happen to have written a package to extend Meteor, consider publishing it to the community. If youâd like to file or fix bugs in Meteor, check out how to contribute on GitHub. And if you really want to help, please consider working at Meteor! </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -130,7 +129,7 @@
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question12"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What’s Under The Hood? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Whatâs Under The Hood? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question12" class="collapse show" style="">
                     <div class="card-body"> Meteor is a complete open source platform built in pure JavaScript, MeteorJS is a essentially a grouping of really slick javascript frameworks and tools assembled in one place. Making it easier for developer and dramatically speeding up development time. </div>
@@ -150,7 +149,7 @@
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question14"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Who’s Behind Meteor? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Whoâs Behind Meteor? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
                     <div class="card-body"> Meteor is developed and maintained by the Meteor Development Group you can learn more about their mission and why they started Meteor here. </div>
@@ -189,7 +188,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Is There Press About Meteor? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question17" class="collapse show" style="">
-                    <div class="card-body"> Meteor has been getting lot’s of attention both from the developer community, journalist and top press sites. Here are some recommend articles:
+                    <div class="card-body"> Meteor has been getting lotâs of attention both from the developer community, journalist and top press sites. Here are some recommend articles:
 <br>o	Meteor pulls JavaScript technologies together, Infoworld
 <br>o	Meteor Is The App Platform For The New World Of Cloud-Client Computing, Forbes
 <br>o	Open-source Meteor takes a huge $11.2M first round; will Andreessen Horowitz get the cash back?, Venturebeat
@@ -214,7 +213,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Is Meteor Secure? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> Like every tech, application, framework or tool it’s only as secure as developer makes it. You can check out the following which covers Meteor security
+                    <div class="card-body"> Like every tech, application, framework or tool itâs only as secure as developer makes it. You can check out the following which covers Meteor security
 <br>o	Meteor security resources
 <br>o	Meteor Security 201
                      </div>
@@ -240,6 +239,27 @@
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="meteorTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="meteorTheory2.jsp">2</a></li>
+    
+    <li class="page-item">
+     <a class="page-link" href="meteorTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

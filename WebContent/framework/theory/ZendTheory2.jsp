@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Zend Theory 2</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -40,7 +39,7 @@ We utilize Zend\form to check whether a form posted or not in a Zend framework. 
                     <div class="card-body"> Here are a few considerable differences:
 	 Zend_Auth utilizes the method like OpenID, LDAP, and HTTP to provide the confirmation, while Zend_Acl utilizes Access Control List for approval.
 	Zend_Auth gives the validation protocol to the clients utilizing numerous methods whereas; Zend_Acl is utilized for approval purpose.
-	Zend_Auth confirm checking and providing the certifications to the client’s system, though Zend_Acl utilizes the list of parts that are being implemented just the individuals who are approved to it.
+	Zend_Auth confirm checking and providing the certifications to the clientâs system, though Zend_Acl utilizes the list of parts that are being implemented just the individuals who are approved to it.
 	Zend_Auth supports the authentication stages features, whereas in Zend_Acl supports the propelled definitions with features of different legacy and other similar highlights.
 	Zend_Auth gives an environment to the framework through which user that is authenticated for utilize, whereas in Zend_Acl plays out a few tasks on the particular assets that need to be composed on the system.
                      </div>
@@ -250,6 +249,27 @@ We utilize Zend\form to check whether a form posted or not in a Zend framework. 
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li>
+     <a class="page-link" href="ZendTheory1.jsp">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="ZendTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="ZendTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="ZendTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="ZendTheory3.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

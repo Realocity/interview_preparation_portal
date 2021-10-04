@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Etherlime Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -73,7 +72,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Is the Consensus Algorithm? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
-                    <div class="card-body"> Consensus algorithms are best defined as the way to validate transactions in a distributed ledger technology. It is a way to reach an agreement or consensus among peers about the state of the DLT. This method is very important as without it, the distributed ledgers’ core philosophy would not stand. There are many popular consensus algorithms out there, including Proof-of-Work (PoW), Practical Byzantine Fault Tolerance (PBFT), Proof-of-Stake (PoS), Proof-of-Burn (PoB), and so on. </div>
+                    <div class="card-body"> Consensus algorithms are best defined as the way to validate transactions in a distributed ledger technology. It is a way to reach an agreement or consensus among peers about the state of the DLT. This method is very important as without it, the distributed ledgersâ core philosophy would not stand. There are many popular consensus algorithms out there, including Proof-of-Work (PoW), Practical Byzantine Fault Tolerance (PBFT), Proof-of-Stake (PoS), Proof-of-Burn (PoB), and so on. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -124,11 +123,11 @@
                 </div>
                 <div id="question11" class="collapse show" style="">
                     <div class="card-body"> There are many use cases of Ethereum. Some of them are as below.
-	Decentralized Finance: One of the biggest use-cases is decentralized finance (De-Fi). It improves how the financial sector works and improves loans using smart contracts.
-	Digital Identity: Digital Identity is another use-case where a person’s identity is digitized, providing better usability for individuals as they do not have to carry documents and can be verified instantly through a connected network.
-	Health applications: Blockchain for healthcare systems can utilize Ethereum based solutions to implement a decentralized network and improve things such as drug tracking, better patient management, and so on.
-	Supply Chain: Ethereum is very useful in creating the tokenization of real-world assets. This makes it easy to trade items on the Blockchain for supply chain management solution.
-	Payments: It also improves payments, especially cross-boundary transactions. Therefore, it’s perfectly suited for any blockchain in payment solutions.
+ï§	Decentralized Finance: One of the biggest use-cases is decentralized finance (De-Fi). It improves how the financial sector works and improves loans using smart contracts.
+ï§	Digital Identity: Digital Identity is another use-case where a personâs identity is digitized, providing better usability for individuals as they do not have to carry documents and can be verified instantly through a connected network.
+ï§	Health applications: Blockchain for healthcare systems can utilize Ethereum based solutions to implement a decentralized network and improve things such as drug tracking, better patient management, and so on.
+ï§	Supply Chain: Ethereum is very useful in creating the tokenization of real-world assets. This makes it easy to trade items on the Blockchain for supply chain management solution.
+ï§	Payments: It also improves payments, especially cross-boundary transactions. Therefore, itâs perfectly suited for any blockchain in payment solutions.
                      </div>
                 </div>
             </div>
@@ -204,9 +203,9 @@ Ethereum is a popular blockchain network for dApps as it offers the right ecosys
                 </div>
                 <div id="question18" class="collapse show" style="">
                     <div class="card-body"> There are three types:
-	Private Network
-	Test Network, e.g., Rinkeby and Ropsten
-	Live Network, i.e., the main Network
+ï§	Private Network
+ï§	Test Network, e.g., Rinkeby and Ropsten
+ï§	Live Network, i.e., the main Network
                      </div>
                 </div>
             </div>
@@ -236,6 +235,27 @@ Ethereum is a popular blockchain network for dApps as it offers the right ecosys
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="etherlimeTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="etherlimeTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="etherlimeTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="etherlimeTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

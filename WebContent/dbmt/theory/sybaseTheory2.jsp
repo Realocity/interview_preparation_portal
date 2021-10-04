@@ -276,7 +276,16 @@ Exclusive Lock: â used by process that currently adding, changing or deleti
                     <div class="card-body"> The numbers of rows you are inserting into a table, that many number of times trigger gets fire. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='sybaseTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='sybaseTheory3.jsp'>3</a>
+				<a class='page next' href='sybaseTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

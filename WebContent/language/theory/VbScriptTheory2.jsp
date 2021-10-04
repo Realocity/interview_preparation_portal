@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Visual Basic Script Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -91,9 +90,9 @@ Echo "Hello World"
                 </div>
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> VBScript can run in the following 3 environments:
-	IIS (Internet Information Server) – This is Microsoft’s Web Server.
-	WSH (Windows Script Host) – This is the hosting environment of the Windows Operating System.
-	IE (Internet Explorer) – This is the most frequently used environment to run scripts and this is the simple hosting environment.
+	IIS (Internet Information Server) â This is Microsoftâs Web Server.
+	WSH (Windows Script Host) â This is the hosting environment of the Windows Operating System.
+	IE (Internet Explorer) â This is the most frequently used environment to run scripts and this is the simple hosting environment.
                      </div>
                 </div>
             </div>
@@ -104,7 +103,7 @@ Echo "Hello World"
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Which data type/types are supported by VBScript language and what are their specialties? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> There is only one data type that is supported by VBScript language and it is called as the ‘Variant’. If we use this data type in the String context then this will behave like a String and if we use this in Numeric context then this will behave like a Number. This is the specialty of the Variant data type. </div>
+                    <div class="card-body"> There is only one data type that is supported by VBScript language and it is called as the âVariantâ. If we use this data type in the String context then this will behave like a String and if we use this in Numeric context then this will behave like a Number. This is the specialty of the Variant data type. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -124,7 +123,7 @@ Echo "Hello World"
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How are Comments handled in the VBScript language? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> Any Statement that starts with a single quote (‘) or with the keyword ‘REM’ is treated as a Comment. </div>
+                    <div class="card-body"> Any Statement that starts with a single quote (â) or with the keyword âREMâ is treated as a Comment. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -154,7 +153,7 @@ Echo "Hello World"
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Is VBScript language a Case-Sensitive language and what does it mean? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body"> No. This actually means that variable names, keywords, constants, and other identifiers are not required to be typed with a consistent capitalization of letters i.e. if you type ‘Optional’ keyword as OPTIONAL, optional or Optional then these all mean the same in the VBScript language.	 </div>
+                    <div class="card-body"> No. This actually means that variable names, keywords, constants, and other identifiers are not required to be typed with a consistent capitalization of letters i.e. if you type âOptionalâ keyword as OPTIONAL, optional or Optional then these all mean the same in the VBScript language.	 </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -189,7 +188,7 @@ Echo "Hello World"
                 </div>
                 <div id="question16" class="collapse show" style="">
                     <div class="card-body"> Two ways to declare a variable are:
-	Implicit Declaration: When variables are used directly without declaration, it is termed as Implicit Declaration. However, it’s not a good practice because at any point if the variable name is not spelled correctly in the script then it can produce wrong results while running and at times, it will not even be easy to be detected by the user.
+	Implicit Declaration: When variables are used directly without declaration, it is termed as Implicit Declaration. However, itâs not a good practice because at any point if the variable name is not spelled correctly in the script then it can produce wrong results while running and at times, it will not even be easy to be detected by the user.
 	Explicit Declaration: Declaring the variables before using them is known as the Explicit Declaration of variables.
                      </div>
                 </div>
@@ -202,7 +201,7 @@ Echo "Hello World"
                 </div>
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> This provides a mechanism where the user has to declare all the variables using Dim, Public or Private Statements before using them in the Script.
-If the user tries to use the variables which are not declared in case of Option Explicit then an error occurs. It is always recommended to use ‘Option Explicit’ at the top of the code so that even if you use the wrong name of the variable unintentionally, you can then correct it immediately without any confusion.
+If the user tries to use the variables which are not declared in case of Option Explicit then an error occurs. It is always recommended to use âOption Explicitâ at the top of the code so that even if you use the wrong name of the variable unintentionally, you can then correct it immediately without any confusion.
                      </div>
                 </div>
             </div>
@@ -213,7 +212,7 @@ If the user tries to use the variables which are not declared in case of Option 
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How are values assigned to the variables in the VBScript language? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question18" class="collapse show" style="">
-                    <div class="card-body"> Values are assigned with the help of Equal (=) Operator. The name of the variable comes on the left and the value which is assigned to the variable is on the right-hand side of the ‘=’ Operator. </div>
+                    <div class="card-body"> Values are assigned with the help of Equal (=) Operator. The name of the variable comes on the left and the value which is assigned to the variable is on the right-hand side of the â=â Operator. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -223,7 +222,7 @@ If the user tries to use the variables which are not declared in case of Option 
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How are values assigned to String type and Numeric type variables? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> If the variable to which value is to be assigned is of String type then it can be assigned using double quotes (“ ”) and if the variable to which value is to be assigned is of the Numeric type then it can be assigned without using double-quotes </div>
+                    <div class="card-body"> If the variable to which value is to be assigned is of String type then it can be assigned using double quotes (â â) and if the variable to which value is to be assigned is of the Numeric type then it can be assigned without using double-quotes </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -239,12 +238,29 @@ If the variable is declared using Public keyword inside the function then its sc
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='VbScriptTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

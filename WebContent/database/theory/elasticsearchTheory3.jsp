@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Database Theory</title>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -24,32 +24,32 @@
                 </div>
                 <div id="question1" class="collapse show" style="">
                     <div class="card-body">  Enlisted below are the cat commands listed from cat API:
-(i) Aliases – GET _cat/aliases?v –This command display mapping of alias with indices, routing as well as filtering information.
+(i) Aliases â GET _cat/aliases?v âThis command display mapping of alias with indices, routing as well as filtering information.
 
-(ii) Allocation – GET _cat/allocation?v –This command display disk space allocated for indices as well as shards count on each node.
+(ii) Allocation â GET _cat/allocation?v âThis command display disk space allocated for indices as well as shards count on each node.
 
-(iii) Count – GET _cat/count?v – This command shows how many documents are present in the Elasticsearch cluster.
+(iii) Count â GET _cat/count?v â This command shows how many documents are present in the Elasticsearch cluster.
 
-(iv) Fielddata – GET _cat/fielddata?v – This displays the amount of memory utilized by each of the fields per node.
-(v) Health – GET _cat/health?v – It displays cluster status like since how long it is up and running, node counts it has, etc. to analyze cluster health.
+(iv) Fielddata â GET _cat/fielddata?v â This displays the amount of memory utilized by each of the fields per node.
+(v) Health â GET _cat/health?v â It displays cluster status like since how long it is up and running, node counts it has, etc. to analyze cluster health.
 
-(vi) Indices – GET _cat/indices?v – cat indices API gives us information on several shards, document, deleted document, store sizes of all the shards including their replicas.
+(vi) Indices â GET _cat/indices?v â cat indices API gives us information on several shards, document, deleted document, store sizes of all the shards including their replicas.
 
-(vii) Master – GET _cat/master?v – It displays information that shows the master node that has been elected.
+(vii) Master â GET _cat/master?v â It displays information that shows the master node that has been elected.
 
-(viii) Node attributes – GET _cat/nodeattrs?v – It displays custom nodes attributes.
-(ix) Nodes – GET _cat/nodes?v – It displays information related to a node such as roles and load metrics.
-(x) Pending tasks – GET _cat/pending_tasks?v – It displays pending tasks progress such as task priority and time in queue.
-(xi) Plugins – GET _cat/plugins?v – It displays information related to installing plugins like names, versions, and components.
-(xii) Recovery – GET _cat/recovery?v – It displays recoveries related to completed as well as current indices and shards.
-(xiii) Repositories – Get _cat/repositories?v – It displays a glance of repositories as well as their types.
-(xiv) Segments – GET _cat/segments?v – It displays for each of the indexes, Lucene level segments information.
-(xv) Shards – GET _cat/shards?v – It displays the state as well as the distribution of primary and replica shards
+(viii) Node attributes â GET _cat/nodeattrs?v â It displays custom nodes attributes.
+(ix) Nodes â GET _cat/nodes?v â It displays information related to a node such as roles and load metrics.
+(x) Pending tasks â GET _cat/pending_tasks?v â It displays pending tasks progress such as task priority and time in queue.
+(xi) Plugins â GET _cat/plugins?v â It displays information related to installing plugins like names, versions, and components.
+(xii) Recovery â GET _cat/recovery?v â It displays recoveries related to completed as well as current indices and shards.
+(xiii) Repositories â Get _cat/repositories?v â It displays a glance of repositories as well as their types.
+(xiv) Segments â GET _cat/segments?v â It displays for each of the indexes, Lucene level segments information.
+(xv) Shards â GET _cat/shards?v â It displays the state as well as the distribution of primary and replica shards
 
-(xvi) Snapshots – GET _cat/snapshots?v – It displays a glance of a repository.
-(xvii) Tasks – GET _cat/tasks?v – It displays all tasks that are running on the cluster and their progress.
-(xviii) Templates – GET _cat/templates?v – cat template API gives us information on index templates which are created during new indices creation for index settings and field mappings
-(xix) Thread pool – GET _cat/thread_pool?v – It displays the status of different node wise thread pools such as active, queued and rejected are the status of thread pools.
+(xvi) Snapshots â GET _cat/snapshots?v â It displays a glance of a repository.
+(xvii) Tasks â GET _cat/tasks?v â It displays all tasks that are running on the cluster and their progress.
+(xviii) Templates â GET _cat/templates?v â cat template API gives us information on index templates which are created during new indices creation for index settings and field mappings
+(xix) Thread pool â GET _cat/thread_pool?v â It displays the status of different node wise thread pools such as active, queued and rejected are the status of thread pools.
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Can you explain Explore API in an Elasticsearch? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> Explore API help to fetch information on documents and duration or terms such as “max number of vertices” or “number of shards/partition” or “document count” etc. </div>
+                    <div class="card-body"> Explore API help to fetch information on documents and duration or terms such as âmax number of verticesâ or ânumber of shards/partitionâ or âdocument countâ etc. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -91,13 +91,13 @@
                 </div>
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body"> Enlisted below are the data types for the document fields:
-•	String data type which includes text and keyword such as email addresses, zip codes, hostnames.
-•	Numeric data type like byte, short, integer, long, float, double, half_float, scaled_float.
-•	Date, Date nanoseconds, Boolean, Binary (Base64 encoded string, e.g 000000 for char ‘A’ or 011010 for char ‘a’)
-•	Range (integer_range, long_range, double_range, float_range, date_range)
-•	Complex data types that include object (Example: single JSON object) and Nested (array of JSON objects)
-•	Geo datatypes include latitude/longitude which is geo-points and geo-shape which include shapes like a polygon.
-•	Specialized datatypes, Arrays (values in the array should have same data type).
+<br>⦿	String data type which includes text and keyword such as email addresses, zip codes, hostnames.
+<br>⦿	Numeric data type like byte, short, integer, long, float, double, half_float, scaled_float.
+<br>⦿	Date, Date nanoseconds, Boolean, Binary (Base64 encoded string, e.g 000000 for char âAâ or 011010 for char âaâ)
+<br>⦿	Range (integer_range, long_range, double_range, float_range, date_range)
+<br>⦿	Complex data types that include object (Example: single JSON object) and Nested (array of JSON objects)
+<br>⦿	Geo datatypes include latitude/longitude which is geo-points and geo-shape which include shapes like a polygon.
+<br>⦿	Specialized datatypes, Arrays (values in the array should have same data type).
                      </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@ To maintain these logs of data, it needs an inexpensive log analysis tool. ELK S
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Where and how Kibana will be useful in Elasticsearch? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body">  Kibana comes as a part of the ELK Stack – log analysis solution. It is an open-source visualizations tool that analyzes ever-increasing logs in various graph formats such as line, pie-bar, coordinate maps, etc.</div>
+                    <div class="card-body">  Kibana comes as a part of the ELK Stack â log analysis solution. It is an open-source visualizations tool that analyzes ever-increasing logs in various graph formats such as line, pie-bar, coordinate maps, etc.</div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -161,20 +161,37 @@ To maintain these logs of data, it needs an inexpensive log analysis tool. ELK S
                 </div>
                 <div id="question11" class="collapse show" style="">
                     <div class="card-body"> ELK log analytics successfully designed use cases are listed below:
-•	Compliance
-•	E-commerce Search solution
-•	Fraud detection
-•	Market Intelligence
-•	Risk management
-•	Security analysis
+<br>⦿	Compliance
+<br>⦿	E-commerce Search solution
+<br>⦿	Fraud detection
+<br>⦿	Market Intelligence
+<br>⦿	Risk management
+<br>⦿	Security analysis
                      </div>
                 </div>
             </div>
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='elasticsearchTheory1.jsp'>1</a>
+				<a class='page' href='elasticsearchTheory2.jsp'>2</a>
+				<span class="page current">3</span>
+				</div>
+				</div>
              
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

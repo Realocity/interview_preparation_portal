@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>TypeScript Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,8 +22,8 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain how optional chaining works in TypeScript.	 <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body"> Optional chaining allows you to access properties and call methods on them in a chain-like fashion. You can do this using the ‘?.’ operator.
-TypeScript immediately stops running some expression if it runs into a ‘null’ or ‘undefined’ value and returns ‘undefined’ for the entire expression chain.
+                    <div class="card-body"> Optional chaining allows you to access properties and call methods on them in a chain-like fashion. You can do this using the â?.â operator.
+TypeScript immediately stops running some expression if it runs into a ânullâ or âundefinedâ value and returns âundefinedâ for the entire expression chain.
 Using optional chaining, the following expression
 let x = foo === null || foo === undefined ? undefined : foo.bar.baz();
 can be expressed as:
@@ -56,7 +55,7 @@ A key characteristic of symbols is that they are unique and immutable.
                 <div id="question3" class="collapse show" style="">
                     <div class="card-body"> Function overloading allows us to define multiple functions with the same name, as long as their number of parameters or the types of parameters are different.
 The following example defines two overloads for the function buildDate. The first overload takes a number as a parameter, whereas the second takes three numbers as parameters. These are called overload signatures.
-The body of the function also called an implementation signature, follows the overload signatures. You can’t call this signature directly, as it’s not visible from the outside. It should be compatible with the overload signatures.
+The body of the function also called an implementation signature, follows the overload signatures. You canât call this signature directly, as itâs not visible from the outside. It should be compatible with the overload signatures.
                      </div>
                 </div>
             </div>
@@ -67,8 +66,8 @@ The body of the function also called an implementation signature, follows the ov
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is meant by type inference? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> TypeScript can infer the type of a variable when you don’t provide an explicit type. This is known as type inference. This is usually done when the variables or parameters are initialized during the declaration.
-For example, TypeScript knows that the variable foo is a string, even though we don’t mention string as a type.
+                    <div class="card-body"> TypeScript can infer the type of a variable when you donât provide an explicit type. This is known as type inference. This is usually done when the variables or parameters are initialized during the declaration.
+For example, TypeScript knows that the variable foo is a string, even though we donât mention string as a type.
 let foo = "this is a string";
 console.log(typeof foo);  // "string"
                      </div>
@@ -81,7 +80,7 @@ console.log(typeof foo);  // "string"
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is meant by contextual typing? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question5" class="collapse show" style="">
-                    <div class="card-body"> When the TypeScript compiler uses the location (or context) of a variable to infer its type, it’s called contextual typing.
+                    <div class="card-body"> When the TypeScript compiler uses the location (or context) of a variable to infer its type, itâs called contextual typing.
 In the following example, TypeScript uses the Window.onmousedown function type information to infer the type of the function expression on the right-hand side of the assignment. This allows it to infer the type of the e parameter, which does have a button property but not a property named foo.
 window.onmousedown = function (e) {
 console.log(e.button); //&lt;- OK
@@ -107,7 +106,7 @@ console.log(e.foo); //&lt;- Error!
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is an interface? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> An interface defines a contract by specifying the type of data an object can have and its operations. In TypeScript, you can specify an object’s shape by creating an interface and using it as its type. It’s also called “duck typing”. </div>
+                    <div class="card-body"> An interface defines a contract by specifying the type of data an object can have and its operations. In TypeScript, you can specify an objectâs shape by creating an interface and using it as its type. Itâs also called âduck typingâ. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -119,7 +118,7 @@ console.log(e.foo); //&lt;- Error!
                 <div id="question8" class="collapse show" style="">
                     <div class="card-body"> TypeScript provides three keywords to control the visibility of class members, such as properties or methods.
 	public: You can access a public member anywhere outside the class. All class members are public by default. 
-	protected: A protected member is visible only to the subclasses of the class containing that member. Outside code that doesn’t extend the container class can’t access a protected member. 
+	protected: A protected member is visible only to the subclasses of the class containing that member. Outside code that doesnât extend the container class canât access a protected member. 
 	private: A private member is only visible inside the class. No outside code can access the private members of a class.
                      </div>
                 </div>
@@ -131,7 +130,7 @@ console.log(e.foo); //&lt;- Error!
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are intersection types? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question9" class="collapse show" style="">
-                    <div class="card-body"> Intersection types let you combine the members of two or more types by using the ‘&’ operator. This allows you to combine existing types to get a single type with all the features you need.
+                    <div class="card-body"> Intersection types let you combine the members of two or more types by using the â&â operator. This allows you to combine existing types to get a single type with all the features you need.
 The following example creates a new type Supervisor that has the members of types Employee and Manager.
                      </div>
                 </div>
@@ -143,9 +142,9 @@ The following example creates a new type Supervisor that has the members of type
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Does TypeScript support static classes? If not, why? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> TypeScript doesn’t support static classes, unlike the popular object-oriented programming languages like C# and Java.
+                    <div class="card-body"> TypeScript doesnât support static classes, unlike the popular object-oriented programming languages like C# and Java.
 These languages need static classes because all code, i.e., data and functions, need to be inside a class and cannot exist independently. Static classes provide a way to allow these functions without associating them with any objects.
-In TypeScript, you can create any data and functions as simple objects without creating a containing class. Hence TypeScript doesn’t need static classes. A singleton class is just a simple object in TypeScript. 
+In TypeScript, you can create any data and functions as simple objects without creating a containing class. Hence TypeScript doesnât need static classes. A singleton class is just a simple object in TypeScript. 
                      </div>
                 </div>
             </div>
@@ -174,7 +173,7 @@ setTimeout(function () {
   console.log('Run after 2 seconds')
 }, 2000);
 
-You can invoke an anonymous function as soon as it’s created. It’s called ‘immediately invoked function execution (IIFE)’, For example:
+You can invoke an anonymous function as soon as itâs created. Itâs called âimmediately invoked function execution (IIFE)â, For example:
 (function() {
   console.log('Invoked immediately after creation');
 })();
@@ -189,7 +188,7 @@ You can invoke an anonymous function as soon as it’s created. It’s called �
                 </div>
                 <div id="question13" class="collapse show" style="">
                     <div class="card-body"> A union type is a special construct in TypeScript that indicates that a value can be one of several types. A vertical bar (|) separates these types.
-Consider the following example where the variable value belongs to a union type consisting of strings and numbers. The value is initialized to string “Foo”. Because it can only be a string or a number, we can change it to a number later, and the TypeScript compiler doesn’t complain
+Consider the following example where the variable value belongs to a union type consisting of strings and numbers. The value is initialized to string âFooâ. Because it can only be a string or a number, we can change it to a number later, and the TypeScript compiler doesnât complain
                      </div>
                 </div>
             </div>
@@ -200,7 +199,7 @@ Consider the following example where the variable value belongs to a union type 
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are type aliases? How do you create one? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
-                    <div class="card-body"> Type aliases give a new, meaningful name for a type. They don’t create new types but create new names that refer to that type.
+                    <div class="card-body"> Type aliases give a new, meaningful name for a type. They donât create new types but create new names that refer to that type.
 For example, you can alias a union type to avoid typing all the types everywhere that value is being used.
 type alphanumeric = string | number;
 let value: alphanumeric = "";
@@ -237,7 +236,7 @@ let employeeRecord: [string, number] = ["John Doe", 50000];
 let [emp_name, emp_salary] = employeeRecord;
 console.log(`Name: ${emp_name}`);  // "Name: John Doe"
 console.log(`Salary: ${emp_salary}`);  // "Salary: 50000"
-After destructuring, you can’t assign a value of a different type to the destructured variable. For example,
+After destructuring, you canât assign a value of a different type to the destructured variable. For example,
 emp_name = true;  // Type 'boolean' is not assignable to type 'string'.(2322)
                      </div>
                 </div>
@@ -291,16 +290,34 @@ When you mark a property as readonly, it can only be set when you initialize the
                 </div>
                 <div id="question20" class="collapse show" style="">
                     <div class="card-body"> A typical TypeScript project references other third-party TypeScript libraries such as JQuery to perform routine tasks. Having type information for the library code helps you in coding by providing detailed information about the types, method signatures, etc., and provides IntelliSense.
-A type declaration file is a text file ending with a .d.ts extension providing a way to declare the existence of some types or values without actually providing implementations for those values. It contains the type declarations but doesn’t have any source code. It doesn’t produce a .js file after compilation. 
+A type declaration file is a text file ending with a .d.ts extension providing a way to declare the existence of some types or values without actually providing implementations for those values. It contains the type declarations but doesnât have any source code. It doesnât produce a .js file after compilation. 
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='TypeScriptTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='TypeScriptTheory3.jsp'>3</a>
+				<a class='page next' href='TypeScriptTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

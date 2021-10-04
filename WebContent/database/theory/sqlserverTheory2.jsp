@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,7 +22,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What is the difference between UNION and UNION ALL?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body">  UNION: To select related information from two tables UNION command is used. It is similar to JOIN command. • UNION All: The UNION ALL command is equal to the UNION command, except that UNION ALL selects all values. It will not remove duplicate rows, instead it will retrieve all rows from all tables.</div>
+                    <div class="card-body">  UNION: To select related information from two tables UNION command is used. It is similar to JOIN command. <br>⦿ UNION All: The UNION ALL command is equal to the UNION command, except that UNION ALL selects all values. It will not remove duplicate rows, instead it will retrieve all rows from all tables.</div>
                 </div>
             </div>
                  <div class="card mb-2 w-100">
@@ -53,7 +52,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is Collation? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> Collation is defined to specify the sort order in a table. There are three types of sort order –
+                    <div class="card-body"> Collation is defined to specify the sort order in a table. There are three types of sort order â
 1. Case sensitive
 2. Case Insensitive
 3. Binary </div>
@@ -77,7 +76,7 @@ Select * from <tablename> Select count(*) from <tablename> Select rows from sysi
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the command used to get the version of SQL Server?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
-                    <div class="card-body"> Select SERVERPROPERTY(‘productversion’)
+                    <div class="card-body"> Select SERVERPROPERTY(âproductversionâ)
 is used to get the version of SQL Server. </div>
                 </div>
             </div>
@@ -98,7 +97,7 @@ is used to get the version of SQL Server. </div>
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the use of SET NOCOUNT ON/OFF statement? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body">  By default, NOCOUNT is set to OFF and it returns number of records got affected whenever the command is getting executed. If the user doesn’t want to display the number of records affected, it can be explicitly set to ON- (SET NOCOUNT ON).</div>
+                    <div class="card-body">  By default, NOCOUNT is set to OFF and it returns number of records got affected whenever the command is getting executed. If the user doesnât want to display the number of records affected, it can be explicitly set to ON- (SET NOCOUNT ON).</div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -129,9 +128,9 @@ is used to get the version of SQL Server. </div>
                 </div>
                 <div id="question11" class="collapse show" style="">
                     <div class="card-body">  The SUBSTR function is used to return specific portion of string in a given string. But, INSTR function gives character position in a given specified string.
-SUBSTR(“Smiley”,3)
+SUBSTR(âSmileyâ,3)
 Gives result as Smi
-CHARINDEX(“Smiley”,’i’,1)
+CHARINDEX(âSmileyâ,âiâ,1)
 Gives 3 as result as I appears in 3rd position of the string</div>
                 </div>
             </div>
@@ -230,12 +229,29 @@ Or we can include WITHRECOMPILE in the stored procedure itself. </div>
                     <div class="card-body"> Duplicate rows can be deleted using CTE and ROW NUMER feature of SQL Server. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='sqlserverTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='sqlserverTheory3.jsp'>3</a>
+				<a class='page next' href='sqlserverTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

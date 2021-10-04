@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>PHP Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -38,7 +37,7 @@
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is PEAR in PHP?	 <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> PEAR is a framework and repository for reusable PHP components. PEAR stands for PHP Extension and Application Repository. It contains all types of PHP code snippets and libraries. It also provides a command line interface to install “packages” automatically. </div>
+                    <div class="card-body"> PEAR is a framework and repository for reusable PHP components. PEAR stands for PHP Extension and Application Repository. It contains all types of PHP code snippets and libraries. It also provides a command line interface to install âpackagesâ automatically. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -60,8 +59,8 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the purpose of break and continue statement? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> Break – It terminates the for loop or switch statement and transfers execution to the statement immediately following the for loop or switch.
-Continue – It causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+                    <div class="card-body"> Break â It terminates the for loop or switch statement and transfers execution to the statement immediately following the for loop or switch.
+Continue â It causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
                      </div>
                 </div>
             </div>
@@ -79,10 +78,10 @@ Continue – It causes the loop to skip the remainder of its body and immediatel
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question6"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the meaning of ‘escaping to PHP’? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the meaning of âescaping to PHPâ? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
-                    <div class="card-body"> The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. The mechanism for doing so is known as ‘escaping to PHP’. Escaping a string means to reduce ambiguity in quotes used in that string. </div>
+                    <div class="card-body"> The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. The mechanism for doing so is known as âescaping to PHPâ. Escaping a string means to reduce ambiguity in quotes used in that string. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -97,7 +96,7 @@ Continue – It causes the loop to skip the remainder of its body and immediatel
 2	The value of a variable is the value of its most recent assignment.
 3	Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.
 4	Variables can, but do not need, to be declared before assignment.
-5	Variables in PHP do not have intrinsic types – a variable does not know in advance whether it will be used to store a number or a string of characters.
+5	Variables in PHP do not have intrinsic types â a variable does not know in advance whether it will be used to store a number or a string of characters.
 6	Variables used before they are assigned have default values.
                       </div>
                 </div>
@@ -110,14 +109,14 @@ Continue – It causes the loop to skip the remainder of its body and immediatel
                 </div>
                 <div id="question8" class="collapse show" style="">
                     <div class="card-body"> There are 8 data types in PHP which are used to construct the variables:
-1.	Integers − are whole numbers, without a decimal point, like 4195.
-2.	Doubles − are floating-point numbers, like 3.14159 or 49.1.
-3.	Booleans − have only two possible values either true or false.
-4.	NULL − is a special type that only has one value: NULL.
-5.	Strings − are sequences of characters, like ‘PHP supports string operations.’
-6.	Arrays − are named and indexed collections of other values.
-7.	Objects − are instances of programmer-defined classes, which can package up both other kinds of values and functions that are specific to the class.
-8.	Resources − are special variables that hold references to resources external to PHP.
+1.	Integers â are whole numbers, without a decimal point, like 4195.
+2.	Doubles â are floating-point numbers, like 3.14159 or 49.1.
+3.	Booleans â have only two possible values either true or false.
+4.	NULL â is a special type that only has one value: NULL.
+5.	Strings â are sequences of characters, like âPHP supports string operations.â
+6.	Arrays â are named and indexed collections of other values.
+7.	Objects â are instances of programmer-defined classes, which can package up both other kinds of values and functions that are specific to the class.
+8.	Resources â are special variables that hold references to resources external to PHP.
 
                      </div>
                 </div>
@@ -131,7 +130,7 @@ Continue – It causes the loop to skip the remainder of its body and immediatel
                 <div id="question9" class="collapse show" style="">
                     <div class="card-body"> The following rules are needed to be followed while  naming a PHP variable:
 1	Variable names must begin with a letter or underscore character.
-2	A variable name can consist of numbers, letters, underscores but you cannot use characters like + , – , % , ( , ) . & , etc.
+2	A variable name can consist of numbers, letters, underscores but you cannot use characters like + , â , % , ( , ) . & , etc.
                      </div>
                 </div>
             </div>
@@ -139,16 +138,16 @@ Continue – It causes the loop to skip the remainder of its body and immediatel
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question10"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are the rules to determine the “truth” of any value which is not already of the Boolean type? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are the rules to determine the âtruthâ of any value which is not already of the Boolean type? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> The rules to determine the “truth” of any value which is not already of the Boolean type are:
+                    <div class="card-body"> The rules to determine the âtruthâ of any value which is not already of the Boolean type are:
 1	If the value is a number, it is false if exactly equal to zero and true otherwise.
-2	If the value is a string, it is false if the string is empty (has zero characters) or is the string “0”, and is true otherwise.
+2	If the value is a string, it is false if the string is empty (has zero characters) or is the string â0â, and is true otherwise.
 3	Values of type NULL are always false.
 4	If the value is an array, it is false if it contains no other values, and it is true otherwise. For an object, containing a value means having a member variable that has been assigned a value.
 5	Valid resources are true (although some functions that return resources when they are successful will return FALSE when unsuccessful).
-6	Don’t use double as Booleans.
+6	Donât use double as Booleans.
                      </div>
                 </div>
             </div>
@@ -196,11 +195,11 @@ A variable that has been assigned the NULL value, consists of the following prop
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Name some of the constants  in PHP and their purpose. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
-                    <div class="card-body"> _LINE_ – It represents the current line number of the file.
-2.	 _FILE_ – It represents the full path and filename of the file. If used inside an include,the name of the included file is returned.
-3.	_FUNCTION_ – It represents the function name.
-4.	_CLASS_ – It returns the class name as it was declared.
-5.	_METHOD_ – It represents the class method name.
+                    <div class="card-body"> _LINE_ â It represents the current line number of the file.
+2.	 _FILE_ â It represents the full path and filename of the file. If used inside an include,the name of the included file is returned.
+3.	_FUNCTION_ â It represents the function name.
+4.	_CLASS_ â It returns the class name as it was declared.
+5.	_METHOD_ â It represents the class method name.
                      </div>
                 </div>
             </div>
@@ -235,7 +234,7 @@ A variable that has been assigned the NULL value, consists of the following prop
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How can you compare objects in PHP? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question17" class="collapse show" style="">
-                    <div class="card-body"> We use the operator ‘==’ to test if two objects are instanced from the same class and have same attributes and equal values. We can also test if two objects are referring to the same instance of the same class by the use of the identity operator ‘===’. </div>
+                    <div class="card-body"> We use the operator â==â to test if two objects are instanced from the same class and have same attributes and equal values. We can also test if two objects are referring to the same instance of the same class by the use of the identity operator â===â. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -274,12 +273,28 @@ A variable that has been assigned the NULL value, consists of the following prop
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='PHPTheory2.jsp'>2</a>
+				
+				<a class='page next' href='PHPTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
-
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

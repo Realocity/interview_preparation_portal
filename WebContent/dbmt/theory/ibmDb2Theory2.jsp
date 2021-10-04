@@ -232,7 +232,18 @@ Use the IKJEFT01 utility program to run the above DSN command in a JCL.
                     </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                
+				<a class='page' href='ibmdb2Theory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='ibmdb2Theory3.jsp'>3</a>
+				
+				<a class='page next' href='ibmdb2Theory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

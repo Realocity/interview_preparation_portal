@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Angular Theory 2</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -25,8 +24,8 @@
                 <div id="question1" class="collapse show" style="">
                     <div class="card-body"> Although both Angular expressions and JavaScript expressions can contain literals, operators, and variables, there are some notable dissimilarities between the two. Important differences between Angular expressions and JavaScript expressions are enlisted below:
 	Angular expressions support filters while JavaScript expressions do not
-	It is possible to write Angular expressions inside the HTML tags. JavaScript expressions, contrarily, can’t be written inside the HTML tags
-	While JavaScript expressions support conditionals, exceptions, and loops, Angular expressions don’t
+	It is possible to write Angular expressions inside the HTML tags. JavaScript expressions, contrarily, can't be written inside the HTML tags
+	While JavaScript expressions support conditionals, exceptions, and loops, Angular expressions don't
                      </div>
                 </div>
             </div>
@@ -48,9 +47,9 @@
                 </div>
                 <div id="question3" class="collapse show" style="">
                     <div class="card-body"> In order to connect application data with the DOM (Data Object Model), data binding is used. It happens between the template (HTML) and component (TypeScript). There are 3 ways to achieve data binding:
-1.	Event Binding – Enables the application to respond to user input in the target environment
-2.	Property Binding – Enables interpolation of values computed from application data into the HTML
-3.	Two-way Binding – Changes made in the application state gets automatically reflected in the view and vice-versa. The ngModel directive is used for achieving this type of data binding.
+1.	Event Binding a Enables the application to respond to user input in the target environment
+2.	Property Binding a Enables interpolation of values computed from application data into the HTML
+3.	Two-way Binding a Changes made in the application state gets automatically reflected in the view and vice-versa. The ngModel directive is used for achieving this type of data binding.
                      </div>
                 </div>
             </div>
@@ -86,15 +85,15 @@ Although the digest cycle process gets triggered implicitly, it is possible to s
                 </div>
                 <div id="question6" class="collapse show" style="">
                     <div class="card-body"> In order to format the value of expression so that it can be displayed to the user, AngularJS has filters. It is possible to add these filters to the controllers, directives, services, or templates. AngularJS also provides support for creating custom filters.
-Organizing data in such a way so that it is displayed only when certain criteria are fulfilled is made possible using filters. Filters are added to the expressions using the pipe ‘|’ character. Various types of AngularJS filters are enumerated as follows:
-	currency – Formats a number to the currency format
-	date – Formats a data to some specific format
-	filter – Selects a subset of items from an array
-	json – Formats an object to a JSON string
-	limitTo – Limits an array or string into a specified number of characters or elements
-	lowercase – Formats a string to lowercase
-	number – Formats a number to a string
-	orderBy – Orders an array by an expression
+Organizing data in such a way so that it is displayed only when certain criteria are fulfilled is made possible using filters. Filters are added to the expressions using the pipe a|a character. Various types of AngularJS filters are enumerated as follows:
+	currency a Formats a number to the currency format
+	date a Formats a data to some specific format
+	filter a Selects a subset of items from an array
+	json a Formats an object to a JSON string
+	limitTo a Limits an array or string into a specified number of characters or elements
+	lowercase a Formats a string to lowercase
+	number a Formats a number to a string
+	orderBy a Orders an array by an expression
                      </div>
                 </div>
             </div>
@@ -106,10 +105,10 @@ Organizing data in such a way so that it is displayed only when certain criteria
                 </div>
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> Here are some of the new aspects introduced in Angular 6:
-	Angular Elements – It allows converting Angular components into web components and embeds the same in some non-Angular application
-	Tree Shakeable Provider – Angular 6 introduces a new way of registering a provider directly inside the @Injectable() decorator. It is achieved by using the providedIn attribute
-	RxJS 6 – Angular 6 makes use of RxJS 6 internally
-	i18n (internationalization) – Without having to build the application once per locale, any Angular application can have “runtime i18n”
+	Angular Elements a It allows converting Angular components into web components and embeds the same in some non-Angular application
+	Tree Shakeable Provider a Angular 6 introduces a new way of registering a provider directly inside the @Injectable() decorator. It is achieved by using the providedIn attribute
+	RxJS 6 a Angular 6 makes use of RxJS 6 internally
+	i18n (internationalization) a Without having to build the application once per locale, any Angular application can have aruntime i18na
                      </div>
                 </div>
             </div>
@@ -143,9 +142,9 @@ In conventional web technology, as soon as a client requests a webpage, the serv
                 </div>
                 <div id="question10" class="collapse show" style="">
                     <div class="card-body"> To put simply, ViewEncapsulation determines whether the styles defined in a particular component will affect the entire application or not. Angular supports 3 types of ViewEncapsulation:
-	Emulated – Styles used in other HTML spread to the component
-	Native – Styles used in other HTML doesn’t spread to the component
-	None – Styles defined in a component are visible to all components of the application
+	Emulated a Styles used in other HTML spread to the component
+	Native a Styles used in other HTML doesnat spread to the component
+	None a Styles defined in a component are visible to all components of the application
                      </div>
                 </div>
             </div>
@@ -300,7 +299,27 @@ The architecture allows the children to have reference through observables and n
             </div>
         </div>
     </div>
+    <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+      <a class="page-link" href="AngularTheory1.jsp">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="AngularTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="AngularTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="AngularTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="AngularTheory3.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
 
-<%@include file="footer.jsp" %>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>

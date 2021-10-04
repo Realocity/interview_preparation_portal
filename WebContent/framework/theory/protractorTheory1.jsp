@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Protractor Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -69,15 +68,15 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Are Element Finder And Element Array Finder? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> The Protractor documentation mentions the distinction in most simple way:–
+                    <div class="card-body"> The Protractor documentation mentions the distinction in most simple way:â
 <br>Element Finder:
 <br>o	The Element Finder simply represents a single element of an ElementArrayFinder (and is more like a convenience object). As a result, anything that can be done with an Element Finder can also be done using an ElementArrayFinder.
 <br>o	The Element Finder can be treated as a Web Element for most purposes; in particular, you may perform actions (i.e. click, get Text) on them as you would a Web Element. Once an action is performed on an Element Finder, the latest result from the chain can be accessed using the then method. Unlike a Web Element, an Element Finder will wait for angular to settle before performing finds or actions.
 <br>Element Array Finder:
 <br>o	ElementArrayFinder is used for operations on an array of elements (as opposed to a single element).
-<br>o	The ElementArrayFinder is used to set up a chain of conditions that identify an array of elements. In particular, you can call all (locator) and filter (filterFn) to return a new ElementArrayFinder modified by the conditions, and you can call get(index) to return a single Element Finder at position ‘index’.
+<br>o	The ElementArrayFinder is used to set up a chain of conditions that identify an array of elements. In particular, you can call all (locator) and filter (filterFn) to return a new ElementArrayFinder modified by the conditions, and you can call get(index) to return a single Element Finder at position âindexâ.
 <br>o	Similar to jquery, ElementArrayFinder will search all branches of the DOM to find the elements that satisfy the conditions (i.e. all, filter, get). However, an ElementArrayFinder will not actually retrieve the elements until an action is called, which means it can be set up in helper files (i.e. page objects) before the page is available, and reused as the page changes.
-<br>o	SO, basically, if you’ve ever worked with Selenium in the past, you’d recognise that it is nothing but the difference between Find Element and Find Elements.
+<br>o	SO, basically, if youâve ever worked with Selenium in the past, youâd recognise that it is nothing but the difference between Find Element and Find Elements.
                      </div>
                 </div>
             </div>
@@ -99,8 +98,8 @@
                 </div>
                 <div id="question6" class="collapse show" style="">
                     <div class="card-body"> Protractor, as described above, is the node.js implementation of webdriver.io, which is in turn the .js implementation of Selenium. So in short, it is in fact, the Selenium implementation in .js optimised for Angular or Angular JS applications. It is the overall framework that provides with the baseline methods and functions to interact with the HTML/DOM elements on a web page.
-<br>Jasmine – It is a test framework, like Junit (Java) and Unit Test (Python). It comes bundled with a lot of assertions and it is the default framework when working with Protractor. Jasmine supports BDD- styled tests using the describe- it syntax.
-<br>Mocha – Mocha is a test runner. Many people confuse it with Jasmine as a test framework. It is not a framework. Although it gives you a lot of features like a Test frameworks like hooks, the describe-it syntax, but it can not add assertions and other key unit testing components. You will always need it to pair with something like chai or chai-as-promised.
+<br>Jasmine â It is a test framework, like Junit (Java) and Unit Test (Python). It comes bundled with a lot of assertions and it is the default framework when working with Protractor. Jasmine supports BDD- styled tests using the describe- it syntax.
+<br>Mocha â Mocha is a test runner. Many people confuse it with Jasmine as a test framework. It is not a framework. Although it gives you a lot of features like a Test frameworks like hooks, the describe-it syntax, but it can not add assertions and other key unit testing components. You will always need it to pair with something like chai or chai-as-promised.
                      </div>
                 </div>
             </div>
@@ -111,9 +110,9 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  How To Assert Something In Protractor?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> It depends on the assertion framework you’re using. In general, most of the e2e implementation done is based out of the default Jasmine 2.0, which provides the assertion in this format
+                    <div class="card-body"> It depends on the assertion framework youâre using. In general, most of the e2e implementation done is based out of the default Jasmine 2.0, which provides the assertion in this format
 expect (something).toEqual (someotherthing).
-<br>In case you’re using Mocha with a Chai as the assertion engine, you can use either of the three assertion types provided by Chai as
+<br>In case youâre using Mocha with a Chai as the assertion engine, you can use either of the three assertion types provided by Chai as
 <br>o	expect (something).to.equal (someotherthing)
 <br>o	something.should.equal (someotherthing)
 <br>o	assert.equal (something, someotherthing)
@@ -127,18 +126,18 @@ expect (something).toEqual (someotherthing).
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain How You Can Set Up Protractor In Your Project? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> It is very simple to set up Protractor in your project. Protractor is a node.js program, so it can be easily installed via any package manager that supports node.js installation – both npm and yarn are the go-to package managers in most scenarios.
+                    <div class="card-body"> It is very simple to set up Protractor in your project. Protractor is a node.js program, so it can be easily installed via any package manager that supports node.js installation â both npm and yarn are the go-to package managers in most scenarios.
 Your system set up should have node.js runtime installed. Since npm comes by default with node.js, so you can use it or you can download and use yarn.
-<br>In case of npm, installing Protractor is just a matter of running this simple command – for node v.8.0+
+<br>In case of npm, installing Protractor is just a matter of running this simple command â for node v.8.0+
 <br>npm i -g protractor or
 <br>npm install -g protractor
 <br>This command installs both Protractor and Web driver-Manager. Once Protractor is installed, you can check the version using
 <br>Protractor -version
-<br>Now, once Protractor is installed, you’ll not be ready for running the tests yet. You need the Chrome Driver or the Gecko Driver binaries for establishing connection with the browser.
-<br>To achieve this, you’ll need to run
+<br>Now, once Protractor is installed, youâll not be ready for running the tests yet. You need the Chrome Driver or the Gecko Driver binaries for establishing connection with the browser.
+<br>To achieve this, youâll need to run
 <br>Web driver-manager update
 <br>This will install the web driver-server along with the browser dependencies.
-<br>Once this is done, you’ll have Protractor set-up in your project. Now the next step is to write the test cases using the spec.js file and set up the Protractor configuration using the conf.js file.
+<br>Once this is done, youâll have Protractor set-up in your project. Now the next step is to write the test cases using the spec.js file and set up the Protractor configuration using the conf.js file.
                      </div>
                 </div>
             </div>
@@ -169,7 +168,7 @@ Your system set up should have node.js runtime installed. Since npm comes by def
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Does Ignore Synchronization Do? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question11" class="collapse show" style="">
-                    <div class="card-body">  In Protractor, while running tests, this is a common problem, when the Protractor execution starts, but the Angular code is still trying to synchronise the $http or $timeout requests. Setting the browser.ignoreSynchronization to true means that we’re telling Protractor to not wait for the Angular promises to be resolved.</div>
+                    <div class="card-body">  In Protractor, while running tests, this is a common problem, when the Protractor execution starts, but the Angular code is still trying to synchronise the $http or $timeout requests. Setting the browser.ignoreSynchronization to true means that weâre telling Protractor to not wait for the Angular promises to be resolved.</div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -191,7 +190,7 @@ If you want to use it with any other custom frameworks, then you can do that als
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  How Can You Do Reporting In Protractor?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body"> Protractor doesn’t come bundled with any reporting tool. However based on the framework that you’re using, you can use a lot of reporters. For eg, you can use Allure with Jasmine 2.0 with Protractor, Mochawesome when using with Mocha and Cucumber specific reporters when working with Cucumber. </div>
+                    <div class="card-body"> Protractor doesnât come bundled with any reporting tool. However based on the framework that youâre using, you can use a lot of reporters. For eg, you can use Allure with Jasmine 2.0 with Protractor, Mochawesome when using with Mocha and Cucumber specific reporters when working with Cucumber. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -236,7 +235,7 @@ If you want to use it with any other custom frameworks, then you can do that als
                 </div>
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> In order to run multiple spec files in Protractor, you just need to mention them in the spec flag in an array.
-<br>For eg, let’s say I have two different spec files test1_spec.js and test2_spec.js, so I can do this
+<br>For eg, letâs say I have two different spec files test1_spec.js and test2_spec.js, so I can do this
 Specs: ['. /test/test1_spec.js','./test/test2_spec.js']
 <br>This will make Protractor run these multiple spec files.
                      </div>
@@ -284,6 +283,27 @@ Specs: ['. /test/test1_spec.js','./test/test2_spec.js']
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="protractorTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="protractorTheory2.jsp">2</a></li>
+
+    <li class="page-item">
+      <a class="page-link" href="protractorTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

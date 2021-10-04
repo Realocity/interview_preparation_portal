@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>PHP Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -75,19 +74,19 @@ The Require() function is also used to put data of one PHP file to another PHP f
                 </div>
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body"> The different types of error in PHP are:
-	E_ERROR– A fatal error that causes script termination.
-1	E_WARNING– Run-time warning that does not cause script termination.
-2	E_PARSE– Compile time parse error.
-3	E_NOTICE– Run time notice caused due to error in code.
-4	E_CORE_ERROR– Fatal errors that occur during PHP initial startup.
-5	E_CORE_WARNING– Warnings that occur during PHP initial startup.
-6	E_COMPILE_ERROR– Fatal compile-time errors indication problem with script.
-7	E_USER_ERROR– User-generated error message.
-8	E_USER_WARNING– User-generated warning message.
+	E_ERRORâ A fatal error that causes script termination.
+1	E_WARNINGâ Run-time warning that does not cause script termination.
+2	E_PARSEâ Compile time parse error.
+3	E_NOTICEâ Run time notice caused due to error in code.
+4	E_CORE_ERRORâ Fatal errors that occur during PHP initial startup.
+5	E_CORE_WARNINGâ Warnings that occur during PHP initial startup.
+6	E_COMPILE_ERRORâ Fatal compile-time errors indication problem with script.
+7	E_USER_ERRORâ User-generated error message.
+8	E_USER_WARNINGâ User-generated warning message.
 9	E_USER_NOTICE- User-generated notice message.
-10	E_STRICT– Run-time notices.
-11	E_RECOVERABLE_ERROR– Catchable fatal error indicating a dangerous error
-12	E_ALL– Catches all errors and warnings.
+10	E_STRICTâ Run-time notices.
+11	E_RECOVERABLE_ERRORâ Catchable fatal error indicating a dangerous error
+12	E_ALLâ Catches all errors and warnings.
                      </div>
                 </div>
             </div>
@@ -95,7 +94,7 @@ The Require() function is also used to put data of one PHP file to another PHP f
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question6"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain the syntax for ‘foreach’ loop with example. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain the syntax for âforeachâ loop with example. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
                     <div class="card-body"> The foreach statement is used to loop through arrays. For each pass the value of the current array element is assigned to $value and the array pointer is moved by one and in the next pass next element will be processed.
@@ -115,9 +114,9 @@ code to be executed;
                 </div>
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> There are 3 types of Arrays in PHP:
-1.	Indexed Array – An array with a numeric index is known as the indexed array. Values are stored and accessed in linear fashion.
-2.	Associative Array – An array with strings as index is known as the associative array. This stores element values in association with key values rather than in a strict linear index order.
-3.	Multidimensional Array – An array containing one or more arrays is known as multidimensional array. The values are accessed using multiple indices.
+1.	Indexed Array â An array with a numeric index is known as the indexed array. Values are stored and accessed in linear fashion.
+2.	Associative Array â An array with strings as index is known as the associative array. This stores element values in association with key values rather than in a strict linear index order.
+3.	Multidimensional Array â An array containing one or more arrays is known as multidimensional array. The values are accessed using multiple indices.
                      </div>
                 </div>
             </div>
@@ -140,7 +139,7 @@ code to be executed;
                 <div id="question9" class="collapse show" style="">
                     <div class="card-body"> To concatenate two string variables together, we use the dot (.) operator.
 1	&lt;?php $string1="Hello edureka"; $string2="123"; echo $string1 . " " . $string2; ?>
-This will produce following result −
+This will produce following result â
 Hello edureka 123
                      </div>
                 </div>
@@ -152,14 +151,14 @@ Hello edureka 123
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How is it possible to set an infinite execution time for PHP script? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> The set_time_limit(0) added at the beginning of a script sets to infinite the time of execution to not have the PHP error ‘maximum execution time exceeded.’ It is also possible to specify this in the php.ini file. </div>
+                    <div class="card-body"> The set_time_limit(0) added at the beginning of a script sets to infinite the time of execution to not have the PHP error âmaximum execution time exceeded.â It is also possible to specify this in the php.ini file. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question11"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What is the difference between “echo” and “print” in PHP?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What is the difference between âechoâ and âprintâ in PHP?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question11" class="collapse show" style="">
                     <div class="card-body">	PHP echo output one or more string. It is a language construct not a function. So use of parentheses is not required. But if you want to pass more than one parameter to echo, use of parentheses is required. Whereas, PHP print output a string. It is a language construct not a function. So use of parentheses is not required with the argument list. Unlike echo, it always returns 1.
@@ -176,11 +175,11 @@ Hello edureka 123
                 </div>
                 <div id="question12" class="collapse show" style="">
                     <div class="card-body"> Some of the functions in PHP include:
-1	ereg() – The ereg() function searches a string specified by string for a string specified by pattern, returning true if the pattern is found, and false otherwise.
-2	ereg() – The ereg() function searches a string specified by string for a string specified by pattern, returning true if the pattern is found, and false otherwise.
-3	split() – The split() function will divide a string into various elements, the boundaries of each element based on the occurrence of pattern in string.
-4	preg_match() – The preg_match() function searches string for pattern, returning true if pattern exists, and false otherwise.
-5	preg_split() – The preg_split() function operates exactly like split(), except that regular expressions are accepted as input parameters for pattern.
+1	ereg() â The ereg() function searches a string specified by string for a string specified by pattern, returning true if the pattern is found, and false otherwise.
+2	ereg() â The ereg() function searches a string specified by string for a string specified by pattern, returning true if the pattern is found, and false otherwise.
+3	split() â The split() function will divide a string into various elements, the boundaries of each element based on the occurrence of pattern in string.
+4	preg_match() â The preg_match() function searches string for pattern, returning true if pattern exists, and false otherwise.
+5	preg_split() â The preg_split() function operates exactly like split(), except that regular expressions are accepted as input parameters for pattern.
                     </div>
                 </div>
             </div>
@@ -221,7 +220,7 @@ Hello edureka 123
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the difference between $message and $$message in PHP? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question16" class="collapse show" style="">
-                    <div class="card-body"> They are both variables. But $message is a variable with a fixed name. $$message is a variable whose name is stored in $message. For example, if $message contains “var”, $$message is the same as $var. </div>
+                    <div class="card-body"> They are both variables. But $message is a variable with a fixed name. $$message is a variable whose name is stored in $message. For example, if $message contains âvarâ, $$message is the same as $var. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -245,7 +244,7 @@ Hello edureka 123
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is GET and POST method in PHP? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question18" class="collapse show" style="">
-                    <div class="card-body"> The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character. For example –
+                    <div class="card-body"> The GET method sends the encoded user information appended to the page request. The page and the encoded information are separated by the ? character. For example â
 1	&lt;a href="http://www.test.com/index.htm?name1=value1 and name2=value2">http://www.test.com/index.htm?name1=value1 and name2=value2&lt;/a>
 The POST method transfers information via HTTP headers. The information is encoded as described in case of GET method and put into a header called QUERY_STRING.
                      </div>
@@ -268,7 +267,7 @@ The POST method transfers information via HTTP headers. The information is encod
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is a lambda function in PHP? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
-                    <div class="card-body"> A lambda function is an anonymous PHP function that can be stored in a variable and passed as an argument to other functions or methods. A closure is a lambda function that is aware of its surrounding context. For example –
+                    <div class="card-body"> A lambda function is an anonymous PHP function that can be stored in a variable and passed as an argument to other functions or methods. A closure is a lambda function that is aware of its surrounding context. For example â
 1
 2	$input = array(1, 2, 3, 4, 5);
 $output = array_filter($input, function ($v) { return $v > 2; });
@@ -276,12 +275,29 @@ function ($v) { return $v > 2; } is the lambda function definition. We can store
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='PHPTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

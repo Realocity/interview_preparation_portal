@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Cobol</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -164,7 +163,7 @@ The maximum size of a numeric field that can be defined in COBOL is PIC 9(18).
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain the function of EVALUATE statement in COBOL. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
-                    <div class="card-body"> EVALUATE statement does the same job of a CASE statement or a nested-IF statement. The main difference between EVALUATE and nested-IF is that “break” is not needed for the former and the control leaves the EVALUATE statement once a match is found. </div>
+                    <div class="card-body"> EVALUATE statement does the same job of a CASE statement or a nested-IF statement. The main difference between EVALUATE and nested-IF is that âbreakâ is not needed for the former and the control leaves the EVALUATE statement once a match is found. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -208,9 +207,9 @@ In TEST AFTER option, the condition will be tested at the end of the PERFORM blo
                 </div>
                 <div id="question18" class="collapse show" style="">
                     <div class="card-body"> There are three main data types in COBOL:
-Numeric (X) – This is used to represent numeric values between 0-9 in COBOL programming
-Alphabetic – This type of COBOL can hold any of the alphabetic variables ranging between A-Z
-Alpha Numeric – This data type can hold both values together, be it alphabetic or numeric.
+Numeric (X) â This is used to represent numeric values between 0-9 in COBOL programming
+Alphabetic â This type of COBOL can hold any of the alphabetic variables ranging between A-Z
+Alpha Numeric â This data type can hold both values together, be it alphabetic or numeric.
                      </div>
                 </div>
             </div>
@@ -221,7 +220,7 @@ Alpha Numeric – This data type can hold both values together, be it alphabetic
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the difference between index and subscript? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> Though Subscript is known as the occurrence of an array, an index refers to the displacement from the array’s beginning. One can only modify an index by using PERFORM, SEARCH & SET.</div>
+                    <div class="card-body"> Though Subscript is known as the occurrence of an array, an index refers to the displacement from the arrayâs beginning. One can only modify an index by using PERFORM, SEARCH & SET.</div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -234,12 +233,30 @@ Alpha Numeric – This data type can hold both values together, be it alphabetic
                     <div class="card-body"> In a section, there will be all the paragraphs that are part of the section yet to be performed. While in the case of a paragraph, there will only be a paragraph to be performed. </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='cobolTheory2.jsp'>2</a>
+				<a class='page' href='cobolTheory3.jsp'>3</a>
+				<a class='page next' href='cobolTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

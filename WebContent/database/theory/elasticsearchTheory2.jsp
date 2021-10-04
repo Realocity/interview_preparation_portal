@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -69,9 +68,9 @@ Term based queries utilize the inverted index, a hash map-like data structure th
                 </div>
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body"> Analyzers are used for Text analysis, it can be either built-in analyzer or custom analyzer. The analyzer consists of zero or more Character filters, at least one Tokenizer and zero or more Token filters.
-•	Character filters break down the stream of string or numerical into characters by stripping out HTML tags, searching the string for key and replacing them with the related value defined in mapping char filter as well as replace the characters based on a specific pattern.
-•	Tokenizer breaks the stream of string into characters, For example, whitespace tokenizer breaks the stream of string while encountering whitespace between characters.
-•	Token filters convert these tokens into lower case, remove from string stop words like ‘a’, ‘an’, ‘the’. or replace characters into equivalent synonyms defined by the filter.
+<br>⦿	Character filters break down the stream of string or numerical into characters by stripping out HTML tags, searching the string for key and replacing them with the related value defined in mapping char filter as well as replace the characters based on a specific pattern.
+<br>⦿	Tokenizer breaks the stream of string into characters, For example, whitespace tokenizer breaks the stream of string while encountering whitespace between characters.
+<br>⦿	Token filters convert these tokens into lower case, remove from string stop words like âaâ, âanâ, âtheâ. or replace characters into equivalent synonyms defined by the filter.
                      </div>
                 </div>
             </div>
@@ -84,13 +83,13 @@ Term based queries utilize the inverted index, a hash map-like data structure th
                 <div id="question6" class="collapse show" style="">
                     <div class="card-body">  Types of Elasticsearch Analyzer are Built-in and Custom.
 Built-in analyzers are further classified as below:
-•	Standard Analyzer: This type of analyzer is designed with standard tokenizer which breaks the stream of string into tokens based on maximum token length configured, lower case token filter which converts the token into lower case and stops token filter, which removes stop words such as ‘a’, ‘an’, ‘the’.
-•	Simple Analyzer: This type of analyzer breaks a stream of string into a token of text whenever it comes across numbers or special characters. A simple analyzer converts all the text tokens into lower case characters.
-•	Whitespace Analyzer: This type of analyzer breaks the stream of string into a token of text when it comes across white space between these string or statements. It retains the case of tokens as it was in the input stream.
-•	Stop Analyzer: This type of analyzer is similar to that of the simple analyzer, but in addition to it removes stop words from the stream of string such as ‘a’, ‘an’, ‘the’. The complete list of stop words in English can be found from the link.
-•	Keyword Analyzer: This type of analyzer returns the entire stream of string as a single token as it was. This type of analyzer can be converted into a custom analyzer by adding filters to it.
-•	Pattern Analyzer: This type of analyzer breaks the stream of string into tokens based on the regular expression defined. This regular expression acts on the stream of string and not on the tokens.
-•	Language Analyzer: This type of analyzer is used for specific language texts analysis. There are plug-ins to support language analyzers. These plug-ins are Stempel, Ukrainian Analysis, Kuromoji for Japanese, Nori for Korean and Phonetic plugins. There are additional plug-ins for Indian as well as non-Indian languages such as Asian languages ( Example,  Japanese, Vietnamese, Tibetan) analyzers.
+<br>⦿	Standard Analyzer: This type of analyzer is designed with standard tokenizer which breaks the stream of string into tokens based on maximum token length configured, lower case token filter which converts the token into lower case and stops token filter, which removes stop words such as âaâ, âanâ, âtheâ.
+<br>⦿	Simple Analyzer: This type of analyzer breaks a stream of string into a token of text whenever it comes across numbers or special characters. A simple analyzer converts all the text tokens into lower case characters.
+<br>⦿	Whitespace Analyzer: This type of analyzer breaks the stream of string into a token of text when it comes across white space between these string or statements. It retains the case of tokens as it was in the input stream.
+<br>⦿	Stop Analyzer: This type of analyzer is similar to that of the simple analyzer, but in addition to it removes stop words from the stream of string such as âaâ, âanâ, âtheâ. The complete list of stop words in English can be found from the link.
+<br>⦿	Keyword Analyzer: This type of analyzer returns the entire stream of string as a single token as it was. This type of analyzer can be converted into a custom analyzer by adding filters to it.
+<br>⦿	Pattern Analyzer: This type of analyzer breaks the stream of string into tokens based on the regular expression defined. This regular expression acts on the stream of string and not on the tokens.
+<br>⦿	Language Analyzer: This type of analyzer is used for specific language texts analysis. There are plug-ins to support language analyzers. These plug-ins are Stempel, Ukrainian Analysis, Kuromoji for Japanese, Nori for Korean and Phonetic plugins. There are additional plug-ins for Indian as well as non-Indian languages such as Asian languages ( Example,  Japanese, Vietnamese, Tibetan) analyzers.
                     </div>
                 </div>
             </div>
@@ -134,7 +133,7 @@ The comparison can be whether the value for searched condition matches with filt
                 </div>
                 <div id="question10" class="collapse show" style="">
                     <div class="card-body">  Master node functionality revolves around actions across the cluster such as the creation of index/indices, deletion of index/indices, monitor or keeps an account of those nodes that form a cluster. These nodes also decide shards allocation to specific nodes resulting in stable Elasticsearch cluster health.
-Whereas, Master – eligible nodes are those nodes that get elected to become Master Node.
+Whereas, Master â eligible nodes are those nodes that get elected to become Master Node.
                     </div>
                 </div>
             </div>
@@ -145,12 +144,12 @@ Whereas, Master – eligible nodes are those nodes that get elected to become Ma
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are functionalities of attributes such as enabled, index and store in Elasticsearch? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question11" class="collapse show" style="">
-                    <div class="card-body"> Enabled attribute of Elasticsearch is applied in the case where we need to retain and store a particular field from indexing. This is done by using “enabled”: false syntax into the top-level mapping as well as to object fields.
+                    <div class="card-body"> Enabled attribute of Elasticsearch is applied in the case where we need to retain and store a particular field from indexing. This is done by using âenabledâ: false syntax into the top-level mapping as well as to object fields.
 Index attribute of Elasticsearch will decide three ways in which a stream of string can be indexed.
-•	‘analyzed’ in which string will be analyzed before it is subjected to indexing as a full-text field.
-•	‘not_analyzed’ index the stream of string to make it searchable, without analyzing it.
-•	‘no’ – where the string will not be indexed at all, and will not be searchable as well.
-Irrespective of setting the attribute ‘store’ to false, Elasticsearch stores the original document on the disk, which searches as quickly as possible.
+<br>⦿	âanalyzedâ in which string will be analyzed before it is subjected to indexing as a full-text field.
+<br>⦿	ânot_analyzedâ index the stream of string to make it searchable, without analyzing it.
+<br>⦿	ânoâ â where the string will not be indexed at all, and will not be searchable as well.
+Irrespective of setting the attribute âstoreâ to false, Elasticsearch stores the original document on the disk, which searches as quickly as possible.
                      </div>
                 </div>
             </div>
@@ -197,13 +196,13 @@ REST API is platform and language independent except that the language used for 
                 </div>
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> Elasticsearch installation includes the following packages:
-•	Linux and macOS platform needs tar.gz archives to be installed.
-•	Windows operating system requires .zip archives to be installed.
-•	Debian, Ubuntu-based systems deb pack needs to be installed.
-•	Red Hat, Centos, OpenSuSE, SLES needs rpm package to be installed.
-•	Windows 64 bits system requires the MSI package to be installed.
-•	Docker images for running Elasticsearch as Docker containers can be downloaded from Elastic Docker Registry.
-•	X-Pack API packages are installed along with Elasticsearch that helps to get information on the license, security, migration, and machine learning activities that are involved in Elasticsearch.
+<br>⦿	Linux and macOS platform needs tar.gz archives to be installed.
+<br>⦿	Windows operating system requires .zip archives to be installed.
+<br>⦿	Debian, Ubuntu-based systems deb pack needs to be installed.
+<br>⦿	Red Hat, Centos, OpenSuSE, SLES needs rpm package to be installed.
+<br>⦿	Windows 64 bits system requires the MSI package to be installed.
+<br>⦿	Docker images for running Elasticsearch as Docker containers can be downloaded from Elastic Docker Registry.
+<br>⦿	X-Pack API packages are installed along with Elasticsearch that helps to get information on the license, security, migration, and machine learning activities that are involved in Elasticsearch.
                      </div>
                 </div>
             </div>
@@ -236,7 +235,7 @@ REST API is platform and language independent except that the language used for 
                 <div id="question18" class="collapse show" style="">
                     <div class="card-body"> X-Pack API types are listed as below:
 (i) Info API: It provides general information on features of X-Pack installed, such as Build info, License info, features info.
-Info API – xPack API:
+Info API â xPack API:
 
 (ii) Graph Explore API: Explore API helps to retrieve and summarize documents information versus terms of Elasticsearch indices.
 
@@ -260,11 +259,11 @@ Jobs tasks like create, update, open, close, delete the job, add or delete job t
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> X-Pack commands are listed below:
-•	Certgen
-•	Migrate
-•	setup-passwords
-•	syskeygen
-•	users
+<br>⦿	Certgen
+<br>⦿	Migrate
+<br>⦿	setup-passwords
+<br>⦿	syskeygen
+<br>⦿	users
                      </div>
                 </div>
             </div>
@@ -279,11 +278,28 @@ Jobs tasks like create, update, open, close, delete the job, add or delete job t
                 </div>
             </div>
             
-           
+           <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='elasticsearchTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='elasticsearchTheory3.jsp'>3</a>
+				<a class='page next' href='elasticsearchTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

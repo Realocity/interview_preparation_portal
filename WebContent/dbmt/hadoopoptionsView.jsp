@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Database Management Tool Options</title>
 
 </head>
 <body>
@@ -217,7 +217,7 @@ a {
 <section class="cards-wrapper-four">  
   <div class="card-four-grid-space">
     <div class="num">THEORY</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
+    <a class="card-four" href="theory/hadoopTheory1.jsp" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/links-images-about-file-paths/cover.jpg')">
       <div>
         <h1>Links, images and about file paths</h1>
         <p>Learn how to use links and images along with file paths…</p>
@@ -231,7 +231,7 @@ a {
   
   <div class="card-four-grid-space">
     <div class="num">TEST</div>
-    <a class="card-four" href="https://codetheweb.blog/2017/10/06/html-syntax/" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
+    <a class="card-four" href="test/hadoopTest.jsp" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg)">
       <div>
         <h1>Apache Hadoop Syntax</h1>
         <p>The syntax of a language is how it works. How to actually write it. Learn Apache Hadoop syntax…</p>

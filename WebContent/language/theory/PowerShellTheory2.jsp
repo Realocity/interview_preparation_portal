@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Power Shell Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -190,7 +189,7 @@ Square Brackets []: They define optional items, and they are not frequently used
                      <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body"> Cmdlet’s are simple build in commands written in .net language like C# or VB introduced by
+                    <div class="card-body"> Cmdletâs are simple build in commands written in .net language like C# or VB introduced by
 Windows PowerShell
                      </div>
                 </div>
@@ -223,13 +222,13 @@ deployment </div>
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question16"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain about the PowerShell’s comparison operators? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain about the PowerShellâs comparison operators? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question16" class="collapse show" style="">
                     <div class="card-body"> Comparison Operators compares value in PowerShell. Four types of comparison operators are
 used equality, match, containment and replace. In PowerShell, one of the key comparison
-operators is –eq that is used instead of “=” sign for declaring variables. Likewise, there are
-other operators like –ne for “not equal” , -gt ( greater than ) or –lt (less than). </div>
+operators is âeq that is used instead of â=â sign for declaring variables. Likewise, there are
+other operators like âne for ânot equalâ , -gt ( greater than ) or âlt (less than). </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -255,7 +254,7 @@ becomes the input of the second.
                     <div class="card-body"> Get command in PowerShell is used to fetch other cmdlets, for example you are looking for cmdlet between letter L and R then your PowerShell get-command will be like
 # PowerShell Get - Command Range
 Clear-Host
-Get-Command [ L–R ]* </div>
+Get-Command [ LâR ]* </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -267,10 +266,10 @@ Get-Command [ L–R ]* </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> To map a network drive in PowerShell you have to use the command like
 # PowerShell Map Network Drive
-$Net = $( New - Object – ComObject Wscript.Network )
-$Net.MapNetworkDrive( “S:”, \\expert\guru99 )
-In here the drive letter is “S:” and the Network share is called ‘expert’ on a computer called
-‘guru99.’
+$Net = $( New - Object â ComObject Wscript.Network )
+$Net.MapNetworkDrive( âS:â, \\expert\guru99 )
+In here the drive letter is âS:â and the Network share is called âexpertâ on a computer called
+âguru99.â
                       </div>
                 </div>
             </div>
@@ -278,22 +277,41 @@ In here the drive letter is “S:” and the Network share is called ‘expert�
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question20"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what are the three ways that PowerShell uses to ‘Select'? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what are the three ways that PowerShell uses to âSelect'? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
                     <div class="card-body"> The most common way is in a WMI Query Language (WQL) statement. In this
-technique Wmiobject uses ‘-query’ to introduce a classic ‘Select * from’ a phrase
-The second context for ‘Select’ in PowerShell is Select-String. This cmdlet checks for a
+technique Wmiobject uses â-queryâ to introduce a classic âSelect * fromâ a phrase
+The second context for âSelectâ in PowerShell is Select-String. This cmdlet checks for a
 word, phrase or any pattern match
 Another way is Select Object
                      </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='PowerShellTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='PowerShellTheory3.jsp'>3</a>
+				<a class='page next' href='PowerShellTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

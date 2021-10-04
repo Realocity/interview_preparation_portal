@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>XML Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -58,7 +57,7 @@ It is extensible, and it specifies that structural rules of tags
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is XML DOM Document? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> XML Document object represents the whole XML document, and it is the root of a document tree. It gives access to entire XML document – Nodes and Elements, and it has its own properties.  </div>
+                    <div class="card-body"> XML Document object represents the whole XML document, and it is the root of a document tree. It gives access to entire XML document â Nodes and Elements, and it has its own properties.  </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -119,7 +118,7 @@ White space is preserved
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is XML Element? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question9" class="collapse show" style="">
-                    <div class="card-body">An XML document contains XML Elements, and it starts from an element’s start tag to end tag. It can contain:
+                    <div class="card-body">An XML document contains XML Elements, and it starts from an elementâs start tag to end tag. It can contain:
 Other elements within main element
 An Attribute
 text
@@ -133,7 +132,7 @@ text
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is CDATA?	 <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body">CDATA is unparsed character data that cannot be parsed by the XML parser. Character &lt; and > are illegal in XML elements. CDATA section starts with &lt;![CDATA[“ and end with “]]>”.  </div>
+                    <div class="card-body">CDATA is unparsed character data that cannot be parsed by the XML parser. Character &lt; and > are illegal in XML elements. CDATA section starts with &lt;![CDATA[â and end with â]]>â.  </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -173,7 +172,7 @@ text
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>Who is responsible for XML?  <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
-                    <div class="card-body"> XML is a recommendation of the W3C – World Wide Web Consortium and the development are supervised by XML working group. </div>
+                    <div class="card-body"> XML is a recommendation of the W3C â World Wide Web Consortium and the development are supervised by XML working group. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -198,7 +197,7 @@ Data types of elements and attributes
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is well formed XML document? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question16" class="collapse show" style="">
-                    <div class="card-body"> A well-formed XML document must follow the following rules  –
+                    <div class="card-body"> A well-formed XML document must follow the following rules  â
 Every start tag should end with an end tag
 XML tags are case sensitive
 Empty tags are necessary to close with a forward slash
@@ -252,12 +251,29 @@ Generate dynamic content by applying different style sheets
                     <div class="card-body"> &lt;, > and & are the special characters used in XML. Because these characters are used for making tags. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='xmlTheory2.jsp'>2</a>
+				
+				<a class='page next' href='xmlTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

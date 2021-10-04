@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Angular Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -46,9 +45,9 @@ Angular integrates a range of features like declarative templates, dependency in
                 </div>
                 <div id="question3" class="collapse show" style="">
                     <div class="card-body"> There are several features of Angular that make it an ideal front end JavaScript framework. Most important of them are described as follows:
-•	Accessibility Applications
+<br>⦿	Accessibility Applications
 Angular allows creating accessible applications using ARIA-enabled components, built-in a11y test infrastructure, and developer guides.
-•	Angular CLI
+<br>⦿	Angular CLI
 Angular provides support for command-line interface tools. These tools can be used for adding components, testing, instant deploying, etc.
                      </div>
                 </div>
@@ -217,7 +216,7 @@ Here is a detailed post on Angular 7 - JWT Authentication Example & Tutorial: ht
                 </div>
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body">Angular organizes the $scope objects into a hierarchy that is typically used by views. This is known as the scope hierarchy in Angular. It has a root scope that can further contain one or several scopes called child scopes.
-In a scope hierarchy, each view has its own $scope. Hence, the variables set by a view’s view controller will remain hidden to other view controllers. Following is a typical representation of a Scope Hierarchy:
+In a scope hierarchy, each view has its own $scope. Hence, the variables set by a viewas view controller will remain hidden to other view controllers. Following is a typical representation of a Scope Hierarchy:
                       </div>
                 </div>
             </div>
@@ -230,11 +229,11 @@ In a scope hierarchy, each view has its own $scope. Hence, the variables set by 
                 <div id="question16" class="collapse show" style="">
                     <div class="card-body"> Following are the various notable differences between Angular and Backbone.js
 	Architecture
-Backbone.js makes use of the MVP architecture and doesn’t offer any data binding process. Angular, on the contrary, works on the MVC architecture and makes use of two-way data binding for driving application activity.
+Backbone.js makes use of the MVP architecture and doesnat offer any data binding process. Angular, on the contrary, works on the MVC architecture and makes use of two-way data binding for driving application activity.
 	Community Support
 Being backed by Google greatly ups the community support received by the Angular framework. Also, extensive documentation is available. Although Backbone.js has a good level of community support, it only documents on Underscore.js templates, not much else.
 	Data Binding
-Angular uses two-way data binding process and thus is a bit complex. Backbone.js, on the contrary, doesn’t have any data binding process and thus, has a simplistic API.
+Angular uses two-way data binding process and thus is a bit complex. Backbone.js, on the contrary, doesnat have any data binding process and thus, has a simplistic API.
                      </div>
                 </div>
             </div>
@@ -257,11 +256,11 @@ Angular uses two-way data binding process and thus is a bit complex. Backbone.js
                 <div id="question18" class="collapse show" style="">
                     <div class="card-body"> Various differences between Angular and AngularJS are stated as follows:
 	Architecture - AngularJS supports the MVC design model. Angular relies on components and directives instead
-	Dependency Injection (DI) - Angular supports a hierarchical Dependency Injection with unidirectional tree-based change detection. AngularJS doesn’t support DI
+	Dependency Injection (DI) - Angular supports a hierarchical Dependency Injection with unidirectional tree-based change detection. AngularJS doesnat support DI
 	Expression Syntax - In AngularJS, a specific ng directive is required for the image or property and an event. Angular, on the other hand, use () and [] for blinding an event and accomplishing property binding, respectively
-	Mobile Support - AngularJS doesn’t have mobile support while Angular does have
+	Mobile Support - AngularJS doesnat have mobile support while Angular does have
 	Recommended Language - While JavaScript is the recommended language for AngularJS, TypeScript is the recommended language for Angular
-	Routing - For routing, AngularJS uses $routeprovider.when() whereas Angular uses @RouteConfig{(…)}
+	Routing - For routing, AngularJS uses $routeprovider.when() whereas Angular uses @RouteConfig{(a¦)}
 	Speed - The development effort and time are reduced significantly thanks to support for two-way data binding in AngularJS. Nonetheless, Angular is faster thanks to upgraded features
 	Structure - With a simplified structure, Angular makes the development and maintenance of large applications easier. Comparatively, AngularJS has a less manageable structure
 	Support - No official support or updates are available for the AngularJS. On the contrary, Angular has active support with updates rolling out every now and then
@@ -276,10 +275,10 @@ Angular uses two-way data binding process and thus is a bit complex. Backbone.js
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> There are essentially 9 building blocks of an Angular application. These are:
-1.	Components – A component controls one or more views. Each view is some specific section of the screen. Every Angular application has at least one component, known as the root component. It is bootstrapped inside the main module, known as the root module. A component contains application logic defined inside a class. This class is responsible for interacting with the view via an API of properties and methods.
-2.	Data Binding – The mechanism by which parts of a template coordinates with parts of a component is known as data binding. In order to let Angular know how to connect both sides (template and its component), the binding markup is added to the template HTML.
-3.	Dependency Injection (DI) – Angular makes use of DI to provide required dependencies to new components. Typically, dependencies required by a component are services. A component’s constructor parameters tell Angular about the services that a component requires. So, a dependency injection offers a way to supply fully-formed dependencies required by a new instance of a class.
-4.	Directives – The templates used by Angular are dynamic in nature. Directives are responsible for instructing Angular about how to transform the DOM when rendering a template. Actually, components are directives with a template. Other types of directives are attribute and structural directives.
+1.	Components a A component controls one or more views. Each view is some specific section of the screen. Every Angular application has at least one component, known as the root component. It is bootstrapped inside the main module, known as the root module. A component contains application logic defined inside a class. This class is responsible for interacting with the view via an API of properties and methods.
+2.	Data Binding a The mechanism by which parts of a template coordinates with parts of a component is known as data binding. In order to let Angular know how to connect both sides (template and its component), the binding markup is added to the template HTML.
+3.	Dependency Injection (DI) a Angular makes use of DI to provide required dependencies to new components. Typically, dependencies required by a component are services. A component's constructor parameters tell Angular about the services that a component requires. So, a dependency injection offers a way to supply fully-formed dependencies required by a new instance of a class.
+4.	Directives a The templates used by Angular are dynamic in nature. Directives are responsible for instructing Angular about how to transform the DOM when rendering a template. Actually, components are directives with a template. Other types of directives are attribute and structural directives.
                      </div>
                 </div>
             </div>
@@ -293,8 +292,8 @@ Angular uses two-way data binding process and thus is a bit complex. Backbone.js
                     <div class="card-body"> The single biggest difference between Angular and jQuery is that while the former is a JS frontend framework, the latter is a JS library. Despite this, there are some similarities between the two, such as both features DOM manipulation and provides support for animation.
 Nonetheless, notable differences between Angular and jQuery are:
 	Angular has two-way data binding, jQuery does not
-	Angular provides support for RESTful API while jQuery doesn’t
-	jQuery doesn’t offer deep linking routing though Angular supports it
+	Angular provides support for RESTful API while jQuery doesnat
+	jQuery doesnat offer deep linking routing though Angular supports it
 	There is no form validation in jQuery whereas it is present in Angular
                      </div>
                 </div>
@@ -304,7 +303,20 @@ Nonetheless, notable differences between Angular and jQuery are:
             </div>
         </div>
     </div>
-
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="AngularTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="AngularTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="AngularTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="AngularTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
 <br><br>
 <%@ include file="/common/footer.jsp" %></div>
 <!-- Optional JavaScript -->

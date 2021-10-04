@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Visual Basic Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,7 +22,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is Metadata? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body"> Metadata is termed as “Data about content of the data” and it is found in the catalog of libraries. Practically, it is used at back side of book to see the necessary topic. </div>
+                    <div class="card-body"> Metadata is termed as âData about content of the dataâ and it is found in the catalog of libraries. Practically, it is used at back side of book to see the necessary topic. </div>
                 </div>
             </div>
                  <div class="card mb-2 w-100">
@@ -57,8 +56,8 @@
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body"> JIT is termed as Just in Time compiler which is used as a part of runtime execution environment. There are three types of JIT and they are:
 
-Pre-JIT – Compiles at the time of deployment of an application Econo-JIT – Compiles called methods at runtime
-Normal JIT – Compiles called methods at runtime and they get compiled first time when called
+Pre-JIT â Compiles at the time of deployment of an application Econo-JIT â Compiles called methods at runtime
+Normal JIT â Compiles called methods at runtime and they get compiled first time when called
                      </div>
                 </div>
             </div>
@@ -92,10 +91,10 @@ Strong name has solved the problem of creating different object with same name a
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are the different types of assembly? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> There are two types of assembly –
+                    <div class="card-body"> There are two types of assembly â
 
-Private – A private assembly is normally used by a single application and it is stored in application’s directory.
-Public – A public assembly or shared assembly is stored in Global Assembly Cache(GAC) which can be shared by many applications
+Private â A private assembly is normally used by a single application and it is stored in applicationâs directory.
+Public â A public assembly or shared assembly is stored in Global Assembly Cache(GAC) which can be shared by many applications
                      </div>
                 </div>
             </div>
@@ -207,8 +206,8 @@ Garbage collection is also known as automatic memory management, which is used f
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> There are three types of generations in garbage collector.
 
-Generation 0 – This identifies a newly created object that has been never marked for collection. Generation 1 – This identifies an object which has been marked as collection but not removed.
-Generation 2 – This identifies an object that has survived more than one sweep of the Garbage collector.
+Generation 0 â This identifies a newly created object that has been never marked for collection. Generation 1 â This identifies an object which has been marked as collection but not removed.
+Generation 2 â This identifies an object that has survived more than one sweep of the Garbage collector.
                      </div>
                 </div>
             </div>
@@ -242,12 +241,29 @@ Generation 2 – This identifies an object that has survived more than one sweep
                     <div class="card-body"> Int32 represent 32-bit signed integer whereas int is not a keyword used in VB.Net. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='VisualBAsicTheory2.jsp'>2</a>
+				<a class='page' href='VisualBAsicTheory3.jsp'>3</a>
+				<a class='page next' href='VisualBAsicTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

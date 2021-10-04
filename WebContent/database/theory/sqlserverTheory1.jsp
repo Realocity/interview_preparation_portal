@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -23,9 +22,9 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are the two authentication modes in SQL Server? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question1" class="collapse show" style="">
-                    <div class="card-body"> There are two authentication modes –
-• Windows Mode
-• Mixed Mode
+                    <div class="card-body"> There are two authentication modes â
+<br>⦿ Windows Mode
+<br>⦿ Mixed Mode
 Modes can be changed by selecting the tools menu of SQL Server configuration properties and choose security page. </div>
                 </div>
             </div>
@@ -57,7 +56,7 @@ DECLARE @In Integer
 DECLARE @Out Integer
 IF @Number != 1
 BEGIN
-SELECT @In = @Number – 1
+SELECT @In = @Number â 1
 EXEC Fact @In, @Out OUTPUT - Same stored procedure has been called again(Recursively)
 SELECT @RetVal = @Number * @Out
 END
@@ -78,7 +77,7 @@ GO</div>
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body"> Local temporary tables are visible when there is a connection, and are deleted when the connection is closed.
 CREATE TABLE #<tablename>
-• Global temporary tables are visible to all users, and are deleted when the connection that created it is closed.
+<br>⦿ Global temporary tables are visible to all users, and are deleted when the connection that created it is closed.
 CREATE TABLE ##<tablename> </div>
                 </div>
             </div>
@@ -110,10 +109,10 @@ CREATE TABLE ##<tablename> </div>
                 </div>
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> A sub-query is a query which can be nested inside a main query like Select, Update, Insert or Delete statements. This can be used when expression is allowed. Properties of sub query can be defined as
-• A sub query should not have order by clause
-• A sub query should be placed in the right hand side of the comparison operator of the main query
-• A sub query should be enclosed in parenthesis because it needs to be executed first before the main query
-• More than one sub query can be included </div>
+<br>⦿ A sub query should not have order by clause
+<br>⦿ A sub query should be placed in the right hand side of the comparison operator of the main query
+<br>⦿ A sub query should be enclosed in parenthesis because it needs to be executed first before the main query
+<br>⦿ More than one sub query can be included </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -123,10 +122,10 @@ CREATE TABLE ##<tablename> </div>
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are the types of sub query? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> There are three types of sub query –
-• Single row sub query which returns only one row
-• Multiple row sub query which returns multiple rows
-• Multiple column sub query which returns multiple columns to the main query. With that sub query result, Main query will be executed. </div>
+                    <div class="card-body"> There are three types of sub query â
+<br>⦿ Single row sub query which returns only one row
+<br>⦿ Multiple row sub query which returns multiple rows
+<br>⦿ Multiple column sub query which returns multiple columns to the main query. With that sub query result, Main query will be executed. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -136,7 +135,7 @@ CREATE TABLE ##<tablename> </div>
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is SQL server agent? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question9" class="collapse show" style="">
-                    <div class="card-body"> The SQL Server agent plays a vital role in day to day tasks of SQL server administrator(DBA). Server agent’s purpose is to implement the tasks easily with the scheduler engine which allows our jobs to run at scheduled date and time. </div>
+                    <div class="card-body"> The SQL Server agent plays a vital role in day to day tasks of SQL server administrator(DBA). Server agentâs purpose is to implement the tasks easily with the scheduler engine which allows our jobs to run at scheduled date and time. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -157,7 +156,7 @@ CREATE TABLE ##<tablename> </div>
                 </div>
                 <div id="question11" class="collapse show" style="">
                     <div class="card-body">  COALESCE is used to return first non-null expression within the arguments. This function is used to return a non-null from more than one column in the arguments.
-Example –
+Example â
 Select COALESCE(empno, empname, salary) from employee;</div>
                 </div>
             </div>
@@ -202,7 +201,7 @@ Returns 6. </div>
                 </div>
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> SIGN function is used to determine whether the number specified is Positive, Negative and Zero. This will return +1,-1 or 0.
-Example –
+Example â
 SIGN(-35) returns -1 </div>
                 </div>
             </div>
@@ -224,10 +223,10 @@ SIGN(-35) returns -1 </div>
                 </div>
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> There are four types of triggers and they are:
-• Insert
-• Delete
-• Update
-• Instead of </div>
+<br>⦿ Insert
+<br>⦿ Delete
+<br>⦿ Update
+<br>⦿ Instead of </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -258,15 +257,31 @@ SIGN(-35) returns -1 </div>
                 </div>
                 <div id="question20" class="collapse show" style="">
                     <div class="card-body">  Query to get the list of triggers in database-
-Select * from sys.objects where type=’tr’</div>
+Select * from sys.objects where type=âtrâ</div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='sqlserverTheory2.jsp'>2</a>
+				<a class='page' href='sqlserverTheory3.jsp'>3</a>
+				<a class='page next' href='sqlserverTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

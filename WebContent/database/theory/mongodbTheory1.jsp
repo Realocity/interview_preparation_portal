@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -30,7 +29,7 @@
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question2">
-                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is “Namespace” in MongoDB? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is âNamespaceâ in MongoDB? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
                     <div class="card-body"> MongoDB stores BSON (Binary Interchange and Structure Object Notation) objects in the collection. The concatenation of the collection name and database name is called a namespace. </div>
@@ -53,7 +52,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How can you see the connection used by Mongos? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body">  To see the connection used by Mongos use db_adminCommand (“connPoolStats”);</div>
+                    <div class="card-body">  To see the connection used by Mongos use db_adminCommand (âconnPoolStatsâ);</div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -101,10 +100,10 @@ Do complex aggregation in the schema
                 <div id="question8" class="collapse show" style="">
                     <div class="card-body"> A NoSQL database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases (like SQL, Oracle, etc.).
 Types of NoSQL databases:
-•	Document Oriented
-•	Key Value
-•	Graph
-•	Column Oriented
+<br>⦿	Document Oriented
+<br>⦿	Key Value
+<br>⦿	Graph
+<br>⦿	Column Oriented
                      </div>
                 </div>
             </div>
@@ -117,10 +116,10 @@ Types of NoSQL databases:
                 <div id="question9" class="collapse show" style="">
                     <div class="card-body">  MongoDB is a document oriented database. It stores data in the form of BSON structure based documents. These documents are stored in a collection.
 Which are the most important features of MongoDB?
-•	Flexible data model in form of documents
-•	Agile and highly scalable database
-•	Faster than traditional databases
-•	Expressive query language
+<br>⦿	Flexible data model in form of documents
+<br>⦿	Agile and highly scalable database
+<br>⦿	Faster than traditional databases
+<br>⦿	Expressive query language
                     </div>
                 </div>
             </div>
@@ -212,10 +211,10 @@ Which are the most important features of MongoDB?
                 </div>
                 <div id="question18" class="collapse show" style="">
                     <div class="card-body"> ObjectID is a 12-byte BSON type with:
-•	4 bytes value representing seconds
-•	3 byte machine identifier
-•	2 byte process id
-•	3 byte counter
+<br>⦿	4 bytes value representing seconds
+<br>⦿	3 byte machine identifier
+<br>⦿	2 byte process id
+<br>⦿	3 byte counter
                      </div>
                 </div>
             </div>
@@ -243,12 +242,28 @@ db.persons.insert({ name:"kadhir",dept:"CSE"})
                      </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='mongodbTheory2.jsp'>2</a>
+				<a class='page' href='mongodbTheory3.jsp'>3</a>
+				<a class='page next' href='mongodbTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

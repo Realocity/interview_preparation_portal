@@ -239,7 +239,15 @@ To take advantage of other web server plug-ins and features including SSL and se
                     <div class="card-body"> FileMaker Pro 5.5 Unlimited in Worldwide English, French, Italian, German, Swedish, Dutch, Japanese and Spanish.</div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                <span class="page current">1</span>
+				<a class='page' href='filemakerTheory2.jsp'>2</a>
+				<a class='page next' href='filemakerTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

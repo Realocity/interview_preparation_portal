@@ -1,26 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<title>java 8</title>
 </head>
-
 <body>
-
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Among these expressions, which is(are) of type String?</p>
         <div class="options py-3">
-         <label class="rounded p-2 option"> “0” <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> “ab” + “cd”<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> ‘0’ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+         <label class="rounded p-2 option"> a0a <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> aaba + acda<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> a0a <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Both (A) and (B) above  <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
        
     </div> 
@@ -53,7 +51,7 @@ Color.red </stylesheet> <input type="radio" name="radio"> <span class="checkmark
     </div> 
      <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is printed by the following statement?
-System.out.print(“Hello,\nworld!”); </p>
+System.out.print(aHello,\nworld!a); </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Hello, \nworld! <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Hello, world! <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -65,16 +63,16 @@ System.out.print(“Hello,\nworld!”); </p>
         <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Consider the two methods (within the same class)
 public static int foo(int a, String s)
 {
-s = “Yellow”;
+s = aYellowa;
 a=a+2;
 return a;
 }
 public static void bar()
 {
 int a=3;
-String s = “Blue”;
+String s = aBluea;
 a = foo(a,s);
-System.out.println(“a=”+a+” s=”+s);
+System.out.println(aa=a+a+a s=a+s);
 }
 public static void main(String args[])
 {
@@ -101,7 +99,7 @@ public class MyClass
 {
 private int value;
 public void setValue(int i){ / code / }
-// Other methods…
+// Other methodsa¦
 }
 The method setValue assigns the value of i to the instance field value. What could you write for the implementation of setValue?
          </p>
@@ -132,7 +130,7 @@ The method setValue assigns the value of i to the instance field value. What cou
 public class MyClass
 {
 public MyClass(){/code/}
-// more code…
+// more codea¦
 }
 To instantiate MyClass, you would write?</p>
         <div class="options py-3"> 
@@ -143,16 +141,27 @@ To instantiate MyClass, you would write?</p>
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">1</span>
-				<a class='page' href='/mcq/html-programming-questions-answers/page/2/'>2</a>
+     <div><span class="page current">8</span>
+				<a class='page' href='java7.jsp'>7</a>
 				
-				<a class='page' href='/mcq/html-programming-questions-answers/page/3/'>3</a>
-				<a class='page next' href='/mcq/html-programming-questions-answers/page/2/' title='Next'>&raquo;</a>
+				<a class='page' href='java9.jsp'>9</a>
+				<a class='page next' href='java9.jsp' title='Next'>&raquo;</a>
 				</div>
 				</div>
 				<center>
 </div>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

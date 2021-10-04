@@ -222,10 +222,22 @@
                     <div class="card-body">  Page Space refers to either to an unpartitioned table, to an index space, or to a single partition of a partitioned table of index space.</div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                <span class="page current">1</span>
+				<a class='page' href='ibmdb2Theory2.jsp'>2</a>
+				<a class='page' href='ibmdb2Theory3.jsp'>3</a>
+				
+				<a class='page next' href='ibmdb2Theory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
            
             </div>
+            
         </div>
+        
     </div>
 
 <br><br>

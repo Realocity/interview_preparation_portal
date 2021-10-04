@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
+
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -55,10 +55,10 @@
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body">  The server can be started from the command line.
 Following steps explain the process:
-•	Click on the Windows Start icon present at the bottom-left part of the desktop screen.
-•	Type command or cmd in the Windows Start menu and press Enter to open a command prompt.
-•	Change the directory up to the bin folder of the Elasticsearch folder that got created after it has been installed.
-•	Type /Elasticsearch.bat and press Enter to start the Elasticsearch server.
+<br>⦿	Click on the Windows Start icon present at the bottom-left part of the desktop screen.
+<br>⦿	Type command or cmd in the Windows Start menu and press Enter to open a command prompt.
+<br>⦿	Change the directory up to the bin folder of the Elasticsearch folder that got created after it has been installed.
+<br>⦿	Type /Elasticsearch.bat and press Enter to start the Elasticsearch server.
 This will start Elasticsearch on command prompt in the background. Further open browser and enter http://localhost:9200 and press enter. This should display the Elasticsearch cluster name and other meta value related to its database.
                     </div>
                 </div>
@@ -71,18 +71,18 @@ This will start Elasticsearch on command prompt in the background. Further open 
                 </div>
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body">  Following are the list of some companies that use Elasticsearch along with Logstash and Kibana:
-•	Uber
-•	Instacart
-•	Slack
-•	Shopify
-•	Stack Overflow
-•	DigitalOcean
-•	Udemy
-•	9GAG
-•	Wikipedia
-•	Netflix
-•	Accenture
-•	Fujitsu
+<br>⦿	Uber
+<br>⦿	Instacart
+<br>⦿	Slack
+<br>⦿	Shopify
+<br>⦿	Stack Overflow
+<br>⦿	DigitalOcean
+<br>⦿	Udemy
+<br>⦿	9GAG
+<br>⦿	Wikipedia
+<br>⦿	Netflix
+<br>⦿	Accenture
+<br>⦿	Fujitsu
                     </div>
                 </div>
             </div>
@@ -105,10 +105,10 @@ This will start Elasticsearch on command prompt in the background. Further open 
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> A node is an instance of Elasticsearch. Different node types are Data nodes, Master nodes, Client nodes and Ingest nodes.
 These are explained as follows:
-•	Data nodes hold data and perform an operation such as CRUD (Create/Read/Update/Delete), search and aggregations on data.
-•	Master nodes help in configuration and management to add and remove nodes across the cluster.
-•	Client nodes send cluster requests to the master node and data-related requests to data nodes,
-•	Ingest nodes for pre-processing documents before indexing.
+<br>⦿	Data nodes hold data and perform an operation such as CRUD (Create/Read/Update/Delete), search and aggregations on data.
+<br>⦿	Master nodes help in configuration and management to add and remove nodes across the cluster.
+<br>⦿	Client nodes send cluster requests to the master node and data-related requests to data nodes,
+<br>⦿	Ingest nodes for pre-processing documents before indexing.
                       </div>
                 </div>
             </div>
@@ -240,7 +240,7 @@ GET <index_name>/_doc/<_id>
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> When you search on the internet about say, Apple. It could either display the search results about fruit or company with name as an Apple. You may want to buy fruit online, check the recipe from the fruit or health benefits of eating fruit, apple.
-In contrast, you may want to check Apple.com to find the latest product range offered by the company, check Apple Inc.’s stock prices and how a company is performing in NASDAQ in the last 6 months, 1 or 5 years.
+In contrast, you may want to check Apple.com to find the latest product range offered by the company, check Apple Inc.âs stock prices and how a company is performing in NASDAQ in the last 6 months, 1 or 5 years.
 Similarly, when we search for a document (a record) from Elasticsearch, you are interested in getting the relevant information that you are looking for. Based on the relevance, the probability of getting the relevant information is calculated by the Lucene scoring algorithm.
 The Lucene technology helps to search a particular record i.e. document which is indexed based on the frequency of the term in search appearing in the document, how often its appearance across an index and query which is designed using various parameters.
 </div>
@@ -254,18 +254,34 @@ The Lucene technology helps to search a particular record i.e. document which is
                 </div>
                 <div id="question20" class="collapse show" style="">
                     <div class="card-body">  Mentioned below are the various possible ways in which we can perform a search in Elasticsearch:
-•	Applying search API across multiple types and multiple indexes: Search API, we can search an entity across multiple types and indices.
-•	Search request using a Uniform Resource Identifier: We can search requests using parameters along with URI i.e. Uniform Resource Identifier.
-•	Search using Query DSL i.e. (Domain Specific Language) within the body: DSL i.e. Domain Specific Language is utilized for JSON request body.
+<br>⦿	Applying search API across multiple types and multiple indexes: Search API, we can search an entity across multiple types and indices.
+<br>⦿	Search request using a Uniform Resource Identifier: We can search requests using parameters along with URI i.e. Uniform Resource Identifier.
+<br>⦿	Search using Query DSL i.e. (Domain Specific Language) within the body: DSL i.e. Domain Specific Language is utilized for JSON request body.
                     </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='elasticsearchTheory2.jsp'>2</a>
+				<a class='page' href='elasticsearchTheory3.jsp'>3</a>
+				<a class='page next' href='elasticsearchTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

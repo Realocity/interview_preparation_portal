@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Cypress Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -34,17 +33,17 @@
                 </div>
                 <div id="question2" class="collapse show" style="">
                     <div class="card-body"> Cypress is initiated from the Test Runner and it supports the following browsers:
-•	Chrome 80
-•	Edge 79
-•	Edge Dev 81
-•	Edge Canary 81
-•	Edge Beta 80
-•	Electron 78
-•	Canary 82
-•	Firefox 72
-•	Firefox nightly 74
-•	Firefox dev edition 73
-•	Chromium 78
+a Chrome 80
+b Edge 79
+c Edge Dev 81
+d Edge Canary 81
+e Edge Beta 80
+f Electron 78
+g Canary 82
+h Firefox 72
+i Firefox nightly 74
+j Firefox dev edition 73
+k Chromium 78
 The supported browsers are shown on the top left corner of the test runner. The browser can be changed at any time by selecting the required ones from the drop-down list.
                      </div>
                 </div>
@@ -69,13 +68,13 @@ To run Electron within the CLI, it can be launched headlessly.
                 </div>
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body"> There are many advantages of cypress but below are some of the most interesting ones.
-•	Real-time reloads
-•	Debuggability
-•	Automatic waiting
-•	OpenSource Tool
-•	Fast response time
-•	Active community support
-•	Plugin ecosystem
+a	Real-time reloads
+a	Debuggability
+a	Automatic waiting
+a	OpenSource Tool
+a	Fast response time
+a	Active community support
+a	Plugin ecosystem
                      </div>
                 </div>
             </div>
@@ -88,10 +87,10 @@ To run Electron within the CLI, it can be launched headlessly.
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body"> Cypress test runner acts as an application, framework, service all packed into a single tool. It supports other testing tools available and improves their overall performance.
 The other tools are: 
-•	Mocha
-•	Karma
-•	Capybara
-•	Protractor
+a	Mocha
+a	Karma
+a	Capybara
+a	Protractor
                      </div>
                 </div>
             </div>
@@ -164,17 +163,17 @@ npm install cypress
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What can you do within the cypress dashboard? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question12" class="collapse show" style="">
-                    <div class="card-body"> you’ll be able to do the following things form the dashboard:
-•	Setting up a project to record
-•	add or reset record keys
-•	control who all can access the project
-•	provide ownership of the project to others.
-•	delete project
-•	see the test results whether it is passed, failed, pending or skipped.
-•	manage runs by cancelling while in progress and archive them if in cancelled or error state.
-•	Manage organizations by creating, editing and deleting them.
-•	Manage user roles.
-•	Integrate with applications like GitHub, Slack, etc.
+                    <div class="card-body"> youall be able to do the following things form the dashboard:
+a	Setting up a project to record
+a	add or reset record keys
+a	control who all can access the project
+a	provide ownership of the project to others.
+a	delete project
+a	see the test results whether it is passed, failed, pending or skipped.
+a	manage runs by cancelling while in progress and archive them if in cancelled or error state.
+a	Manage organizations by creating, editing and deleting them.
+a	Manage user roles.
+a	Integrate with applications like GitHub, Slack, etc.
                      </div>
                 </div>
             </div>
@@ -206,8 +205,8 @@ npm install cypress
                 </div>
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> There are two reporters that are built alongside mocha, they are:
-•	Teamcity
-•	Junit
+a	Teamcity
+a	Junit
                      </div>
                 </div>
             </div>
@@ -248,31 +247,31 @@ cy.get("CSS selector").check(values, options)
                 </div>
                 <div id="question18" class="collapse show" style="">
                     <div class="card-body">  PROS of cypress
-•	Open-source
-•	Great documentation
-•	Simple usage
-•	Fast
-•	Cross-Browser testing
-•	Easy use with CI
-•	Npm install cypress only
+a	Open-source
+a	Great documentation
+a	Simple usage
+a	Fast
+a	Cross-Browser testing
+a	Easy use with CI
+a	Npm install cypress only
 CONS of Cypress
-•	Cypress is weak at cross-browser testing
-•	Switch tabs: Cypress can't support
-•	No multiple domain support
-•	No XPath support
-•	Cypress doesn't support native app
-•	No support for multiple tab control
-•	Re-run failed tests retries not supported yet
-•	No iFrame support
-•	No page object support
-•	No file upload support
-•	No support for multiple browser control
+a	Cypress is weak at cross-browser testing
+a	Switch tabs: Cypress can't support
+a	No multiple domain support
+a	No XPath support
+a	Cypress doesn't support native app
+a	No support for multiple tab control
+a	Re-run failed tests retries not supported yet
+a	No iFrame support
+a	No page object support
+a	No file upload support
+a	No support for multiple browser control
 Pros of protractor
-•	Easy setup
-•	Quick tests implementation
-•	Open-source
-•	Promise support
-•	Flexible
+a	Easy setup
+a	Quick tests implementation
+a	Open-source
+a	Promise support
+a	Flexible
                     </div>
                 </div>
             </div>
@@ -308,6 +307,27 @@ cy.get().rightclick()
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="cypressTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="cypressTheory2.jsp">2</a></li>
+    
+    <li class="page-item">
+      <a class="page-link" href="cypressTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

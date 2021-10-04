@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Flask Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -35,7 +34,7 @@ Flask is created by Armin Ronacher and is developed as a part of the Pallets Pro
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Is the Flask framework open source? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> Yes, the Flask framework is open-source. The source code of the Flask framework is available here . It is released under the BSD-3 Clause “New” or “Revised” License. </div>
+                    <div class="card-body"> Yes, the Flask framework is open-source. The source code of the Flask framework is available here . It is released under the BSD-3 Clause âNewâ or âRevisedâ License. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -71,7 +70,7 @@ Once installed, then we need to use Flask Config API to configure MAIL-SERVER, M
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is WSGI? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question5" class="collapse show" style="">
-                    <div class="card-body"> WSGI stands for the Web Server Gateway Interface. It is a Python standard defined in PEP 3333. WSGI is pronounced as “Whiskey.” It is a specification that describes how a web server communicates with a web application. </div>
+                    <div class="card-body"> WSGI stands for the Web Server Gateway Interface. It is a Python standard defined in PEP 3333. WSGI is pronounced as âWhiskey.â It is a specification that describes how a web server communicates with a web application. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -101,7 +100,7 @@ Once installed, then we need to use Flask Config API to configure MAIL-SERVER, M
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How to install Flask on Linux? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> On Linux, Flask can be installed using Python’s package manager, pip.
+                    <div class="card-body"> On Linux, Flask can be installed using Pythonâs package manager, pip.
 Use the below command to install Flask.
 pip install Flask
                      </div>
@@ -137,7 +136,7 @@ Sijax stands for Simple Ajax. Once configured and initialized, it enables the us
                 </div>
                 <div id="question11" class="collapse show" style="">
                     <div class="card-body"> As a result of the Flask installation, we also get access to a command-line application called Flask. There are various commands that we can use.
-Use Flask –help on the command line to see all the options. Default commands are routes, run, and shell. This utility provides commands from Flask, extensions, and the application.
+Use Flask âhelp on the command line to see all the options. Default commands are routes, run, and shell. This utility provides commands from Flask, extensions, and the application.
                      </div>
                 </div>
             </div>
@@ -209,7 +208,7 @@ However, Flask developers generally make use of Flask-SQLAlchemy, which eliminat
                 </div>
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body">  A template is a file that contains two types of data, i.e., static and dynamic. Dynamic data in a template is populated during run time. Flask makes use of Jinja2 template engine to let developers create HTML templates with placeholders for dynamic data.
-These placeholders can be filled during run time by using Flask’s render_template method with required parameters and values.
+These placeholders can be filled during run time by using Flaskâs render_template method with required parameters and values.
                     </div>
                 </div>
             </div>
@@ -234,7 +233,7 @@ This attribute of Flask makes it a bit unique and provides a lot of convenience 
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> Django is also a web development framework created in the Python programming language. It is a full-featured web application framework with a lot of features that are built into it, such as an Admin backend, and an ORM with migration capability. It is a little bit older and more mature.
 Flask is better for quick development use cases and is perfect for prototyping. Django has inspired even some Flask extensions that are written. Flask is more suitable for developing lightweight web applications that do not require a large codebase. It is apt for developing microservices or serverless applications.
-Flask is easy to learn and has fewer API’s when compared to Django. As the industry is following the trends towards microservices served as part of containers, it is excellent to keep Flask in your web development toolkit.
+Flask is easy to learn and has fewer APIâs when compared to Django. As the industry is following the trends towards microservices served as part of containers, it is excellent to keep Flask in your web development toolkit.
                      </div>
                 </div>
             </div>
@@ -256,6 +255,27 @@ Flask-WTF also provides reCAPTCHA support along with file uploads when tied with
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="FlaskTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

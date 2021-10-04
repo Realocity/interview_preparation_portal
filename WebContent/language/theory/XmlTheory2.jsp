@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>XML Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -56,8 +55,8 @@
                     <div class="card-body"> Benefits of XML are
 Simple to read and understand
 XML can be done with a text editor
-Extensibility – No fixed tags
-Self – descriptive
+Extensibility â No fixed tags
+Self â descriptive
 Can embed multiple data types
                      </div>
                 </div>
@@ -169,7 +168,7 @@ Color code on XML Syntax
                 <div id="question14" class="collapse show" style="">
                     <div class="card-body"> A simple element contain only text and following are the kinds of Simple Element:
 No attributes
-Doesn’t contain other elements
+Doesnât contain other elements
 It cannot be empty
                      </div>
                 </div>
@@ -207,9 +206,9 @@ It contain both other elements and text
                 </div>
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> XSL consists of three parts:
-XSLT – Used to transform XML documents
-XPath – Used for navigating in XML documents
-XSL-FO – Used for formatting XML documents
+XSLT â Used to transform XML documents
+XPath â Used for navigating in XML documents
+XSL-FO â Used for formatting XML documents
                      </div>
                 </div>
             </div>
@@ -230,7 +229,7 @@ XSL-FO – Used for formatting XML documents
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What are the types of XML Parsers?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> There are two types of parsers – Non-Validating and Validating Parsers. Name itself implies Non-Validating will not validate the XML and Validating parser will validate the XML with DTD. </div>
+                    <div class="card-body"> There are two types of parsers â Non-Validating and Validating Parsers. Name itself implies Non-Validating will not validate the XML and Validating parser will validate the XML with DTD. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -243,12 +242,28 @@ XSL-FO – Used for formatting XML documents
                     <div class="card-body"> Yes, root element is required, and it can have only one root element in each XML. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='XmlTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

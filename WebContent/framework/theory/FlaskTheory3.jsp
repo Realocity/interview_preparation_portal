@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Flask Theory 3</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -59,7 +58,7 @@ Then use the hidden Werkzeug URL map and then register functions on a central UR
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body"> We can create structure of large Flask application by using following steps:
 attach to the functions and move them to different files.
-Use blueprints to assign the views to “categories”. For instance auth, profile, backend, etc.
+Use blueprints to assign the views to âcategoriesâ. For instance auth, profile, backend, etc.
 Use the underlying Werkzeug URL map and register functions on there on a central URL.
                      </div>
                 </div>
@@ -178,7 +177,7 @@ Or the path to a Python file
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Is A Thread-local Object In Flask? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question15" class="collapse show" style="">
-                    <div class="card-body"> Flask uses thread local objects internally so that user don’t have to pass objects around from function to function within a request in order to stay threadsafe. This approach is useful, but it requires a valid request context for dependency injection or when attempting to reuse code which uses a value pegged to the request. </div>
+                    <div class="card-body"> Flask uses thread local objects internally so that user donât have to pass objects around from function to function within a request in order to stay threadsafe. This approach is useful, but it requires a valid request context for dependency injection or when attempting to reuse code which uses a value pegged to the request. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -215,7 +214,7 @@ teardown_request(): They are called in situation when exception is raised, and r
                     <div class="card-body"> There are two ways you can enable debugging in Flask.
 Either set the flag on the application object
 OR pass it as a parameter to run
-If you enable debug support the server will reload itself when code changes and you don’t have to manually restart after each change to the code.
+If you enable debug support the server will reload itself when code changes and you donât have to manually restart after each change to the code.
                      </div>
                 </div>
             </div>
@@ -244,7 +243,28 @@ If you enable debug support the server will reload itself when code changes and 
             </div>
         </div>
     </div>
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+     <a class="page-link" href="FlaskTheory2.jsp">Previous</a>
+    </li>
+   <li class="page-item"><a class="page-link" href="FlaskTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="FlaskTheory3.jsp">3</a></li>
+    <li class="page-item">
+      
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 
 </body>
 </html>

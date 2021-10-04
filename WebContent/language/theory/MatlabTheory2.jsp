@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Matlab Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -101,7 +100,7 @@ Accumulate into the double solution: Compile your source code files using the MA
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How to call a function in MATLAB? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
-                    <div class="card-body"> A function in MATLAB can be called using the name you give to the function, but first it needs to be written in the New Script tab under the File Tab. You can simply call the function by writing the function’s name in the code area.
+                    <div class="card-body"> A function in MATLAB can be called using the name you give to the function, but first it needs to be written in the New Script tab under the File Tab. You can simply call the function by writing the functionâs name in the code area.
 >> function_name (in the work area)
                      </div>
                 </div>
@@ -123,7 +122,7 @@ Accumulate into the double solution: Compile your source code files using the MA
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How to run MATLAB code? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> NOTE:- Before running any code, make sure you save the respective code, so that your progress doesn’t fly away. Any code can run in MATLAB, once it’s saved, by using the Save and Run button in the home tab of MATLAB, or you can simply use the F5 key on your keyboard. </div>
+                    <div class="card-body"> NOTE:- Before running any code, make sure you save the respective code, so that your progress doesnât fly away. Any code can run in MATLAB, once itâs saved, by using the Save and Run button in the home tab of MATLAB, or you can simply use the F5 key on your keyboard. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -183,7 +182,7 @@ Following the steps, you can start to create a GUI in MATLAB.
                 </div>
                 <div id="question13" class="collapse show" style="">
                     <div class="card-body"> You can use this given example, or rather say syntax to plot a circle in MATLAB.
-Here is a MATLAB function that plots a circle with radius ‘r’ and locates the centre at the coordinates ‘x’ and ‘y’ :-
+Here is a MATLAB function that plots a circle with radius ârâ and locates the centre at the coordinates âxâ and âyâ :-
 function h = circle(x, y, r)
 hold on
 th = 0 : pi/50 : 2 * pi;
@@ -191,7 +190,7 @@ xunit = r * cos(th) + x;
 yunit = r * sin(th) + y;
 h = plot(xunit, yunit);
 hold off
-And you can run the code in the work space by typing the word ‘circle’ and the input conditions. 
+And you can run the code in the work space by typing the word âcircleâ and the input conditions. 
                      </div>
                 </div>
             </div>
@@ -209,7 +208,7 @@ And you can run the code in the work space by typing the word ‘circle’ and t
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question15"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> 	Classify the colors in ‘a*b*’ Space Using K-Means Clustering. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> 	Classify the colors in âa*b*â Space Using K-Means Clustering. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body">Clustering is a way to separate groups of objects. K-means clustering treats each object as having a location in space. It finds partitions such that objects within each cluster are as close to each other as possible, and as far from objects in other clusters as possible. K-means clustering requires that you specify the number of clusters to be partitioned and a distance metric to quantify how close two objects are to each other.
@@ -217,7 +216,7 @@ ab = lab_he(: , : , 2:3);
 ab = im2single(ab);
 nColors = 3;
 % repeat the clustering 3 times to avoid local minima
-pixel_labels = imsegkmeans( ab, nColors, ‘NumAttempts’, 3);
+pixel_labels = imsegkmeans( ab, nColors, âNumAttemptsâ, 3);
 For every object in your input, imsegkmeans returns an index, or a label, corresponding to a cluster. Label every pixel in the image with its pixel label.
                       </div>
                 </div>
@@ -234,12 +233,30 @@ Support vectors refer to a subset of the training observations that identify the
                      </div>
                 </div>
             </div>
-              
+              <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				
+				<a class='page' href='MatlabTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

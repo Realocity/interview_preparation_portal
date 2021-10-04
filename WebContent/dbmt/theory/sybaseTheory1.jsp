@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
     <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,9 +31,9 @@
                 <div id="question1" class="collapse show" style="">
                     <div class="card-body">  You can tell if a table has identities one of two ways:
 1. sp_help [tablename]: there is a field included in the sp_help output
-describing a table called âIdentity.â It is set to 1 for identity fields, 0 otherwise.
+describing a table called Identity. It is set to 1 for identity fields, 0 otherwise.
 2. Within a database, execute this query:
-o	 select object_name(id) âtableâ,name âcolumnâ, prec âprecisionâ
+o	 select object_name(id)  table ,name  column , prec  precision 
 o	 from syscolumns
 o	 where convert(bit, (status & 0x80)) = 1
 o	 go
@@ -260,7 +260,16 @@ Flexibility: Â¬This suite gives a greater flexibility to incorporate data from
                     <div class="card-body"> Open switch business software helps you to work on the back up system without any hassles making your primary database server secured. It gives you connectivity to the primary database from the secondary server even in the middle of the application. </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                <span class="page current">1</span>
+				<a class='page' href='sybaseTheory2.jsp'>2</a>
+				<a class='page' href='sybaseTheory3.jsp'>3</a>
+				<a class='page next' href='sybaseTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

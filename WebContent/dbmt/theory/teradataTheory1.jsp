@@ -222,8 +222,16 @@
                     <div class="card-body">  A channel driver is software that acts as a medium of communication between PEs and all the applications that are running on channels which are attached to the clients.</div>
                 </div>
             </div>
-            
-           
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                <span class="page current">1</span>
+				<a class='page' href='teradataTheory2.jsp'>2</a>
+				<a class='page' href='teradataTheory3.jsp'>3</a>
+				<a class='page next' href='teradataTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
             </div>
         </div>
     </div>

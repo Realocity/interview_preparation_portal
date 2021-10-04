@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Cobol Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -83,7 +82,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the application of EVALUATE statement? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> Evaluate is like a case statement. It can be used like Nested IFs. There is a difference between EVALUATE and case. In EVALUATE, ‘break’ is not used, and the control comes out of the EVALUATE once a match is found. </div>
+                    <div class="card-body"> Evaluate is like a case statement. It can be used like Nested IFs. There is a difference between EVALUATE and case. In EVALUATE, âbreakâ is not used, and the control comes out of the EVALUATE once a match is found. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -125,7 +124,7 @@ Object-Oriented COBOL is a natural way of programming. In this, programmers iden
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the application of LINKAGE SECTION? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question11" class="collapse show" style="">
-                    <div class="card-body"> The linkage section is used to pass data from one program to the other or pass data from a procedure to a program. It is part of a program that maps data items in the calling program’s working storage. </div>
+                    <div class="card-body"> The linkage section is used to pass data from one program to the other or pass data from a procedure to a program. It is part of a program that maps data items in the calling programâs working storage. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -190,9 +189,9 @@ Here, v stands for an implied decimal point.
                 </div>
                 <div id="question17" class="collapse show" style="">
                     <div class="card-body"> One must follow certain guidelines while writing COBOL. They are mentioned below:
-Using the ‘EVALUATE’ statement for constructing cases
+Using the âEVALUATEâ statement for constructing cases
 Using scope terminators for nesting
-Using in-line Perform statement for writing ‘do’ constructions
+Using in-line Perform statement for writing âdoâ constructions
 Using Test Before and Test After in the Perform statement while writing Do-While statements
                      </div>
                 </div>
@@ -232,12 +231,31 @@ ENVIRONMENT DIVISION
                     <div class="card-body"> Both SSRANGE and NOSSRANGE are options for a compiler to find the out-of-range subscript. NOSSRANGE is the default option wherein there will not be any run-time error if the index or subscript went out of a range. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='cobolTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='cobolTheory3.jsp'>3</a>
+				<a class='page next' href='cobolTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

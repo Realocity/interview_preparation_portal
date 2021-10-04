@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Corda Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -53,7 +52,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  Is Corda Permissioned?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> Unlike other popular platforms on the market, Corda is a fully permissioned blockchain, and every user in the network is known. That’s why this platform is more suitable for enterprise use cases. </div>
+                    <div class="card-body"> Unlike other popular platforms on the market, Corda is a fully permissioned blockchain, and every user in the network is known. Thatas why this platform is more suitable for enterprise use cases. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -106,11 +105,11 @@ The next big milestone is the release of Corda 2 in Nov 2017. The latest version
                 </div>
                 <div id="question9" class="collapse show" style="">
                     <div class="card-body"> Corda comes with plenty of blockchain features. For instance, it is open-source, which is a big feature in itself. Other key features include the following.
-	Privacy: It lets businesses create privacy-oriented permissioned networks that improve privacy.
-	Interoperability: It offers interoperability on the Corda network, which means that anyone can interact with each other despite their version. They can securely and seamlessly do the transactions.
-	Flexible and agile: Corda supports agile development, which meets the business requirement. Businesses can get started quickly and customize it according to their requirements.
-	Open Design: It enables a collaborative environment that results in the betterment of the platform and improvement in blockchain technology integration in businesses.
-	Open Development: It offers a robust community that works towards advanced blockchain technology through Corda.
+ï§	Privacy: It lets businesses create privacy-oriented permissioned networks that improve privacy.
+ï§	Interoperability: It offers interoperability on the Corda network, which means that anyone can interact with each other despite their version. They can securely and seamlessly do the transactions.
+ï§	Flexible and agile: Corda supports agile development, which meets the business requirement. Businesses can get started quickly and customize it according to their requirements.
+ï§	Open Design: It enables a collaborative environment that results in the betterment of the platform and improvement in blockchain technology integration in businesses.
+ï§	Open Development: It offers a robust community that works towards advanced blockchain technology through Corda.
                      </div>
                 </div>
             </div>
@@ -131,7 +130,7 @@ The next big milestone is the release of Corda 2 in Nov 2017. The latest version
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain How Corda Works? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question11" class="collapse show" style="">
-                    <div class="card-body"> Corda is different compared to traditional enterprise blockchain solutions. It doesn’t try to verify a transaction by connecting with every other peer and then finalizing the transaction. This is why Corda is termed a distributed ledger technology. It is more of a graph rather than a peer block. The transaction data is mainly shared among the parties with the option of third-party solutions to check the data or transaction when needed. It opens up a lot of scalability problems. </div>
+                    <div class="card-body"> Corda is different compared to traditional enterprise blockchain solutions. It doesnat try to verify a transaction by connecting with every other peer and then finalizing the transaction. This is why Corda is termed a distributed ledger technology. It is more of a graph rather than a peer block. The transaction data is mainly shared among the parties with the option of third-party solutions to check the data or transaction when needed. It opens up a lot of scalability problems. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -141,7 +140,7 @@ The next big milestone is the release of Corda 2 in Nov 2017. The latest version
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What Is Corda Network Economic Model?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question12" class="collapse show" style="">
-                    <div class="card-body"> The Corda Network Economic Model depends on its network participants, including the designers, governances, users related to the business networks. The infrastructure providers and oracle services also participate in the network and are the ones that either need to pay or get paid. The network also supports fiat money digital representation. This gives anyone access to the Corda blockchain with fiat money — but the governing bodies regulate it. To overcome this, Corda needs to support a platform-native asset that can be better regulated and accepted by the regulatory bodies. </div>
+                    <div class="card-body"> The Corda Network Economic Model depends on its network participants, including the designers, governances, users related to the business networks. The infrastructure providers and oracle services also participate in the network and are the ones that either need to pay or get paid. The network also supports fiat money digital representation. This gives anyone access to the Corda blockchain with fiat money a but the governing bodies regulate it. To overcome this, Corda needs to support a platform-native asset that can be better regulated and accepted by the regulatory bodies. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -152,7 +151,7 @@ The next big milestone is the release of Corda 2 in Nov 2017. The latest version
                 </div>
                 <div id="question13" class="collapse show" style="">
                     <div class="card-body"> Public blockchains are big networks where each peer has a role to play. If you take Ethereum and bitcoin into consideration, then you will notice that if a transaction takes place, a large number of nodes need to participate in it for its completion.
-Even though it is revolutionary, it suffers from drawbacks, including scalability, privacy, and efficiency. This is where Corda comes in and provides a distributed ledger technology that doesn’t rely on informing every peer to carry out a transaction.
+Even though it is revolutionary, it suffers from drawbacks, including scalability, privacy, and efficiency. This is where Corda comes in and provides a distributed ledger technology that doesnat rely on informing every peer to carry out a transaction.
                      </div>
                 </div>
             </div>
@@ -176,7 +175,7 @@ One big difference is how the data stored in single bitcoin transactions. It fol
                 </div>
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> When it comes to Enterprise Ethereum, there are many similarities, including the ability to run CorDapp code in a powerful virtual machine. Moreover, in both DLTs, non-assembly programming languages can be used to write smart contracts.
-The biggest difference is how contracts are implemented in both Ethereum and Corda. In Ethereum, the contracts are basically an instance of the program which is maintained and replicated by participating node. This is very similar to Object-oriented programming. In contrast, Corda treats smart contracts as a set of functions. The main focus is to simply keep the system synchronized using the verify function — stateless and pure function.
+The biggest difference is how contracts are implemented in both Ethereum and Corda. In Ethereum, the contracts are basically an instance of the program which is maintained and replicated by participating node. This is very similar to Object-oriented programming. In contrast, Corda treats smart contracts as a set of functions. The main focus is to simply keep the system synchronized using the verify function a stateless and pure function.
                      </div>
                 </div>
             </div>
@@ -207,7 +206,7 @@ The biggest difference is how contracts are implemented in both Ethereum and Cor
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How Is Corda Ledger Different? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question18" class="collapse show" style="">
-                    <div class="card-body"> Ledger in Corda works differently. Here, the ledger depends on the peer’s perspective. For instance, if two peers are communicating with each other, they will see the exact ledger version or the fact that they share between them. This is done to ensure that the network is flexible and scalable. Basically, the ledger is not a single central data store. </div>
+                    <div class="card-body"> Ledger in Corda works differently. Here, the ledger depends on the peeras perspective. For instance, if two peers are communicating with each other, they will see the exact ledger version or the fact that they share between them. This is done to ensure that the network is flexible and scalable. Basically, the ledger is not a single central data store. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -217,7 +216,7 @@ The biggest difference is how contracts are implemented in both Ethereum and Cor
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What Are Contracts Within Corda? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
-                    <div class="card-body"> Contracts are legal codes that are defined according to the parties’ requirements. The smart contracts in Corda are written using Kotlin and Java. Also, the contracts are executed in a deterministic way so that no double-spending can be done. </div>
+                    <div class="card-body"> Contracts are legal codes that are defined according to the partiesa requirements. The smart contracts in Corda are written using Kotlin and Java. Also, the contracts are executed in a deterministic way so that no double-spending can be done. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -236,6 +235,27 @@ The biggest difference is how contracts are implemented in both Ethereum and Cor
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="cordaTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="cordaTheory2.jsp">2</a></li>
+    
+    <li class="page-item">
+      <a class="page-link" href="cordaTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

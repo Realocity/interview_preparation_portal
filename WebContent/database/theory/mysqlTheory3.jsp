@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -25,10 +24,10 @@
                 <div id="question1" class="collapse show" style="">
                     <div class="card-body">  BLOB is an acronym that stands for a binary large object. It is used to hold a variable amount of data.
 There are four types of BLOB:
-•	TINYBLOB
-•	BLOB
-•	MEDIUMBLOB
-•	LONGBLOB
+<br>⦿	TINYBLOB
+<br>⦿	BLOB
+<br>⦿	MEDIUMBLOB
+<br>⦿	LONGBLOB
 A BLOB can hold a very large amount of data. For example - documents, images, and even videos. You could store your complete novel as a file in a BLOB if needed.
                     </div>
                 </div>
@@ -41,7 +40,7 @@ A BLOB can hold a very large amount of data. For example - documents, images, an
                 </div>
                 <div id="question2" class="collapse show" style="">
                     <div class="card-body"> You can add a User by using the CREATE command and specifying the necessary credentials. For example:
-CREATE USER ‘testuser’ IDENTIFIED BY ‘sample password’;
+CREATE USER âtestuserâ IDENTIFIED BY âsample passwordâ;
                      </div>
                 </div>
             </div>
@@ -73,9 +72,9 @@ CREATE
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body"> A trigger is a task that executes in response to some predefined database event, such as after a new row is added to a particular table. Specifically, this event involves inserting, modifying, or deleting table data, and the task can occur either prior to or immediately following any such event. 
 Triggers have many purposes, including:
-•	Audit Trails
-•	Validation
-•	Referential integrity enforcement
+<br>⦿	Audit Trails
+<br>⦿	Validation
+<br>⦿	Referential integrity enforcement
 </div>
                 </div>
             </div>
@@ -87,12 +86,12 @@ Triggers have many purposes, including:
                 </div>
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body"> There are six Triggers allowed to use in the MySQL database:
-•	Before Insert
-•	After Insert
-•	Before Update
-•	After Update
-•	Before Delete
-•	After Delete
+<br>⦿	Before Insert
+<br>⦿	After Insert
+<br>⦿	Before Update
+<br>⦿	After Update
+<br>⦿	Before Delete
+<br>⦿	After Delete
                      </div>
                 </div>
             </div>
@@ -114,10 +113,10 @@ Triggers have many purposes, including:
                 </div>
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> Several MySQL programs are available to help you communicate with the server. For administrative tasks, some of the most important ones are listed here:
-• mysql—An interactive program that enables you to send SQL statements to the server and to view the results. You can also use mysql to execute batch scripts (text files containing SQL statements).
-• mysqladmin—An administrative program for performing tasks such as shutting down the server, checking its configuration, or monitoring its status if it appears not to be functioning properly.
-• mysqldump—A tool for backing up your databases or copying databases to another server.
-• mysqlcheck and myisamchk—Programs that help you perform table checking, analysis, and optimization, as well as repairs if tables become damaged. mysqlcheck works with MyISAM tables and to some extent with tables for other storage engines. myisamchk is for use only with MyISAM tables.
+<br>⦿ mysqlâAn interactive program that enables you to send SQL statements to the server and to view the results. You can also use mysql to execute batch scripts (text files containing SQL statements).
+<br>⦿ mysqladminâAn administrative program for performing tasks such as shutting down the server, checking its configuration, or monitoring its status if it appears not to be functioning properly.
+<br>⦿ mysqldumpâA tool for backing up your databases or copying databases to another server.
+<br>⦿ mysqlcheck and myisamchkâPrograms that help you perform table checking, analysis, and optimization, as well as repairs if tables become damaged. mysqlcheck works with MyISAM tables and to some extent with tables for other storage engines. myisamchk is for use only with MyISAM tables.
                      </div>
                 </div>
             </div>
@@ -129,9 +128,9 @@ Triggers have many purposes, including:
                 </div>
                 <div id="question8" class="collapse show" style="">
                     <div class="card-body"> There are three categories of relationships in MySQL:
-•	One-to-One: Usually, when two items have a one-to-one relationship, you just include them as columns in the same table.
-•	One-to-Many: One-to-many (or many-to-one) relationships occur when one row in one table is linked to many rows in another table.
-•	Many-to-Many: In a many-to-many relationship, many rows in one table are linked to many rows in another table. To create this relationship, add a third table containing the same key column from each of the other tables
+<br>⦿	One-to-One: Usually, when two items have a one-to-one relationship, you just include them as columns in the same table.
+<br>⦿	One-to-Many: One-to-many (or many-to-one) relationships occur when one row in one table is linked to many rows in another table.
+<br>⦿	Many-to-Many: In a many-to-many relationship, many rows in one table are linked to many rows in another table. To create this relationship, add a third table containing the same key column from each of the other tables
                      </div>
                 </div>
             </div>
@@ -143,7 +142,7 @@ Triggers have many purposes, including:
                 </div>
                 <div id="question9" class="collapse show" style="">
                     <div class="card-body"> The top layer contains the services most network-based client/server tools or servers need such as connection handling, authentication, security, and so forth.
-The second layer contains much of MySQL’s brains. This has the code for query parsing, analysis, optimization, caching, and all the built-in functions.
+The second layer contains much of MySQLâs brains. This has the code for query parsing, analysis, optimization, caching, and all the built-in functions.
 The third layer contains the storage engines that are responsible for storing and retrieving the data stored in MySQL.
                      </div>
                 </div>
@@ -155,11 +154,11 @@ The third layer contains the storage engines that are responsible for storing an
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What is Scaling in MySQL?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> In MySQL, scaling capacity is actually the ability to handle the load, and it’s useful to think of load from several different angles such as:
-•	Quantity of data
-•	Number of users
-•	User activity
-•	Size of related datasets
+                    <div class="card-body"> In MySQL, scaling capacity is actually the ability to handle the load, and itâs useful to think of load from several different angles such as:
+<br>⦿	Quantity of data
+<br>⦿	Number of users
+<br>⦿	User activity
+<br>⦿	Size of related datasets
                      </div>
                 </div>
             </div>
@@ -182,15 +181,32 @@ The advantage of Sharding is that since the sharded database is generally much s
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are Transaction Storage Engines in MySQL?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question12" class="collapse show" style="">
-                    <div class="card-body"> To be able to use MySQL’s transaction facility, you have to be using MySQL’s InnoDB storage engine (which is the default from version 5.5 onward). If you are not sure which version of MySQL your code will be running on, rather than assuming InnoDB is the default engine you can force its use when creating a table, as follows. </div>
+                    <div class="card-body"> To be able to use MySQLâs transaction facility, you have to be using MySQLâs InnoDB storage engine (which is the default from version 5.5 onward). If you are not sure which version of MySQL your code will be running on, rather than assuming InnoDB is the default engine you can force its use when creating a table, as follows. </div>
                 </div>
             </div>
-              
+               <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='mysqlTheory1.jsp'>1</a>
+				<a class='page' href='mysqlTheory2.jsp'>2</a>
+				<span class="page current">3</span>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

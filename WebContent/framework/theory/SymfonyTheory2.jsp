@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Symphony Theory 2</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -58,7 +57,7 @@ Controller method should be short
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How to get the current route in Symfony Framework? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> You can get current route in Symfony using $request->get(‘_route’); method. </div>
+                    <div class="card-body"> You can get current route in Symfony using $request->get(â_routeâ); method. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -78,7 +77,7 @@ Controller method should be short
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How to get the request parameters in symfony2? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
-                    <div class="card-body"> $request->query->get(‘paraemeter_name’) method is used to get the request parameters in symfony2. </div>
+                    <div class="card-body"> $request->query->get(âparaemeter_nameâ) method is used to get the request parameters in symfony2. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -88,7 +87,7 @@ Controller method should be short
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the method name in the Kernel class to enable bundles in Symfony? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> Kernel’s class registerBundles() method is used to enable bundles in Symfony. </div>
+                    <div class="card-body"> Kernelâs class registerBundles() method is used to enable bundles in Symfony. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -121,7 +120,7 @@ Controller method should be short
                     <div class="card-body"> General rules for creating a method in within the controller in Symfony.
 Only action methods should be public.
 Controller methods should be short; if your controller is long, consider refactoring it.
-Action methods must have the “Action” suffix
+Action methods must have the âActionâ suffix
 Action methods should return a valid response object
                      </div>
                 </div>
@@ -161,7 +160,28 @@ Action methods should return a valid response object
             </div>
         </div>
     </div>
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+     <a class="page-link" href="SymfonyTheory1.jsp">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="SymfonyTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="SymfonyTheory2.jsp">2</a></li>
+ 
+    <li class="page-item">
+   
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 
 </body>
 </html>

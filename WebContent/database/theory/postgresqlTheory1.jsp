@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -73,7 +72,7 @@ are well- kept as a record. The time lag occurs when someone else is on the cont
                 </div>
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body">  It is not that hard as it seems. To get your statistics updated in PostgreSQL a special function called explicit
-‘vacuum’ call is made. The method to do is to create a Vacuum where the option of Analyze is used to update
+âvacuumâ call is made. The method to do is to create a Vacuum where the option of Analyze is used to update
 statistics in Postgresql
 VACUUM ANALYZE;
 is the syntax.</div>
@@ -206,7 +205,7 @@ Example
                 <div id="question13" class="collapse show" style="">
                     <div class="card-body">  CTIDs is a field, which exists in every PostgreSQL table and is known to identify specific physical rows
 according to their block and offset positions within a particular table. They are used by index entries to point to
-physical rows. It is unique for each record in the table and easily denotes the location of a tuple. A logical row’s
+physical rows. It is unique for each record in the table and easily denotes the location of a tuple. A logical rowâs
 CTID changes when it is updated, so the CTID cannot be used as a long-term row identifier. However, it is
 sometimes useful to identify a row within a transaction when no competing update is expected.</div>
                 </div>
@@ -284,7 +283,7 @@ This is done with the -D option. Thus, the simplest way to start the server is:
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body">  During the process of updating the project, one can never be certain what features will go in and which ones
-won’t make the cut. The project has precise and stringent standards for quality, and some patches may or may
+wonât make the cut. The project has precise and stringent standards for quality, and some patches may or may
 not match them before the set deadline. Currently, the 9.1 version is working on some important features which
 include JSON support, synchronous replication, nearest-neighbor geographic searches, collations at the column
 level, SQL/MED external data connections, security labels as well as index-only access. However, this list has a
@@ -295,12 +294,12 @@ high chance of changing completely by the time Postgre 9.1 is released.</div>
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question20"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Compare ‘PostgreSQL’ with ‘NoSQL’. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Compare âPostgreSQLâ with âNoSQLâ. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
-                    <div class="card-body"> The expression ‘NoSQL’ encompasses a wide collection of implementations which are part of the non-relational
+                    <div class="card-body"> The expression âNoSQLâ encompasses a wide collection of implementations which are part of the non-relational
 database. This includes tiny embedded databases such as TokyoCabinet, massive bunched data processing
-platforms such as Hadoop and everything in between. In short, it’s practically impossible to comment on the
+platforms such as Hadoop and everything in between. In short, itâs practically impossible to comment on the
 range comprised by NoSQL as a typical class.
 Choosing between the non-relational and relational databases is also quite commonly debated as both have
 existed alongside each other for over forty years. In fact, users should opt for the features, community support
@@ -309,12 +308,28 @@ various databases for sizeable projects is becoming more of a norm than a trend.
 PostgreSQL are no exception. </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='postgresqlTheory2.jsp'>2</a>
+				<a class='page' href='postgresqlTheory3.jsp'>3</a>
+				<a class='page next' href='postgresqlTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

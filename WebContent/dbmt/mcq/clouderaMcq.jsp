@@ -1,9 +1,12 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
+    <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 <title>Insert title here</title>
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -13,10 +16,12 @@
 </head>
 
 <body>
-
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 ___________ is the world’s most complete, tested, and popular distribution of Apache Hadoop and related projects.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 ___________ is the world's most complete, tested, and popular distribution of Apache Hadoop and related projects.</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  MDH<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> CDH<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -53,7 +58,7 @@
         <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Point out the wrong statement.</p>
         <div class="options py-3"> <label class="rounded p-2 option"> CDH contains the main, core elements of Hadoop <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> In October 2012, Cloudera announced the Cloudera Impala project <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> CDH may be downloaded from Cloudera’s website at no charge <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> CDH may be downloaded from Clouderaâs website at no charge <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
@@ -109,5 +114,12 @@
 				</div>
 				<center>
 </div>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

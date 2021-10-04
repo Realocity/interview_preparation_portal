@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
 encoding//WebContent/aboutUs.jsp=UTF-8
-encoding//WebContent/dashboard.jsp=UTF-8
+encoding//WebContent/database/database.jsp=UTF-8
+encoding//WebContent/database/theory/elasticsearchTheory1.jsp=UTF-8
+encoding//WebContent/database/theory/elasticsearchTheory3.jsp=UTF-8
+encoding//WebContent/index.jsp=UTF-8
 encoding//WebContent/personal-development/personalDev.jsp=UTF-8
 encoding//WebContent/resume/resume.jsp=UTF-8

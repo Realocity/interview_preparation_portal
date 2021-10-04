@@ -126,7 +126,15 @@ API level integration. </div>
                 </div>
             </div>
               
-            
+            <!-- /Intext --><hr>
+           <div id='pagination'>
+           <div>
+                
+				<a class='page' href='solarwindTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

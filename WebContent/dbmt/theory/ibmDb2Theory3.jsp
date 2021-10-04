@@ -180,7 +180,17 @@ RR: Retains all locks acquired till the end of the transaction. </div>
                     <div class="card-body"> SELECT is not preferred in embedded SQL programs for three reasons. First; if the table structure is changed by the addition or deletion of a field and the program is modified then using SELECT might retrieve the columns that the user may not use. This would lead to Input-Output overhead and the chances of an index-only scan are also eliminated. </div>
                 </div>
             </div>
-              
+               <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                
+				<a class='page' href='ibmdb2Theory1.jsp'>1</a>
+				<a class='page' href='ibmdb2Theory2.jsp'>2</a>
+				<span class="page current">3</span>
+				
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

@@ -222,7 +222,17 @@
                     <div class="card-body">  A database is basically passive, whereas a user is active. â¢ A database primarily stores all the objects of database, whereas a user can store any object whether that is a macro, table, view, etc. â¢ Database does not has password while the user has to enter password.</div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+                
+				<a class='page' href='teradataTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='teradataTheory3.jsp'>3</a>
+				<a class='page next' href='teradataTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

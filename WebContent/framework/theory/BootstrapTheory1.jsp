@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>			
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -171,9 +170,9 @@ Create a container <div> with the class of .jumbotron
                 </div>
                 <div id="question12" class="collapse show" style="">
                     <div class="card-body">In bootstrap you can display code in two ways
-<code> tag : If you are going to display code inline, you should use <code> tag
-<pre> tag: If you want to display the code as a standalone block element or it has multiple
-lines then you should use <pre> tag
+&lt;code> tag : If you are going to display code inline, you should use &lt;code> tag
+&lt;pre> tag: If you want to display the code as a standalone block element or it has multiple
+lines then you should use &lt;pre> tag
                       </div>
                 </div>
             </div>
@@ -214,9 +213,9 @@ will place all our other HTML code.
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> Bootstrap collapsing elements enables you to collapse any particular element without writing any
 JavaScript code or the accordion markup. In Bootstrap to apply collapsing elements you have to add
-data-toggle= “collapse” to the controller element along with a data-target or href to automatically
-assign control of a collapsible element. Likewise, you can use .collapse (options), .collapse (‘show’) or
-.collapse (‘hide’)
+data-toggle= âcollapseâ to the controller element along with a data-target or href to automatically
+assign control of a collapsible element. Likewise, you can use .collapse (options), .collapse (âshowâ) or
+.collapse (âhideâ)
                      </div>
                 </div>
             </div>
@@ -240,7 +239,7 @@ For example, a simple list group is created using class .list-group to address t
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How you can add badge to list group in Bootstrap? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question17" class="collapse show" style="">
-                    <div class="card-body">To add badge to list group in Bootstrap you have to simply add &lt;span class = “badge”> within the
+                    <div class="card-body">To add badge to list group in Bootstrap you have to simply add &lt;span class = âbadgeâ> within the
 &lt;li> element.  </div>
                 </div>
             </div>
@@ -292,6 +291,26 @@ Then add class .nav-tabs </div>
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="BootstrapTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="BootstrapTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="BootstrapTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="BootstrapTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>

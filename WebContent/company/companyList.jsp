@@ -168,12 +168,12 @@ h1{
         </a>
     </div>
     <div class="col-6 col-md-6 col-lg-3 col-xl-3" style="padding: 10px 15px;">
-        <a href="birlaSoft" id="cmp-box21" class="cmp-box d-flex align-items-center justify-content-center">
+        <a href="birlaSoft.jsp" id="cmp-box21" class="cmp-box d-flex align-items-center justify-content-center">
             <label class="cmp-label mb-0">BIRLASOFT</label>
         </a>
     </div>
     <div class="col-6 col-md-6 col-lg-3 col-xl-3" style="padding: 10px 15px;">
-        <a href="#" id="cmp-box26" class="cmp-box d-flex align-items-center justify-content-center">
+        <a href="l&tInfotech.jsp" id="cmp-box26" class="cmp-box d-flex align-items-center justify-content-center">
             <label class="cmp-label mb-0">L&amp;T INFOTECH</label>
         </a>
     </div>
@@ -303,7 +303,7 @@ h1{
         </a>
     </div>
     <div class="col-6 col-md-6 col-lg-3 col-xl-3" style="padding: 10px 15px;">
-        <a href="devsquare.jsp" id="cmp-box35" class="cmp-box d-flex align-items-center justify-content-center">
+        <a href="devSquare.jsp" id="cmp-box35" class="cmp-box d-flex align-items-center justify-content-center">
             <label class="cmp-label mb-0">DEVSQUARE</label>
         </a>
     </div>
@@ -348,7 +348,7 @@ h1{
         </a>
     </div>
     <div class="col-6 col-md-6 col-lg-3 col-xl-3" style="padding: 10px 15px;">
-        <a href="hpcl" id="cmp-box35" class="cmp-box d-flex align-items-center justify-content-center">
+        <a href="hpcl.jsp" id="cmp-box35" class="cmp-box d-flex align-items-center justify-content-center">
             <label class="cmp-label mb-0">HPCL</label>
         </a>
     </div>
@@ -356,7 +356,7 @@ h1{
    </div>
 </div>
 
-</div>>
+</div>
   
 </main>
 

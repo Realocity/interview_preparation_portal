@@ -1,10 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+ <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<title>RubyOnRails Theory 3</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -13,6 +18,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<br>
+<br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -84,7 +94,7 @@
                     <div class="card-body"> In Ruby,
 	A constant should begin with an uppercase letter, and it should not be defined inside a method
 	A local must begin with the _ underscore sign or a lowercase letter
-	A global variable should begin with the $ sign. An uninitialized global has the value of “nil” and it should raise a warning. It can be referred anywhere in the program.
+	A global variable should begin with the $ sign. An uninitialized global has the value of ânilâ and it should raise a warning. It can be referred anywhere in the program.
 	A class variable should begin with double @@ and have to be first initialized before being used in a method definition
                      </div>
                 </div>
@@ -111,7 +121,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what is the difference between a single quote and double quote? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> A single-quoted strings don’t process ASCII escape codes, and they don’t do string interpolation. </div>
+                    <div class="card-body"> A single-quoted strings donât process ASCII escape codes, and they donât do string interpolation. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -121,7 +131,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what is the difference between a gem and a plugin in Ruby? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question9" class="collapse show" style="">
-                    <div class="card-body"> 	Gem: A gem is a just ruby code. It is installed on a machine, and it’s available for all ruby applications running on that machine.
+                    <div class="card-body"> 	Gem: A gem is a just ruby code. It is installed on a machine, and itâs available for all ruby applications running on that machine.
 	Plugin: Plugin is also ruby code, but it is installed in the application folder and only available for that specific application.
                      </div>
                 </div>
@@ -133,7 +143,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what is the difference extend and include? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> The “include” makes the module’s methods available to the instance of a class, while “extend” makes these methods available to the class itself. </div>
+                    <div class="card-body"> The âincludeâ makes the moduleâs methods available to the instance of a class, while âextendâ makes these methods available to the class itself. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -163,7 +173,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What happens when you call a method in Ruby? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body"> A message containing the method’s name is sent to the object. If that method exists on the object, the object calls it. </div>
+                    <div class="card-body"> A message containing the methodâs name is sent to the object. If that method exists on the object, the object calls it. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -173,7 +183,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>What is a Gemfile?  <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
-                    <div class="card-body"> A Gemfile is where we specify dependencies for a Ruby application. It is located in the project’s root directory. </div>
+                    <div class="card-body"> A Gemfile is where we specify dependencies for a Ruby application. It is located in the projectâs root directory. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -190,7 +200,7 @@
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question16"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are some Rails design patterns you’ve used? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What are some Rails design patterns youâve used? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question16" class="collapse show" style="">
                     <div class="card-body"> There are a number of design patterns in Rails including service objects, value objects, form objects, query objects, view objects, policy objects, and decorators.
@@ -229,12 +239,12 @@ end
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question19"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the meaning of “Fat models, skinny controllers”? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the meaning of âFat models, skinny controllersâ? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> Business logic should exist in models, not controllers. This makes logic easier to unit test and is more re-usable.
 Controllers are merely the hands that pass information between views and models.
-This is generally given as advice to new Rails developers. It’s not actually recommended, particularly in large apps.
+This is generally given as advice to new Rails developers. Itâs not actually recommended, particularly in large apps.
                      </div>
                 </div>
             </div>
@@ -242,7 +252,7 @@ This is generally given as advice to new Rails developers. It’s not actually r
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question20"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the meaning of “skinny controllers, skinny models”? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the meaning of âskinny controllers, skinny modelsâ? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
                     <div class="card-body"> As a codebase grows, fat models get out of hand, start doing too many things and become unmanageable. Models should handle persistence without being bloated with logic.
@@ -256,6 +266,27 @@ Models can be made skinnier by keeping the single responsibility principle in mi
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+     <a class="page-link" href="RubyOnRailsTheory2.jsp">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="RubyOnRailsTheory3.jsp">3</a></li>
+    <li class="page-item">
+     
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

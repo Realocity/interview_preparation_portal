@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Shell Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -36,8 +35,8 @@ And the sixth field contains the command to be executed.
                 </div>
                 <div id="question2" class="collapse show" style="">
                     <div class="card-body"> Two files of crontab command are:
-	cron.allow – It decides which users need to be permitted from using crontab command.
-	cron.deny – It decides which users need to be prevented from using crontab command.
+	cron.allow â It decides which users need to be permitted from using crontab command.
+	cron.deny â It decides which users need to be prevented from using crontab command.
                      </div>
                 </div>
             </div>
@@ -60,9 +59,9 @@ And the sixth field contains the command to be executed.
                 <div id="question4" class="collapse show" style="">
                     <div class="card-body"> There are three different commands available to check the disk usage.
 They are:
-•	df – This command is used to check the free disk space.
-•	du – This command is used to check the directory wise disk usage.
-•	dfspace – This command is used to check the free disk space in terms of MB.
+â¢	df â This command is used to check the free disk space.
+â¢	du â This command is used to check the directory wise disk usage.
+â¢	dfspace â This command is used to check the free disk space in terms of MB.
                      </div>
                 </div>
             </div>
@@ -84,7 +83,7 @@ They are:
                 </div>
                 <div id="question6" class="collapse show" style="">
                     <div class="card-body"> The total disk space used by John can be found out as:
-du –s/home/John
+du âs/home/John
                      </div>
                 </div>
             </div>
@@ -96,7 +95,7 @@ du –s/home/John
                 </div>
                 <div id="question7" class="collapse show" style="">
                     <div class="card-body"> Shebang is a # sign followed by an exclamation i.e. !. Generally, this can be seen at the beginning or top of the script/program. Usually, a developer uses this to avoid repetitive work. Shebang mainly determines the location of the engine which is to be used in order to execute the script.
-Here ‘#’ symbol is called hash and ‘!’ is called a bang.
+Here â#â symbol is called hash and â!â is called a bang.
                      </div>
                 </div>
             </div>
@@ -104,10 +103,10 @@ Here ‘#’ symbol is called hash and ‘!’ is called a bang.
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question8"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the command to be used to display the shell’s environment variables? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the command to be used to display the shellâs environment variables? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body"> Command to be used to display the shell’s environment variables is env or printenv. </div>
+                    <div class="card-body"> Command to be used to display the shellâs environment variables is env or printenv. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -119,7 +118,7 @@ Here ‘#’ symbol is called hash and ‘!’ is called a bang.
                 <div id="question9" class="collapse show" style="">
                     <div class="card-body"> Though it depends on the type of problem encountered. Given below are some common methods used to debug the problems in the script.
 	Debug statements can be inserted in the shell script to output/display the information which helps to identify the problem.
-	Using “set -x” we can enable debugging in the script.
+	Using âset -xâ we can enable debugging in the script.
                      </div>
                 </div>
             </div>
@@ -133,7 +132,14 @@ Here ‘#’ symbol is called hash and ‘!’ is called a bang.
                     <div class="card-body"> Variable length can be checked by $ {#variable} </div>
                 </div>
             </div>
-              
+              <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='ShellTheory1.jsp'>1</a>
+				<a class='page' href='ShellTheory2.jsp'>2</a>
+				<span class="page current">3</span>
+				</div>
+				</div>
             
            
             </div>
@@ -141,5 +147,16 @@ Here ‘#’ symbol is called hash and ‘!’ is called a bang.
     </div>
 
 
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

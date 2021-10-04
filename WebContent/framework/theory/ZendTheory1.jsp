@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Zend Theory 1</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -105,7 +104,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain the use of bootstrap used in Zend framework? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> In the Zend framework, bootstrap is the process that loads the user application, but it’s not limited to the session. Any resources required by the application to process the request is first bootstrapped before the request is fulfilled. </div>
+                    <div class="card-body"> In the Zend framework, bootstrap is the process that loads the user application, but itâs not limited to the session. Any resources required by the application to process the request is first bootstrapped before the request is fulfilled. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -115,7 +114,7 @@
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What do you mean by Zend Engine? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question8" class="collapse show" style="">
-                    <div class="card-body">It’s an open-source scripting engine used to interpret the PHP programming language. It provides resource and memory management and other standard services required for the PHP language.  </div>
+                    <div class="card-body">Itâs an open-source scripting engine used to interpret the PHP programming language. It provides resource and memory management and other standard services required for the PHP language.  </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -126,8 +125,8 @@
                 </div>
                 <div id="question9" class="collapse show" style="">
                     <div class="card-body"> $this->getRequest() present in the context of a controller is annotated to return an object of class
-Zend_Controller_Request_Abstract. Zend_Controller_Request_Http’s isPost() method derived
-from end_Controller_Request_Abstract. So, IDE can’t offer this method, but it’s present there.
+Zend_Controller_Request_Abstract. Zend_Controller_Request_Httpâs isPost() method derived
+from end_Controller_Request_Abstract. So, IDE canât offer this method, but itâs present there.
                      </div>
                 </div>
             </div>
@@ -158,7 +157,7 @@ from end_Controller_Request_Abstract. So, IDE can’t offer this method, but it�
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How we can redirect to another page from controller in zend framework? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question12" class="collapse show" style="">
-                    <div class="card-body"> $this->_redirect(‘/dashboard/page’); </div>
+                    <div class="card-body"> $this->_redirect(â/dashboard/pageâ); </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -168,7 +167,7 @@ from end_Controller_Request_Abstract. So, IDE can’t offer this method, but it�
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> How to get variable value from getting in zend framework? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body"> $pageID = $this->getRequest()->getParam(‘pageID’); </div>
+                    <div class="card-body"> $pageID = $this->getRequest()->getParam(âpageIDâ); </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -188,7 +187,7 @@ from end_Controller_Request_Abstract. So, IDE can’t offer this method, but it�
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>What is routing in zend in zend framework?  <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question15" class="collapse show" style="">
-                    <div class="card-body"> It’s an act to match a request to a given controller. Routing will examine the request URI and will attempt to match the URI path segment against the provided constraints. </div>
+                    <div class="card-body"> Itâs an act to match a request to a given controller. Routing will examine the request URI and will attempt to match the URI path segment against the provided constraints. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -253,6 +252,27 @@ Zend framework consists of loosely connected components, which can be utilized e
         </div>
     </div>
 
-<%@include file="footer.jsp" %>
+    
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+     
+    </li>
+    <li class="page-item"><a class="page-link" href="ZendTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="ZendTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="ZendTheory3.jsp">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="ZendTheory2.jsp">Next</a>
+    </li>
+  </ul>
+</nav>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

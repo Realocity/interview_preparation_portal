@@ -1,19 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<title>shellmcq 4</title>
 </head>
-
 <body>
-
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which sed command deletes the specified address range</p>
@@ -25,27 +23,27 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which command is used to replace word ‘cat’ (already present in the file) with ‘mouse’ at all places in a file ‘old.txt’ and save the result in a new file ‘new.txt’?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which command is used to replace word âcatâ (already present in the file) with âmouseâ at all places in a file âold.txtâ and save the result in a new file ânew.txtâ?</p>
         <div class="options py-3">
-         <label class="rounded p-2 option">sed ‘s/cat/mouce/g’ old.txt > new.txt <input type="radio" name="radio"> <span class="checkmark"></span> </label>
-         <label class="rounded p-2 option"> sed ‘s/cat/mouse’ old.txt new.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-         <label class="rounded p-2 option"> sed ‘/s/cat/mouse/g’ old.txt new.txt </stylesheet> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-         <label class="rounded p-2 option"> sed ‘/s/cat/mouse’ old.txt > new.txt <input type="radio" name="radio"> 
+         <label class="rounded p-2 option">sed âs/cat/mouce/gâ old.txt > new.txt <input type="radio" name="radio"> <span class="checkmark"></span> </label>
+         <label class="rounded p-2 option"> sed âs/cat/mouseâ old.txt new.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+         <label class="rounded p-2 option"> sed â/s/cat/mouse/gâ old.txt new.txt </stylesheet> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+         <label class="rounded p-2 option"> sed â/s/cat/mouseâ old.txt > new.txt <input type="radio" name="radio"> 
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which command will delete all the blank lines in file old.txt?</p>
         <div class="options py-3">
-         <label class="rounded p-2 option"> sed ‘/d’ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> sed ‘/^/d’ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> sed ‘/^$/d’ old.txt<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option"> sed ‘/^*/d’ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+         <label class="rounded p-2 option"> sed â/dâ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> sed â/^/dâ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> sed â/^$/dâ old.txt<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> sed â/^*/dâ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The command “sed -n ‘/sanfoundry/p’ old.txt” will </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The command âsed -n â/sanfoundry/pâ old.txtâ will </p>
         <div class="options py-3">
-         <label class="rounded p-2 option"> print the lines containing the word ‘sanfoundry’ in file old.txt<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option"> delete the lines containing the word ‘sanfoundry’ in file old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+         <label class="rounded p-2 option"> print the lines containing the word âsanfoundryâ in file old.txt<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> delete the lines containing the word âsanfoundryâ in file old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> will generate an error message <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
@@ -89,25 +87,36 @@
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In awk program, the statement “print” with no items</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In awk program, the statement âprintâ with no items</p>
         <div class="options py-3"> 
-        <label class="rounded p-2 option"> is equivalent to “print $0” <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> is equivalent to âprint $0â <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> prints the entire current record <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> is equivalent to “print $0” & prints the entire current record <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> is equivalent to âprint $0â & prints the entire current record <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">1</span>
-				<a class='page' href='/mcq/html-programming-questions-answers/page/2/'>2</a>
+     <div><span class="page current">4</span>
+				<a class='page' href='shellmcq3.jsp'>3</a>
 				
-				<a class='page' href='/mcq/html-programming-questions-answers/page/3/'>3</a>
-				<a class='page next' href='/mcq/html-programming-questions-answers/page/2/' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq5.jsp'>5</a>
+				<a class='page next' href='shellmcq5.jsp' title='Next'>&raquo;</a>
 				</div>
 				</div>
 				<center>
 </div>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

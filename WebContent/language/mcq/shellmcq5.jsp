@@ -1,19 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<title>shellmcq 5</title>
 </head>
-
 <body>
-
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The print and printf statements can be told to send their output to other place except standard output, is called</p>
@@ -25,7 +23,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The command “awk {print $1} san.txt” will</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The command âawk {print $1} san.txtâ will</p>
         <div class="options py-3">
          <label class="rounded p-2 option">print the first line of file san.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> print the first field of every line in san.txt <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -34,7 +32,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the output of the command awk ‘BEGIN {printf “%c\n”,65}’</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the output of the command awk âBEGIN {printf â%c\nâ,65}â</p>
         <div class="options py-3">
          <label class="rounded p-2 option">A <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">65 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -44,10 +42,10 @@
      <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following statement is not true about the format-control letters for printf statement in awk program? </p>
         <div class="options py-3">
-         <label class="rounded p-2 option"> “c” prints a number as an ASCII character<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> “d” prints a decimal integer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> “h” prints an unsigned hexadecimal integer <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option"> “o” prints an unsigned octal integer <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+         <label class="rounded p-2 option"> âcâ prints a number as an ASCII character<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> âdâ prints a decimal integer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> âhâ prints an unsigned hexadecimal integer <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> âoâ prints an unsigned octal integer <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
         <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following is not true?</p>
@@ -81,7 +79,7 @@
         <label class="rounded p-2 option">matching operator <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The comparison expression “x ~ y” will true if</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The comparison expression âx ~ yâ will true if</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> x is not equal to y <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> the string x does not match the regular expression denoted by y <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -100,14 +98,25 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">1</span>
-				<a class='page' href='/mcq/html-programming-questions-answers/page/2/'>2</a>
+     <div><span class="page current">5</span>
+				<a class='page' href='shellmcq4.jsp'>4</a>
 				
-				<a class='page' href='/mcq/html-programming-questions-answers/page/3/'>3</a>
-				<a class='page next' href='/mcq/html-programming-questions-answers/page/2/' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq6.jsp'>6</a>
+				<a class='page next' href='shellmcq6.jsp' title='Next'>&raquo;</a>
 				</div>
 				</div>
 				<center>
 </div>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Objective C Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -55,7 +54,7 @@ An informal protocol is a category on NSObject, which implicitly makes almost al
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the difference between #import and #include in Objective-C? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body">import is super set of include, it make sure file is included only once. this save you from recursive inclusion. about “” and &lt;>. “” search in local directory and &lt;> is use for system files.  </div>
+                    <div class="card-body">import is super set of include, it make sure file is included only once. this save you from recursive inclusion. about ââ and &lt;>. ââ search in local directory and &lt;> is use for system files.  </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -65,7 +64,7 @@ An informal protocol is a category on NSObject, which implicitly makes almost al
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the use of category in Objective-C? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question5" class="collapse show" style="">
-                    <div class="card-body"> You typically use a category to add methods to an existing class, such as one defined in the Cocoa frameworks. The added methods are inherited by subclasses and are indistinguishable at runtime from the original methods of the class. You can also use categories of your own classes to: Distribute the implementation of your own classes into separate source files — for example, you could group the methods of a large class into several categories and put each category in a different file. Declare private methods </div>
+                    <div class="card-body"> You typically use a category to add methods to an existing class, such as one defined in the Cocoa frameworks. The added methods are inherited by subclasses and are indistinguishable at runtime from the original methods of the class. You can also use categories of your own classes to: Distribute the implementation of your own classes into separate source files â for example, you could group the methods of a large class into several categories and put each category in a different file. Declare private methods </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -75,7 +74,7 @@ An informal protocol is a category on NSObject, which implicitly makes almost al
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Limitations and problems with category? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question6" class="collapse show" style="">
-                    <div class="card-body"> Advantages: You can extend any class, even those, for which you do not have the source. Look, for example, into the UI extensions added by Apple to the NSString class for rendering, getting the metrics, etc. Since you have access to all instance variables, categories provide you with a nice way to structure your code across compilation units using logical grouping instead of the “it must all be in one phyiscal place” approach taken, for example, by Java. Disadvantages: You cannot safely override methods already defined by the class itself or another category. </div>
+                    <div class="card-body"> Advantages: You can extend any class, even those, for which you do not have the source. Look, for example, into the UI extensions added by Apple to the NSString class for rendering, getting the metrics, etc. Since you have access to all instance variables, categories provide you with a nice way to structure your code across compilation units using logical grouping instead of the âit must all be in one phyiscal placeâ approach taken, for example, by Java. Disadvantages: You cannot safely override methods already defined by the class itself or another category. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -149,8 +148,8 @@ foo.length = 5
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is GCD? What are advantages over NSThread? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body"> GrandcentralDispatch: Because your device only has one processor, GCD probably only creates one thread for executing blocks and your blocks execute sequentially. You’ve created 10 different threads, though, and those each get a little piece of the available processing time. Fortunately, sleeping isn’t very processor-intensive, so all your threads run together pretty well. Try a similar test on a machine with 4 or 8 processing cores, and you’ll see GCD run more of your blocks in parallel.
-The nice thing about GCD isn’t that it necessarily offers better performance than threads, it’s that the programmer doesn’t have to think about creating threads or matching the number of threads to the number of available processors. You can create lots of little tasks that will execute as a processor becomes available and let the system schedule those tasks for you.
+                    <div class="card-body"> GrandcentralDispatch: Because your device only has one processor, GCD probably only creates one thread for executing blocks and your blocks execute sequentially. Youâve created 10 different threads, though, and those each get a little piece of the available processing time. Fortunately, sleeping isnât very processor-intensive, so all your threads run together pretty well. Try a similar test on a machine with 4 or 8 processing cores, and youâll see GCD run more of your blocks in parallel.
+The nice thing about GCD isnât that it necessarily offers better performance than threads, itâs that the programmer doesnât have to think about creating threads or matching the number of threads to the number of available processors. You can create lots of little tasks that will execute as a processor becomes available and let the system schedule those tasks for you.
                      </div>
                 </div>
             </div>
@@ -175,7 +174,7 @@ Non-Atomic is NOT the default behavior faster (for synthesized code, that is, fo
                 <div id="question15" class="collapse show" style="">
                     <div class="card-body"> Key-Value-Observing (KVO) allows you to observe changes to a property or value.
 To observe a property using KVO you would identify to property with a string; i.e., using KVC. Therefore, the observable object must be KVC compliant.
-[myObject addObserver:self forKeyPath:@”foo.bar.baz” options:0 context:NULL];
+[myObject addObserver:self forKeyPath:@âfoo.bar.bazâ options:0 context:NULL];
                      </div>
                 </div>
             </div>
@@ -189,7 +188,7 @@ To observe a property using KVO you would identify to property with a string; i.
                     <div class="card-body"> Blocks are a language-level feature added to C, Objective-C and C++, which allow you to create distinct segments of code that can be passed around to methods or functions as if they were values.
 The syntax to define a block literal uses the caret symbol (^), like this:
 1.	{
-2.	NSLog(@”This is a block”);
+2.	NSLog(@âThis is a blockâ);
 3.	}
                      </div>
                 </div>
@@ -222,12 +221,12 @@ The syntax to define a block literal uses the caret symbol (^), like this:
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> 1.	@interface A :
-2.	NSObject — (instancetype)init;
+2.	NSObject â (instancetype)init;
 3.	@end
 4.	@interface B : A
 5.	@end
 The init method from A is inherited to B. However, in both classes the method has a different return type. In A the return type is A and in B the return type is B.
-There is no other way to declare the return type for initializers correctly. Note that most programming languages with classes don’t even have return types for constructors, therefore they completely avoid the issue.
+There is no other way to declare the return type for initializers correctly. Note that most programming languages with classes donât even have return types for constructors, therefore they completely avoid the issue.
 This is the reason why Obj-C needs instancetype but of course it can be used outside initializers, too.
                      </div>
                 </div>
@@ -239,15 +238,32 @@ This is the reason why Obj-C needs instancetype but of course it can be used out
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Are id and instanceType same? If not, what are differences between them? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
-                    <div class="card-body"> In your code, replace occurrences of id as a return value with instancetype where appropriate. This is typically the case for init methods and class factory methods. Even though the compiler automatically converts methods that begin with “alloc,” “init,” or “new” and have a return type of id to return instancetype, it doesn’t convert other methods. Objective-C convention is to write instancetype explicitly for all methods. </div>
+                    <div class="card-body"> In your code, replace occurrences of id as a return value with instancetype where appropriate. This is typically the case for init methods and class factory methods. Even though the compiler automatically converts methods that begin with âalloc,â âinit,â or ânewâ and have a return type of id to return instancetype, it doesnât convert other methods. Objective-C convention is to write instancetype explicitly for all methods. </div>
                 </div>
             </div>
-            
+            <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div><span class="page current">1</span>
+				<a class='page' href='Objective_CTheory2.jsp'>2</a>
+				<a class='page' href='Objective_CTheory3.jsp'>3</a>
+				<a class='page next' href='Objective_CTheory2.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

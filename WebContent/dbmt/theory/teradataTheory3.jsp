@@ -122,7 +122,17 @@
                     <div class="card-body"> set session transaction BTET -> Teradata transaction mode .set session transaction ANSI -> ANSI mode These commands will work only when they are entered before logging into the session. </div>
                 </div>
             </div>
-             
+              <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+               
+				<a class='page' href='teradataTheory1.jsp'>1</a>
+				<a class='page' href='teradataTheory2.jsp'>2</a>
+				 <span class="page current">3</span>
+				
+				</div>
+				</div>
+				<center>
            
             </div>
         </div>

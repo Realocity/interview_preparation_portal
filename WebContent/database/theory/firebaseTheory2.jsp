@@ -1,18 +1,17 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Database Theory</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -98,7 +97,7 @@ o	The associated website has one URL for all languages (or it supports only one 
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is Firebase? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> Firebase is a Google’s platform which helps to build and develop web applications, IOS applications, and Android applications. It adds developer to speedily develop the apps with maintaining the high quality of applications and allows you to grow your business to a higher extent. The platform of Firebase can actually help to empower the application's backend and static hosting. It also contributes to user identification. Real-time database which the firebase of words and many authentication types is advantageous for the applications. </div>
+                    <div class="card-body"> Firebase is a Googleâs platform which helps to build and develop web applications, IOS applications, and Android applications. It adds developer to speedily develop the apps with maintaining the high quality of applications and allows you to grow your business to a higher extent. The platform of Firebase can actually help to empower the application's backend and static hosting. It also contributes to user identification. Real-time database which the firebase of words and many authentication types is advantageous for the applications. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -215,7 +214,7 @@ A database of size 1 MegaByte ( 1 MB ) triggers a function. 100000 connections a
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Why do you require Sha-1 in Firebase? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question18" class="collapse show" style="">
-                    <div class="card-body"> The use of Sha-1 is done for simplifying the configuration of Google Sign-In with the help of authentication in Firebase. Sha-1 is not always needed. Its need arrive when you use Firebase invites or the FDL i.e. Firebase Dynamic Links. When one is not using these factors that are mentioned above, you don’t need access to Sha-1. </div>
+                    <div class="card-body"> The use of Sha-1 is done for simplifying the configuration of Google Sign-In with the help of authentication in Firebase. Sha-1 is not always needed. Its need arrive when you use Firebase invites or the FDL i.e. Firebase Dynamic Links. When one is not using these factors that are mentioned above, you donât need access to Sha-1. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -226,7 +225,7 @@ A database of size 1 MegaByte ( 1 MB ) triggers a function. 100000 connections a
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> A project is a vessel containing applications of the web, android, and iOS. Firebase projects are the projects presented by Google which uses services of Firebase. The projects that are available in the Firebase Console are available also in the GCP ( Google Cloud Platform ). The projects are also accessible in the Google APIs consoles.
-When a project is deleted from any console, it gets deleted from all the consoles. Project’s distinctive identifiers are shared over consoles and project’s permissions are also shared over consoles. You get the ease to share with users the data overall platforms of Android, web, and iOS. This allows users to enjoy the same experience on all the devices they are using.
+When a project is deleted from any console, it gets deleted from all the consoles. Projectâs distinctive identifiers are shared over consoles and projectâs permissions are also shared over consoles. You get the ease to share with users the data overall platforms of Android, web, and iOS. This allows users to enjoy the same experience on all the devices they are using.
 To manage every version of the apps that use Firebase are attached to a Firebase project so that the apps could be managed from Firebase Console. Database and configuration between apps from different platforms are features that are supported by the Firebase project.
 It is preferred to add web, iOS and android application versions into one single project.
                      </div>
@@ -239,17 +238,34 @@ It is preferred to add web, iOS and android application versions into one single
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i>  What are Cloud Functions for Firebase?<i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question20" class="collapse show" style="">
-                    <div class="card-body"> Firebase Could Function is a Google analog that is taken into used to develop applications which are serverless. The Cloud Functions for firebase allows running the code of backend itself as a reaction to the HTTP requests and Firebase's triggered events. There is no more need for managing and increasing one’s own server since the data is being kept in Google's cloud which runs in a safe and managed atmosphere. TypeScript and JavaScript can be used for writing the functions. The Firebase features and Google Cloud feature’s events generated by them, the functions can react to these events including Real-time database triggers and Cloud Storage triggers.
+                    <div class="card-body"> Firebase Could Function is a Google analog that is taken into used to develop applications which are serverless. The Cloud Functions for firebase allows running the code of backend itself as a reaction to the HTTP requests and Firebase's triggered events. There is no more need for managing and increasing oneâs own server since the data is being kept in Google's cloud which runs in a safe and managed atmosphere. TypeScript and JavaScript can be used for writing the functions. The Firebase features and Google Cloud featureâs events generated by them, the functions can react to these events including Real-time database triggers and Cloud Storage triggers.
 After deploying the code written in JavaScript what TypeScript to a server of Firebase along with a command, it automatically carries on with the process of scaling the computing resources that will help to match the patterns of usage of the users. One did not take any tension regarding the server configuration, regards to the Cloud Functions. The function can be deployed with an HTTP request as well and the function will automatically start to be managed by the service of Google. All the connections are cleaned up as the function gets deleted and the event provider also gets erased.
                      </div>
                 </div>
             </div>
-            
+             <!-- /Intext --><hr>
+    <div id='pagination'>
+     <div>
+				<a class='page' href='firebaseTheory1.jsp'>1</a>
+				<span class="page current">2</span>
+				<a class='page' href='firebaseTheory3.jsp'>3</a>
+				<a class='page next' href='firebaseTheory3.jsp' title='Next'>&raquo;</a>
+				</div>
+				</div>
            
             </div>
         </div>
     </div>
-
-<%@include file="footer.jsp" %>
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

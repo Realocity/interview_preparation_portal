@@ -1,18 +1,18 @@
-	<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<title>Angular Theory 3</title>
 </head>
 <body>
+ <!-- navbar -->
+<%@include file="/common/normal_navbar.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<br><br>
+
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -33,7 +33,7 @@
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is Angular Router? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> Routing in a single-page frontend application is the task of responding to the changes in the URL made by adding and removing content from the application. This is a complicated task as we first need to intercept a request that changes the browser’s URL as we do not wish for the browser to reload. Then, we need to determine which content to remove and which content to add, and finally, we have to change the browser’s URL as well to show the user the current page they are on. 
+                    <div class="card-body"> Routing in a single-page frontend application is the task of responding to the changes in the URL made by adding and removing content from the application. This is a complicated task as we first need to intercept a request that changes the browserâs URL as we do not wish for the browser to reload. Then, we need to determine which content to remove and which content to add, and finally, we have to change the browserâs URL as well to show the user the current page they are on. 
 As we can see, this can be very difficult to implement, especially in multiple applications. That is why Angular comes with a full routing solution for a single-page application. In this, we can define routes with matching components and let Angular handle the routing process
                     	 </div>
                 </div>
@@ -55,7 +55,7 @@ As we can see, this can be very difficult to implement, especially in multiple a
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> What is the scope? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question4" class="collapse show" style="">
-                    <div class="card-body"> A scope is an object in Angular referring to the application model. It is a context for executing expressions. These scopes are organized in a hierarchical form that is similar to the application’s DOM structure. A scope helps in propagating various events and watching expressions. </div>
+                    <div class="card-body"> A scope is an object in Angular referring to the application model. It is a context for executing expressions. These scopes are organized in a hierarchical form that is similar to the applicationâs DOM structure. A scope helps in propagating various events and watching expressions. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -117,7 +117,7 @@ Angular is shipped with many directives. However, we can build our directives an
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain different kinds of Angular directives. <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body">There are three kinds of directives in Angular. Let’s discuss them:
+                    <div class="card-body">There are three kinds of directives in Angular. Letâs discuss them:
 	Components: A component is simply a directive with a template. It is used to define a single piece of the user interface using TypeScript code, CSS styles, and the HTML template. When we define a component, we use the component decorated with the @ symbol and pass in an object with a selector attribute. The selector attribute gives the Angular compiler the HTML tag that the component is associated with so that, now, when it encounters this tag in HTML, it knows to replace it with the component template.
 	Structural: Structural directives are used to change the structure of a view. For example, if we wish to show or hide some data based on some property, we can do so by using the ngIf directive, or if we wish to add a list of data in the markup, we can use *ngFor, and so on. These directives are called structural directives because they change the structure of the template.
 	Attribute: Attribute directives change the appearance or behavior of an element, component, or another directive. They are used as the attributes of elements. Directives such as ngClass and ngStyle are attribute directives.
@@ -153,7 +153,27 @@ Both these compilers are useful but for quite different purposes. The JIT compil
             </div>
         </div>
     </div>
+  <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li >
+      <a class="page-link" href="AngularTheory2.jsp">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="AngularTheory1.jsp">1</a></li>
+    <li class="page-item"><a class="page-link" href="AngularTheory2.jsp">2</a></li>
+    <li class="page-item"><a class="page-link" href="AngularTheory3.jsp">3</a></li>
+    <li class="page-item">
+     
+    </li>
+  </ul>
+</nav>
 
-<%@include file="footer.jsp" %>
+<br><br>
+<%@ include file="/common/footer.jsp" %></div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
