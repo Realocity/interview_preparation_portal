@@ -8,13 +8,61 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Success</title>
   </head>
   <body>
+<style>
+/* 5 */
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
 
+</style>
     <div class="container mt-5">
-        <h1>Contact Me!</h1>
-        <p>Success! We will get back to you very, very soon.</p>
+        <h1>Thanks for Contribution!</h1>
+        <p>Success! your Contribution is sended to our admins for verification and better understanding. We will update your contribution as soon as possible!</p>
+        <br><br>
+        <h1 class="heading">Don't you like, No problem. We have solution for this also... <span> Make your own </span></h1>
+	     <div>
+	       <button class="custom-btn btn-5" onclick="location.href='${pageContext.request.contextPath}/index.jsp'"><span>Dashboard</span></button>
+	     </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

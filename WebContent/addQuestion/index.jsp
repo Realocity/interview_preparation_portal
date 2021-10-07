@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-<title>Dart Theory</title>
+<title>Add Q&A</title>
 </head>
 <body>
 
@@ -22,7 +22,7 @@
 <br><br>
 
     <div class="container mt-5">
-        <h1>Contact Me!</h1>
+        <h1>⚡️ Q & A ⚡️</h1>
         <form class="row g-3" action="https://formsubmit.co/ssapkal101@gmail.com" method="POST">
           <!-- Honeypot -->
           <input type="text" name="_honey" style="display: none;">
@@ -30,7 +30,7 @@
           <!-- Disable Captcha -->
           <input type="hidden" name="_captcha" value="false">
 
-          <input type="hidden" name="_next" value="addQuestion/success.html" >
+          
 
           <div class="col-md-6">
             <label for="firstName" class="form-label">First Name</label>
@@ -44,14 +44,20 @@
             <label for="emailInfo" class="form-label">E-mail</label>
             <input type="email" class="form-control" name="email" id="emailInfo" required>
           </div>
-          <div class="col-md-4">
-            <label for="phoneNumber" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+          <h1>✨ There are four types of category : </h1>
+          <h1>✨ Language, Framework, Database and Database Management Tool.</h1> <br>      
+      
+      <p> 📝 Either you can add question or question + answer</p>
+      <div class="col-md-12">
+            <label for="question" class="form-label">Enter Your Question</label>
+            <textarea class="form-control" id="question" name="questions" rows="3" required></textarea>
           </div>
-          <div class="col-md-12">
-            <label for="comments" class="form-label">Comments, questions?</label>
-            <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+          
+      <div class="col-md-12">
+            <label for="answer" class="form-label">Enter Your Answer</label>
+            <textarea class="form-control" id="answer" name="answers" rows="3"></textarea>
           </div>
+          
           <div class="col-md-12">
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
