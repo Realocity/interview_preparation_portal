@@ -30,7 +30,7 @@
         <a class="nav-link" href="${pageContext.request.contextPath}/resume/resume.jsp">Resume Templates</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath}/addquestion.jsp">Add Question and Answer</a>
+        <a class="nav-link" href="${pageContext.request.contextPath}/addQuestion/addquestion.jsp">Add Question and Answer</a>
       </li>
       
     </ul>

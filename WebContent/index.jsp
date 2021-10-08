@@ -236,7 +236,7 @@ button {
                         <div class="card-body">
                             <h5 class="card-title">Add Question and Answer</h5>
                             <p class="card-text">Now you can contribute by adding your questions and answer. As this site is open source.</p>
-                            <a href="${pageContext.request.contextPath}/addquestion.jsp" class="custom-btn btn-11">Let's Develop!</a>
+                            <a href="${pageContext.request.contextPath}/addQuestion/addquestion.jsp" class="custom-btn btn-11">Let's Develop!</a>
                         </div>
                     </div>
                 </div>
