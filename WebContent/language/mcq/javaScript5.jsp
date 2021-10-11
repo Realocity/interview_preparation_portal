@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which one of the following is correct output for the following given JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 Which one of the following is correct output for the following given JavaScript code:
 1.	functionheight()  
 2.	{     
 3.	var  height=123.56;  
@@ -30,7 +31,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which one of the following is correct output for the following given JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 Which one of the following is correct output for the following given JavaScript code:
 1.	string  X= "Good";  
 2.	string  Y="Evening";  
 3.	alert(X+Y);  
@@ -43,7 +44,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which one of the following is correct output for the following given JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 Which one of the following is correct output for the following given JavaScript code:
 1.	functionoutputfun(object)  
 2.	{  
 3.	    var place=object ?object.place: "Italy";  
@@ -58,7 +59,7 @@
         <label class="rounded p-2 option"> undefined <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following is correct output for the following given JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 Which one of the following is correct output for the following given JavaScript code:
 1.	<p id="demo"></p>  
 2.	<script>  
 3.	functionourFunction()  
@@ -74,7 +75,7 @@
         <label class="rounded p-2 option"> -7 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following is correct output for the following given JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 Which one of the following is correct output for the following given JavaScript code:
 1.	<p id="demo"></p>  
 2.	<script>  
 3.	function Function1()  
@@ -89,7 +90,7 @@
         <label class="rounded p-2 option"> Error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the following is correct output for the following given JavaScript code
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 Which one of the following is correct output for the following given JavaScript code
 1.	<p id="demo"></p>  
 2.	<script>  
 3.	functionmyFunction()  
@@ -105,7 +106,7 @@
         <label class="rounded p-2 option"> 047 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What we will get if we compare the "one" with "8" using the less than operator ("one"<8)?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 What we will get if we compare the "one" with "8" using the less than operator ("one"<8)?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -113,7 +114,7 @@
         <label class="rounded p-2 option"> Undefined<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which one of the following is known as the Equality operator, which is used to check whether the two values are equal or not: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Which one of the following is known as the Equality operator, which is used to check whether the two values are equal or not: </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> = <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ===<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -121,7 +122,7 @@
         <label class="rounded p-2 option"> &&<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which one of the following operator returns false if both values are equal?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 Which one of the following operator returns false if both values are equal?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> ! <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> !== <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -129,7 +130,7 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In a case, where the value of the operator is NULL , the typeof returned by the unary operator is___. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 In a case, where the value of the operator is NULL , the typeof returned by the unary operator is___. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Undefined <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> String <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -140,11 +141,21 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='javaScript4.jsp'>4</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				
+				<a class='page' href='javaScript3.jsp'>3</a>
+				
+				<a class='page' href='javaScript4.jsp'>4</a>
+				<span class="page current">5</span>	
 				<a class='page' href='javaScript6.jsp'>6</a>
-				<a class='page next' href='javaScript6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript7.jsp'>7</a>
+				<a class='page' href='javaScript8.jsp'>8</a>
+				<a class='page' href='javaScript9.jsp'>9</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

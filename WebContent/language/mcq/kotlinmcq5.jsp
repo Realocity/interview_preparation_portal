@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>kotlinmcq 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 An activity can be thought of as corresponding to what? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 An activity can be thought of as corresponding to what? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> A Java class <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">val set = hashSetOf(1, 2, 3) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 An activity can be thought of as corresponding to what?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 An activity can be thought of as corresponding to what?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">A Java class <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option">A Java project  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is used to make an abstract class?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 Which of the following is used to make an abstract class?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Declaring it abstract using virtual keyword. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Declaring it abstract using static keyword.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> Making at least one member function as pure virtual function. <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Kotlin is a .................... programming language, specially designed for developing mobile applications. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 Kotlin is a .................... programming language, specially designed for developing mobile applications. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> cross platform<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> statically typed <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Kotlin does not allow internal conversion of different data types. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 Kotlin does not allow internal conversion of different data types. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">maybe <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Kotlin have ............. types of constructors. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 Kotlin have ............. types of constructors. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">2<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 3 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">6 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 In Kotlin, ____________ is used when you know what functionalities a class should have. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 In Kotlin, ____________ is used when you know what functionalities a class should have. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> exception class<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> inheritance class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What is the syntax for declaring a variable as volatile in Kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 What is the syntax for declaring a variable as volatile in Kotlin? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> var x: Long? = null <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Volatile var x: Long? <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">Volatile var x: Long? = null <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of th following is used to compare two strings in Kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 Which of th following is used to compare two strings in Kotlin? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Using == operator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Using compareTo() extension function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Elvis Operator is used for handling null expectations in Kotlin.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 Elvis Operator is used for handling null expectations in Kotlin.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> TRUE <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> FALSE <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,21 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+      <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='kotlinmcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='kotlinmcq1.jsp'>1</a>
 				
+				<a class='page' href='kotlinmcq2.jsp'>2</a>
+				
+				<a class='page' href='kotlinmcq3.jsp'>3</a>
+				
+				<a class='page' href='kotlinmcq4.jsp'>4</a>
+				<span class="page current">5</span>
 				<a class='page' href='kotlinmcq6.jsp'>6</a>
-				<a class='page next' href='kotlinmcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='kotlinmcq7.jsp'>7</a>
+				<a class='page' href='kotlinmcq8.jsp'>8</a>
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cSharp 1</title>
 </head>
 <body>
@@ -101,9 +102,15 @@
     <div id='pagination'>
      <div><span class="page current">1</span>
 				<a class='page' href='cSharpMcq2.jsp'>2</a>
-				
 				<a class='page' href='cSharpMcq3.jsp'>3</a>
-				<a class='page next' href='cSharpMcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cSharpMcq4.jsp'>4</a>
+				<a class='page' href='cSharpMcq5.jsp'>5</a>
+				<a class='page' href='cSharpMcq6.jsp'>6</a>
+				<a class='page' href='cSharpMcq7.jsp'>7</a>
+				<a class='page' href='cSharpMcq8.jsp'>8</a>
+				<a class='page' href='cSharpMcq9.jsp'>9</a>
+				<a class='page' href='cSharpMcq10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

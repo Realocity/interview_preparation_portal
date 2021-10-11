@@ -1,10 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"> 
+<title>Lua Theory</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -33,7 +34,7 @@
                      <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Who Is/are The Founder Of Lua? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question2" class="collapse show" style="">
-                    <div class="card-body"> Lua was created in 1993 by Roberto Ierusalimschy, Luiz Henrique de Figueiredo, and Waldemar Celes, members of the Computer Graphics Technology Group (Tecgraf) at the Pontiʸcal Cath of Rio de Janeiro, in Brazil. </div>
+                    <div class="card-body"> Lua was created in 1993 by Roberto Ierusalimschy, Luiz Henrique de Figueiredo, and Waldemar Celes, members of the Computer Graphics Technology Group (Tecgraf) at the PontiÊ¸cal Cath of Rio de Janeiro, in Brazil. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -189,7 +190,7 @@ At this point I would say: do it if you want to experiment, but not for professi
                     <div class="card-body"> 
 Firstly, LuaJIT has a faster baseline interpreter. Even without the JIT, LuaJIT is already faster than baseline Lua for three reasons:
 
-The interpreter uses a custom bytecode format. The Lua 5.1 format needs a bit more bit ʸddling to decode an instruction, but LuaJIT's format only uses ʸelds that are multiples of 1 byte. This makes decoding instructions faster. Since decoding has to be done for every single instruction, a simpler format directly translates into a faster interpreter. (By how much depends on the complexity of each instruction, though.)
+The interpreter uses a custom bytecode format. The Lua 5.1 format needs a bit more bit Ê¸ddling to decode an instruction, but LuaJIT's format only uses Ê¸elds that are multiples of 1 byte. This makes decoding instructions faster. Since decoding has to be done for every single instruction, a simpler format directly translates into a faster interpreter. (By how much depends on the complexity of each instruction, though.)
                      </div>
                 </div>
             </div>
@@ -204,7 +205,7 @@ The interpreter uses a custom bytecode format. The Lua 5.1 format needs a bit mo
 
 Lua is off-the-charts portable. It's by far the most portable language I've ever seen, maybe even the most portable program.
 What I mean by this isn't that Lua programs are portable (they're not, compared to Java), but Lua itself is.
-Just recently I built Lua on an IBM iSeries, with zero changes to the source code, I just compiled each Lua source ʸle with the IBM ILE C compiler.
+Just recently I built Lua on an IBM iSeries, with zero changes to the source code, I just compiled each Lua source Ê¸le with the IBM ILE C compiler.
 Compare that to getting say, Python building on some unknown UNIX, let alone a completely different OS like IBM i (OS/400).
 Lua is very simple, easy to port to a new platform, easy to integrate with C on that platform. It's a nice enough language, but nothing special, but it's portability is special
 </div>
@@ -276,6 +277,16 @@ Portable
         </div>
     </div>
 
-
+<br><br>
+  <!-- footer -->  
+         
+ <%@ include file="/common/footer.jsp" %></div>
+ 
+ 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

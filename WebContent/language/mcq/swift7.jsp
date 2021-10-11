@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>swift 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which is the wrong definition of a protocol in Swift? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Which is the wrong definition of a protocol in Swift? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> protocol SomeProtocol { var first: Int{ get } } <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> protocol SomeProtocol { var first: Int{ set } } <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of these could be an appropriate protocol declaration in Swift?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which of these could be an appropriate protocol declaration in Swift?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> @objc protocol someProtocal { optional var first: Int { get } }<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> @objc protocol someProtocal { optional var first: Int { set } } <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which is the content of UITableViewCell ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Which is the content of UITableViewCell ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> image view <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> text label<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> all of above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Who calls the main function of app during the app launch cycle?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 Who calls the main function of app during the app launch cycle?  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> UIKit framework <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> UIApplication <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is protocol in swift? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 What is protocol in swift? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Class in Java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Interface in Java <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> collection  in Java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> all<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which framework delivers event to custom object when app is in foreground? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 Which framework delivers event to custom object when app is in foreground? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> PushKit Framework<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Twitter Framework <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> GameKit Framework<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Where you can use protocol as a type? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 Where you can use protocol as a type? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> As a parameter type or return type in a function, method or initializer. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> As the type 9f a constant, variable or property.  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 All view in iOs   derived from</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 All view in iOs   derived from</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> View <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> UIView<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of Above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 what is the extension of compiled version of main.storyboard file??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 what is the extension of compiled version of main.storyboard file??</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> .xib <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> .nib <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> .swift <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What is the full form of XIB? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 What is the full form of XIB? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> XML interface builder  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> extensible interface builder <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,25 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='swift6.jsp'>6</a>
+    
+				<a class='page' href='swift1.jsp'>1</a>
 				
+				<a class='page' href='swift2.jsp'>2</a>
+				 
+				<a class='page' href='swift3.jsp'>3</a>
+			
+				<a class='page' href='swift4.jsp'>4</a>
+				
+				<a class='page' href='swift5.jsp'>5</a>
+					
+				<a class='page' href='swift6.jsp'>6</a>
+				<span class="page current">7</span>
 				<a class='page' href='swift8.jsp'>8</a>
-				<a class='page next' href='swift8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='swift9.jsp'>9</a>
+				<a class='page' href='swift10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

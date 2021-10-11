@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>scalamcq 1</title>
 </head>
 <body>
@@ -102,9 +103,10 @@ Scala?</p>
     <div id='pagination'>
      <div><span class="page current">1</span>
 				<a class='page' href='scalamcq2.jsp'>2</a>
-				
 				<a class='page' href='scalamcq3.jsp'>3</a>
-				<a class='page next' href='scalamcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='scalamcq4.jsp'>4</a>
+				<a class='page' href='scalamcq5.jsp'>5</a>
+			
 				</div>
 				</div>
 				<center>

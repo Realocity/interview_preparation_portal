@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following code is used to enable the sa login?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 Which of the following code is used to enable the sa login?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  ALTER LOGIN saENABLE ;
 GO
@@ -36,7 +38,7 @@ GO
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Point out the correct statement.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Point out the correct statement.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SQL Server 2008 offers three authentication mode options<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Microsoftâs best practice recommendation is that you use Windows authentication mode whenever possible <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -45,7 +47,7 @@ GO
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following feature prefers SQL Server authentication mode over windows authentication?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which of the following feature prefers SQL Server authentication mode over windows authentication?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Backward compatibility<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Forward compatibility<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -53,7 +55,7 @@ GO
         <label class="rounded p-2 option">  All of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Windows Authentication Mode is not available when an instance of SQL Server is running on ____________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 Windows Authentication Mode is not available when an instance of SQL Server is running on ____________ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Windows98<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Windows7 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -61,14 +63,14 @@ GO
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Point out the wrong statement. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Point out the wrong statement. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Windows authentication mode dramatically reduces the chances of error or oversight <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Account administration details in windows mode is stored in passive directory <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> The sa account is a well-known SQL Server account and it is often targeted by malicious users <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following authentication modes is more secure? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Which of the following authentication modes is more secure? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  SQL Server Authentication<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Windows Authentication <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -76,7 +78,7 @@ GO
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 By using Windows Authentication, Windows groups can be created at the _________ level.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 By using Windows Authentication, Windows groups can be created at the _________ level.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Login<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Domain <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -84,7 +86,7 @@ GO
         <label class="rounded p-2 option"> None of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 ________ optional password policies are available for SQL Server logins.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 ________ optional password policies are available for SQL Server logins.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 2 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 3<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -92,7 +94,7 @@ GO
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is the biggest disadvantage of SQL Server Authentication mode?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 Which of the following is the biggest disadvantage of SQL Server Authentication mode?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> SQL Server Authentication cannot use Kerberos security protocol <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Allows SQL Server to support Web-based applications where users create their own identities <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -100,7 +102,7 @@ GO
         <label class="rounded p-2 option">  None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The Windows password policies enforced for SQL Server logins depends upon _____________________ API.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 The Windows password policies enforced for SQL Server logins depends upon _____________________ API.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  NetValidate<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> NetValidatePasswordPolicy <input type="radio" name="radio"> <span class="checkmark"></span> </label> 

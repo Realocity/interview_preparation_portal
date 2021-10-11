@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 connect() function in sqlite3 is used for ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 connect() function in sqlite3 is used for ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> To connect the database <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> To open the database<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Correct way to import the sqlite3 in the program ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Correct way to import the sqlite3 in the program ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> import sqlite3<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> import sqlite3 as s<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Correct way to run the query in Python sqlite3 is :</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Correct way to run the query in Python sqlite3 is :</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> sqlite3.execute.query<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sqlite3.execute(query)<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  For fetch the data, which function we use to run the select query ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24  For fetch the data, which function we use to run the select query ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> fetch()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> rawquery() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> execute()<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 For what purpose sqlite3 is used ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 For what purpose sqlite3 is used ? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Front end <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Back end <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> CLI <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> GUI<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 How we can call the function of sqlite3, if we import by import sqlite3 as sq ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 How we can call the function of sqlite3, if we import by import sqlite3 as sq ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  sqlite.function()   <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  function()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Sqlite3 in python is the module by which we can handle </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Sqlite3 in python is the module by which we can handle </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Database<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> GUI <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> Connectivity<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 To open or connect with the database, which function we used or call at runtime ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 To open or connect with the database, which function we used or call at runtime ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  open()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> connect()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is the correct statement about the RawQuery() function in sqlite3 in python ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 What is the correct statement about the RawQuery() function in sqlite3 in python ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> It is used to fetch the row from the table <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It is used to execute the select query in the table <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option"> 1 and 2 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What the following query does ?, select count(*) from table </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 What the following query does ?, select count(*) from table </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> It return all rows data <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It return number of rows in table <input type="radio" name="radio"> <span class="checkmark"></span> </label> 

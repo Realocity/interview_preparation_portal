@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 A Synonym is another name for an object. It is used to simplify access to objects such as tables owned by another user or to shorten lengthy object name.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 A Synonym is another name for an object. It is used to simplify access to objects such as tables owned by another user or to shorten lengthy object name.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The switch operation waits for transactions in the old undo tablespace to commit. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 The switch operation waits for transactions in the old undo tablespace to commit. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> true<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option">  false<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 In Viewing Tablespace Information, which view gives Information for all extents in all locally managed temporary tablespaces?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 In Viewing Tablespace Information, which view gives Information for all extents in all locally managed temporary tablespaces?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> V$TEMP_EXTENT_POOL<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> V$TEMP_EXTENT_MAP<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option"> V$TEMP_SPACE_HEADER <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following are valid optimization methods? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 Which of the following are valid optimization methods? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Rule based<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Cost based<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> Query based<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The indoubt transaction locks data that is required by other transactions. This situation occurs when the ORA-01591 error message interferes with user transactions. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 The indoubt transaction locks data that is required by other transactions. This situation occurs when the ORA-01591 error message interferes with user transactions. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  May be<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Can not say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which condition is applied while determining the commit point site? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 Which condition is applied while determining the commit point site? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> A read-only node can be the commit point site <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> If multiple nodes directly referenced by the global coordinator have the same commit point strength, then the database designates one of these as the commit point site <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What are the following guidelines used for?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 What are the following guidelines used for?
 
 1) Be sure the sequence cache can hold all the sequences used concurrently by your applications
 2) Increase the number of values for each sequence held in the sequence cache</p>
@@ -75,7 +77,7 @@
         <label class="rounded p-2 option"> All mentioned above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which are the several utilities that are available to help you maintain the data in your Oracle Database</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 Which are the several utilities that are available to help you maintain the data in your Oracle Database</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  SQL*Loader<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Export and Import Utilities<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +85,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The syntax to create a synonym is:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 The syntax to create a synonym is:
 
 CREATE [PUBLIC] synonym_name
 FOR [schema.]object_name[@database_link_name];
@@ -96,7 +98,7 @@ In this syntax what specifies either a table, view, sequence, materialized view,
         <label class="rounded p-2 option"> Object_name <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which is the smallest unit of storage in an Oracle database?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Which is the smallest unit of storage in an Oracle database?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Data Block <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Segment <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

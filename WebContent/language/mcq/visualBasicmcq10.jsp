@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>vb 10</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Using a ________ variable does not enable us to create read-only properties that are often required by a class.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Using a ________ variable does not enable us to create read-only properties that are often required by a class.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> public <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> private<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 A ___________ performs invisible tasks even if you write no code.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 A ___________ performs invisible tasks even if you write no code.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> destructor<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> private method <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 The ___________________________________ does not describe inherited member functions, inherited operators, and overridden virtual member functions.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 The ___________________________________ does not describe inherited member functions, inherited operators, and overridden virtual member functions.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Class Library Reference <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Library<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> Classes <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The ______________________ group classes according to their common services. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 The ______________________ group classes according to their common services. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> objects<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> inheritance <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> programs <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Whenever an application is created, a ______ is added. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 Whenever an application is created, a ______ is added. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Form <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Class  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Object<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 _________ are interactive objects that you place in dialog boxes or other windows to carry out user actions. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 _________ are interactive objects that you place in dialog boxes or other windows to carry out user actions. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Controls<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Objects <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> Forms<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The _______________ class provides static methods to start, stop, or filter Windows messages in an application. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 The _______________ class provides static methods to start, stop, or filter Windows messages in an application. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Forms <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Windows <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> Control<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The ___________is a systematic class framework used for the development of system tools and utilities.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 The ___________is a systematic class framework used for the development of system tools and utilities.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> .Net Framework Class Library (FCL) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> .Net tools<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> Visual Basic 6 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The ______________ method converts the value of this instance to a double representing the OLE automation date</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 The ______________ method converts the value of this instance to a double representing the OLE automation date</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> From OA Date <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> TO OA Date <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> Now <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The _________________ enable us to pass data between a program and a class.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 The _________________ enable us to pass data between a program and a class.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Functions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Properties <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -97,12 +98,29 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+<!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
-				<a class='page' href='visualBasicmcq9.jsp'>9</a>
+     <div>
+				<a class='page' href='visualBasicmcq1.jsp'>1</a>
 				
+				<a class='page' href='visualBasicmcq2.jsp'>2</a>
+					
+					<a class='page' href='visualBasicmcq3.jsp'>3</a>
 				
+						<a class='page' href='visualBasicmcq4.jsp'>4</a>
+							
+							<a class='page' href='visualBasicmcq5.jsp'>5</a>
+							
+								<a class='page' href='visualBasicmcq6.jsp'>6</a>
+								
+									<a class='page' href='visualBasicmcq7.jsp'>7</a>
+										
+										<a class='page' href='visualBasicmcq8.jsp'>8</a>
+									
+											<a class='page' href='visualBasicmcq9.jsp'>9</a>
+												<span class="page current">10</span>
+											
+			
 				</div>
 				</div>
 				<center>

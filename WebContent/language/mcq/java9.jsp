@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>java 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is the name of the method used to start a thread execution?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 What is the name of the method used to start a thread execution?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> run(); <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> init();<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which cannot directly cause a thread to stop executing? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 Which cannot directly cause a thread to stop executing? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Calling the SetPriority() method on a Thread object <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Calling read() method on an InputStream object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following will directly stop the execution of a Thread? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Which of the following will directly stop the execution of a Thread? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> notify()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> notifyall()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> exits synchronized code <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which function of pre defined class Thread is used to check weather current thread being checked is still running? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 Which function of pre defined class Thread is used to check weather current thread being checked is still running? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> isAlive()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Alive() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Join()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which method must be defined by a class implementing the java.lang.Runnable interface? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which method must be defined by a class implementing the java.lang.Runnable interface? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> public void run() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> void run() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> void run(int priority) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> public void start()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Assume the following method is properly synchronized and called from a thread A on an object B: wait(2000); After calling this method, when will the thread A become a candidate to get another turn at the CPU? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 Assume the following method is properly synchronized and called from a thread A on an object B: wait(2000); After calling this method, when will the thread A become a candidate to get another turn at the CPU? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> After thread A is notified, or after two seconds.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Two seconds after thread A is notified. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Two seconds after lock B is released.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which will contain the body of the thread? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 Which will contain the body of the thread? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> main();<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> stop(); <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> run();<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which class or interface defines the wait(), notify(),and notifyAll() methods?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Which class or interface defines the wait(), notify(),and notifyAll() methods?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Object <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Thread <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of these method of Thread class is used to find out the priority given to a thread? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 Which of these method of Thread class is used to find out the priority given to a thread? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> ThreadPriority() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> get() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> getThreadPriority() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of these method of Thread class is used to Suspend a thread for a period of time?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 Which of these method of Thread class is used to Suspend a thread for a period of time?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> stop() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sleep() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -96,13 +97,27 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='java8.jsp'>8</a>
+     <div>
+				<a class='page' href='java1.jsp'>1</a>
 				
+				<a class='page' href='java2.jsp'>2</a>
+				
+				<a class='page' href='java3.jsp'>3</a>
+			
+				<a class='page' href='java4.jsp'>4</a>
+					
+				<a class='page' href='java5.jsp'>5</a>
+			
+				<a class='page' href='java6.jsp'>6</a>
+					
+				<a class='page' href='java7.jsp'>7</a>
+			
+				<a class='page' href='java8.jsp'>8</a>
+					<span class="page current">9</span>	
 				<a class='page' href='java10.jsp'>10</a>
-				<a class='page next' href='java10.jsp' title='Next'>&raquo;</a>
+				
 				</div>
 				</div>
 				<center>

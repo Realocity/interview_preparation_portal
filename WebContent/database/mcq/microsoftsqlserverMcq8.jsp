@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 View that contains the list of all the security labels present in the database are __________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 View that contains the list of all the security labels present in the database are __________ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> vwVisibleLabels <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> VisibleLabels<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following retrieves a SecurityLabel instance describing the subject label of the current database user?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Which of the following retrieves a SecurityLabel instance describing the subject label of the current database user?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> fn_Dominates<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> usp_GetUserLabel <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What will the fn_Dominates return if A dominates B where A and B both are security label?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 What will the fn_Dominates return if A dominates B where A and B both are security label?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 0<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option">  None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The major components of the Label Security Toolkit are _____________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 The major components of the Label Security Toolkit are _____________ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Documentation<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The Label Policy Designer application <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Return type of CertName field in vwVisibleLabels is __________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 Return type of CertName field in vwVisibleLabels is __________ </p>
         <div class="options py-3"> <label class="rounded p-2 option">  XML<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  INT<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> NVARCHAR(256) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> VARCHAR(256)<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following will not return user name of the current session? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 Which of the following will not return user name of the current session? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  CUURENT_USER()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> USER_NAME() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Grant ________ permission on the stored procedures to database roles for implementing call level security.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Grant ________ permission on the stored procedures to database roles for implementing call level security.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> EXECUTE<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  EXEC<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> WRITE<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following tool is used for purpose of data auditing for SQL Server only?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 Which of the following tool is used for purpose of data auditing for SQL Server only?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> ApexSQL <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> SQL Ninja<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> Idera<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Selecting the _________ option can allow unaudited activity which could violate your security policies.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 Selecting the _________ option can allow unaudited activity which could violate your security policies.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Fail<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Shut down<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option">  Break<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following statement is used to enable auditing from SQL Server?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 Which of the following statement is used to enable auditing from SQL Server?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  auditpol /set /subcategory:âapplication generatedâ /success:enable /failure:enable<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  polaudit /set /subcategory:âapplication generatedâ /success:enable /failure:enable<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

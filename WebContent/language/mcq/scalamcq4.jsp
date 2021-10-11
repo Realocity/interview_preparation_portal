@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>scalamcq 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Scala was released in the year ______.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 Scala was released in the year ______.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 2001 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 2002<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 We can execute a Scala program in ______ modes.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 We can execute a Scala program in ______ modes.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> script mode<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> interactive mode <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Scala has singleton objects, which are essentially classes with only one instance.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Scala has singleton objects, which are essentially classes with only one instance.</p>
         <div class="options py-3">
          <label class="rounded p-2 option">True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following is a feature of Scala strings? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 Which one of the following is a feature of Scala strings? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It is mutable object. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It allows to create multiline strings by including the string inside three double-quotes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How do you abruptly stop execution in the REPL? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 How do you abruptly stop execution in the REPL? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Pressing Ctrl+C <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Pressing Ctrl+X <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Pressing Ctrl+Z <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Pressing Ctrl+V<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The null value is of type _________. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 The null value is of type _________. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">scl.Null<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> scala.n <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7  What is a type class in Scala?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37  What is a type class in Scala?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> A class that performs boxing of a certain data type <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A companion class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">  None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following statements are true about iterators?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Which of the following statements are true about iterators?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> To get the next item, we use next() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> We can use the method hasNext to find out if it has another element left <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">  All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Scala is an acronym for âScalable Languageâ.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 Scala is an acronym for âScalable Languageâ.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  True <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 A FUNCTOR must have ___.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 A FUNCTOR must have ___.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> map function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> flatMap function <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -96,13 +97,17 @@
     </div> 
     
   
+    
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='scalamcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='scalamcq1.jsp'>1</a>
+				<a class='page' href='scalamcq2.jsp'>2</a>
 				
-				<a class='page' href='scalamcq6.jsp'>6</a>
-				<a class='page next' href='scalamcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='scalamcq3.jsp'>3</a>
+				<span class="page current">4</span>
+				<a class='page' href='scalamcq5.jsp'>5</a>
+			
 				</div>
 				</div>
 				<center>

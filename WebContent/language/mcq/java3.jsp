@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>java 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 An interface with no fields or methods is known as a ______.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 An interface with no fields or methods is known as a ______.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Runnable Interface <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Abstract Interface <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is an immediate subclass of the Panel class?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Which of the following is an immediate subclass of the Panel class?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Applet class<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Window class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which option is false about the final keyword? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Which option is false about the final keyword? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> A final method cannot be overridden in its subclasses.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A final class cannot be extended.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> A final method can be inherited. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of these classes are the direct subclasses of the Throwable class? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Which of these classes are the direct subclasses of the Throwable class? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> RuntimeException and Error class<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Exception and VirtualMachineError class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> IOException and VirtualMachineError class<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What do you mean by chained exceptions in Java? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 What do you mean by chained exceptions in Java? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Exceptions occurred by the VirtualMachineError <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> An exception caused by other exceptions <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Exceptions occur in chains with discarding the debugging information <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 In which memory a String is stored, when we create a string using new operator? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 In which memory a String is stored, when we create a string using new operator? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Stack<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> String memory <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Random storage space<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is the use of the intern() method?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 What is the use of the intern() method?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It returns the existing string from memory<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> It creates a new string in the database <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is a marker interface?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Which of the following is a marker interface?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Runnable interface <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Remote interface<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Result interface<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is a reserved keyword in Java?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 Which of the following is a reserved keyword in Java?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> strictfp<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> system <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which keyword is used for accessing the features of a package?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Which keyword is used for accessing the features of a package?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> package <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> import <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -96,13 +97,21 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='java2.jsp'>2</a>
+     <div>
+				<a class='page' href='java1.jsp'>1</a>
 				
+				<a class='page' href='java2.jsp'>2</a>
+				<span class="page current">3</span>	
 				<a class='page' href='java4.jsp'>4</a>
-				<a class='page next' href='java4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='java5.jsp'>5</a>
+				<a class='page' href='java6.jsp'>6</a>
+				<a class='page' href='java7.jsp'>7</a>
+				<a class='page' href='java8.jsp'>8</a>
+				<a class='page' href='java9.jsp'>9</a>
+				<a class='page' href='java10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

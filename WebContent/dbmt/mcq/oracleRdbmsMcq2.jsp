@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<title>Insert title here</title>
+<title>Oracle RDBMS MCQ</title>
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Insert the appropriate key word in the blank in the query ( A is a relation)
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Insert the appropriate key word in the blank in the query ( A is a relation)
 delete ______ A
 where P < 5;
         </p>
@@ -34,7 +34,7 @@ where P < 5;
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 How many relations can a delete command operate on?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 How many relations can a delete command operate on?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 0<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> 1 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -43,7 +43,7 @@ where P < 5;
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the result of the following query?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 What is the result of the following query?
 advertisement
 DELETEFROM student
 WHERE marks &lt; (SELECTavg(marks)
@@ -56,7 +56,7 @@ FROM student);
         <label class="rounded p-2 option"> The query is syntactically wrong and does not execute <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is the format of entering date into a database while inserting data into it? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 What is the format of entering date into a database while inserting data into it? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> YYYY-MM-DD<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> “YYYY-MM-DD” <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +64,7 @@ FROM student);
         <label class="rounded p-2 option"> “DD-MM-YYYY”<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Choose the correct option regarding the following query
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Choose the correct option regarding the following query
 INSERTINTO course ('CS-67','course name','any',5);
          </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Data is inserted into the course relation <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -73,7 +73,7 @@ INSERTINTO course ('CS-67','course name','any',5);
         <label class="rounded p-2 option"> Data is not inserted due to the incorrect use of syntax<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  To change a value in a tuple without changing all the values in the tuple, we use the _____ statement</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16  To change a value in a tuple without changing all the values in the tuple, we use the _____ statement</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  insert<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  insert some<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -81,7 +81,7 @@ INSERTINTO course ('CS-67','course name','any',5);
         <label class="rounded p-2 option"> alter<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What does the following query do?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 What does the following query do?
 UPDATE student 
 SET marks = marks*1.10;
         </p>
@@ -92,7 +92,7 @@ SET marks = marks*1.10;
         <label class="rounded p-2 option"> It is syntactically wrong<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 State true or false: We cannot write a where clause under an update command</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 State true or false: We cannot write a where clause under an update command</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -100,7 +100,7 @@ SET marks = marks*1.10;
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Scalar Subqueries can be used in the SQL update statement when they are used under the ____ clause</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Scalar Subqueries can be used in the SQL update statement when they are used under the ____ clause</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> where <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> with <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -108,7 +108,7 @@ SET marks = marks*1.10;
         <label class="rounded p-2 option">  end<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following cannot be used to modify the data in a database</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following cannot be used to modify the data in a database</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> update <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> insert <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

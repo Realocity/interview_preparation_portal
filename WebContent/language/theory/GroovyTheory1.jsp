@@ -1,10 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"> 
+<title>Groovy Theory</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -88,10 +89,10 @@ It has efficient object navigation
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question7"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> When “propertymissing (string)” Method Is Called? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> When âpropertymissing (string)â Method Is Called? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question7" class="collapse show" style="">
-                    <div class="card-body"> The “propertyMissing (String)” method is called when no getter method for a given property can be detected by the Groovy runtime. </div>
+                    <div class="card-body"> The âpropertyMissing (String)â method is called when no getter method for a given property can be detected by the Groovy runtime. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -127,7 +128,7 @@ Documentation is thin
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> I Get Errors When Trying To Run Groovy, Groovysh Or Groovyconsole. Whats Wrong? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
-                    <div class="card-body"> Groovy depends on JDK 1.4 or later. Common errors people have when trying to run Groovy is that there’s an old groovy jar on the CLASSPATH somewhere (have you checked in java/lib/ext?) or that JAVA_HOME points to an old JDK before JDK 1. </div>
+                    <div class="card-body"> Groovy depends on JDK 1.4 or later. Common errors people have when trying to run Groovy is that thereâs an old groovy jar on the CLASSPATH somewhere (have you checked in java/lib/ext?) or that JAVA_HOME points to an old JDK before JDK 1. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -168,7 +169,7 @@ Documentation is thin
                 </div>
                 <div id="question14" class="collapse show" style="">
                     <div class="card-body"> Groovy has added new methods compare to old version like
-Various array types and object streams with newly Groovy oriented methods like Object.every(), Object.each() etc. and also include new features like “String BufferedReader.getText()” and “InputStream.eachLine(Closure)”.
+Various array types and object streams with newly Groovy oriented methods like Object.every(), Object.each() etc. and also include new features like âString BufferedReader.getText()â and âInputStream.eachLine(Closure)â.
                      </div>
                 </div>
             </div>
@@ -224,7 +225,7 @@ Methods definitions
                 </div>
                 <div id="question19" class="collapse show" style="">
                     <div class="card-body"> You can include a groovy script with another groovy by using the following code. When put this code at the top of the script it will bring in the contents of a groovy file.
-Evaluate(new file(“../tools/Tools.groovy”))
+Evaluate(new file(â../tools/Tools.groovyâ))
                      </div>
                 </div>
             </div>

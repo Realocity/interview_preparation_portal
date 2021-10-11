@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>pythonmcq 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which one of the following has the highest precedence in the expression? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 Which one of the following has the highest precedence in the expression? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Division <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Subtraction<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following functions is a built-in function in python language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Which of the following functions is a built-in function in python language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> val() <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> print() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 round(4.576)  <br>What will be the output of this function?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 round(4.576)  <br>What will be the output of this function?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 4<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Which of the following is correctly evaluated for this function?<br> pow(x,y,z)  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74  Which of the following is correctly evaluated for this function?<br> pow(x,y,z)  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> (x**y) / z <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> (x / y) * z <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> (x / y) / z <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 all([2,4,0,6])  <br>What will be the output of this function? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 all([2,4,0,6])  <br>What will be the output of this function? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Invalid code<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will be the output of this code?<br>x = 1  
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 What will be the output of this code?<br>x = 1  
 while True:  
     if x % 5 = = 0:  
         break  
@@ -69,7 +70,7 @@ while True:
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which one of the following syntaxes is the correct syntax to read from a simple text file stored in ''d:\java.txt''?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Which one of the following syntaxes is the correct syntax to read from a simple text file stored in ''d:\java.txt''?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Infile = open(''d:\\java.txt'', ''r'') <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Infile = open(file=''d:\\\java.txt'', ''r'') <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -77,7 +78,7 @@ while True:
         <label class="rounded p-2 option"> Infile = open.file(''d:\\java.txt'',''r'')<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What will be the output of this program?<br>x = ['XX', 'YY']  
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 What will be the output of this program?<br>x = ['XX', 'YY']  
 for i in a:  
     i.lower()  
 print(a)  
@@ -89,7 +90,7 @@ print(a)
         <label class="rounded p-2 option"> None of these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What will be the output of this code?<br>import math  
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 What will be the output of this code?<br>import math  
 abs(math.sqrt(36))  
         </p>
         <div class="options py-3"> 
@@ -99,7 +100,7 @@ abs(math.sqrt(36))
         <label class="rounded p-2 option"> 6.0 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What will be the output of this code?<br>any([5>8, 6>3, 3>1])  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 What will be the output of this code?<br>any([5>8, 6>3, 3>1])  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Ture <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -110,11 +111,24 @@ abs(math.sqrt(36))
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='pythonmcq7.jsp'>7</a>
+     <div>
+				<a class='page' href='pythonmcq1.jsp'>1</a>
 				
+				<a class='page' href='pythonmcq2.jsp'>2</a>
+				
+				<a class='page' href='pythonmcq3.jsp'>3</a>
+				
+				<a class='page' href='pythonmcq4.jsp'>4</a>
+			
+				<a class='page' href='pythonmcq5.jsp'>5</a>
+				
+				<a class='page' href='pythonmcq6.jsp'>6</a>
+					
+				<a class='page' href='pythonmcq7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='pythonmcq9.jsp'>9</a>
-				<a class='page next' href='pythonmcq9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='pythonmcq10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

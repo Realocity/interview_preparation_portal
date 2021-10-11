@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>ruby 10</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 In Rails, a test of an individual controller is called ------------------.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 In Rails, a test of an individual controller is called ------------------.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> an action <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> functional test<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 what test that tests the whole system?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 what test that tests the whole system?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> an environment<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option">  functional test<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 A form bound to a model object is called -------.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 A form bound to a model object is called -------.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> form_for<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  model form<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> a fixture <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 what is called a set of test data? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 what is called a set of test data? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> an action<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  a fixture<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> unit test<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 what is a layout?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 what is a layout?  </p>
         <div class="options py-3"> <label class="rounded p-2 option"> a tag containing a piece of ruby code <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> the set of operations that a Rails app carries out in response to a request from a user <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> fragments of pages that are stored in separate files <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  this defines an html wrapper for all of the templates belonging to a particular model<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What is Ruby on Rails? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 What is Ruby on Rails? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Web application framework<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> PHP framework <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Who wrote Ruby on Rails? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 Who wrote Ruby on Rails? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Gudo Rossum<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Yukihiro Matsumoto <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> Don't know<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Does Ruby on Rails make app development easier?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 Does Ruby on Rails make app development easier?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Yes, It does  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> No, It doesn't<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What does DRY mean?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 What does DRY mean?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Don't rub yourself <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Don't repeat yourself <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 how  is authenticity token works? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 how  is authenticity token works? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  where url requests come through<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  fragments of pages that are stored in separate files<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,10 +99,26 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current"></span>
+     <div>
+				<a class='page' href='ruby1.jsp'>1</a>
+				
+				<a class='page' href='ruby2.jsp'>2</a>
+				
+				<a class='page' href='ruby3.jsp'>3</a>
+				
+				<a class='page' href='ruby4.jsp'>4</a>
+				
+				<a class='page' href='ruby5.jsp'>5</a>
+				
+				<a class='page' href='ruby6.jsp'>6</a>
+				
+				<a class='page' href='ruby7.jsp'>7</a>
+				
+				<a class='page' href='ruby8.jsp'>8</a>
+			
 				<a class='page' href='ruby9.jsp'>9</a>
-				
-				
+					<span class="page current">10</span>
+			
 				</div>
 				</div>
 				<center>

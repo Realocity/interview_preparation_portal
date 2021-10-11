@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which keyword we use to fetch the data from the table in database ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Which keyword we use to fetch the data from the table in database ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> fetch <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> select<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the correct way to install the sqlite3 in python ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Which of the correct way to install the sqlite3 in python ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> install sqlite3<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> pip install sqlite3 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following function are used to execute the query in sqlite3 python ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following function are used to execute the query in sqlite3 python ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">execute()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> query()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option"> run() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Which of the following is correct syntax of the connect() function in sqlite3?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14  Which of the following is correct syntax of the connect() function in sqlite3?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> sqlite.connect()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sqlite.connect.database<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is not the correct way to import the sqlite3 ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which of the following is not the correct way to import the sqlite3 ? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> import sqlite3 as s <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> import sqlite3 as p <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> import sqlite3 as sq<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following is not the function of the sqlite3 in python ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following is not the function of the sqlite3 in python ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> connect()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  close()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> raw()<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following tool are provided by the python to manage the database ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 Which of the following tool are provided by the python to manage the database ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> sqlite3<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> MySql <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Any column can still store any type of data but the preferred storage class for a column is called its ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Any column can still store any type of data but the preferred storage class for a column is called its ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> affinity <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> type affinity<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> type storage<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which operator is used to search for values that are within a set of values, given the minimum value and the maximum value?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which operator is used to search for values that are within a set of values, given the minimum value and the maximum value?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> And <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> EXISTS <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option">  Between<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following command is true regarding ROLLBACK Statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following command is true regarding ROLLBACK Statement?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  ROLLBACK;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  ROLLBACK TO SAVEPOINT savepoint_name;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

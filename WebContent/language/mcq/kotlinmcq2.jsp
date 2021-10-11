@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>kotlinmcq 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Does Kotlin works only for Java?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Does Kotlin works only for Java?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> no <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2  Is Kotlin compatible with the Java programming language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12  Is Kotlin compatible with the Java programming language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Yes <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> no <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3Which of the following extension methods are used in Kotlin?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following extension methods are used in Kotlin?
          </p>
         <div class="options py-3">
          <label class="rounded p-2 option">Read texts () & Headlines () <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option">  All of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 There are two types of constructors in Kotlin which are </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 There are two types of constructors in Kotlin which are </p>
         <div class="options py-3">
          <label class="rounded p-2 option">Primary & Secondary constructor <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  Default & No-arg constructor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Which of the following is not the basic data types in Kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15  Which of the following is not the basic data types in Kotlin? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Numbers <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Strings <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Arrays <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Lists <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Can we execute Kotlin Code Without Jvm?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Can we execute Kotlin Code Without Jvm?
          </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">yes<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -65,7 +66,7 @@
         <label class="rounded p-2 option">maybe <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of following option is used to handle null exceptions in Kotlin?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 Which of following option is used to handle null exceptions in Kotlin?
         </p>
         <div class="options py-3">
          <label class="rounded p-2 option">Range<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -74,7 +75,7 @@
         <label class="rounded p-2 option">  Lambda function<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Does Kotlin have the static keyword?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Does Kotlin have the static keyword?
         </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +84,7 @@
         <label class="rounded p-2 option">may be <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Is new a keyword in Kotlin?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Is new a keyword in Kotlin?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> no <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -91,7 +92,7 @@
         <label class="rounded p-2 option"> may be <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Kotlin was developed under the .......... license. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Kotlin was developed under the .......... license. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Apache 1.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Apache 2.0 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -102,11 +103,16 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='kotlinmcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='kotlinmcq3.jsp'>3</a>
-				<a class='page next' href='kotlinmcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='kotlinmcq4.jsp'>4</a>
+				<a class='page' href='kotlinmcq5.jsp'>5</a>
+				<a class='page' href='kotlinmcq6.jsp'>6</a>
+				<a class='page' href='kotlinmcq7.jsp'>7</a>
+				<a class='page' href='kotlinmcq8.jsp'>8</a>
+			
 				</div>
 				</div>
 				<center>

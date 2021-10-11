@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>VB 1</title>
 </head>
 <body>
@@ -100,10 +101,17 @@
     <!-- /Intext --><hr>
     <div id='pagination'>
      <div><span class="page current">1</span>
-				<a class='page' href='visualBasicmcq2.jsp'>2</a>
-				
+				<a class='page' href='visualBasicmcq2.jsp'>2</a>		
 				<a class='page' href='visualBasicmcq3.jsp'>3</a>
-				<a class='page next' href='visualBasicmcq2.jsp' title='Next'>&raquo;</a>
+					<a class='page' href='visualBasicmcq4.jsp'>4</a>
+						<a class='page' href='visualBasicmcq5.jsp'>5</a>
+							<a class='page' href='visualBasicmcq6.jsp'>6</a>
+								<a class='page' href='visualBasicmcq7.jsp'>7</a>
+									<a class='page' href='visualBasicmcq8.jsp'>8</a>
+										<a class='page' href='visualBasicmcq9.jsp'>9</a>
+											<a class='page' href='visualBasicmcq10.jsp'>10</a>
+											
+			
 				</div>
 				</div>
 				<center>

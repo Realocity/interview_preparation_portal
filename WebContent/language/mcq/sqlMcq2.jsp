@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>sqlMcq 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which data manipulation command is used to combines the records from one or more tables?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Which data manipulation command is used to combines the records from one or more tables?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SELECT <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> PROJECT<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which operator is used to compare a value to a specified list of values?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Which operator is used to compare a value to a specified list of values?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ANY<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option">  BETWEEN<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What operator tests column for absence of data</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 What operator tests column for absence of data</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> NOT Operator<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Exists Operator<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In which of the following cases a DML statement is not executed? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 In which of the following cases a DML statement is not executed? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> When existing rows are modified.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> When a table is deleted. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 If we have not specified ASC or DESC after a SQL ORDER BY clause, the following is used by default </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 If we have not specified ASC or DESC after a SQL ORDER BY clause, the following is used by default </p>
         <div class="options py-3"> <label class="rounded p-2 option"> DESC <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ASC <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  There is no default value<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following statement is true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following statement is true? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> TRUNCATE free the table space while DELETE does not. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  Both TRUNCATE and DELETE statements free the table's space.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> DELETE free the table space while TRUNCATE does not.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is returned by INSTR ('JAVAT POINT', 'P')? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 What is returned by INSTR ('JAVAT POINT', 'P')? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 6<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  7<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> JAVAT<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 A command that lets you change one or more field in a table is:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 A command that lets you change one or more field in a table is:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  INSERT<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  MODIFY<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is also called an INNER JOIN?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which of the following is also called an INNER JOIN?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  SELF JOIN<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  EQUI JOIN <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option">  None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following is true about the HAVING clause?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following is true about the HAVING clause?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Similar to the WHERE clause but is used for columns rather than groups. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Similar to WHERE clause but is used for rows rather than columns. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,19 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='sqlMcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='sqlMcq3.jsp'>3</a>
-				<a class='page next' href='sqlMcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='sqlMcq4.jsp'>4</a>
+				<a class='page' href='sqlMcq5.jsp'>5</a>
+				<a class='page' href='sqlMcq6.jsp'>6</a>
+				<a class='page' href='sqlMcq7.jsp'>7</a>
+				<a class='page' href='sqlMcq8.jsp'>8</a>
+				<a class='page' href='sqlMcq9.jsp'>9</a>
+				<a class='page' href='sqlMcq10.jsp'>10</a>
+				
+		
 				</div>
 				</div>
 				<center>

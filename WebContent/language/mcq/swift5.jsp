@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>swift 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is true.
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 Which of the following is true.
 1.we can wrap unwrapped values
 2. we can unwrap wrapped values
 3.we cannot wrap unwrapped values
@@ -28,7 +29,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Flash Applications is  supported in iPhone browsers.Is it true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 Flash Applications is  supported in iPhone browsers.Is it true? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -37,7 +38,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 To get value inside optional use ....?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 To get value inside optional use ....?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ?<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> !<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -45,7 +46,7 @@
         <label class="rounded p-2 option"> # <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Objective-C itself has
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 Objective-C itself has
 evolved to support ____enabling framework adoption of modern language technologies without disruption.
          </p>
         <div class="options py-3">
@@ -55,14 +56,14 @@ evolved to support ____enabling framework adoption of modern language technologi
         <label class="rounded p-2 option"> all of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The class files that you create for your application will have file extension ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 The class files that you create for your application will have file extension ? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> .swift <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> .m <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> .c <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> .swf<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 which compiler is use for swift ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 which compiler is use for swift ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> swiftc<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> gcc <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -70,7 +71,7 @@ evolved to support ____enabling framework adoption of modern language technologi
         <label class="rounded p-2 option"> all <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 in swift which keyword is work as immutable??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 in swift which keyword is work as immutable??</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> nil<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> var <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -78,7 +79,7 @@ evolved to support ____enabling framework adoption of modern language technologi
         <label class="rounded p-2 option"> enum<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 In swift Variables are always initialized before use.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 In swift Variables are always initialized before use.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -86,7 +87,7 @@ evolved to support ____enabling framework adoption of modern language technologi
        <label class="rounded p-2 option"> Cann't say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 which  keyword in swift used to initialize the variable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 which  keyword in swift used to initialize the variable?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> null <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> nil <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -94,7 +95,7 @@ evolved to support ____enabling framework adoption of modern language technologi
         <label class="rounded p-2 option"> NULL <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 We can return multiple values in swift  from function by using?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 We can return multiple values in swift  from function by using?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  tuple <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  Array<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -103,13 +104,23 @@ evolved to support ____enabling framework adoption of modern language technologi
     </div> 
     
   
-      <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='swift4.jsp'>4</a>
+    
+				<a class='page' href='swift1.jsp'>1</a>
 				
+				<a class='page' href='swift2.jsp'>2</a>
+				 
+				<a class='page' href='swift3.jsp'>3</a>
+			
+				<a class='page' href='swift4.jsp'>4</a>
+					<span class="page current">5</span>
 				<a class='page' href='swift6.jsp'>6</a>
-				<a class='page next' href='swift6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='swift7.jsp'>7</a>
+				<a class='page' href='swift8.jsp'>8</a>
+				<a class='page' href='swift9.jsp'>9</a>
+				<a class='page' href='swift10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

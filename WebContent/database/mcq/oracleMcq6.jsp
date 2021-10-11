@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 All users on the local database can access the remote database and all use the same userid/password to make the connection. How can user access the remote database through the link?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 All users on the local database can access the remote database and all use the same userid/password to make the connection. How can user access the remote database through the link?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Link type =Public, Authentication = Yes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Link type =Public, Authentication = No<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 If your distributed query contains ___________, then the cost-based optimization is not effective.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 If your distributed query contains ___________, then the cost-based optimization is not effective.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Aggregates<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Subqueries <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following operations support the UPDATE INDEXES clause?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Which of the following operations support the UPDATE INDEXES clause?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ADD PARTITION | SUBPARTITION, MERGE PARTITION | SUBPARTITION<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> COALESCE PARTITION | SUBPARTITION, MOVE PARTITION | SUBPARTITION<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option"> All mentioned above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What does the database let you do if you require more explicit control over the indexes associated with UNIQUE and PRIMARY KEY constraints? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 What does the database let you do if you require more explicit control over the indexes associated with UNIQUE and PRIMARY KEY constraints? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Specify a new index that the database is to use to enforce the constraint<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Specify a CREATE INDEX statement that the database is to use to create the index and enforce the constraint <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which initialization parameter Defines the location of the default file system directory for redo log files and control file creation when no file specification is given in the creation operation? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Which initialization parameter Defines the location of the default file system directory for redo log files and control file creation when no file specification is given in the creation operation? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> DB_CREATE_FILE_DEST <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  DB_CREATE_ONLINE_LOG_DEST_n<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  DB_RECOVERY_FILE_DEST<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What are the consequences of an ARCHIVE LOG LIST command stated below?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 What are the consequences of an ARCHIVE LOG LIST command stated below?
 
 SQL> ARCHIVE LOG LIST
 Database log mode Archive Mode
@@ -72,7 +74,7 @@ Current log sequence 11163 </p>
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Every instance of an Oracle Database is not associated with redo log to protect the database in case of an instance failure.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 Every instance of an Oracle Database is not associated with redo log to protect the database in case of an instance failure.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -80,7 +82,7 @@ Current log sequence 11163 </p>
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Oracle creates an index for the _____________ in the snapshot base table.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 Oracle creates an index for the _____________ in the snapshot base table.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Primary key <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Foreign key<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@ Current log sequence 11163 </p>
         <label class="rounded p-2 option"> Both a and c<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 In DBMS_RESUMABLE Package, which function returns the current timeout value of resumable space allocation for the current session and the returned value is in seconds?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 In DBMS_RESUMABLE Package, which function returns the current timeout value of resumable space allocation for the current session and the returned value is in seconds?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> SET_SESSION_TIMEOUT(sessionID,timeout) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  GET_TIMEOUT()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -96,7 +98,7 @@ Current log sequence 11163 </p>
         <label class="rounded p-2 option"> GET_SESSION_TIMEOUT(sessionID) <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 To rename an object, it must be in your schema. What are the ways to rename the schema objects?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 To rename an object, it must be in your schema. What are the ways to rename the schema objects?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Drop and re-create the object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Rename the object using the RENAME statement<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

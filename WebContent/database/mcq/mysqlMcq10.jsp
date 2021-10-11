@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is used on Solaris?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Which of the following is used on Solaris?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> gcc <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> clang<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95  </p>
         <div class="options py-3"> <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"><input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

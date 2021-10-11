@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>java 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 In java, jar stands for_____. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 In java, jar stands for_____. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Java Archive Runner <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Java Application Resource<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 What will be the output of the following program?
 1.	public class Test2 {  
 2.	    public static void main(String[] args) {  
 3.	        StringBuffer s1 = new StringBuffer("Complete");  
@@ -41,7 +42,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is false?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which of the following is false?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The rt.jar stands for the runtime jar<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It is an optional jar file <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,7 +50,7 @@
         <label class="rounded p-2 option"> All the classes available in rt.jar is known to the JVM<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is the use of \w in regex? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 What is the use of \w in regex? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Used for a whitespace character <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Used for a non-whitespace character <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -57,14 +58,14 @@
         <label class="rounded p-2 option"> Used for a non-word character<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the given methods are of Object class? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Which of the given methods are of Object class? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> notify(), wait( long msecs ), and synchronized() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> wait( long msecs ), interrupt(), and notifyAll() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> notify(), notifyAll(), and wait() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> sleep( long msecs ), wait(), and notify()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Given that Student is a class, how many reference variables and objects are created by the following code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Given that Student is a class, how many reference variables and objects are created by the following code?
 1.	Student studentName, studentId;  
 2.	studentName = new Student();  
 3.	Student stud_class = new Student();   
@@ -76,7 +77,7 @@
         <label class="rounded p-2 option"> Three reference variables and three objects are created.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following is a valid syntax to synchronize the HashMap?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Which of the following is a valid syntax to synchronize the HashMap?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Map m = hashMap.synchronizeMap(); <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> HashMap map =hashMap.synchronizeMap(); <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -84,7 +85,7 @@
         <label class="rounded p-2 option"> Map m2 = Collection.synchronizeMap(hashMap);<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Given,
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Given,
 1.	ArrayList list = new ArrayList();  
 What is the initial quantity of the ArrayList list?
         </p>
@@ -95,7 +96,7 @@ What is the initial quantity of the ArrayList list?
         <label class="rounded p-2 option"> 100<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is a mutable class in java?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 Which of the following is a mutable class in java?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> java.lang.String <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> java.lang.Byte <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -103,7 +104,7 @@ What is the initial quantity of the ArrayList list?
         <label class="rounded p-2 option"> java.lang.StringBuilder <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 What will be the output of the following program?
 1.	abstract class MyFirstClass  
 2.	{  
 3.	     abstract num (int a, int b) {  }  
@@ -117,13 +118,22 @@ What is the initial quantity of the ArrayList list?
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='java3.jsp'>3</a>
+     <div>
+				<a class='page' href='java1.jsp'>1</a>
 				
+				<a class='page' href='java2.jsp'>2</a>
+				
+				<a class='page' href='java3.jsp'>3</a>
+				<span class="page current">4</span>	
 				<a class='page' href='java5.jsp'>5</a>
-				<a class='page next' href='java5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='java6.jsp'>6</a>
+				<a class='page' href='java7.jsp'>7</a>
+				<a class='page' href='java8.jsp'>8</a>
+				<a class='page' href='java9.jsp'>9</a>
+				<a class='page' href='java10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

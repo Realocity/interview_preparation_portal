@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>shellmcq 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which sed command deletes the specified address range</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 Which sed command deletes the specified address range</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> [address range]/s <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> [address range]/p<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which command is used to replace word âcatâ (already present in the file) with âmouseâ at all places in a file âold.txtâ and save the result in a new file ânew.txtâ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Which command is used to replace word âcatâ (already present in the file) with âmouseâ at all places in a file âold.txtâ and save the result in a new file ânew.txtâ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">sed âs/cat/mouce/gâ old.txt > new.txt <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> sed âs/cat/mouseâ old.txt new.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which command will delete all the blank lines in file old.txt?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which command will delete all the blank lines in file old.txt?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> sed â/dâ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sed â/^/dâ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> sed â/^*/dâ old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The command âsed -n â/sanfoundry/pâ old.txtâ will </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 The command âsed -n â/sanfoundry/pâ old.txtâ will </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> print the lines containing the word âsanfoundryâ in file old.txt<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> delete the lines containing the word âsanfoundryâ in file old.txt <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which option is used by sed to specify that the following string is an instruction or set of instructions? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Which option is used by sed to specify that the following string is an instruction or set of instructions? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> -n <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> -e <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> -f <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> -i<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the following is not true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Which one of the following is not true? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">nawk is the new version of awk<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> gawk is the GNU version of awk <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> nawk does not provide the additional capabilities in comparison of awk <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 An awk program can be run by</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 An awk program can be run by</p>
         <div class="options py-3">
          <label class="rounded p-2 option">including the program in the command that runs awk <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> putting it into a file and run with a command <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> all of the mentioned<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which one of the following is not true?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Which one of the following is not true?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> in typical awk program, all input is read either from standard input or specified files <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> awk language divides its input into records and fields<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">the number of fields need to be a constant <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is the meaning of $ sign in awk programming?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 What is the meaning of $ sign in awk programming?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> the word following is the name of variable <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> we are refering to a field or column in the current line <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In awk program, the statement âprintâ with no items</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 In awk program, the statement âprintâ with no items</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> is equivalent to âprint $0â <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> prints the entire current record <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,22 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+    <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='shellmcq3.jsp'>3</a>
+     <div>
+				<a class='page' href='shellmcq1.jsp'>1</a>
+					
+				<a class='page' href='shellmcq2.jsp'>2</a>
 				
+				<a class='page' href='shellmcq3.jsp'>3</a>
+				<span class="page current">4</span>	
 				<a class='page' href='shellmcq5.jsp'>5</a>
-				<a class='page next' href='shellmcq5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq6.jsp'>6</a>
+				<a class='page' href='shellmcq7.jsp'>7</a>
+				<a class='page' href='shellmcq8.jsp'>8</a>
+				<a class='page' href='shellmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

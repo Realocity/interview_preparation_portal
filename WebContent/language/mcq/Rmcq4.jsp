@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Rmcq 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The longer programs are called ____________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 The longer programs are called ____________</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Files <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Structures <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Scripts will run on ___________________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Scripts will run on ___________________</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Script Editors <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Console <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is a âRecommendedâ package in R?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which of the following is a âRecommendedâ package in R?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Util<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Lang<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> Spatial <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Full Form of GUI is ___________________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34  Full Form of GUI is ___________________</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Guided User Interface <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Graphical User Interface <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Graphical User Interval<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 ____________ provides a point-and-click interface to many basic statistic problems. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 ____________ provides a point-and-click interface to many basic statistic problems. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Commander <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> GUI <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Console <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Terminal <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 In which IDE we can interact with R? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 In which IDE we can interact with R? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">studio<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Console <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Power shell<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which programming language is more based on the results? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Which programming language is more based on the results? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> R<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> C <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> Java<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Why learning R becomes tough?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Why learning R becomes tough?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Special files <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Functions<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Special Cases<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 R is mostly used in ______________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 R is mostly used in ______________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Problem solving <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Statistics <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Why is it needed for R studio to update regularly?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 Why is it needed for R studio to update regularly?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Bugs  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> More Functions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,20 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='Rmcq3.jsp'>3</a>
+     <div>
+				<a class='page' href='Rmcq1.jsp'>1</a>
 				
+				<a class='page' href='Rmcq2.jsp'>2</a>
+			
+				<a class='page' href='Rmcq3.jsp'>3</a>
+					<span class="page current">4</span>
 				<a class='page' href='Rmcq5.jsp'>5</a>
-				<a class='page next' href='Rmcq5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Rmcq6.jsp'>6</a>
+				<a class='page' href='Rmcq7.jsp'>7</a>
+				<a class='page' href='Rmcq8.jsp'>8</a>
+				<a class='page' href='Rmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

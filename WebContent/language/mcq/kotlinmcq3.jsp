@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>kotlinmcq 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is the default behavior of Kotlin classes?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 What is the default behavior of Kotlin classes?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> All classes are sealed <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">All classes are public <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is true for Kotlin variables?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Which of the following is true for Kotlin variables?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> var can't be changed<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> val corresponds to final variable in Java <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is an immutable variable? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 What is an immutable variable? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">A variable that can't change, read-only <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> A variable that can be changed<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Identify the correct way to create an arraylist in Kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Identify the correct way to create an arraylist in Kotlin? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> val list = arrayListOf(1, 2, 3) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> val map = hashMapOf(1 to "one", 2 to "two", 3 to "three") <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">enum class Color {RED, GREEN, BLUE} <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of follwing targets currently not supported by Kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Which of follwing targets currently not supported by Kotlin? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> .NET CLR <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> LLVM <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Javascript <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following open source license is Kotlin released under? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Which of the following open source license is Kotlin released under? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">FreeBSD License (BSD-2-Clause)<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> MIT License (MIT) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> GNU General Public License (GPL)<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Does Kotlin work only for Java? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Does Kotlin work only for Java? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">No <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Is Kotlin backward-compatible?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 Is Kotlin backward-compatible?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> no <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Does Kotlin allow macros?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Does Kotlin allow macros?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,17 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='kotlinmcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='kotlinmcq1.jsp'>1</a>
 				
+				<a class='page' href='kotlinmcq2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='kotlinmcq4.jsp'>4</a>
-				<a class='page next' href='kotlinmcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='kotlinmcq5.jsp'>5</a>
+				<a class='page' href='kotlinmcq6.jsp'>6</a>
+				<a class='page' href='kotlinmcq7.jsp'>7</a>
+				<a class='page' href='kotlinmcq8.jsp'>8</a>
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 1</title>
 </head>
 <body>
@@ -141,10 +142,16 @@ Code B
     <!-- /Intext --><hr>
     <div id='pagination'>
      <div><span class="page current">1</span>
-				<a class='page' href='javaScript2.jsp'>2</a>
-				
+				<a class='page' href='javaScript2.jsp'>2</a>	
 				<a class='page' href='javaScript3.jsp'>3</a>
-				<a class='page next' href='javaScript2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript4.jsp'>4</a>
+				<a class='page' href='javaScript5.jsp'>5</a>
+				<a class='page' href='javaScript6.jsp'>6</a>
+				<a class='page' href='javaScript7.jsp'>7</a>
+				<a class='page' href='javaScript8.jsp'>8</a>
+				<a class='page' href='javaScript9.jsp'>9</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

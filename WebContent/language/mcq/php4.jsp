@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>php 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following variable name is invalid? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 Which of the following variable name is invalid? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> $newVar <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $new_Var<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is the correct way to create an array in PHP?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Which of the following is the correct way to create an array in PHP?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> $season = array["summer" , "winter" , "spring" , "autumn"];<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> $season = array("summer" , "winter" , "spring" , "autumn");<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is a built-in function in PHP that adds a value to the end of an array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which of the following is a built-in function in PHP that adds a value to the end of an array?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> array_push()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> inend_array()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following function in PHP returns a text in title case from a variable? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 Which of the following function in PHP returns a text in title case from a variable? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> toUpper($var) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ucwords($var)<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is the correct way to print "Hello World" in PHP? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Which of the following is the correct way to print "Hello World" in PHP? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> "Hello World"; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> write("Hello World"); <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> echo "Hello World"; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following function is used to compress a string in PHP? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Which of the following function is used to compress a string in PHP? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> compress()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> zip_compress() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> zip()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What does SPL stands for in PHP?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 What does SPL stands for in PHP?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Standard PHP Library <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Simple PHP Library <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following function converts a string to all uppercase? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Which of the following function converts a string to all uppercase? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> upper() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> uppercase() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> strtoupper()<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The function in PHP that can be used to concatenate array elements to form a single delimited string is - </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 The function in PHP that can be used to concatenate array elements to form a single delimited string is - </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> implode() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> concat() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option">  concatenate() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which PHP function determines the last access time of a file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 Which PHP function determines the last access time of a file?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> filetime() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> fileatime() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,21 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='php3.jsp'>3</a>
+     <div>
+				<a class='page' href='php1.jsp'>1</a>	
+					
+				<a class='page' href='php2.jsp'>2</a>
 				
+				<a class='page' href='php3.jsp'>3</a>
+				<span class="page current">4</span>
 				<a class='page' href='php5.jsp'>5</a>
-				<a class='page next' href='php5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='php6.jsp'>6</a>
+				<a class='page' href='php7.jsp'>7</a>
+				<a class='page' href='php8.jsp'>8</a>
+				<a class='page' href='php9.jsp'>9</a>
+				<a class='page' href='php10.jsp'>10</a>
+				
+			
 				</div>
 				</div>
 				<center>

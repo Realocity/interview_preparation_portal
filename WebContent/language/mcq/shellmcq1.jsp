@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>shellmcq 1</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The âlogoutâ built in command is used to</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The alogouta built in command is used to</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> shutdown the computer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> logoff of the computer<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The command âumask -Sâ</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The command aumask -Sa</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> prints the current mask using symbolic notation<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> prints the current mask using octal numbers <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 The âmapfileâ command</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 The amapfilea command</p>
         <div class="options py-3">
          <label class="rounded p-2 option">reads lines of standard input and assigns each to the element of an indexed array <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> reads lines of standard output file<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> break<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The command âulimitâ</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The command aulimita</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> set a limit on specified resource for system users<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> set/show process resource limit <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,10 +100,16 @@
     <!-- /Intext --><hr>
     <div id='pagination'>
      <div><span class="page current">1</span>
-				<a class='page' href='shellmcq2.jsp'>2</a>
-				
+				<a class='page' href='shellmcq2.jsp'>2</a>		
 				<a class='page' href='shellmcq3.jsp'>3</a>
-				<a class='page next' href='shellmcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq4.jsp'>4</a>
+				<a class='page' href='shellmcq5.jsp'>5</a>
+				<a class='page' href='shellmcq6.jsp'>6</a>
+				<a class='page' href='shellmcq7.jsp'>7</a>
+				<a class='page' href='shellmcq8.jsp'>8</a>
+				<a class='page' href='shellmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

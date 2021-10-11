@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>swift 10</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The iPhone has a feature that activates when you rotate the device from portrait to landscape. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 The iPhone has a feature that activates when you rotate the device from portrait to landscape. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Rotator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Accelerometer <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 ios apps are based on ____. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 ios apps are based on ____. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> event-driven programming<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Activity-driven programming<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 In which version of iOS multitasking is introduced?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 In which version of iOS multitasking is introduced?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> iPhoneOS 3.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> iOS 9.0<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> iPhoneOS <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 version of Ios for first iPad is ........... </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 version of Ios for first iPad is ........... </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ios 2.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ios3.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> ios 4.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 UIAlertController is inherited from UIViewController ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 UIAlertController is inherited from UIViewController ? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> May be <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Can't say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 which of the following are main responsibilities of view controller? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 which of the following are main responsibilities of view controller? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Updating the contents of the views, usually in response to changes to the underlying data.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Responding to user interactions with views. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> All of the above.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 InstantaiteViewControllerWithIdentifier() this method return object of...</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 InstantaiteViewControllerWithIdentifier() this method return object of...</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> viewController<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> UIViewController <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> none <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What are the animations in UI MODEL TRANSITION STYLE ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 What are the animations in UI MODEL TRANSITION STYLE ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> cross dissolve <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> cover vertical <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Every UIView Class in ios Subclass of </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 Every UIView Class in ios Subclass of </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> UIViewController <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> UiViewAction <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> None of Above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 which of the following loop is not a part of swift programming language? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 which of the following loop is not a part of swift programming language? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> for- in loop <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> while loop <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,11 +98,28 @@
     </div> 
     
   
+
      <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
-				<a class='page' href='swift9.jsp'>9</a>
+    
+				<a class='page' href='swift1.jsp'>1</a>
 				
+				<a class='page' href='swift2.jsp'>2</a>
+				 
+				<a class='page' href='swift3.jsp'>3</a>
+			
+				<a class='page' href='swift4.jsp'>4</a>
+				
+				<a class='page' href='swift5.jsp'>5</a>
+					
+				<a class='page' href='swift6.jsp'>6</a>
+				
+				<a class='page' href='swift7.jsp'>7</a>
+			
+				<a class='page' href='swift8.jsp'>8</a>
+					
+				<a class='page' href='swift9.jsp'>9</a>
+				<span class="page current">10</span>
 				
 				</div>
 				</div>

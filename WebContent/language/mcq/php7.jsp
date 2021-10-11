@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>php 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 PHP is a ............</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 PHP is a ............</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Open Source Laguage <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Widely Used Language<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The date_sunset() function returns the sunset time for a specified day and location. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 The date_sunset() function returns the sunset time for a specified day and location. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following symbol is used to add multiple line comments in PHP ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Which of the following symbol is used to add multiple line comments in PHP ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> //<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> /* */<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  {/ \}<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  PHP is a case sensitive </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64  PHP is a case sensitive </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Can't say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which sign is used to access variable of variable in PHP? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 Which sign is used to access variable of variable in PHP? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> $$ <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> $<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> #@ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $| <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of following is not a Superglobals in PHP?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 Which of following is not a Superglobals in PHP?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> $_SERVER<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $_ENV <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> $_PUT<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7  Which function is used to get ASCII value of a character in PHP ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67  Which function is used to get ASCII value of a character in PHP ? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> asc()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> chr( ) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> val( )<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 ______ is used to unset a variable in PHP ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 ______ is used to unset a variable in PHP ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> delete()  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> unset() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> delete();<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 How many error levels are available in PHP ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 How many error levels are available in PHP ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 20  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 4 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> 16 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10  In which version of PHP E_STRICT Error level is introduced ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70  In which version of PHP E_STRICT Error level is introduced ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> PHP 4 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> PHP 5 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -95,14 +96,26 @@
         <label class="rounded p-2 option"> PHP 7 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     
-  
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='php6.jsp'>6</a>
+     <div>
+				<a class='page' href='php1.jsp'>1</a>	
+					
+				<a class='page' href='php2.jsp'>2</a>
 				
+				<a class='page' href='php3.jsp'>3</a>
+				
+				<a class='page' href='php4.jsp'>4</a>
+				
+				<a class='page' href='php5.jsp'>5</a>
+				
+				<a class='page' href='php6.jsp'>6</a>
+				<span class="page current">7</span>
 				<a class='page' href='php8.jsp'>8</a>
-				<a class='page next' href='php8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='php9.jsp'>9</a>
+				<a class='page' href='php10.jsp'>10</a>
+				
+			
 				</div>
 				</div>
 				<center>

@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 By the help of PL/SQL expression reconstructed using? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 By the help of PL/SQL expression reconstructed using? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> HTP <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> HTTP<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is the use of index?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 Which of the following is the use of index?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> simply the userâs perception of the data<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> retrieve data more quickly and efficiently <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 In [DBA] transaction per rollback is derived in</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 In [DBA] transaction per rollback is derived in</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> DB-block-buffers<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> shared pool size <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option"> none of these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  For displaying the output on the webpage which of the following method are used?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44  For displaying the output on the webpage which of the following method are used?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> %ROWTYPE<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  %ROWCOL<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> none of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The following component comprise an oracle architecture? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 The following component comprise an oracle architecture? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> datafiles <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> tablespace <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> data related background <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of these<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The LGWR is used to writes information into? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 The LGWR is used to writes information into? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> control files <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> redo log files <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> none of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 In oracle, the following is used to declare the record. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 In oracle, the following is used to declare the record. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> function<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> procedure <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> package<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Use of context in oracle is?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Use of context in oracle is?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> store rollback information used when data must be reload back <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> store user data within database<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> All of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 In oracle the overall structure of the database is maintained in file called? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 In oracle the overall structure of the database is maintained in file called? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> roiling files <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> control files <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option"> B&C both <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The term replication refers to the operation for copying and maintaining database objects in multiple databases belonging to a distributed system.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 The term replication refers to the operation for copying and maintaining database objects in multiple databases belonging to a distributed system.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

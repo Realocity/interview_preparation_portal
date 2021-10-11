@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 9</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 If a = 0x6db7 and b = 0xa726, what will be the value of a&b?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 If a = 0x6db7 and b = 0xa726, what will be the value of a&b?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 9814 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 9510<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 If a = 0x6db7 and b = 0xa726, what will be the value of a^b? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 If a = 0x6db7 and b = 0xa726, what will be the value of a^b? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 51956<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> 51256 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Study the following program:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Study the following program:
 1.	main ()  
 2.	{  
 3.	  int x;  
@@ -48,7 +49,7 @@ What will be the output of this program?</p>
         <label class="rounded p-2 option">  3<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Study the following program:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 Study the following program:
 1.	main ()  
 2.	{  
 3.	 char x;  
@@ -63,14 +64,14 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> F<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following operators is a unary operator in c language? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which one of the following operators is a unary operator in c language? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> & <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> && <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> << <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sizeof()<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Study the following program:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 Study the following program:
 1.	#include <stdio.h>  
 2.	#define a( i, j ) printf("%d", j##i )  
 3.	int main()  
@@ -85,7 +86,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> Declaration error<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 How many types of variables are there in the C language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 How many types of variables are there in the C language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 2 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 4 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -93,7 +94,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is the variable that can be used for all functions?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Which of the following is the variable that can be used for all functions?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Static variable <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Global variable<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -101,15 +102,15 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> Dynamic variable<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which symbol is used to declare a pointer?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 Which symbol is used to declare a pointer?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> * <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> # <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> &</label><input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> & </label><input type="radio" name="radio"> <span class="crossmark"></span> </label>
         <label class="rounded p-2 option"> && <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following initialization is incorrect in C language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 Which of the following initialization is incorrect in C language?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> char str [40] = "YUGAL"; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  char str [] = {'Y','U','G','A','L','\ 0'};<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -120,11 +121,19 @@ What will be the output of this program? </p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='cMcq8.jsp'>8</a>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
+				<a class='page' href='cMcq2.jsp'>2</a>
+				<a class='page' href='cMcq3.jsp'>3</a>
+				<a class='page' href='cMcq4.jsp'>4</a>
+				<a class='page' href='cMcq5.jsp'>5</a>
+				<a class='page' href='cMcq6.jsp'>6</a>
+
+				<a class='page' href='cMcq7.jsp'>7</a>
 				
+				<a class='page' href='cMcq8.jsp'>8</a>
+				<span class="page current">9</span>
 				<a class='page' href='cMcq10.jsp'>10</a>
-				<a class='page next' href='cMcq10.jsp' title='Next'>&raquo;</a>
 				</div>
 				</div>
 				<center>

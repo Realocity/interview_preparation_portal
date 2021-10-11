@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <!-- Required meta tags -->
-    
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->

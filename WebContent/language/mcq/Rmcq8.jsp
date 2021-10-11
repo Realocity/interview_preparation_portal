@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Rmcq 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The benefit of the _____ function is that it is the only way to perfectly repressed an R object in an exportable format, without losing precision or any metadata.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 The benefit of the _____ function is that it is the only way to perfectly repressed an R object in an exportable format, without losing precision or any metadata.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> save() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> save.image()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 load() is used for _______</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 load() is used for _______</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> reading<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> loading <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 readlines is used for ____________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 readlines is used for ____________</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> working on data<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> reading files <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> not exist <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Point out the wrong statement? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 Point out the wrong statement? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Very less operations in R are vectorized<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Vectorization allows you to write code that is efficient, concise, and easier to read than in non-vectorized languages <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Matrix operations are also vectorized<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Point out the wrong statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75  Point out the wrong statement?</p>
         <div class="options py-3"> <label class="rounded p-2 option"> Dates are represented by the Date class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Times are represented by the POSIXct or the POSIXlt class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Dates are represented by the DateTime class <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Times can be coerced from a character string<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will be the output of the following R code?<br>> x &lt;- 1:4<br>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 What will be the output of the following R code?<br>> x &lt;- 1:4<br>
 > y &lt;- 6:9<br>
 > x/y
          </p>
@@ -66,7 +67,7 @@
         <label class="rounded p-2 option"> Error<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following code represents internal representation of a Date object?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Which of the following code represents internal representation of a Date object?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">class(as.Date(â1970-01-02â)) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> unclass(as.Date(â1970-01-02â)) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -74,7 +75,7 @@
         <label class="rounded p-2 option"> classint(as.Date(â1970-02-02â))<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following function gives the day of the week?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 Which of the following function gives the day of the week?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> weekdays <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> months	<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -82,7 +83,7 @@
         <label class="rounded p-2 option"> semesters <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Point out the correct statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 Point out the correct statement?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Times use the POSIXct and POSIXlt class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Dates and times have special classes in R that allow for numerical and statistical calculations <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -90,7 +91,7 @@
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Point out the wrong statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 Point out the wrong statement?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  POSIXct is just a very large integer under the hood <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> POSIXlt stores a bunch of other useful information like the day of the week, day of the year, month, day of the month  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -101,11 +102,24 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='Rmcq7.jsp'>7</a>
+     <div>
+				<a class='page' href='Rmcq1.jsp'>1</a>
 				
+				<a class='page' href='Rmcq2.jsp'>2</a>
+			
+				<a class='page' href='Rmcq3.jsp'>3</a>
+					
+				<a class='page' href='Rmcq4.jsp'>4</a>
+				
+				<a class='page' href='Rmcq5.jsp'>5</a>
+				
+				<a class='page' href='Rmcq6.jsp'>6</a>
+				
+				<a class='page' href='Rmcq7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='Rmcq9.jsp'>9</a>
-				<a class='page next' href='Rmcq9.jsp'9 title='Next'>&raquo;</a>
+				
+			
 				</div>
 				</div>
 				<center>

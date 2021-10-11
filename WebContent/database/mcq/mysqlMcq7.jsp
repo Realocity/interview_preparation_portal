@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which program reads the statement from a binary log?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Which program reads the statement from a binary log?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  mysql_config<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> mysqlbinlog<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 How many of these languages have interfaces to bind to the C API of MySQL?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 How many of these languages have interfaces to bind to the C API of MySQL?
 Perl, PHP, Python
         </p>
         <div class="options py-3">
@@ -35,7 +37,7 @@ Perl, PHP, Python
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which language is the core for APIs and communication in MySQL?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Which language is the core for APIs and communication in MySQL?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> C<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> C++<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -43,7 +45,7 @@ Perl, PHP, Python
         <label class="rounded p-2 option">  Ruby<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  For how many of the following do interfaces exist for implementing direct native client-server protocol?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64  For how many of the following do interfaces exist for implementing direct native client-server protocol?
 Java, PHP, Ruby
         </p>
         <div class="options py-3">
@@ -53,14 +55,14 @@ Java, PHP, Ruby
         <label class="rounded p-2 option"> 3<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Each language binding defines its own interface for accessing MySQL.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65  Each language binding defines its own interface for accessing MySQL.</p>
         <div class="options py-3"> <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> false <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> may be <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  The primary programming interface to MySQL is _____________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66  The primary programming interface to MySQL is _____________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> C API<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> C++ API <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -68,7 +70,7 @@ Java, PHP, Ruby
         <label class="rounded p-2 option"> Python API<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The DBI API for Perl is _____________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 The DBI API for Perl is _____________ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> database interface<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> database id <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -76,7 +78,7 @@ Java, PHP, Ruby
         <label class="rounded p-2 option"> database integrity<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 For which language is the engine specific interface PDO defined?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 For which language is the engine specific interface PDO defined?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Python <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Perl<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -84,7 +86,7 @@ Java, PHP, Ruby
         <label class="rounded p-2 option"> C<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 For which language is the PEAR module used?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 For which language is the PEAR module used?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Python <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Perl <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -92,7 +94,7 @@ Java, PHP, Ruby
         <label class="rounded p-2 option">  C<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The JDBI interface is available for _____________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 The JDBI interface is available for _____________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> C <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> C++ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

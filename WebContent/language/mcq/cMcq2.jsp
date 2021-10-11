@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 2</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Why is a macro used in place of a function? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Why is a macro used in place of a function? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It reduces execution time. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It reduces code size.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 In the C language, the constant is defined _______.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 In the C language, the constant is defined _______.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Before main  <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> After main <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 How many times will the following loop execute?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 How many times will the following loop execute?
 1.	for(j = 1; j <= 10; j = j-1)</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Forever <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -42,7 +43,7 @@
         <label class="rounded p-2 option"> 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 A pointer is a memory address. Suppose the pointer variable has p address 1000, and that p is declared to have type int*, and an int is 4 bytes long. What address is represented by expression p + 2? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 A pointer is a memory address. Suppose the pointer variable has p address 1000, and that p is declared to have type int*, and an int is 4 bytes long. What address is represented by expression p + 2? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 1002 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1004 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -50,7 +51,7 @@
         <label class="rounded p-2 option"> 1008 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is the result after execution of the following code if a is 10, b is 5, and c is 10?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 What is the result after execution of the following code if a is 10, b is 5, and c is 10?
 1.	If ((a > b) && (a <= c))  
 2.	        a = a + 1;  
 3.	else  
@@ -61,7 +62,7 @@
         <label class="rounded p-2 option"> a = 11, c = 11<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the following is a loop construct that will always be executed once? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which one of the following is a loop construct that will always be executed once? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> for <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> while <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -69,7 +70,7 @@
         <label class="rounded p-2 option"> do while<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following best describes the ordering of destructor calls for stack-resident objects in a routine?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 Which of the following best describes the ordering of destructor calls for stack-resident objects in a routine?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The first object created is the first object destroyed; last created is last destroyed. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The first object destroyed is the last object destroyed; last created is first destroyed. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -77,7 +78,7 @@
         <label class="rounded p-2 option"> The order is undefined and may vary from compiler to compiler.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 How many characters can a string hold when declared as follows?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 How many characters can a string hold when declared as follows?
 1.	char name[20]: </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 18 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -86,7 +87,7 @@
         <label class="rounded p-2 option"> None of the these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Directives are translated by the</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Directives are translated by the</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Pre-processor <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Compiler <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -94,7 +95,7 @@
         <label class="rounded p-2 option"> Editor <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 How many bytes does "int = D" use?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 How many bytes does "int = D" use?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -105,11 +106,17 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='cMcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='cMcq3.jsp'>3</a>
-				<a class='page next' href='cMcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq4.jsp'>4</a>
+				<a class='page' href='cMcq5.jsp'>5</a>
+				<a class='page' href='cMcq6.jsp'>6</a>
+				<a class='page' href='cMcq7.jsp'>7</a>
+				<a class='page' href='cMcq8.jsp'>8</a>
+				<a class='page' href='cMcq9.jsp'>9</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

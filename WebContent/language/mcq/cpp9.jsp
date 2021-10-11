@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cpp 9</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What will be the output of the following C++ code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 What will be the output of the following C++ code?
 1.	#include <iostream>  
 2.	#include <exception>  
 3.	usingnamespace std;  
@@ -41,7 +42,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which one of the following given statements is correct about the increment operator? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 Which one of the following given statements is correct about the increment operator? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Increment operator(or ++ ) usually adds 2 to its operand <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Decrement operator ++ subtracts 1 to its operand <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -50,7 +51,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Read the following given piece of C++ code and find out the error?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 Read the following given piece of C++ code and find out the error?
 1.	Class t  
 2.	{  
 3.	virtual void  print();   
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> There is no error <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following statements about the pre-increment is true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 Which one of the following statements about the pre-increment is true? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Pre Incrementisusually faster than the post-increment <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Post-increment is faster than the pre-Increment <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,14 +72,14 @@
         <label class="rounded p-2 option"> pre decrement is slower than post-increment<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following concept is used by pre-increment? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 Which of the following concept is used by pre-increment? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> call by value  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> call by reference <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> queue <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> call by name<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 How many types of representation are in the string? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 How many types of representation are in the string? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 3<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -86,7 +87,7 @@
         <label class="rounded p-2 option"> 4<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What will be the output of the following C++ code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 What will be the output of the following C++ code?
 1.	#include <iostream>  
 2.	    #include <cstring>  
 3.	using namespace std;  
@@ -110,7 +111,7 @@
         <label class="rounded p-2 option"> 11<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which one of the following given methods we usually use to append more than one character at a time?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 Which one of the following given methods we usually use to append more than one character at a time?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Append <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> operator+=<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -118,7 +119,7 @@
         <label class="rounded p-2 option"> Data <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is the return value of f(p, p) if the value of p is initialized to 5 before the call?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 What is the return value of f(p, p) if the value of p is initialized to 5 before the call?
 Program
 1.	int f(int&x, int c) {  
 2.	c  = c - 1;  
@@ -134,7 +135,7 @@ Program
         <label class="rounded p-2 option"> 161051<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which one of the following given statements is not true about the references in C++?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 Which one of the following given statements is not true about the references in C++?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> A reference should be initialized whenever it is declared <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A reference cannot refer to a constant value  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -143,13 +144,27 @@ Program
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='cpp8.jsp'>8</a>
+     <div>
+				<a class='page' href='cpp1.jsp'>1</a>
+				<a class='page' href='cpp2.jsp'>2</a>
 				
+				
+				<a class='page' href='cpp3.jsp'>3</a>
+		
+				<a class='page' href='cpp4.jsp'>4</a>
+				
+				<a class='page' href='cpp5.jsp'>5</a>
+				
+				<a class='page' href='cpp6.jsp'>6</a>
+				
+				<a class='page' href='cpp7.jsp'>7</a>
+				
+				<a class='page' href='cpp8.jsp'>8</a>
+				<span class="page current">9</span>
 				<a class='page' href='cpp10.jsp'>10</a>
-				<a class='page next' href='cpp10.jsp' title='Next'>&raquo;</a>
+				
 				</div>
 				</div>
 				<center>

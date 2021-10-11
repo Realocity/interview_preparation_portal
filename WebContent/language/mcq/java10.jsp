@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>java 10</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Package in Java is a mechanism to encapsulate a ______________.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Package in Java is a mechanism to encapsulate a ______________.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Classes  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Sub Packages <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of these keywords is used to define packages in Java?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 Which of these keywords is used to define packages in Java?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> pkg <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Pkg <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Package names and directory structure are closely related. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 Package names and directory structure are closely related. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> TRUE <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> FALSE<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> can not say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 An _______________ statement can be used to access the classes and interface of a different package from the current package. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 An _______________ statement can be used to access the classes and interface of a different package from the current package. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> instanceOf <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  import<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> implement<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following packages is used to includes classes to create user interface like Button and Checkbox? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 Which of the following packages is used to includes classes to create user interface like Button and Checkbox? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> java.lang <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> java.net <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> java.awt <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> java.io<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following packages is used to includes utility classes like Calendar, Collection, Date? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 Which of the following packages is used to includes utility classes like Calendar, Collection, Date? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> java.lang<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> java.net <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> java.util<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Public <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Protected <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is the correct way of importing an entire package "pkg"? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 Which of the following is the correct way of importing an entire package "pkg"? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> import pkg. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Import pkg.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Import pkg.*<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is false statement about package in java?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 Which of the following is false statement about package in java?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Packages are used for preventing naming conflicts <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Providing controlled access: protected and default have package level access control. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> Both B and C<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Packages that are inside another package are the _________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 Packages that are inside another package are the _________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> packages <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> nested packages <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -95,13 +96,28 @@
         <label class="rounded p-2 option"> subpackages <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
     
-  
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
-				<a class='page' href='java9.jsp'>9</a>
+     <div>
+				<a class='page' href='java1.jsp'>1</a>
 				
+				<a class='page' href='java2.jsp'>2</a>
+				
+				<a class='page' href='java3.jsp'>3</a>
 			
+				<a class='page' href='java4.jsp'>4</a>
+					
+				<a class='page' href='java5.jsp'>5</a>
+			
+				<a class='page' href='java6.jsp'>6</a>
+					
+				<a class='page' href='java7.jsp'>7</a>
+			
+				<a class='page' href='java8.jsp'>8</a>
+					
+				<a class='page' href='java9.jsp'>9</a>
+				<span class="page current">10</span>	
+				
 				</div>
 				</div>
 				<center>

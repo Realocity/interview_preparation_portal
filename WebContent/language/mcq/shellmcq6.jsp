@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>shellmcq 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The next statement</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 The next statement</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> immediately stops processing the current record <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> go to the next record<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 If the argument is supplied to the exit statement,</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 If the argument is supplied to the exit statement,</p>
         <div class="options py-3">
          <label class="rounded p-2 option">its value is used as the exit status code for the awk process <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> syntax error will generate <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which statement instructs gawk to stop processing the current data file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Which statement instructs gawk to stop processing the current data file?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">next <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> nextfile<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> exitfile <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following statement is not true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 Which one of the following statement is not true? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> awkâs built-in functions can be categorised into three categories: numeric, string and I/O<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> built-in functions are always available to call <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">we can also define the function in awk program <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is the difference between the built-in functions rand() and srand() in awk programming? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 What is the difference between the built-in functions rand() and srand() in awk programming? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> rand() generates the random number but srand() does not generate the random number <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> rand() generates the same random number always whenever the program runs but srand() generates the different <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> srand() requires the seed() function but rand() does not require to produce the same result <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which built-in function returns the arctangent of a/b in radians. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 Which built-in function returns the arctangent of a/b in radians. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">atan2(a/b)<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> atan(a/b) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which built-in function divides string into pieces seperated by fieldsep and stores the pieces in array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 Which built-in function divides string into pieces seperated by fieldsep and stores the pieces in array?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">split() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> divide() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">sub() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The built-in function tolower()</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 The built-in function tolower()</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> converts all lowercase characters into uppercase characters <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">returns the string with all lowercase characters <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 In awk, the built-in variable FS is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 In awk, the built-in variable FS is</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> input field seperator <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> output field seperator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> subscript seperator <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What is FNR?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 What is FNR?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> FNR is the current record number in the current file <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> FNR is the number of fields in the current input record <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,22 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='shellmcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='shellmcq1.jsp'>1</a>
+					
+				<a class='page' href='shellmcq2.jsp'>2</a>
 				
+				<a class='page' href='shellmcq3.jsp'>3</a>
+			
+				<a class='page' href='shellmcq4.jsp'>4</a>
+					
+				<a class='page' href='shellmcq5.jsp'>5</a>
+				<span class="page current">6</span>	
 				<a class='page' href='shellmcq7.jsp'>7</a>
-				<a class='page next' href='shellmcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq8.jsp'>8</a>
+				<a class='page' href='shellmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

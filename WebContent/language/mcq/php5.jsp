@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>php 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which PHP function is capable to read specific number of characters from a file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 Which PHP function is capable to read specific number of characters from a file?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> filegets() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> fget()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which PHP function is used to find the position of the last occurrence of a substring inside another string? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 Which PHP function is used to find the position of the last occurrence of a substring inside another string? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> strops()<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> strrpos() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 What will be the output of the following program?
 1.	<?php  
 2.	echo "Welcome" . "to" . "the" . "javaTpoint.com";  
 3.	?>  
@@ -45,7 +46,7 @@
          </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 What will be the output of the following program?
 1.	<?php  
 2.	echo "Welcome" , "to" , "the" , "javaTpoint.com";  
 3.	?>  
@@ -57,7 +58,7 @@
         <label class="rounded p-2 option"> Error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 What will be the output of the following program?
 1.	<?php  
 2.	$var1 = "Hello";  
 3.	$var2 = "World";  
@@ -70,7 +71,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 What will be the output of the following program?
 1.	<?php  
 2.	$var1 = "Hello";  
 3.	$var2 = "World";  
@@ -84,7 +85,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 What will be the output of the following program?
 1.	<?php  
 2.	$a;  
 3.	if ($a)  
@@ -104,7 +105,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 What will be the output of the following program?
 1.	<?php  
 2.	$a = 0;  
 3.	while ($a++)  
@@ -121,7 +122,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 What will be the output of the following program?
 1.	<?php  
 2.	echo ucwords("welcome to the javaTpoint.com");  
 3.	?>  
@@ -133,7 +134,7 @@
         <label class="rounded p-2 option"> Welcome to the JavaTpoint.com<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 What will be the output of the following program?
 1.	<?php  
 2.	$a = 15;  
 3.	function show()  
@@ -155,11 +156,22 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='php4.jsp'>4</a>
+     <div>
+				<a class='page' href='php1.jsp'>1</a>	
+					
+				<a class='page' href='php2.jsp'>2</a>
 				
+				<a class='page' href='php3.jsp'>3</a>
+				
+				<a class='page' href='php4.jsp'>4</a>
+				<span class="page current">5</span>
 				<a class='page' href='php6.jsp'>6</a>
-				<a class='page next' href='php6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='php7.jsp'>7</a>
+				<a class='page' href='php8.jsp'>8</a>
+				<a class='page' href='php9.jsp'>9</a>
+				<a class='page' href='php10.jsp'>10</a>
+				
+			
 				</div>
 				</div>
 				<center>

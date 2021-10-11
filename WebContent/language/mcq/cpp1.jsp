@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cpp 1</title>
 </head>
 <body>
@@ -101,9 +102,15 @@
     <div id='pagination'>
      <div><span class="page current">1</span>
 				<a class='page' href='cpp2.jsp'>2</a>
-				
 				<a class='page' href='cpp3.jsp'>3</a>
-				<a class='page next' href='cpp2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cpp4.jsp'>4</a>
+				<a class='page' href='cpp5.jsp'>5</a>
+				<a class='page' href='cpp6.jsp'>6</a>
+				<a class='page' href='cpp7.jsp'>7</a>
+				<a class='page' href='cpp8.jsp'>8</a>
+				<a class='page' href='cpp9.jsp'>9</a>
+				<a class='page' href='cpp10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

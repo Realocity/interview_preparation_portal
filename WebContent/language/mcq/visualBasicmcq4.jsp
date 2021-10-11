@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>vb 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 How many levels of compilation happens in .NET Framework</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 How many levels of compilation happens in .NET Framework</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> One  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Two  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Most of the underlying integration of .NET is done through XML</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Most of the underlying integration of .NET is done through XML</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 An Assemblyinfo file in a VB.NET project will have blank as file extesion.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 An Assemblyinfo file in a VB.NET project will have blank as file extesion.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> .config  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> .vb <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> .t <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Every type supported by CTS is derived from </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 Every type supported by CTS is derived from </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> System .Object  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> System .Type  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following Types will have data of fixed size </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Which of the following Types will have data of fixed size </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Value Type <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  None <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Reference Type  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What is the significance of Option Explicit statement when it is set to On </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 What is the significance of Option Explicit statement when it is set to On </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Specifies that any variable name is declared (with type) before use <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Specifies whether strings should be compared as binary  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following class does not belong to Collection namespace </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Which of the following class does not belong to Collection namespace </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ArrayList  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Queue  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> Stack <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Methods declared with the following modifier are not accessible outside the class </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Methods declared with the following modifier are not accessible outside the class </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Private <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Protected <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Global<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The methods which return the values back to the calling code are called as</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 The methods which return the values back to the calling code are called as</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Constructors  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Interrogative methods  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 How do you terminate code execute with in a VB.NET method</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 How do you terminate code execute with in a VB.NET method</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Exit  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Close Sub  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,23 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+<!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='visualBasicmcq3.jsp'>3</a>
+     <div>
+				<a class='page' href='visualBasicmcq1.jsp'>1</a>
 				
-				<a class='page' href='visualBasicmcq5.jsp'>5</a>
-				<a class='page next' href='visualBasicmcq5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='visualBasicmcq2.jsp'>2</a>
+					
+					<a class='page' href='visualBasicmcq3.jsp'>3</a>
+					<span class="page current">4</span>	
+						<a class='page' href='visualBasicmcq5.jsp'>5</a>
+							<a class='page' href='visualBasicmcq6.jsp'>6</a>
+								<a class='page' href='visualBasicmcq7.jsp'>7</a>
+									<a class='page' href='visualBasicmcq8.jsp'>8</a>
+										<a class='page' href='visualBasicmcq9.jsp'>9</a>
+											<a class='page' href='visualBasicmcq10.jsp'>10</a>
+											
+			
 				</div>
 				</div>
 				<center>

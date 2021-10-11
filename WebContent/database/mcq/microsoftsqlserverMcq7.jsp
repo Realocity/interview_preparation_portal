@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Point out the wrong statement.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Point out the wrong statement.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> EncryptByKey uses a symmetric key <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> EncryptByKey returns NULL if the key is not open<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following script creates master key?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which of the following script creates master key?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> CREATE MASTER KEY
 BY PASSWORD='MyStrongPassword';
@@ -39,7 +41,7 @@ BY PASSWORD='MyStrongPassword';
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the statement is used to create a new certificate with a valid subject in SQL Server?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Which of the statement is used to create a new certificate with a valid subject in SQL Server?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> CREATE CERTI MySQLCert
 WITH SUBJECT='MyDatabase DEK';
@@ -53,7 +55,7 @@ WITH SUBJ='MyDatabase DEK';
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Like data compression, TDE database encryption is performed at the ______ level.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64  Like data compression, TDE database encryption is performed at the ______ level.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Page<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  Domain<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -61,7 +63,7 @@ WITH SUBJ='MyDatabase DEK';
         <label class="rounded p-2 option"> Row<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Which of the following is valid code to backup a certificate?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65  Which of the following is valid code to backup a certificate?</p>
         <div class="options py-3"> <label class="rounded p-2 option"> USE Master
 GO
 BACKUP CERTIFICATE MySQLCert
@@ -92,7 +94,7 @@ ENCRYPTION BY PASSWORD='MyStrongPassword2')
         <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following catalog view is used to monitor TDE? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 Which of the following catalog view is used to monitor TDE? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  sys.certificates<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  sys.certificate<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -100,7 +102,7 @@ ENCRYPTION BY PASSWORD='MyStrongPassword2')
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 ___________ encryption was introduced in SQL Server 2005 and is available in all editions of SQL Server.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 ___________ encryption was introduced in SQL Server 2005 and is available in all editions of SQL Server.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Column-level Encryption<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Transparent Data Encryption <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -108,7 +110,7 @@ ENCRYPTION BY PASSWORD='MyStrongPassword2')
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following functions decrypts data by using a symmetric key?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 Which of the following functions decrypts data by using a symmetric key?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  DECRYPTBYSYMKEY<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> DECRYPTBYKEYAUTOASYMKEY<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -116,7 +118,7 @@ ENCRYPTION BY PASSWORD='MyStrongPassword2')
         <label class="rounded p-2 option"> DECRYPTBYKEYAUTOCERT<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following condition in the where clause will return the login identification name of the user?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 Which of the following condition in the where clause will return the login identification name of the user?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  UserName = SUSER_NAME()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> UserName = SUSER_SNAME() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -124,7 +126,7 @@ ENCRYPTION BY PASSWORD='MyStrongPassword2')
         <label class="rounded p-2 option"> UserName = USER() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Point out the correct statement.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Point out the correct statement.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Implementing row level security based on security labels is possible in SQL Server 2008 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  A security label is a marking that describes the securable content of an item<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

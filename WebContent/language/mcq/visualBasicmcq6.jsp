@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>vb 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the method is used to display the form as modal </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 Which of the method is used to display the form as modal </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Showdialog( )  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Activate ( ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The tool provided with .Net framework to register assemblies for use by COM is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 The tool provided with .Net framework to register assemblies for use by COM is</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Regsvr32 <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Regasm  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 How do you add Web Methods in VB.Net</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 How do you add Web Methods in VB.Net</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Add keyword to Method signature <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Add [WebMethod] on top of the Method Signature  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 How do you refer the current class in VB.Net </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 How do you refer the current class in VB.Net </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Me <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> This  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Private <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How you refer the parent class in VB.Net </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 How you refer the parent class in VB.Net </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Parent  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> MyBase  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Super <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Child<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The serialization of an Object means that it is written out to a stream </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 The serialization of an Object means that it is written out to a stream </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following is not a method of Debug class</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 Which of the following is not a method of Debug class</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Assert( ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Open()  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Vb.Net classes can be derived in C#</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 Vb.Net classes can be derived in C#</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Can't say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Smart Phone applications and other such devices can be written using:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Smart Phone applications and other such devices can be written using:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> .NET Compact Framework <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> .NET Small Framework <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which class is used to run the EXE application file in VB.NET?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Which class is used to run the EXE application file in VB.NET?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Process <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Application <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -95,14 +96,25 @@
         <label class="rounded p-2 option"> Execute <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     
-  
-    <!-- /Intext --><hr>
+<!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='visualBasicmcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='visualBasicmcq1.jsp'>1</a>
 				
-				<a class='page' href='visualBasicmcq7.jsp'>7</a>
-				<a class='page next' href='visualBasicmcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='visualBasicmcq2.jsp'>2</a>
+					
+					<a class='page' href='visualBasicmcq3.jsp'>3</a>
+				
+						<a class='page' href='visualBasicmcq4.jsp'>4</a>
+							
+							<a class='page' href='visualBasicmcq5.jsp'>5</a>
+							<span class="page current">6</span>	
+								<a class='page' href='visualBasicmcq7.jsp'>7</a>
+									<a class='page' href='visualBasicmcq8.jsp'>8</a>
+										<a class='page' href='visualBasicmcq9.jsp'>9</a>
+											<a class='page' href='visualBasicmcq10.jsp'>10</a>
+											
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>java 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What would the output be of the above Program a III before and after it is called?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 What would the output be of the above Program a III before and after it is called?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> and b before call : 15 20 a and b after call : 30 10  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> a and b before call : 5 2 a and b after call : 15 20<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What would the argument passing method be which is used by the above Program a III? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 What would the argument passing method be which is used by the above Program a III? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Call by value <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Call by reference  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Consider the following program:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Consider the following program:
 class prob1{
 int puzzel(int n){
 int result;
@@ -58,7 +59,7 @@ Which of the following will be the output of the above program?
         <label class="rounded p-2 option"> 720 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The blank space in the following sentence has to be correctly filled :
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 The blank space in the following sentence has to be correctly filled :
 Members of a class specified as a¦a¦a¦a¦a¦a¦.. are accessible only to methods of that class.
           </p>
         <div class="options py-3">
@@ -68,14 +69,14 @@ Members of a class specified as a¦a¦a¦a¦a¦a¦.. are accessible 
         <label class="rounded p-2 option"> private<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Java compiler javac translates Java source code into a¦a¦a¦a¦a¦a¦a¦a¦a¦ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 Java compiler javac translates Java source code into a¦a¦a¦a¦a¦a¦a¦a¦a¦ </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Assembler language  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Byte code  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Platform dependent code. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Machine code<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 a¦a¦a¦a¦a¦a¦.. are used to document a program and improve its readability. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 a¦a¦a¦a¦a¦a¦.. are used to document a program and improve its readability. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> System cells <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> keywords <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +84,7 @@ Members of a class specified as a¦a¦a¦a¦a¦a¦.. are accessible 
         <label class="rounded p-2 option"> Blocks.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 In Java, a character constantas value is its integer value in the a¦a¦a¦a¦a¦a¦a¦a¦a¦character set. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 In Java, a character constantas value is its integer value in the a¦a¦a¦a¦a¦a¦a¦a¦a¦character set. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> EBCDIC <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Unicode <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -91,7 +92,7 @@ Members of a class specified as a¦a¦a¦a¦a¦a¦.. are accessible 
         <label class="rounded p-2 option"> Binary<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 In Java, a try block should immediately be followed by one or more a¦a¦a¦a¦a¦a¦.. blocks.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 In Java, a try block should immediately be followed by one or more a¦a¦a¦a¦a¦a¦.. blocks.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Throw <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Run <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,7 +100,7 @@ Members of a class specified as a¦a¦a¦a¦a¦a¦.. are accessible 
         <label class="rounded p-2 option"> Catch <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 An abstract data type typically comprises a a¦a¦a¦a¦a¦ and a set of a¦a¦a¦a¦a¦a¦ respectively. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 An abstract data type typically comprises a a¦a¦a¦a¦a¦ and a set of a¦a¦a¦a¦a¦a¦ respectively. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Data representation, classes  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Database, operations <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -107,7 +108,7 @@ Members of a class specified as a¦a¦a¦a¦a¦a¦.. are accessible 
         <label class="rounded p-2 option"> Data representation, operations. <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In object-oriented programming, the process by which one object acquires the properties of another object is called</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 In object-oriented programming, the process by which one object acquires the properties of another object is called</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Encapsulation  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Polymorphism <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -116,13 +117,25 @@ Members of a class specified as a¦a¦a¦a¦a¦a¦.. are accessible 
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='java6.jsp'>6</a>
+     <div>
+				<a class='page' href='java1.jsp'>1</a>
 				
+				<a class='page' href='java2.jsp'>2</a>
+				
+				<a class='page' href='java3.jsp'>3</a>
+			
+				<a class='page' href='java4.jsp'>4</a>
+					
+				<a class='page' href='java5.jsp'>5</a>
+			
+				<a class='page' href='java6.jsp'>6</a>
+					<span class="page current">7</span>	
 				<a class='page' href='java8.jsp'>8</a>
-				<a class='page next' href='java8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='java9.jsp'>9</a>
+				<a class='page' href='java10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

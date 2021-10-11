@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <meta charset="UTF-8">
 <title>ruby 3</title>
 </head>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 what is the filter code that calls on the "check_logged_in" method for only the "edit" and "update" methods?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 what is the filter code that calls on the "check_logged_in" method for only the "edit" and "update" methods?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> the data being presented by the web page  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> HTTP methods (post, get, put, delete) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 representation of a resource is called -------------.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 representation of a resource is called -------------.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> CamelCase<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> ruby make <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 converts database records to objects is called -------------.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 converts database records to objects is called -------------.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> for ad in @ads <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> integration test <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  an object-relational mapping library <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 what checks if an input is numeric?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 what checks if an input is numeric?  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> integration test<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> a responder object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">  validates_numericality_of<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 what is Rails' object-relational mapping library? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 what is Rails' object-relational mapping library? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> CamelCase <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  ActiveRecord  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> an object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> underscores <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 where do you add the filter code?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 where do you add the filter code?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> rails generate migration AddPhoneToTickets phone:string<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> the data being presented by the web page <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">  right after the line introducing the class in the controller<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 why is it good to redirect after inserting info into the database? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 why is it good to redirect after inserting info into the database? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> unit, functional, and integration tests<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> a script that alters the structure of the underlying database <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> the data being presented by the web page<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 which two steps to include test.xml data to the partial "map" (via the variable "data")...? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 which two steps to include test.xml data to the partial "map" (via the variable "data")...? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> from general to specific ('/ads/' and then '/ads/:id') <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  include test.xml to root of "public" folder and , render (:partial=>'map', :locals=>{:data=>'/test.xml'})<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> login method (that checks a username and password) and , a filter (that calls the login method when needed)<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 what environments does Rails have by default? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 what environments does Rails have by default? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  development, test, production <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> render :partial <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> integration test <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 how do you generate regular model code (not scaffolding)? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 how do you generate regular model code (not scaffolding)? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  just replace the word "scaffold" with the word "model" <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> it is not associated with a model <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,19 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='ruby2.jsp'>2</a>
+     <div>
+				<a class='page' href='ruby1.jsp'>1</a>
 				
+				<a class='page' href='ruby2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='ruby4.jsp'>4</a>
-				<a class='page next' href='ruby4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='ruby5.jsp'>5</a>
+				<a class='page' href='ruby6.jsp'>6</a>
+				<a class='page' href='ruby7.jsp'>7</a>
+				<a class='page' href='ruby8.jsp'>8</a>
+				<a class='page' href='ruby9.jsp'>9</a>
+				<a class='page' href='ruby10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

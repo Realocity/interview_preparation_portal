@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>kotlinmcq 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 ____________ helps to iterate through a range. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 ____________ helps to iterate through a range. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> And operator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Ranges operator <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Does Kotlin support OOPS and Procedural Programming ?? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Does Kotlin support OOPS and Procedural Programming ?? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> no <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which file extension is used to save Kotlin files?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Which file extension is used to save Kotlin files?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">.java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">.kot <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> .kotlin <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 All classes in Kotlin classes are by default? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 All classes in Kotlin classes are by default? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">public <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sealed <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> final<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Can we migrate code from Java to Kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Can we migrate code from Java to Kotlin? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Yes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Can be yes or no <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What is an immutable variable? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 What is an immutable variable? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">A variable that can be changed<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A variable used for string interpolation <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Does Kotlin support primitive Datatypes? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 Does Kotlin support primitive Datatypes? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The two types of constructors in Kotlin are ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 The two types of constructors in Kotlin are ??</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Primary and Secondary constructor <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">First and the second constructor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What handles null exceptions in Kotlin ?? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 What handles null exceptions in Kotlin ?? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Sealed classes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Lambda functions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> Elvis operator <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The correct function to get the length of a string in Kotlin language is ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 The correct function to get the length of a string in Kotlin language is ??</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> str.length <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> string(length) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,22 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+      <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='kotlinmcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='kotlinmcq1.jsp'>1</a>
 				
+				<a class='page' href='kotlinmcq2.jsp'>2</a>
+				
+				<a class='page' href='kotlinmcq3.jsp'>3</a>
+				
+				<a class='page' href='kotlinmcq4.jsp'>4</a>
+				
+				<a class='page' href='kotlinmcq5.jsp'>5</a>
+				<span class="page current">6</span>
 				<a class='page' href='kotlinmcq7.jsp'>7</a>
-				<a class='page next' href='kotlinmcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='kotlinmcq8.jsp'>8</a>
+			
 				</div>
 				</div>
 				<center>

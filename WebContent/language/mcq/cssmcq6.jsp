@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>css 6</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 CSS is the language we use to style an ___________ document. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 CSS is the language we use to style an ___________ document. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> PHP <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> HTML <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 CSS is the acronym for?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 CSS is the acronym for?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Color Style Sheets<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Cascade Sheets Style <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 External stylesheets are stored in CSS files </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 External stylesheets are stored in CSS files </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> TRUE <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> FALSE <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> Can not say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 HTML element h1 is used in CSS for styling then it is also called a? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 HTML element h1 is used in CSS for styling then it is also called a? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Attribute<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Value <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> Tag<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 To show the start and end of HTML element, ______ is used. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 To show the start and end of HTML element, ______ is used. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Attribute <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Value <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Selector <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Tag <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Cascading Style Sheets level 1 (CSS1) came out of W3C as a recommendation in? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 Cascading Style Sheets level 1 (CSS1) came out of W3C as a recommendation in? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">35400<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 35431 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> 35490<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 In CSS, styling elements can be done by ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 In CSS, styling elements can be done by ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> id<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option">All of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 In CSS, font-size is a property-name which _____________ the font of text. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 In CSS, font-size is a property-name which _____________ the font of text. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> increases <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  decreases<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option">None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 CSS is created and maintained through a group of people within the W3C called the? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 CSS is created and maintained through a group of people within the W3C called the? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> CSS Class Tag <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> CSS Class Group <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> CSS Working Id <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 __________ has introduced text, list, box, margin, border, color, and background properties.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 __________ has introduced text, list, box, margin, border, color, and background properties.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> css <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> html <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,14 +97,23 @@
         <label class="rounded p-2 option"> php <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     
-  
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='cssmcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='cssmcq1.jsp'>1</a>
 				
+				<a class='page' href='cssmcq2.jsp'>2</a>
+				
+				<a class='page' href='cssmcq3.jsp'>3</a>
+				
+				<a class='page' href='cssmcq4.jsp'>4</a>
+				
+				<a class='page' href='cssmcq5.jsp'>5</a>
+				<span class="page current">6</span>
 				<a class='page' href='cssmcq7.jsp'>7</a>
-				<a class='page next' href='cssmcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cssmcq8.jsp'>8</a>
+				<a class='page' href='cssmcq9.jsp'>9</a>
+				<a class='page' href='cssmcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

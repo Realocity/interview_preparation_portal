@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>swift 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following function returns an index path representing the row and section of a given table-view cell.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 Which of the following function returns an index path representing the row and section of a given table-view cell.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> func cellForRow(at: IndexPath) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> func indexPath(for: UITableViewCell) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 onDestroy() method in Android activity life cycle is similar to___ method in iOS viewController life cycle. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 onDestroy() method in Android activity life cycle is similar to___ method in iOS viewController life cycle. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> init() <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> viewDidLoad()  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is not a part of  life cycle of iOS</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Which of the following is not a part of  life cycle of iOS</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ViewDidAppear<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> viewWillAppear<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> viewWillRestart <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In Swift there are two kinds of types: named and __.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 In Swift there are two kinds of types: named and __.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Strong <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Compound <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Filtered<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the among class is super class of view controller objects? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which of the among class is super class of view controller objects? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> UIViewController <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> AlertVierController <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> UICollectionView  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 ARC in swift is functionally similar to destructor </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 ARC in swift is functionally similar to destructor </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Can't Say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which choice is the output value of the following code
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 Which choice is the output value of the following code
 Var a = 0
 let b = ++a
 let c = a++
@@ -76,7 +77,7 @@ let c = a++
         <label class="rounded p-2 option"> 2 1 1<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 InstantaiteViewControllerWithIdentifier() this method return object of... </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 InstantaiteViewControllerWithIdentifier() this method return object of... </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> viewController <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> UIViewController<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -84,7 +85,7 @@ let c = a++
         <label class="rounded p-2 option"> none<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 To access documentation, hold down ___ while clicking a class you want to view. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 To access documentation, hold down ___ while clicking a class you want to view. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Control <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Option+Command <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -92,7 +93,7 @@ let c = a++
         <label class="rounded p-2 option"> Command <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 We can return multiple values in swift  from function by using?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 We can return multiple values in swift  from function by using?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Array <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> tuple <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -101,13 +102,27 @@ let c = a++
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='swift8.jsp'>8</a>
+    
+				<a class='page' href='swift1.jsp'>1</a>
 				
+				<a class='page' href='swift2.jsp'>2</a>
+				 
+				<a class='page' href='swift3.jsp'>3</a>
+			
+				<a class='page' href='swift4.jsp'>4</a>
+				
+				<a class='page' href='swift5.jsp'>5</a>
+					
+				<a class='page' href='swift6.jsp'>6</a>
+				
+				<a class='page' href='swift7.jsp'>7</a>
+			
+				<a class='page' href='swift8.jsp'>8</a>
+					<span class="page current">9</span>
 				<a class='page' href='swift10.jsp'>10</a>
-				<a class='page next' href='swift10.jsp' title='Next'>&raquo;</a>
+				
 				</div>
 				</div>
 				<center>

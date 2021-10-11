@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Rmcq 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The ________ function can be used to create vectors of objects by concatenating things together.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 The ________ function can be used to create vectors of objects by concatenating things together.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> cp() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> c() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following statement is invalid?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Which of the following statement is invalid?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> x <- c(1+0i, 2+4i)<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> x <- c(TRUE, FALSE) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Point out the correct statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Point out the correct statement?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Use explicit TRUE and FALSE values when indicating logical values <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> rm command is used to remove objects in R<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Point out the correct statement?	 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 Point out the correct statement?	 </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The usual operator, <-, can be thought of as a syntactic shortcut to expression operation<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Assignment can also be made using the function assignment() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> seq() is used to delete the numbers <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is invalid assignment? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Which of the following is invalid assignment? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> > c(10.4, 5.6, 3.1, 6.4, 21.7) -> x <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  > assign("x", c(10.4, 5.6, 3.1, 6.4, 21.7)) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  > x <- c(10.4, 5.6, 3.1, 6.4, 21.7) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">None of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will be the output of the following R code?<br>> sqrt(-17) </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 What will be the output of the following R code?<br>> sqrt(-17) </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">-4.02<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 4.02	 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> 3.67<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following code constructs vector of length 11?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 Which of the following code constructs vector of length 11?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> > v &lt;- 3*x + y + 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  > v &lt;- 3*x + y + 2 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> > v &lt;- 2*x + y + 4 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 _______ function returns a vector of the same size as x with the elements arranged in increasing order.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 _______ function returns a vector of the same size as x with the elements arranged in increasing order.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> sort() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> orderasc() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> sequence()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is used for generating sequences?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Which of the following is used for generating sequences?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> seq() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> sequence() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> orderasc() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Unlike writing out a table or CSV file, dump() and dput() preserve the ______ so that another user doesnât have to specify the all over again.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Unlike writing out a table or CSV file, dump() and dput() preserve the ______ so that another user doesnât have to specify the all over again.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> metadata <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> backup data <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,22 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='Rmcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='Rmcq1.jsp'>1</a>
 				
+				<a class='page' href='Rmcq2.jsp'>2</a>
+			
+				<a class='page' href='Rmcq3.jsp'>3</a>
+					
+				<a class='page' href='Rmcq4.jsp'>4</a>
+				
+				<a class='page' href='Rmcq5.jsp'>5</a>
+				<span class="page current">6</span>
 				<a class='page' href='Rmcq7.jsp'>7</a>
-				<a class='page next' href='Rmcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Rmcq8.jsp'>8</a>
+				<a class='page' href='Rmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

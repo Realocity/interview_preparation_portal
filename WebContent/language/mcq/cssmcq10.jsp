@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>css 10</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following function adjust the brightness of an elements color, for use by the filter property? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Which of the following function adjust the brightness of an elements color, for use by the filter property? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> contrast() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> dark()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following function adjusts the difference between light and dark values, for use by the filter property? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 Which of the following function adjusts the difference between light and dark values, for use by the filter property? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Contrast()<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Dark() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following function adjusts the difference between light and dark values, for use by the filter property?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 Which of the following function adjusts the difference between light and dark values, for use by the filter property?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> create() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Dom()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following function converts an elements color to a shade of gray, for use by the filter property? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 Which of the following function converts an elements color to a shade of gray, for use by the filter property? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> shade() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> grayscale() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> brightness()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following function flips an elements colors, for use by the filter property? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 Which of the following function flips an elements colors, for use by the filter property? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> contrast() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> image() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> flip() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> invert()<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following function applies a saturation effect to an elements color, making it appear more or less vivid, for use by the filter property? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 Which of the following function applies a saturation effect to an elements color, making it appear more or less vivid, for use by the filter property? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">color()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">saturation()  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> none <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following function defines a linear gradient as a CSS image?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 Which of the following function defines a linear gradient as a CSS image?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> grayscale() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> gradient() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option">linear-gradient <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following function two dimensional transformation in matrix format? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 Which of the following function two dimensional transformation in matrix format? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> matrix() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">matrix2d() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option">perspective <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following function apply a sepia tinge to an elements color, typical of old photographs, for use by the filter property?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 Which of the following function apply a sepia tinge to an elements color, typical of old photographs, for use by the filter property?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">grayscale()  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sepia() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> brightness() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following value is supposed to be a slightly bolder weight that standard bold in font attribute? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 Which of the following value is supposed to be a slightly bolder weight that standard bold in font attribute? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> empasize <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> light <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,12 +98,27 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
-				<a class='page' href='cssmcq9.jsp'>9</a>
+     <div>
+				<a class='page' href='cssmcq1.jsp'>1</a>
 				
-			
+				<a class='page' href='cssmcq2.jsp'>2</a>
+				
+				<a class='page' href='cssmcq3.jsp'>3</a>
+				
+				<a class='page' href='cssmcq4.jsp'>4</a>
+				
+				<a class='page' href='cssmcq5.jsp'>5</a>
+				
+				<a class='page' href='cssmcq6.jsp'>6</a>
+				
+				<a class='page' href='cssmcq7.jsp'>7</a>
+				
+				<a class='page' href='cssmcq8.jsp'>8</a>
+				
+				<a class='page' href='cssmcq9.jsp'>9</a>
+				<span class="page current">10</span>
 				</div>
 				</div>
 				<center>

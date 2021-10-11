@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>kotlinmcq 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 How do you get the length of a string in Kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 How do you get the length of a string in Kotlin? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> str.lengthOf <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">str.length <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 How to make a multi lined comment in Kotlin?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 How to make a multi lined comment in Kotlin?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> / multi line comment /<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> // <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which file extension is used to save Kotlin files.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which file extension is used to save Kotlin files.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34  </p>
         <div class="options py-3">
          <label class="rounded p-2 option">.kot <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> .java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">.kt or .kts <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is not a way for creating a comment in kotlin? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Which of the following is not a way for creating a comment in kotlin? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Use /* to start a comment that is one line long. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Use // to turn the rest of a function into a comment.  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Put /* or /** to start a block comment, and end it with */. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Add // at the beginning of or inside a line and anything after that // is considered a comment. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Kotlin was developed under the which license? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Kotlin was developed under the which license? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Apache 1.0<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Apache 1.1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of these is used to handle null exceptions in kotlin?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Which of these is used to handle null exceptions in kotlin?  </p>
         <div class="options py-3">
          <label class="rounded p-2 option">Range <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Sealed Class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">Lambda function <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What is correct way to create an arraylist in kotlin?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 What is correct way to create an arraylist in kotlin?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> val set = hashSetOf(1, 2, 3) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">val list = arrayListOf(1, 2, 3) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> val map = hashMapOf(1 to âoneâ, 2 to âtwoâ, 3 to âthreeâ)<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 A Java file with extension â.classâ contains............ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 A Java file with extension â.classâ contains............ </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> HTML tags <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Java Byte code <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> A program file written in Java programming language <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What is the correct way to create an arraylist in kotlin?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 What is the correct way to create an arraylist in kotlin?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> val list = arrayListOf(1, 2, 3) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> val set = hashSetOf(1, 2, 3) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,20 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+      <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='kotlinmcq3.jsp'>3</a>
+     <div>
+				<a class='page' href='kotlinmcq1.jsp'>1</a>
 				
+				<a class='page' href='kotlinmcq2.jsp'>2</a>
+				
+				<a class='page' href='kotlinmcq3.jsp'>3</a>
+				<span class="page current">4</span>
 				<a class='page' href='kotlinmcq5.jsp'>5</a>
-				<a class='page next' href='kotlinmcq5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='kotlinmcq6.jsp'>6</a>
+				<a class='page' href='kotlinmcq7.jsp'>7</a>
+				<a class='page' href='kotlinmcq8.jsp'>8</a>
+			
 				</div>
 				</div>
 				<center>

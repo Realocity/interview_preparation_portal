@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Rmcq 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following return a subset of the columns of a data frame?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 Which of the following return a subset of the columns of a data frame?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> select <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> retrieve<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Point out the correct statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 Point out the correct statement?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The data frame is a key data structure in statistics and in R <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> R has an internal implementation of data frames that is likely the one you will use most often <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 _________ extract a subset of rows from a dataframe based on logical conditions.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 _________ extract a subset of rows from a dataframe based on logical conditions.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> rename<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> filter<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> subset <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 _________ generate summary statistics of different variables in the data frame, possibly within strata. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 _________ generate summary statistics of different variables in the data frame, possibly within strata. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> rename<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> summarize <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">subset <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Point out the wrong statement? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Point out the wrong statement? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> The dplyr package was developed by Hadley Wickham of RStudio <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The dplyr package is an optimized and distilled version of his plyr package <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> The dplyr package provides any ânewâ functionality to R <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option"> The dplyr package does not provide any ânewâ functionality to R <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+        <label class="rounded p-2 option"> The dplyr package provides any anewa functionality to R <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> The dplyr package does not provide any anewa functionality to R <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 ________ add new variables/columns or transform existing variables. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 ________ add new variables/columns or transform existing variables. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">mutate<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> add <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> arrange <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The _______ operator is used to connect multiple verb actions together into a pipeline.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 The _______ operator is used to connect multiple verb actions together into a pipeline.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> pipe<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> piper <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">end <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The dplyr package can be installed from GitHub using the _______ package.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 The dplyr package can be installed from GitHub using the _______ package.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> dev <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">devtools <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,15 +80,15 @@
         <label class="rounded p-2 option"> devdel<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The dplyr package can be installed from CRAN using __________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 The dplyr package can be installed from CRAN using __________</p>
         <div class="options py-3"> 
-        <label class="rounded p-2 option"> installall.packages(âdplyrâ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> install.packages(âdplyrâ) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option"> installed.packages(âdplyrâ)<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> installed.packages(âdplâ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+        <label class="rounded p-2 option"> installall.packages(adplyra) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> install.packages(adplyra) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> installed.packages(adplyra)<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> installed.packages(adpla) <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following object is masked from âpackage: statsâ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 Which of the following object is masked from apackage: statsa?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> filter <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> union <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,10 +99,25 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
+     <div>
+				<a class='page' href='Rmcq1.jsp'>1</a>
+				
+				<a class='page' href='Rmcq2.jsp'>2</a>
+			
+				<a class='page' href='Rmcq3.jsp'>3</a>
+					
+				<a class='page' href='Rmcq4.jsp'>4</a>
+				
+				<a class='page' href='Rmcq5.jsp'>5</a>
+				
+				<a class='page' href='Rmcq6.jsp'>6</a>
+				
+				<a class='page' href='Rmcq7.jsp'>7</a>
+		
 				<a class='page' href='Rmcq8.jsp'>8</a>
+						<span class="page current">9</span>
 				
-				
+			
 				</div>
 				</div>
 				<center>

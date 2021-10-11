@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cSharp 7</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Two methods with the same name but with different parameters.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Two methods with the same name but with different parameters.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Overloading <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Multiplexing <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which file contains configuration data for each unique URl resource used in project? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which file contains configuration data for each unique URl resource used in project? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> web.config<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> global.asax <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Features of Read only variables</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Features of Read only variables</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Declaration and initialization is separated <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It is allocated at compile time<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> all of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Different ways a method can be overloaded in C#.NET </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 Different ways a method can be overloaded in C#.NET </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Different parameter data types<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Different order of parameters <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> All of above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Is it possible to change the value of a variable while debugging a C# application?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65  Is it possible to change the value of a variable while debugging a C# application?</p>
         <div class="options py-3"> <label class="rounded p-2 option"> Yes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> May be <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  Which of the following constitutes the .NET Framework?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66  Which of the following constitutes the .NET Framework?
 1. C
 2. CLR
 3. Framework Class Library
@@ -69,7 +70,7 @@
         <label class="rounded p-2 option"> 3, 4 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following statements is correct about the C#.NET program given below?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 Which of the following statements is correct about the C#.NET program given below?
 namespace PskillsConsoleApplication
 {
     class Baseclass
@@ -103,7 +104,7 @@ namespace PskillsConsoleApplication
         <label class="rounded p-2 option"> The program will work correctly only if we implement zero-argument constructors in Baseclass as well as Derived class.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Managed methods will be marked as ------------ in MSIL code</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 Managed methods will be marked as ------------ in MSIL code</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> mscorjit <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> cil <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -111,7 +112,7 @@ namespace PskillsConsoleApplication
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Identify which is true</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 Identify which is true</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> DataView ia subset of row and not columns <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> find can be done only on sorted columns <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -119,7 +120,7 @@ namespace PskillsConsoleApplication
         <label class="rounded p-2 option">  None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following .NET components can be used to remove unused references from the managed heap?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Which of the following .NET components can be used to remove unused references from the managed heap?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Class Loader <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Garbage Collector <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -128,13 +129,25 @@ namespace PskillsConsoleApplication
     </div> 
     
   
-     <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='cSharpMcq6.jsp'>6</a>
+     <div>
+				<a class='page' href='cSharpMcq1.jsp'>1</a>
 				
+				<a class='page' href='cSharpMcq2.jsp'>2</a>
+			
+				<a class='page' href='cSharpMcq3.jsp'>3</a>
+					
+				<a class='page' href='cSharpMcq4.jsp'>4</a>
+				
+				<a class='page' href='cSharpMcq5.jsp'>5</a>
+				
+				<a class='page' href='cSharpMcq6.jsp'>6</a>
+				<span class="page current">7</span>
 				<a class='page' href='cSharpMcq8.jsp'>8</a>
-				<a class='page next' href='cSharpMcq8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cSharpMcq9.jsp'>9</a>
+				<a class='page' href='cSharpMcq10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

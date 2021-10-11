@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 10</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> rem = 3.14 % 2.1; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> rem = modf(3.14, 2.1);<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What are the types of linkages?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 What are the types of linkages?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Internal and External<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> External, Internal and None <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following special symbol allowed in a variable name?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 Which of the following special symbol allowed in a variable name?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> * (asterisk)<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> | (pipeline)<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> _ (underscore) <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Is there any difference between following declarations?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 Is there any difference between following declarations?
 c	extern int fun();
 2 :	int fun(); </p>
         <div class="options py-3">
@@ -51,14 +52,14 @@ c	extern int fun();
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How would you round off a value from 1.66 to 2.0? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 How would you round off a value from 1.66 to 2.0? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> ceil(1.66) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> floor(1.66) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> roundup(1.66) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> roundto(1.66)<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which header file should be included to use functions like malloc() and calloc()? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 Which header file should be included to use functions like malloc() and calloc()? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> memory.h <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> stdlib.h <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -66,7 +67,7 @@ c	extern int fun();
         <label class="rounded p-2 option"> dos.h<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What function should be used to free the memory allocated by calloc() ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 What function should be used to free the memory allocated by calloc() ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> dealloc();<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> malloc(variable_name, 0) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -74,7 +75,7 @@ c	extern int fun();
         <label class="rounded p-2 option"> memalloc(variable_name, 0) <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 How will you free the memory allocated by the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 How will you free the memory allocated by the following program?
 #include<stdio.h>
 #include<stdlib.h>
 #define MAXROW 3
@@ -93,7 +94,7 @@ int main()
         <label class="rounded p-2 option"> free(p);<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Specify the 2 library functions to dynamically allocate memory?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 Specify the 2 library functions to dynamically allocate memory?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> malloc() and memalloc() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> alloc() and memalloc() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -101,7 +102,7 @@ int main()
         <label class="rounded p-2 option"> memalloc() and faralloc() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What is (void*)0?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 What is (void*)0?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Representation of NULL pointer <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Representation of void pointer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -112,11 +113,20 @@ int main()
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
+				<a class='page' href='cMcq2.jsp'>2</a>
+				<a class='page' href='cMcq3.jsp'>3</a>
+				<a class='page' href='cMcq4.jsp'>4</a>
+				<a class='page' href='cMcq5.jsp'>5</a>
+				<a class='page' href='cMcq6.jsp'>6</a>
+
+				<a class='page' href='cMcq7.jsp'>7</a>
+				
+				<a class='page' href='cMcq8.jsp'>8</a>
+				
 				<a class='page' href='cMcq9.jsp'>9</a>
-				
-				
-				
+				<span class="page current">10</span>
 				</div>
 				</div>
 				<center>

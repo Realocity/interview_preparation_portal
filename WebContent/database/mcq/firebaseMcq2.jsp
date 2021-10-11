@@ -4,10 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
+ 
 <%@include file="/common/normal_navbar.jsp" %>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
@@ -15,7 +17,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following feature of Firebase?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Which of the following feature of Firebase?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Real-time <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Hosting Authentication<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Identify the filtering method in Firebase?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Identify the filtering method in Firebase?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> equalTo() method<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> endAt() method <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the full form of FCM in firebase?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 What is the full form of FCM in firebase?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Firebase Cloud Merge<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Firebase Cloud Messaging<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option"> None of these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is the full form of GCM in firebase? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 What is the full form of GCM in firebase? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Google Cloud Messaging<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Google Cloud Merge <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Firebase devepoled in which year? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Firebase devepoled in which year? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  2012<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  2010<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  2013<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 2014<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Firebase is a backend platform for building .............. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Firebase is a backend platform for building .............. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Web applications <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> iOS applications <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 We can get any key from firebase by using the ________ method.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 We can get any key from firebase by using the ________ method.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> key()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> fb.key() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> firebase().key<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The Firebase data is representing ________ objects.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 The Firebase data is representing ________ objects.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> SQL <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> JSON<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following choices is a firebase database type? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which of the following choices is a firebase database type? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> SQL and MySQL <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Realtime Database and SQL <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option"> Realtime Database and Cloud Firestore <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Firebase is a mobile platform developed by ..............</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Firebase is a mobile platform developed by ..............</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Microsoft <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Goolge <input type="radio" name="radio"> <span class="checkmark"></span> </label> 

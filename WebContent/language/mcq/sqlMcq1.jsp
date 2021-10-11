@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>sqlMcq 1</title>
 </head>
 <body>
@@ -100,9 +101,16 @@
     <div id='pagination'>
      <div><span class="page current">1</span>
 				<a class='page' href='sqlMcq2.jsp'>2</a>
-				
 				<a class='page' href='sqlMcq3.jsp'>3</a>
-				<a class='page next' href='sqlMcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='sqlMcq4.jsp'>4</a>
+				<a class='page' href='sqlMcq5.jsp'>5</a>
+				<a class='page' href='sqlMcq6.jsp'>6</a>
+				<a class='page' href='sqlMcq7.jsp'>7</a>
+				<a class='page' href='sqlMcq8.jsp'>8</a>
+				<a class='page' href='sqlMcq9.jsp'>9</a>
+				<a class='page' href='sqlMcq10.jsp'>10</a>
+				
+		
 				</div>
 				</div>
 				<center>

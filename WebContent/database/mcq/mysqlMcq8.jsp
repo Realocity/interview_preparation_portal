@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The MySQL APIs are libraries to connect applications to database servers.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 The MySQL APIs are libraries to connect applications to database servers.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> false <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of these is the most general purpose language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Which of these is the most general purpose language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> C<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Perl <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Among the following, for which language is image processing least simple?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 Among the following, for which language is image processing least simple?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> PHP<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Perl <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option">  C<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The CGI.pm module for website development is a part of _____________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 The CGI.pm module for website development is a part of _____________ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Perl<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> C++<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Compiled programs execute faster than interpreted scripts. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 Compiled programs execute faster than interpreted scripts. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> false <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  may be<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 For a heavily used program, which of these languages should be preferred? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 For a heavily used program, which of these languages should be preferred? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> C <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Perl <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> Python<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The protocol CGI is _____________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 The protocol CGI is _____________</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> computer graphics interface<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> common graphics interface <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> common gateway interface<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 There is a startup penalty for a standalone interpreter.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 There is a startup penalty for a standalone interpreter.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> false<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> don't know<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of these has a bigger memory footprint?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 Which of these has a bigger memory footprint?
 Perl, PHP
         </p>
         <div class="options py-3"> 
@@ -90,7 +92,7 @@ Perl, PHP
         <label class="rounded p-2 option">  machine dependent<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which is the correct decreasing order for highly developed text manipulation capabilities?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 Which is the correct decreasing order for highly developed text manipulation capabilities?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Perl, PHP, C <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Perl, C, PHP <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

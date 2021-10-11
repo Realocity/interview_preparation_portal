@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Golang 1</title>
 </head>
 <body>
@@ -103,7 +104,8 @@
 				<a class='page' href='golangmcq2.jsp'>2</a>
 				
 				<a class='page' href='golangmcq3.jsp'>3</a>
-				<a class='page next' href='golangmcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='golangmcq4.jsp'>4</a>
+				
 				</div>
 				</div>
 				<center>

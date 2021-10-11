@@ -1,9 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+ 	<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>css 3</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is the correct syntax to select the p siblings of a div element?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which of the following is the correct syntax to select the p siblings of a div element?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> p <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> div + p<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The CSS property used to draw a line around the elements outside the border? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 The CSS property used to draw a line around the elements outside the border? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> border<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> outline <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following CSS property is used to add shadows to the text? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Which of the following CSS property is used to add shadows to the text? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">text-shadow <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> text-stroke<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> text-decoration <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following is not a value of the font-variant property in CSS? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Which of the following is not a value of the font-variant property in CSS? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">normal <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> small-caps <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option">inherit <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following CSS property is used to specify whether the table cells share the common or separate border? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Which of the following CSS property is used to specify whether the table cells share the common or separate border? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> border-collapse <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> border-radius <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> border-spacing <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The CSS property used to make the rounded borders, or rounded corners around an element is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 The CSS property used to make the rounded borders, or rounded corners around an element is </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">border-collapse<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> border-radius <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The CSS property used to set the distance between the borders of the adjacent cells in the table is  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 The CSS property used to set the distance between the borders of the adjacent cells in the table is  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> border-collapse<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> border-radius <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following selector in CSS is used to select the elements that do not match the selectors? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Which of the following selector in CSS is used to select the elements that do not match the selectors? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> :! selector <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> :not selector<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option">None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is not a type of combinator?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 Which of the following is not a type of combinator?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &gt; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ~ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> * <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following CSS property defines how an image or video fits into container with established height and width? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Which of the following CSS property defines how an image or video fits into container with established height and width? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> object-fit <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> object-position <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,13 +98,20 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='cssmcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='cssmcq1.jsp'>1</a>
 				
+				<a class='page' href='cssmcq2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='cssmcq4.jsp'>4</a>
-				<a class='page next' href='cssmcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cssmcq5.jsp'>5</a>
+				<a class='page' href='cssmcq6.jsp'>6</a>
+				<a class='page' href='cssmcq7.jsp'>7</a>
+				<a class='page' href='cssmcq8.jsp'>8</a>
+				<a class='page' href='cssmcq9.jsp'>9</a>
+				<a class='page' href='cssmcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

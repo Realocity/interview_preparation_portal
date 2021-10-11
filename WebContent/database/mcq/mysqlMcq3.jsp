@@ -4,11 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>/head>
@@ -17,7 +19,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which Of These Commands Will Delete A Table Called XXX If You Have
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which Of These Commands Will Delete A Table Called XXX If You Have
 Appropriate Authority:</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  DROP TABLE XXX<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -27,7 +29,7 @@ Appropriate Authority:</p>
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 MySQL Runs On Which Operating Systems?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 MySQL Runs On Which Operating Systems?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Unix And Linux Only<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Unix, Linux, Windows And Others <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -36,7 +38,7 @@ Appropriate Authority:</p>
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is not supported by MySQL?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Which of the following is not supported by MySQL?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Temporary (Hash) Tables<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Table Joining<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -44,7 +46,7 @@ Appropriate Authority:</p>
         <label class="rounded p-2 option"> Stored Procedures <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  One Of The Early Proponents Of Relational Database Who Laid Down Many Of
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24  One Of The Early Proponents Of Relational Database Who Laid Down Many Of
 The Principles We Use To This Day Was:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Xigang Koi<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -53,14 +55,14 @@ The Principles We Use To This Day Was:</p>
         <label class="rounded p-2 option"> Mahatma Coate<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which Of These Is A Valid Call To A Function (watch The Spaces Carefully!) </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Which Of These Is A Valid Call To A Function (watch The Spaces Carefully!) </p>
         <div class="options py-3"> <label class="rounded p-2 option"> CONCAT( A , B ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> CONCAT ( A , B ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> CONCAT( "A" , "B" ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> CONCAT ( "A" , "B" )<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 If You Want To Undo A GRANT, You Should Use </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 If You Want To Undo A GRANT, You Should Use </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> REVOKE <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> UNDO <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -68,7 +70,7 @@ The Principles We Use To This Day Was:</p>
         <label class="rounded p-2 option"> DELETE<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 How Many Distinct, Different Values Can You Hold In An Enum Field?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 How Many Distinct, Different Values Can You Hold In An Enum Field?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 255<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 7 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -76,7 +78,7 @@ The Principles We Use To This Day Was:</p>
         <label class="rounded p-2 option"> 2 (True And False)<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which Of The Following Is NOT Available In MySQL:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Which Of The Following Is NOT Available In MySQL:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> REVOKE <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> FETCH<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -84,7 +86,7 @@ The Principles We Use To This Day Was:</p>
         <label class="rounded p-2 option"> JOIN<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The Program Called Mysql Is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 The Program Called Mysql Is</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> There Isn't A Program Just Called Mysql <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A Wrapper Through Which Java Clients Must Connect To The Databases <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -92,7 +94,7 @@ The Principles We Use To This Day Was:</p>
         <label class="rounded p-2 option"> A Client Program That Lets You Send SQL Commands To The Database Engine <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In A LIKE Clause, You Can Ask For Any 6 Letter Value By Writing:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 In A LIKE Clause, You Can Ask For Any 6 Letter Value By Writing:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> LIKE .{6} <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> LIKE ______ (that's Six Underscore Characters) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>php 10</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What will be the output of the following PHP code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 What will be the output of the following PHP code?
 											
 1.	
 <?php
@@ -32,7 +33,7 @@ echo "Hello world </br> Welcome to Online Interview Questions";
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is used to create a session?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 Which of the following is used to create a session?
 
         </p>
         <div class="options py-3">
@@ -43,7 +44,7 @@ echo "Hello world </br> Welcome to Online Interview Questions";
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which version of PHP introduced the instance of keyword? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 Which version of PHP introduced the instance of keyword? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> PHP 5<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> PHP 6<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -51,7 +52,7 @@ echo "Hello world </br> Welcome to Online Interview Questions";
         <label class="rounded p-2 option"> PHP 8 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 There are ............ error levels are available in PHP? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 There are ............ error levels are available in PHP? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">15 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 16 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -59,7 +60,7 @@ echo "Hello world </br> Welcome to Online Interview Questions";
         <label class="rounded p-2 option"> 14<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What does SPL stands for in Php? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 What does SPL stands for in Php? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Source PHP List <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Standard PHP List <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Standard PHP Library <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -67,12 +68,29 @@ echo "Hello world </br> Welcome to Online Interview Questions";
     </div> 
 
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
+     <div>
+				<a class='page' href='php1.jsp'>1</a>	
+					
+				<a class='page' href='php2.jsp'>2</a>
+				
+				<a class='page' href='php3.jsp'>3</a>
+				
+				<a class='page' href='php4.jsp'>4</a>
+				
+				<a class='page' href='php5.jsp'>5</a>
+				
+				<a class='page' href='php6.jsp'>6</a>
+				
+				<a class='page' href='php7.jsp'>7</a>
+				
+				<a class='page' href='php8.jsp'>8</a>
+				
 				<a class='page' href='php9.jsp'>9</a>
+				<span class="page current">10</span>
 				
-				
+			
 				</div>
 				</div>
 				<center>

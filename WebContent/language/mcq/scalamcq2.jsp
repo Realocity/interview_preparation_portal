@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>scalamcq 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Is Scala is Case Sensitive language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Is Scala is Case Sensitive language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  Yes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> No<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Omitting a semicolon(;) at the end of a statement causes the compiler to throw an error.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Omitting a semicolon(;) at the end of a statement causes the compiler to throw an error.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 A closure is a function whose return value depends on a variable declared outside it.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 A closure is a function whose return value depends on a variable declared outside it.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> Can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is Scala used for? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 What is Scala used for? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> functional programming<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> strong static systems <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which companies use Scala? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which companies use Scala? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> LinkedIn <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Twitter <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Tumblr <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Scala is written in ________ language. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Scala is written in ________ language. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">C<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Java <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> C++<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is a monad in Scala? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 What is a monad in Scala? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> An object that wraps another<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> A singleton object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The advantage of Scala are __________.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 The advantage of Scala are __________.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> High scalability <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> High maintainability and productivity <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Without an explicit import, maps in Scala are by default ________.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Without an explicit import, maps in Scala are by default ________.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Mutable <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Immutable <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 ______ is used to define a function in Scala.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 ______ is used to define a function in Scala.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> def <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,13 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='scalamcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='scalamcq3.jsp'>3</a>
-				<a class='page next' href='scalamcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='scalamcq4.jsp'>4</a>
+				<a class='page' href='scalamcq5.jsp'>5</a>
+			
 				</div>
 				</div>
 				<center>

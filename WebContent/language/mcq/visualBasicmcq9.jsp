@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>vb 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is a basic data type in VB.NET?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 Which of the following is a basic data type in VB.NET?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Boolean <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Byte<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following converts the expression to String data type in VB.NET?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 Which of the following converts the expression to String data type in VB.NET?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> CStr(expression)<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> CSByte(expression) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following accesss modifier is used in generic interfaces and delegates?	</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Which of the following accesss modifier is used in generic interfaces and delegates?	</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> In<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Iterator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> Module <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following accesss modifier indicates that a conversion operator (CType) converts a class or structure to a type that might not be able to hold some of the possible values of the original class or structure </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 Which of the following accesss modifier indicates that a conversion operator (CType) converts a class or structure to a type that might not be able to hold some of the possible values of the original class or structure </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> MustInherit <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> MustOverride <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> NotInheritable<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following accesss modifier allows you to pass an arbitrary number of arguments to the procedure? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which of the following accesss modifier allows you to pass an arbitrary number of arguments to the procedure? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Overridable <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Overrides <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ParamArray <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Partial <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following statement declares the name of a class and introduces the definition of the variables, properties, events, and procedures that the class comprises? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 Which of the following statement declares the name of a class and introduces the definition of the variables, properties, events, and procedures that the class comprises? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Dim<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Const <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Class<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following statement declares a reference to a procedure implemented in an external file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 Which of the following statement declares a reference to a procedure implemented in an external file?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Sub<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Declare <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> Property <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following operator uses short-circuit evaluation to conditionally return one of two values?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Which of the following operator uses short-circuit evaluation to conditionally return one of two values?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> If <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Await <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Function Expression<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following property of Array class in VB.NET checks whether the Array has a fixed size?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 Which of the following property of Array class in VB.NET checks whether the Array has a fixed size?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> IsFixedSize  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> IsStatic <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following Collection class of VB.NET represents an array of the binary representation using the values 1 and 0?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 Which of the following Collection class of VB.NET represents an array of the binary representation using the values 1 and 0?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Queue <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> BitArray <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -96,13 +97,28 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+<!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='visualBasicmcq8.jsp'>8</a>
+     <div>
+				<a class='page' href='visualBasicmcq1.jsp'>1</a>
 				
-				<a class='page' href='visualBasicmcq10.jsp'>10</a>
-				<a class='page next' href='visualBasicmcq10.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='visualBasicmcq2.jsp'>2</a>
+					
+					<a class='page' href='visualBasicmcq3.jsp'>3</a>
+				
+						<a class='page' href='visualBasicmcq4.jsp'>4</a>
+							
+							<a class='page' href='visualBasicmcq5.jsp'>5</a>
+							
+								<a class='page' href='visualBasicmcq6.jsp'>6</a>
+								
+									<a class='page' href='visualBasicmcq7.jsp'>7</a>
+										
+										<a class='page' href='visualBasicmcq8.jsp'>8</a>
+										<span class="page current">9</span>
+											<a class='page' href='visualBasicmcq10.jsp'>10</a>
+											
+			
 				</div>
 				</div>
 				<center>

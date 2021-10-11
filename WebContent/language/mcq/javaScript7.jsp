@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What if we define a "for" loop and it removes one of the properties that has not yet been enumerated? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 What if we define a "for" loop and it removes one of the properties that has not yet been enumerated? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The removed property will be stored in a cache <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The loop will not run at all<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is the correct response by the interpreter in a jump statement when an exception is thrown? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which of the following is the correct response by the interpreter in a jump statement when an exception is thrown? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The interpreter will jump to the one of the nearest enclosing exception handler<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> The interpreter will throw another exception <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which one of the following is the possibly correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Which one of the following is the possibly correct output for the given JavaScript code?
 1.	functionfun(int length)  
 2.	{  
 3.	    int a=5;  
@@ -50,7 +51,7 @@
         <label class="rounded p-2 option"> error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following is the correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 Which one of the following is the correct output for the given JavaScript code?
 1.	var a=0;  
 2.	var b =0;  
 3.	while (a <3)  
@@ -67,7 +68,7 @@
         <label class="rounded p-2 option"> 01 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following options would be the correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 Which of the following options would be the correct output for the given JavaScript code?
 1.	var size=5;  
 2.	var x=5;  
 3.	var size=4;  
@@ -83,7 +84,7 @@
         <label class="rounded p-2 option"> 531-1-3 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following options would be the correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 Which of the following options would be the correct output for the given JavaScript code?
 1.	var x=0;  
 2.	for(x;x<10;x++);  
 3.	console.log(x);  
@@ -95,7 +96,7 @@
         <label class="rounded p-2 option"> 5<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Consider the following piece of JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 Consider the following piece of JavaScript code:
 1.	<script>  
 2.	  
 3.	function fun(0){  
@@ -114,7 +115,7 @@ What is the role of the "debugger" statement?
         <label class="rounded p-2 option"> All above mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which one of the following is the correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 Which one of the following is the correct output for the given JavaScript code?
 1.	const obj ={prop:12};  
 2.	Object.preventExtensions(obj);  
 3.	console.log(Object.isExtensible(obj));  
@@ -126,7 +127,7 @@ What is the role of the "debugger" statement?
         <label class="rounded p-2 option"> false<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which one of the following is the correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 Which one of the following is the correct output for the given JavaScript code?
 1.	const obj1 ={ property1:'15'};  
 2.	const obj2 =Object.freeze(obj1);  
 3.	obj2.property1='20';  
@@ -139,7 +140,7 @@ What is the role of the "debugger" statement?
         <label class="rounded p-2 option"> Compilation error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which one of the following is the correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Which one of the following is the correct output for the given JavaScript code?
 1.	const object1 ={  
 2.	  property1:20  
 3.	};  
@@ -155,11 +156,23 @@ What is the role of the "debugger" statement?
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='javaScript6.jsp'>6</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				
+				<a class='page' href='javaScript3.jsp'>3</a>
+				
+				<a class='page' href='javaScript4.jsp'>4</a>
+				
+				<a class='page' href='javaScript5.jsp'>5</a>
+			
+				<a class='page' href='javaScript6.jsp'>6</a>
+					<span class="page current">7</span>	
 				<a class='page' href='javaScript8.jsp'>8</a>
-				<a class='page next' href='javaScript8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript9.jsp'>9</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

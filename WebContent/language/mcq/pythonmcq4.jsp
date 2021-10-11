@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>pythonmcq 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1  What is the output of print 0.1 + 0.2 == 0.3?	</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31  What is the output of print 0.1 + 0.2 == 0.3?	</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  True <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2  Which of the following is not a complex number?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32  Which of the following is not a complex number?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  k = 2 + 3j<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option">  k = complex(2, 3) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3  What is the type of inf?	</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33  What is the type of inf?	</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  Boolean<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Integer<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  Complex <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  What does ~4 evaluate to? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34  What does ~4 evaluate to? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">-5 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">-4<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> +3<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What does ~~~~~~5 evaluate to? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 What does ~~~~~~5 evaluate to? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  +5 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  -11 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  +11 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> -5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  What is the result of cmp(3, 1)? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36  What is the result of cmp(3, 1)? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">1<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> false<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7  Which of the following is incorrect?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37  Which of the following is incorrect?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  float(âinfâ)<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  float(ânanâ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">  float(â12+34â²)<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8  What is the result of round(0.5) â round(-0.5)?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38  What is the result of round(0.5) â round(-0.5)?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 1.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">2.0 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9  What does 3 ^ 4 evaluate to?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39  What does 3 ^ 4 evaluate to?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 81 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 12 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> 7 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10  Which of the following statements create a dictionary?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40  Which of the following statements create a dictionary?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  d = {} <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  d = {âjohnâ:40, âpeterâ:45} <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,20 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='pythonmcq3.jsp'>3</a>
+     <div>
+				<a class='page' href='pythonmcq1.jsp'>1</a>
 				
+				<a class='page' href='pythonmcq2.jsp'>2</a>
+				
+				<a class='page' href='pythonmcq3.jsp'>3</a>
+				<span class="page current">4</span>
 				<a class='page' href='pythonmcq5.jsp'>5</a>
-				<a class='page next' href='pythonmcq5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='pythonmcq6.jsp'>6</a>
+				<a class='page' href='pythonmcq7.jsp'>7</a>
+				<a class='page' href='pythonmcq8.jsp'>8</a>
+				<a class='page' href='pythonmcq9.jsp'>9</a>
+				<a class='page' href='pythonmcq10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

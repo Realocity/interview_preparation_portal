@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>vb 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 How do you create a Read only Property in VB.NET</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 How do you create a Read only Property in VB.NET</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Using Only Get..EndGet with in property definition  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Using Only Set..EndSet with in property definition <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The constructors in VB.Net is similar to which event in previous versions of VB</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 The constructors in VB.Net is similar to which event in previous versions of VB</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Class_Load <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Class_Terminate  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which interface allows to implement the Dispose method to do cleanup work</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 Which interface allows to implement the Dispose method to do cleanup work</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Idestructor  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Icleanup  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 How do you call non shared methods of a class </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 How do you call non shared methods of a class </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Directly invoking the method name <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Invoking the method through the instance of that class  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How do we implement private interfaces </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 How do we implement private interfaces </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Using Inherits Keyword  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Private interfaces can not be implemented  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Using Implements Keyword <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Where do you find COMException class </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 Where do you find COMException class </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> System.Runtime.Interopservices <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> System.XML  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which method of the XMLdocument class takes xml as string while loading</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 Which method of the XMLdocument class takes xml as string while loading</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Loadxml ( )  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Load( )  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which is the base class for TypedDataset	</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Which is the base class for TypedDataset	</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  DataReader  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Dataset <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which is the best to retrieve Read-Only, Forward-only stream of data from database</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 Which is the best to retrieve Read-Only, Forward-only stream of data from database</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Data Set  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Typed Data Set  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The DataAdapter uses which of the following object to retrieve the data from database</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 The DataAdapter uses which of the following object to retrieve the data from database</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Connection 	 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Command  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -96,13 +97,24 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+<!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='visualBasicmcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='visualBasicmcq1.jsp'>1</a>
 				
-				<a class='page' href='visualBasicmcq6.jsp'>6</a>
-				<a class='page next' href='visualBasicmcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='visualBasicmcq2.jsp'>2</a>
+					
+					<a class='page' href='visualBasicmcq3.jsp'>3</a>
+				
+						<a class='page' href='visualBasicmcq4.jsp'>4</a>
+							<span class="page current">5</span>	
+							<a class='page' href='visualBasicmcq6.jsp'>6</a>
+								<a class='page' href='visualBasicmcq7.jsp'>7</a>
+									<a class='page' href='visualBasicmcq8.jsp'>8</a>
+										<a class='page' href='visualBasicmcq9.jsp'>9</a>
+											<a class='page' href='visualBasicmcq10.jsp'>10</a>
+											
+			
 				</div>
 				</div>
 				<center>

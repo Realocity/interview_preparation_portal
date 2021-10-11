@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What will be the output of the following JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 What will be the output of the following JavaScript code?
 1.	const obj1 =  
 2.	{  
 3.	    property1:21  
@@ -31,7 +32,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which one of the following is the correct output for the given JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Which one of the following is the correct output for the given JavaScript code?
 1.	const object1 ={};  
 2.	a = Symbol('a');  
 3.	b =Symbol.for('b');  
@@ -48,7 +49,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the basic purpose of the "toLocateString()" method? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 What is the basic purpose of the "toLocateString()" method? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It returns a localised object representation<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It returns a localized string representation of the object<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -56,7 +57,7 @@
         <label class="rounded p-2 option"> It return a parsed string <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What kind of work is being performed in the following given part of JavaScript's code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 What kind of work is being performed in the following given part of JavaScript's code?
 1.	<script>  
 2.	  
 3.	o = {x:1, y:{z:[false,null,""]}};   
@@ -71,14 +72,14 @@
         <label class="rounded p-2 option"> Object Serialization<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 A set of unordered properties that, has a name and value is called______ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 A set of unordered properties that, has a name and value is called______ </p>
         <div class="options py-3"> <label class="rounded p-2 option"> string <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Array  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Serialized Object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Object <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 A collection of elements of the same data type which may either in order or not, is called _____. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 A collection of elements of the same data type which may either in order or not, is called _____. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> String<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Array <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -86,7 +87,7 @@
         <label class="rounded p-2 option"> object<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Every object contains three object attributes that are _______. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Every object contains three object attributes that are _______. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Prototype, class, object's extensible flag<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Prototype, class, objects' parameters <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -94,7 +95,7 @@
         <label class="rounded p-2 option"> Native object, Classes and Interfaces and Object's extensible flag <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What will be the output of the following JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 What will be the output of the following JavaScript code?
 1.	<script>  
 2.	  
 3.	var article = {  
@@ -115,7 +116,7 @@
         <label class="rounded p-2 option"> objects<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The linkage of a set of prototype objects is known as______</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 The linkage of a set of prototype objects is known as______</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> prototype stack <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> prototype <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -123,7 +124,7 @@
         <label class="rounded p-2 option"> prototype chain<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In the following line of code, what we will call the "datatype" written in brackets?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 In the following line of code, what we will call the "datatype" written in brackets?
 1.	article[datatype]=assignment_value;  
          </p>
         <div class="options py-3"> 
@@ -133,14 +134,26 @@
         <label class="rounded p-2 option"> Floating point <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     
-  
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='javaScript7.jsp'>7</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				
+				<a class='page' href='javaScript3.jsp'>3</a>
+				
+				<a class='page' href='javaScript4.jsp'>4</a>
+				
+				<a class='page' href='javaScript5.jsp'>5</a>
+			
+				<a class='page' href='javaScript6.jsp'>6</a>
+					
+				<a class='page' href='javaScript7.jsp'>7</a>
+				<span class="page current">8</span>	
 				<a class='page' href='javaScript9.jsp'>9</a>
-				<a class='page next' href='javaScript9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

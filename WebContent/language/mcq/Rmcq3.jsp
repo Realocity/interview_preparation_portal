@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Rmcq 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 R files has an extension ______</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 R files has an extension ______</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> .R <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> .S<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 If the code is stored in the external file, which of the following function is used to call them to a working directory?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 If the code is stored in the external file, which of the following function is used to call them to a working directory?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> exec()<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> source() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Advanced programmers can write ______ code to manipulate R objects.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Advanced programmers can write ______ code to manipulate R objects.</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Python <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> Java Script <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In ________ Insightful purchased the S language from Lucent for $2 million. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 In ________ Insightful purchased the S language from Lucent for $2 million. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 2002<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 2003 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> 2005 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Functionality of R is divided into a number of __________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Functionality of R is divided into a number of __________ </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Functions <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Domains <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Packages <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Files <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Dataframes can be converted into a matrix by calling the following function data ______ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Dataframes can be converted into a matrix by calling the following function data ______ </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">matr()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> matrix() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> matrixfunc()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following is not an object of R?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Which of the following is not an object of R?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">calls <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> expressions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> names<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Is It possible to inspect the source code of R?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Is It possible to inspect the source code of R?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Yes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> No<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Some times<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9  How to install for a package and all of the other packages on which for depends? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29  How to install for a package and all of the other packages on which for depends? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> install.packages (for, depends = TRUE) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> R.install.packages (âforâ, depends = TRUE) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> install (âforâ, depends = FALSE) <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 __________ function is used to watch for all available packages in library.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 __________ function is used to watch for all available packages in library.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> lib() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> fun.lib() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,19 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='Rmcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='Rmcq1.jsp'>1</a>
 				
+				<a class='page' href='Rmcq2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='Rmcq4.jsp'>4</a>
-				<a class='page next' href='Rmcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Rmcq5.jsp'>5</a>
+				<a class='page' href='Rmcq6.jsp'>6</a>
+				<a class='page' href='Rmcq7.jsp'>7</a>
+				<a class='page' href='Rmcq8.jsp'>8</a>
+				<a class='page' href='Rmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

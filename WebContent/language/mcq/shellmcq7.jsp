@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>shellmcq 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 RSTART is set by invoking the </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 RSTART is set by invoking the </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> match function <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> index function<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which one of the following is used by awk to control the conversion of numbers to string?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which one of the following is used by awk to control the conversion of numbers to string?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">RS <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> OFMT <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 In awk program, the name of the array can not be same with the</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 In awk program, the name of the array can not be same with the</p>
         <div class="options py-3">
          <label class="rounded p-2 option">name of variable	 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">value of the array element <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The $ variables in a shell script context designates </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 The $ variables in a shell script context designates </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The runtime of the script<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Number of command line arguments <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">The exit status of the shell script <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which variable is used to display number of arguments specified in command line </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 Which variable is used to display number of arguments specified in command line </p>
         <div class="options py-3"> <label class="rounded p-2 option"> $0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $# <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> $* <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $?<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  Which variable contains last background job process id</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66  Which variable contains last background job process id</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">$*<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $? <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> $!<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which command can be used to test various file attributes</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 Which command can be used to test various file attributes</p>
         <div class="options py-3">
          <label class="rounded p-2 option">if <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> file <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">type <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 * Specifies</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 * Specifies</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> one or more character <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> zero or more charecter <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 ? Specifies</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 ? Specifies</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> one or more character <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> zero or more charecter <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following file set in the current directory are identified by the regular expression a?b*</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Which of the following file set in the current directory are identified by the regular expression a?b*</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> afcc, aabb <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> aabb, axbc <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,23 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='shellmcq6.jsp'>6</a>
+     <div>
+				<a class='page' href='shellmcq1.jsp'>1</a>
+					
+				<a class='page' href='shellmcq2.jsp'>2</a>
 				
+				<a class='page' href='shellmcq3.jsp'>3</a>
+			
+				<a class='page' href='shellmcq4.jsp'>4</a>
+					
+				<a class='page' href='shellmcq5.jsp'>5</a>
+					
+				<a class='page' href='shellmcq6.jsp'>6</a>
+				<span class="page current">7</span>
 				<a class='page' href='shellmcq8.jsp'>8</a>
-				<a class='page next' href='shellmcq8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>sqlMcq 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following do you need to consider when you make a table in SQL? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 Which of the following do you need to consider when you make a table in SQL? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Data types <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Primary keys<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 In a sql subquery , which operator is used to check for existence of record ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 In a sql subquery , which operator is used to check for existence of record ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SQL NOT NULL<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option">  SQL AS<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Correct SQL query syntax to update a record from a table is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Correct SQL query syntax to update a record from a table is</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> UPDATE table_name
 SET column1 = value1, column2 = value2, â¦
@@ -52,7 +53,7 @@ WHERE condition;
         <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which is called as a virtual table in SQL? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 Which is called as a virtual table in SQL? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> INNER JOIN<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> JOIN <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -60,14 +61,14 @@ WHERE condition;
         <label class="rounded p-2 option"> NONE<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 In a table, a column contains duplicate value, if you want to list all different value only, then which SQL clause is used? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 In a table, a column contains duplicate value, if you want to list all different value only, then which SQL clause is used? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> SQL DISTINCT <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  SQL UNIQUE<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  SQL BETWEEN<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> SQL Exists<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 To give a temporary name to a table, or a column in a table for more readability, what is used? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 To give a temporary name to a table, or a column in a table for more readability, what is used? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  SQL Wildcards<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> SQL aliases <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -75,7 +76,7 @@ WHERE condition;
         <label class="rounded p-2 option"> SQL Comments<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What does below SQL statement describe?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 What does below SQL statement describe?
 SELECT CustomerName, Address + â, â + City + â, â + Country AS Address
 FROM Customers;
         </p>
@@ -86,7 +87,7 @@ FROM Customers;
         <label class="rounded p-2 option"> All above options are wrong<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Logical operators used in SQL are</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Logical operators used in SQL are</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> AND, OR , NOT<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &&, ||, !<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -94,7 +95,7 @@ FROM Customers;
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 To specify the number of records to return, which keyword is used</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 To specify the number of records to return, which keyword is used</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> FIRST <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> TOP <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -102,7 +103,7 @@ FROM Customers;
         <label class="rounded p-2 option">  ROW<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 To search for a specified pattern in a column</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 To search for a specified pattern in a column</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  SQL MATCH<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  SQL LIKE<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -111,13 +112,28 @@ FROM Customers;
     </div> 
     
   
-    <!-- /Intext --><hr>
+   <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
+     <div>
+				<a class='page' href='sqlMcq1.jsp'>1</a>
+				
+				<a class='page' href='sqlMcq2.jsp'>2</a>
+				
+				<a class='page' href='sqlMcq3.jsp'>3</a>
+				
+				<a class='page' href='sqlMcq4.jsp'>4</a>
+				
+				<a class='page' href='sqlMcq5.jsp'>5</a>
+				
+				<a class='page' href='sqlMcq6.jsp'>6</a>
+				
+				<a class='page' href='sqlMcq7.jsp'>7</a>
+				
 				<a class='page' href='sqlMcq8.jsp'>8</a>
-			
+				<span class="page current">9</span>
 				<a class='page' href='sqlMcq10.jsp'>10</a>
-				<a class='page next' href='sqlMcq10.jsp' title='Next'>&raquo;</a>
+				
+		
 				</div>
 				</div>
 				<center>

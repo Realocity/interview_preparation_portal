@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>swift 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is incorrect value type of the swift?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which of the following is incorrect value type of the swift?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Double <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> character<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 for unwrapping value inside optional what should we use? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 for unwrapping value inside optional what should we use? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ?<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> @ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What was the original name of iOS?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 What was the original name of iOS?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> iPad OS <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> iOS is original name <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> iPod OS <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 what are the  features of swift programming? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 what are the  features of swift programming? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> it eliminates entire classes of unsafe code<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Variables are always used before use. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
          <label class="rounded p-2 option"> all of the above.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 It is  possible to wrap variable  value inside  optional after unwrapping value </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 It is  possible to wrap variable  value inside  optional after unwrapping value </p>
         <div class="options py-3"> <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> May be <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Cann't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following is TRUE  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Which of the following is TRUE  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> let value = 5
       value = 10
@@ -68,7 +69,7 @@
         <label class="rounded p-2 option"> All the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Multitasking in iOS was introduced in which version? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Multitasking in iOS was introduced in which version? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> iOS 2.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> iOS 4.0 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -76,7 +77,7 @@
         <label class="rounded p-2 option"> iOS 7.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 iOS is a __software. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 iOS is a __software. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Free and open source <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Proprietary<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -84,7 +85,7 @@
         <label class="rounded p-2 option"> all of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following framework is not used in iOS ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 Which of the following framework is not used in iOS ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> UIKit Framework <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> AppKit Framework<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -92,7 +93,7 @@
         <label class="rounded p-2 option">  CoreMotion Framework -<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Swift will automatically assign the data type based on the intial value ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Swift will automatically assign the data type based on the intial value ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -101,13 +102,21 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='swift2.jsp'>2</a>
+    
+				<a class='page' href='swift1.jsp'>1</a>
 				
+				<a class='page' href='swift2.jsp'>2</a>
+				 <span class="page current">3</span>
 				<a class='page' href='swift4.jsp'>4</a>
-				<a class='page next' href='swift4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='swift5.jsp'>5</a>
+				<a class='page' href='swift6.jsp'>6</a>
+				<a class='page' href='swift7.jsp'>7</a>
+				<a class='page' href='swift8.jsp'>8</a>
+				<a class='page' href='swift9.jsp'>9</a>
+				<a class='page' href='swift10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

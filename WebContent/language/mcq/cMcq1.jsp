@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 1</title>
 </head>
 <body>
@@ -136,7 +137,15 @@ What will be the output of this program? </p>
 				<a class='page' href='cMcq2.jsp'>2</a>
 				
 				<a class='page' href='cMcq3.jsp'>3</a>
-				<a class='page next' href='cMcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq4.jsp'>4</a>
+				<a class='page' href='cMcq5.jsp'>5</a>
+				<a class='page' href='cMcq6.jsp'>6</a>
+				<a class='page' href='cMcq7.jsp'>7</a>
+				<a class='page' href='cMcq8.jsp'>8</a>
+				<a class='page' href='cMcq9.jsp'>9</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
+				
+				
 				</div>
 				</div>
 				<center>

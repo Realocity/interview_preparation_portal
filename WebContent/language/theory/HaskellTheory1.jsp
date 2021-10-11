@@ -1,10 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"> 
+<title>Haskell Theory</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -52,7 +53,7 @@ Without telling Haskell what type of data to read, read the function in the prog
                     <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Mention what are Monads in Haskell? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question3" class="collapse show" style="">
-                    <div class="card-body"> A monad in Haskell is just a type for which the >>= operation is defined. Haskell’s I/O is based on Monads. It’s a specific way of binding operations together or in other words, it’s a way of wrapping things and provide a method to perform operations on the wrapped stuff without unwrapping it. </div>
+                    <div class="card-body"> A monad in Haskell is just a type for which the >>= operation is defined. Haskellâs I/O is based on Monads. Itâs a specific way of binding operations together or in other words, itâs a way of wrapping things and provide a method to perform operations on the wrapped stuff without unwrapping it. </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
@@ -81,7 +82,7 @@ State & Writer Monad
                 </div>
                 <div id="question5" class="collapse show" style="">
                     <div class="card-body"> While working with Haskell, the first step involves in writing a Haskell program is usually to write down all the types.
-Haskell language is like a transcript just by looking at the function’s type it will tell you about what the function might do
+Haskell language is like a transcript just by looking at the functionâs type it will tell you about what the function might do
 Turns run-time errors into compile time errors, it is better to fix errors up front
 haskell_logo1
                      </div>
@@ -131,7 +132,7 @@ haskell_logo1
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question10"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> List out the numeric types in the Haskell “prelude”? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> List out the numeric types in the Haskell âpreludeâ? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question10" class="collapse show" style="">
                     <div class="card-body"> Int: It is an integer having at least 30 bits of precision
@@ -174,17 +175,17 @@ Bounded Polymorphism: You have bounded polymorphism or ad hoc, if you have custo
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question13"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain how you can implement “ord” for algebraic data types in Haskell? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain how you can implement âordâ for algebraic data types in Haskell? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question13" class="collapse show" style="">
-                    <div class="card-body">In Haskell, the best way to implement “ord” is just to add deriving (Eq, Ord) to the type’s definition.  </div>
+                    <div class="card-body">In Haskell, the best way to implement âordâ is just to add deriving (Eq, Ord) to the typeâs definition.  </div>
                 </div>
             </div>
               <div class="card mb-2 w-100">
                 <div class="card-header">
                     <h6 class="card-title"> 
                     <a class="text-muted text-uppercase" data-toggle="collapse" href="#question14"> 
-                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain why “lazy evaluation” in Haskell is useful? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
+                    <i class="fa fa-question-circle-o mr-2 mt-0-20 pull-left"></i> Explain why âlazy evaluationâ in Haskell is useful? <i class="fa fa-minus mr-2 text-slate pull-right"></i> </a> </h6>
                 </div>
                 <div id="question14" class="collapse show" style="">
                     <div class="card-body"> In Hazkel, lazy evaluation is useful due to following reasons

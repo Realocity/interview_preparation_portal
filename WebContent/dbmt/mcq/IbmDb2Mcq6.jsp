@@ -4,11 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+<title>IBM DB MCQ</title>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<title>Insert title here</title>
+
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,7 +23,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 A Plan is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 A Plan is</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Is an executable module containing access path logic provided by the DB2 optimizer <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> In an non executable module containing access path logic provide by the DB2 optimizer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -31,7 +32,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is invalid data type in DB2</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Which of the following is invalid data type in DB2</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SMALLINT<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> FLOAT <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 DB2 Directory cannot be accessed by SQL statements.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 DB2 Directory cannot be accessed by SQL statements.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,7 +49,7 @@
         <label class="rounded p-2 option"> Can not say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Which of the following DB2 objects allows multiple users to access data in a table with each only being able to access certain portions of the data?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54  Which of the following DB2 objects allows multiple users to access data in a table with each only being able to access certain portions of the data?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Views<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Aliases<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -56,14 +57,14 @@
         <label class="rounded p-2 option"> Mirrored tableswrong<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following is NOT a DB2 object? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Which one of the following is NOT a DB2 object? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Storage Group <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Table <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Synonym <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Column <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  Home phone is a varchar and contains Null. What will happen when home phone is selected?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56  Home phone is a varchar and contains Null. What will happen when home phone is selected?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Home-phone contains zeros and null-ind<0<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Home phone contains garbage and null-ind<0. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 In DB2, DATA is physically stored in </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 In DB2, DATA is physically stored in </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> VSAM ESDS<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> VSAM KSDS <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> TABLES<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The final result of a DB2 BIND is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 The final result of a DB2 BIND is</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Load module <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> DB2 catalog<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> DB2 (application) Plan<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 After successful precompilation</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 After successful precompilation</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> PRICE NOT > 500.00 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> PRICE = > 500.00 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -95,7 +96,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Bind component Produces:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Bind component Produces:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Only Package <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Only Application Plan<input type="radio" name="radio"> <span class="checkmark"></span> </label> 

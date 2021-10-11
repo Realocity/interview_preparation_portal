@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Synonyms are not convenient to use and reduce the complexity of SQL statements for database users.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 Synonyms are not convenient to use and reduce the complexity of SQL statements for database users.</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  True<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which methods are available for authenticating database administrators?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 Which methods are available for authenticating database administrators?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> A Password file <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Operations system <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Oracle Database does not support the USERENV function for queries.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Oracle Database does not support the USERENV function for queries.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option">  Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What specifies the service names and the dispatchers register with the listeners in  the DISPATCHERS Initialization Parameter Attributes ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 What specifies the service names and the dispatchers register with the listeners in  the DISPATCHERS Initialization Parameter Attributes ? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> LISTENER<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> SERVICE <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> MULTIPLEX<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following segment is destroyed when the SQL statement is finished? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which of the following segment is destroyed when the SQL statement is finished? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Temp segment <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Object segment <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Data Segment <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Temporary segment <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 A hash cluster is created using a DROP CLUSTER statement, but you specify a HASHKEYS clause </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 A hash cluster is created using a DROP CLUSTER statement, but you specify a HASHKEYS clause </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> true<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> false <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> don't know<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 When creating a hash cluster, it is important to choose the cluster key correctly and set which of these parameters so that performance and space use are optimal? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 When creating a hash cluster, it is important to choose the cluster key correctly and set which of these parameters so that performance and space use are optimal? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> HASH IS<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> SIZE <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> All mentioned above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What are the following steps used to do?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 What are the following steps used to do?
 
 1) Make a list of all datafiles and redo log files of the database
 2) Back up all datafiles and redo log files of the database
@@ -84,7 +86,7 @@
         <label class="rounded p-2 option"> Both A & B<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 You are using an Automatic Storage Management (ASM) instance to manage the files of your production database. You have two disk groups, DG1 and DG2, with one device each. In the parameter file of the production database, the following parameters have been specified
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 You are using an Automatic Storage Management (ASM) instance to manage the files of your production database. You have two disk groups, DG1 and DG2, with one device each. In the parameter file of the production database, the following parameters have been specified
 
 DB_CREATE_ONLINE_LOG_DEST_1 = '+dg1'
 DB_CREATE_ONLINE_LOG_DEST_2 = '+dg2'
@@ -98,7 +100,7 @@ What would be the impact of this setting?
         <label class="rounded p-2 option">  When a new log file is added, it would have one member spread across the disk groups<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following statements are true about the roles in the Oracle database?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 Which of the following statements are true about the roles in the Oracle database?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  A role can be granted to itself<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Roles can be granted to other roles<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

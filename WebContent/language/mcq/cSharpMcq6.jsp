@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cSharp 6</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Is it possible to store multiple data types in System.Array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 Is it possible to store multiple data types in System.Array?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What is the wild card character in the SQL "like" statement?	</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 What is the wild card character in the SQL "like" statement?	</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> * (Asterisk)<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> # (Pound) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is the root of the .NET type hierarchy?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Which of the following is the root of the .NET type hierarchy?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> System.Object<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> System.Base<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> System.Parent <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  C# doesnot support:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54  C# doesnot support:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> abstraction<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> polymorphism <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> inheritance<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Your company uses Visual Studio.NET 2005 as its application development platform. You are developing an application using the .NET Framework 2.0. You are required to use a datatype that will store only numbers ranging from -32,768 to 32,767. Which of the following datatypes will you use to accomplish the task?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55  Your company uses Visual Studio.NET 2005 as its application development platform. You are developing an application using the .NET Framework 2.0. You are required to use a datatype that will store only numbers ranging from -32,768 to 32,767. Which of the following datatypes will you use to accomplish the task?</p>
         <div class="options py-3"> <label class="rounded p-2 option"> short <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> System.Int16 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> string <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> a and b<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following jobs are NOT performed by Garbage Collector?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 Which of the following jobs are NOT performed by Garbage Collector?
 1.Freeing memory on the stack.
 2.Avoiding memory leaks.
 3.Freeing memory occupied by unreferenced objects.
@@ -69,7 +70,7 @@
         <label class="rounded p-2 option"> 	3, 4<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following statements is correct about Managed Code?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 Which of the following statements is correct about Managed Code?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Managed code is the code that runs on top of Windows.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Managed code is the code that is written to target the services of the CLR.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -77,7 +78,7 @@
         <label class="rounded p-2 option"> Managed code is the code that is compiled by the JIT compilers.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 How does assembly versioning in .NET prevent DLL Hell?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 How does assembly versioning in .NET prevent DLL Hell?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> The runtime checks to see that only one version of an assembly is on the machine at any one time. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The compiler offers compile time checking for backward compatibility.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -85,7 +86,7 @@
         <label class="rounded p-2 option"> It doesn.t.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is/are not types of arrays in C#?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Which of the following is/are not types of arrays in C#?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Single-Dimensional <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Multidimensional <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -93,7 +94,7 @@
         <label class="rounded p-2 option"> Jagged arrays <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 A variable which is declared inside a method is called a________variable</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 A variable which is declared inside a method is called a________variable</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Local <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Private <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -102,13 +103,24 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='cSharpMcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='cSharpMcq1.jsp'>1</a>
 				
+				<a class='page' href='cSharpMcq2.jsp'>2</a>
+			
+				<a class='page' href='cSharpMcq3.jsp'>3</a>
+					
+				<a class='page' href='cSharpMcq4.jsp'>4</a>
+				
+				<a class='page' href='cSharpMcq5.jsp'>5</a>
+				<span class="page current">6</span>
 				<a class='page' href='cSharpMcq7.jsp'>7</a>
-				<a class='page next' href='cSharpMcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cSharpMcq8.jsp'>8</a>
+				<a class='page' href='cSharpMcq9.jsp'>9</a>
+				<a class='page' href='cSharpMcq10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

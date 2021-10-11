@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Perlmcq 1</title>
 </head>
 <body>
@@ -100,9 +101,13 @@
     <div id='pagination'>
      <div><span class="page current">1</span>
 				<a class='page' href='Perlmcq2.jsp'>2</a>
-				
 				<a class='page' href='Perlmcq3.jsp'>3</a>
-				<a class='page next' href='Perlmcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Perlmcq4.jsp'>4</a>
+				<a class='page' href='Perlmcq5.jsp'>5</a>
+				<a class='page' href='Perlmcq6.jsp'>6</a>
+				<a class='page' href='Perlmcq7.jsp'>7</a>
+				<a class='page' href='Perlmcq8.jsp'>8</a>
+			
 				</div>
 				</div>
 				<center>

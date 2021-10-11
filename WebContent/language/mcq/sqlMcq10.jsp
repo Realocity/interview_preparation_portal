@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>sqlMcq 10</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which clause is used to combine rows from two or more tables based on a related column between them.
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Which clause is used to combine rows from two or more tables based on a related column between them.
          </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SQL MATCH<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 To combine the result-set of two or more SELECT statements, SQL clause used is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 To combine the result-set of two or more SELECT statements, SQL clause used is</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SQL UNION<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> SQL JOIN <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Wrong statement about UPDATE keyword is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 Wrong statement about UPDATE keyword is</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> If WHERE clause in missing in statement the all records will be updated.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Only one record can be updated at a time using WHERE clause<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option">  None is wrong statement<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Wrong statement about ORDER BY keyword is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 Wrong statement about ORDER BY keyword is </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Used to sort the result-set in ascending or descending order<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  The ORDER BY keyword sorts the records in ascending order by default.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option">  To sort the records in descending order, use the DECENDING keyword.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5Correct syntax query syntax to drop a column from a table is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 Correct syntax query syntax to drop a column from a table is </p>
         <div class="options py-3"> <label class="rounded p-2 option">  DELETE COLUMN column_name;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  DROP COLUMN column_name;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ALTER TABLE table_name DROP COLUMN column_name;<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> None is correct.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  If you want to allow age of a person > 18 in the column Age of table Person, then which constraint will be applied to AGE column.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96  If you want to allow age of a person > 18 in the column Age of table Person, then which constraint will be applied to AGE column.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Default<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Check<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which statement is wrong about PRIMARY KEY constraint in SQL?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 Which statement is wrong about PRIMARY KEY constraint in SQL?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The PRIMARY KEY uniquely identifies each record in a SQL database table<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Primary key can be made based on multiple columns<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> Primary keys must contain UNIQUE values.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which is/are correct statements about primary key of a table?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 Which is/are correct statements about primary key of a table?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Primary keys can contain NULL values<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Primary keys cannot contain NULL values.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> A table can have multiple primary keys with single or multiple fields<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 In existing table, ALTER TABLE statement is used to</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 In existing table, ALTER TABLE statement is used to</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 	Add columns<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Add constraints<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option">  All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 SQL Query to delete all rows in a table without deleting the table (structure, attributes, and indexes)</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 SQL Query to delete all rows in a table without deleting the table (structure, attributes, and indexes)</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  DELETE FROM table_name; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">   DELETE TABLE table_name; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,12 +98,29 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+   <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
+     <div>
+				<a class='page' href='sqlMcq1.jsp'>1</a>
+				
+				<a class='page' href='sqlMcq2.jsp'>2</a>
+				
+				<a class='page' href='sqlMcq3.jsp'>3</a>
+				
+				<a class='page' href='sqlMcq4.jsp'>4</a>
+				
+				<a class='page' href='sqlMcq5.jsp'>5</a>
+				
+				<a class='page' href='sqlMcq6.jsp'>6</a>
+				
+				<a class='page' href='sqlMcq7.jsp'>7</a>
+				
+				<a class='page' href='sqlMcq8.jsp'>8</a>
+				
 				<a class='page' href='sqlMcq9.jsp'>9</a>
+				<span class="page current">10</span>
 				
-				
+		
 				</div>
 				</div>
 				<center>

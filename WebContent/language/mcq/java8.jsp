@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>java 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Among these expressions, which is(are) of type String?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 Among these expressions, which is(are) of type String?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> a0a <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> aaba + acda<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Consider the following code fragment
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Consider the following code fragment
 Rectangle r1 = new Rectangle();
 r1.setColor(Color.blue);
 Rectangle r2 = r1;
@@ -41,7 +42,7 @@ Color.red </stylesheet> <input type="radio" name="radio"> <span class="checkmark
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the type and value of the following expression? (Notice the integer division)
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 What is the type and value of the following expression? (Notice the integer division)
 -4 + 1/2 + 2*-3 + 5.0</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> int -5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -50,7 +51,7 @@ Color.red </stylesheet> <input type="radio" name="radio"> <span class="checkmark
         <label class="rounded p-2 option"> double -5.0  <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is printed by the following statement?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 What is printed by the following statement?
 System.out.print(aHello,\nworld!a); </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Hello, \nworld! <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -60,7 +61,7 @@ System.out.print(aHello,\nworld!a); </p>
         <label class="rounded p-2 option"> None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Consider the two methods (within the same class)
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 Consider the two methods (within the same class)
 public static int foo(int a, String s)
 {
 s = aYellowa;
@@ -86,7 +87,7 @@ What is printed on execution of these methods?
         <label class="rounded p-2 option"> a = 5 s = Blue <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following variable declaration would NOT compile in a java program? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 Which of the following variable declaration would NOT compile in a java program? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> int var; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> int VAR;  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -94,7 +95,7 @@ What is printed on execution of these methods?
         <label class="rounded p-2 option"> int 1_var;.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Consider the following class definition:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Consider the following class definition:
 public class MyClass
 {
 private int value;
@@ -110,7 +111,7 @@ The method setValue assigns the value of i to the instance field value. What cou
         <label class="rounded p-2 option"> Both (A) and (B) and above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is TRUE? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 Which of the following is TRUE? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> In java, an instance field declared public generates a compilation error. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> int is the name of a class available in the package java.lang<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -118,7 +119,7 @@ The method setValue assigns the value of i to the instance field value. What cou
         <label class="rounded p-2 option"> A class has always a constructor (possibly automatically supplied by the java compiler).<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 A constructor</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 A constructor</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Must have the same name as the class it is declared within. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Is used to create objects. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -126,7 +127,7 @@ The method setValue assigns the value of i to the instance field value. What cou
         <label class="rounded p-2 option"> (a), (b) and (c) above. <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Consider,
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 Consider,
 public class MyClass
 {
 public MyClass(){/code/}
@@ -143,11 +144,24 @@ To instantiate MyClass, you would write?</p>
   
      <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='java7.jsp'>7</a>
+     <div>
+				<a class='page' href='java1.jsp'>1</a>
 				
+				<a class='page' href='java2.jsp'>2</a>
+				
+				<a class='page' href='java3.jsp'>3</a>
+			
+				<a class='page' href='java4.jsp'>4</a>
+					
+				<a class='page' href='java5.jsp'>5</a>
+			
+				<a class='page' href='java6.jsp'>6</a>
+					
+				<a class='page' href='java7.jsp'>7</a>
+				<span class="page current">8</span>	
 				<a class='page' href='java9.jsp'>9</a>
-				<a class='page next' href='java9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='java10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

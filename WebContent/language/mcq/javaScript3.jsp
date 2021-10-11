@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following givenfunctions of the Number Object formats a number with a different number of digits to the right of the decimal? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which of the following givenfunctions of the Number Object formats a number with a different number of digits to the right of the decimal? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> toExponential()  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> toFixed()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following number object function returns the value of the number?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Which of the following number object function returns the value of the number?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> toString() <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> valueOf() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Which of the following function of the String object returns the character in the string starting at the specified position via the specified number of characters?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> slice() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> split()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> search() <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In JavaScript the x===y statement implies that: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 In JavaScript the x===y statement implies that: </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Both x and y are equal in value, type and reference address as well. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Both are x and y are equal in value only. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Both are not same at all.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Choose the correct snippet from the following to check if the variable "a" is not equal the "NULL": </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Choose the correct snippet from the following to check if the variable "a" is not equal the "NULL": </p>
         <div class="options py-3"> <label class="rounded p-2 option"> if(a!==null) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> if (a!) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> if(a!null) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> if(a!=null) <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Suppose we have a text "human" that we want to convert into string without using the "new" operator. Which is the correct way from the following to do so:  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Suppose we have a text "human" that we want to convert into string without using the "new" operator. Which is the correct way from the following to do so:  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> toString()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> String(human) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Both human.toString() and String(human) <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 See the given code of JavaScript and choose the correct output from the following:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 See the given code of JavaScript and choose the correct output from the following:
 1.	functioncomparing()  
 2.	{  
 3.	intx=9;  
@@ -81,7 +82,7 @@
         <label class="rounded p-2 option"> true<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What will be the output of the following JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 What will be the output of the following JavaScript code?
 1.	functioncomparison()  
 2.	{  
 3.	int number=10;  
@@ -98,7 +99,7 @@
         <label class="rounded p-2 option"> compilation error<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 ) Find out the correct output of the following given piece of code from the given options:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 ) Find out the correct output of the following given piece of code from the given options:
 1.	functionfun()  
 2.	{  
 3.	int y=10;  
@@ -116,7 +117,7 @@
         <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 See the given code of JavaScript and choose the correct output from the following:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 See the given code of JavaScript and choose the correct output from the following:
 1.	var string1 = "40";  
 2.	varvalueinit=50;  
 3.	alert( string1 +intvalue);  
@@ -129,13 +130,21 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+    <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='javaScript2.jsp'>2</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				<span class="page current">3</span>	
 				<a class='page' href='javaScript4.jsp'>4</a>
-				<a class='page next' href='javaScript4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript5.jsp'>5</a>
+				<a class='page' href='javaScript6.jsp'>6</a>
+				<a class='page' href='javaScript7.jsp'>7</a>
+				<a class='page' href='javaScript8.jsp'>8</a>
+				<a class='page' href='javaScript9.jsp'>9</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>pythonmcq 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Is Tuple mutable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Is Tuple mutable?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> no<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2  Is Python case sensitive when dealing with identifiers?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22  Is Python case sensitive when dealing with identifiers?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option">  no <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3  Which of the following is invalid?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23  Which of the following is invalid?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> _a = 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  __a = 1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  none of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Which of the following is an invalid variable? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24  Which of the following is an invalid variable? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">  my_string_1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  1st_string <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> _ <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Why are local variable names beginning with an underscore discouraged? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25  Why are local variable names beginning with an underscore discouraged? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  they are used to indicate a private variables of a class <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  they confuse the interpreter <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  they are used to  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  they slow down execution<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 hich of the following is not a keyword? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 hich of the following is not a keyword? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> eval<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  assert  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">  pass<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7  All keywords in Python are in _________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27  All keywords in Python are in _________</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  lower case<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  UPPER CASE <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">  None of the mentioned<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8  Which of the following is true for variable names in Python?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28  Which of the following is true for variable names in Python?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  unlimited length <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> all private members must have leading and trailing underscores <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">  none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9  Which of the following is an invalid statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29  Which of the following is an invalid statement?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  abc = 1,000,000 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  a b c = 1000 2000 3000  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option">  a_b_c = 1,000,000 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10  Which of the following cannot </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30  Which of the following cannot </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  __init__ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  in <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,19 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='pythonmcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='pythonmcq1.jsp'>1</a>
 				
+				<a class='page' href='pythonmcq2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='pythonmcq4.jsp'>4</a>
-				<a class='page next' href='pythonmcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='pythonmcq5.jsp'>5</a>
+				<a class='page' href='pythonmcq6.jsp'>6</a>
+				<a class='page' href='pythonmcq7.jsp'>7</a>
+				<a class='page' href='pythonmcq8.jsp'>8</a>
+				<a class='page' href='pythonmcq9.jsp'>9</a>
+				<a class='page' href='pythonmcq10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

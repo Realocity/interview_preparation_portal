@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>scalamcq 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 In Scala, apply() serves the purpose of closing the gap between Object-Oriented
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 In Scala, apply() serves the purpose of closing the gap between Object-Oriented
 and Functional paradigms</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True	 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@ and Functional paradigms</p>
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The ___ method is utilized to select an element in the list by its index.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 The ___ method is utilized to select an element in the list by its index.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> apply() <input type="radio" name="radio"> <span class="checkmark"></span> </label>
     <label class="rounded p-2 option"> unapply() <input type="radio" name="radio"> unapply()<span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@ and Functional paradigms</p>
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Without an explicit import, maps in Scala are by default:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 Without an explicit import, maps in Scala are by default:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Immutable<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Mutable <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@ and Functional paradigms</p>
         <label class="rounded p-2 option"> inherited <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Which of the following not shows how to declare variables of the basic numeric
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44  Which of the following not shows how to declare variables of the basic numeric
 types? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> val b: Byte = 1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -50,14 +51,14 @@ types? </p>
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following is a feature of Scala strings? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 Which one of the following is a feature of Scala strings? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the following is a feature of Scala strings?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 Which one of the following is a feature of Scala strings?
          </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">It can be changed.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -67,7 +68,7 @@ types? </p>
          <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 How can you format a string?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 How can you format a string?
         </p>
         <div class="options py-3">
          <label class="rounded p-2 option">Val formatted= â%s %iâ.format (mystring.myInt) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -76,7 +77,7 @@ types? </p>
         <label class="rounded p-2 option"> Val formatted= â%s %iâ.formatstrings(mystring.myInt)<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 ____ is a Scala compiler that compiles to JavaScript.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 ____ is a Scala compiler that compiles to JavaScript.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Scala.py <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Scala.js<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -84,7 +85,7 @@ types? </p>
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Scala has singleton objects, which are essentially classes with only one instance.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 Scala has singleton objects, which are essentially classes with only one instance.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -92,7 +93,7 @@ types? </p>
         <label class="rounded p-2 option"> can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10  Which among the following is a Scala Web Frameworks?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50  Which among the following is a Scala Web Frameworks?
         </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> The Lift Framework <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -104,10 +105,15 @@ types? </p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
+     <div>
+				<a class='page' href='scalamcq1.jsp'>1</a>
+				<a class='page' href='scalamcq2.jsp'>2</a>
+				
+				<a class='page' href='scalamcq3.jsp'>3</a>
+				
 				<a class='page' href='scalamcq4.jsp'>4</a>
-				
-				
+				<span class="page current">5</span>
+			
 				</div>
 				</div>
 				<center>

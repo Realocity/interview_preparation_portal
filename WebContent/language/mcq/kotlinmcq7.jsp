@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>kotlinmcq 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Can we convert Java code into Kotlin code ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Can we convert Java code into Kotlin code ??</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">No <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The function to print a line in Kotlin is ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 The function to print a line in Kotlin is ??</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Printline()<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> println() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Under which license Kotlin was developed ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Under which license Kotlin was developed ??</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 1.1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">1.5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> 2.1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In Kotlin, the default visibility modifier is ?? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 In Kotlin, the default visibility modifier is ?? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> sealed<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  public <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> private<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Does Kotlin support OOPS and Procedural Programming ?? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 Does Kotlin support OOPS and Procedural Programming ?? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> None of above <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Yes	 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> No <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Only 1 & 2<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What defines a sealed class in Kotlin ?? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 What defines a sealed class in Kotlin ?? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Its another name for an abstract class<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It represents restricted class hierarchies  	 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> None of above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The default behavior of classes in Kotlin is ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 The default behavior of classes in Kotlin is ??</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> All classes are protected<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All classes are sealed <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> All classes are public<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Does Kotlin allow macros ?? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 Does Kotlin allow macros ?? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The functions in Kotlin can be divided into how many types ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 The functions in Kotlin can be divided into how many types ??</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 4 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> 2<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The Kotlin language is backward-compatible ??</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 The Kotlin language is backward-compatible ??</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -96,13 +97,23 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+      <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='kotlinmcq6.jsp'>6</a>
+     <div>
+				<a class='page' href='kotlinmcq1.jsp'>1</a>
 				
+				<a class='page' href='kotlinmcq2.jsp'>2</a>
+				
+				<a class='page' href='kotlinmcq3.jsp'>3</a>
+				
+				<a class='page' href='kotlinmcq4.jsp'>4</a>
+				
+				<a class='page' href='kotlinmcq5.jsp'>5</a>
+				
+				<a class='page' href='kotlinmcq6.jsp'>6</a>
+				<span class="page current">7</span>
 				<a class='page' href='kotlinmcq8.jsp'>8</a>
-				<a class='page next' href='kotlinmcq8.jsp' title='Next'>&raquo;</a>
+			
 				</div>
 				</div>
 				<center>

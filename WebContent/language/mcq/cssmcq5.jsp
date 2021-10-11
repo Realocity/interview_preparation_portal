@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>css 5</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following CSS property is used to set the blend mode for each background layer of an element? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 Which of the following CSS property is used to set the blend mode for each background layer of an element? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> background-blend-mode property <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> background-collapse property<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The CSS property used to specify the transparency of an element is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 The CSS property used to specify the transparency of an element is </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Hover <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> opacity <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following CSS property is used to set the horizontal alignment of a table-cell box or the block element?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 Which of the following CSS property is used to set the horizontal alignment of a table-cell box or the block element?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">text-align property <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">text-transform property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> text-decoration <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The CSS property which is used to set the text wider or narrower compare to the default width of the font is  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 The CSS property which is used to set the text wider or narrower compare to the default width of the font is  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> font-stretch property<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> font-weight property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> font-variant property <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following CSS property is used to specify the type of quotation mark? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 Which of the following CSS property is used to specify the type of quotation mark? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> quotes property <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> z-index property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> hyphens property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The CSS property used to specify the order of flex item in the grid container  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 The CSS property used to specify the order of flex item in the grid container  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">order property<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> float property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 ) Which of the following CSS property creates a clipping region and specifies the visible area of the element?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 ) Which of the following CSS property creates a clipping region and specifies the visible area of the element?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> visibility property<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> background-clip property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The CSS property used to set the indentation of the first line in a block of text is  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 The CSS property used to set the indentation of the first line in a block of text is  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> text-indent property <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">text-stroke property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> text-overflow property<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The correct syntax to give a line over text is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 The correct syntax to give a line over text is </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> text-decoration: line-through <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> text-decoration: none <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> text-decoration: underline <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 If we want to show an Arrow as cursor, then which value we will use ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 If we want to show an Arrow as cursor, then which value we will use ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Pointer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Default <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -97,13 +98,22 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='cssmcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='cssmcq1.jsp'>1</a>
 				
+				<a class='page' href='cssmcq2.jsp'>2</a>
+				
+				<a class='page' href='cssmcq3.jsp'>3</a>
+				
+				<a class='page' href='cssmcq4.jsp'>4</a>
+				<span class="page current">5</span>
 				<a class='page' href='cssmcq6.jsp'>6</a>
-				<a class='page next' href='cssmcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cssmcq7.jsp'>7</a>
+				<a class='page' href='cssmcq8.jsp'>8</a>
+				<a class='page' href='cssmcq9.jsp'>9</a>
+				<a class='page' href='cssmcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cpp 2</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following features is required to be supported by the programming language to become a pure object-oriented programming language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Which of the following features is required to be supported by the programming language to become a pure object-oriented programming language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Encapsulation <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Inheritance <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following comment syntax is correct to create a single-line comment in the C++ program?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Which of the following comment syntax is correct to create a single-line comment in the C++ program?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> //Comment<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> /Comment/ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 C++ is a ___ type of language.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 C++ is a ___ type of language.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> High-level Language <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Low-level language<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 For inserting a new line in C++ program, which one of the following statements can be used? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 For inserting a new line in C++ program, which one of the following statements can be used? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> \n <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 	\r <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following represents the tab? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which one of the following represents the tab? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> \n <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 	\t <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 	\r <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following refers to characteristics of an array? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following refers to characteristics of an array? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> An array is a set of similar data items <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> An array is a set of distinct data items  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 If we stored five elements or data items in an array, what will be the index address or the index number of the array's last data item?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 If we stored five elements or data items in an array, what will be the index address or the index number of the array's last data item?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 3 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> 88 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is the correct syntax for declaring the array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Which of the following is the correct syntax for declaring the array?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> init array [] <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> int array [5]; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is the correct syntax for printing the address of the first element?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which of the following is the correct syntax for printing the address of the first element?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> array[0]; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> array[1]; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following gives the 4th element of the array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following gives the 4th element of the array?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Array[0]; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Array[0]; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,11 +100,18 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='cpp1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='cpp3.jsp'>3</a>
-				<a class='page next' href='cpp3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cpp4.jsp'>4</a>
+				<a class='page' href='cpp5.jsp'>5</a>
+				<a class='page' href='cpp6.jsp'>6</a>
+				<a class='page' href='cpp7.jsp'>7</a>
+				<a class='page' href='cpp8.jsp'>8</a>
+				<a class='page' href='cpp9.jsp'>9</a>
+				<a class='page' href='cpp10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

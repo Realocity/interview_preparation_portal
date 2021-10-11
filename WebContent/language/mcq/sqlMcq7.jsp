@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>sqlMcq 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is not a DDL command?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Which of the following is not a DDL command?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  UPDATE<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> TRUNCATE<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following are TCL commands?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which of the following are TCL commands?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> UPDATE and TRUNCATE<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> SELECT and INSERT<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3  ___ is not a category of SQL command.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63  ___ is not a category of SQL command.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> TCL<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> SCL<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> DDL <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 If you donât specify ASC or DESC after a SQL ORDER BY clause, the following is used by default ____ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 If you donât specify ASC or DESC after a SQL ORDER BY clause, the following is used by default ____ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ASC<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> DESC <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Which of the following statement is true?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65  Which of the following statement is true?</p>
         <div class="options py-3"> <label class="rounded p-2 option">  DELETE does not free the space containing the table and TRUNCATE free the space containing the table<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Both DELETE and TRUNCATE free the space containing the table<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Both DELETE and TRUNCATE free the space containing the table <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> DELETE free the space containing the table and TRUNCATE does not free the space containing the table<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  What is the purpose of the SQL AS clause?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66  What is the purpose of the SQL AS clause?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  The AS SQL clause is used to change the name of a column in the result set or to assign a name to a derived column<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> The AS clause is used with the JOIN clause only <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following is a legal expression in SQL?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 Which of the following is a legal expression in SQL?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SELECT NULL FROM SALES;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  SELECT NAME FROM SALES;<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> SELECT # FROM SALES;<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 DCL provides commands to perform actions like</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 DCL provides commands to perform actions like</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Change the structure of Tables<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Insert, Update or Delete Records and Values<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of Above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The COUNT function in SQL returns the number of _____</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 The COUNT function in SQL returns the number of _____</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Values <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Distinct values<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option">  Columns<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which data type can store unstructured data in a column?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Which data type can store unstructured data in a column?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> RAW <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> CHAR <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,26 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='sqlMcq6.jsp'>6</a>
+     <div>
+				<a class='page' href='sqlMcq1.jsp'>1</a>
 				
+				<a class='page' href='sqlMcq2.jsp'>2</a>
+				
+				<a class='page' href='sqlMcq3.jsp'>3</a>
+				
+				<a class='page' href='sqlMcq4.jsp'>4</a>
+				
+				<a class='page' href='sqlMcq5.jsp'>5</a>
+				
+				<a class='page' href='sqlMcq6.jsp'>6</a>
+				<span class="page current">7</span>
 				<a class='page' href='sqlMcq8.jsp'>8</a>
-				<a class='page next' href='sqlMcq8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='sqlMcq9.jsp'>9</a>
+				<a class='page' href='sqlMcq10.jsp'>10</a>
+				
+		
 				</div>
 				</div>
 				<center>

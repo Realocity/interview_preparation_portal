@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Perlmcq 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following correctly describes Hashes data types in Perl?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 Which of the following correctly describes Hashes data types in Perl?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> These are simple variables. They are preceded by a dollar sign ($). <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> These are ordered lists of scalars that you access with a numeric index which starts with 0.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following variable context only happens inside quotes, or things that work like quotes?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 Which of the following variable context only happens inside quotes, or things that work like quotes?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Interpolative<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> List <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following method pushes the values of the list onto the end of the array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 Which of the following method pushes the values of the list onto the end of the array?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">push @ARRAY, LIST <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">pop @ARRAY <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> unshift @ARRAY, LIST <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following function returns all keys of a Hash? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 Which of the following function returns all keys of a Hash? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">  keys<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> values <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following operator performs exponential (power) calculation on operators? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 Which of the following operator performs exponential (power) calculation on operators? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> * <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> / <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> %<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">** <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following operator returns true if the left argument is stringwise equal to the right argument? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 Which of the following operator returns true if the left argument is stringwise equal to the right argument? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">eq<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> ne <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> ge<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following function returns epoch time?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 Which of the following function returns epoch time?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> localtime<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  gmtime <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> strftime<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is true about state variables?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Which of the following is true about state variables?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> state variables maintain their state and they do not get reinitialized upon multiple calls of the subroutines. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">These variables are defined using the state operator and available starting from Perl 5.9.4. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following code create a reference for a array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 Which of the following code create a reference for a array?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> $ref = \$foo; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $ref = \@ARGV; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> $ref = \&PrintHash; <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following data types are preceded by a percent sign (%) in Perl? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 Which of the following data types are preceded by a percent sign (%) in Perl? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Scalar <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Array <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,22 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='Perlmcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='Perlmcq1.jsp'>1</a>
 				
+				<a class='page' href='Perlmcq2.jsp'>2</a>
+				
+				<a class='page' href='Perlmcq3.jsp'>3</a>
+				
+				<a class='page' href='Perlmcq4.jsp'>4</a>
+				<span class="page current">5</span>
 				<a class='page' href='Perlmcq6.jsp'>6</a>
-				<a class='page next' href='Perlmcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Perlmcq7.jsp'>7</a>
+				<a class='page' href='Perlmcq8.jsp'>8</a>
+				
+			
 				</div>
 				</div>
 				<center>

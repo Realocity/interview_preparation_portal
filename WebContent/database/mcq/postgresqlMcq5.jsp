@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 To create a database in PostgreSQL, you must have the special CREATEDB privilege or</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 To create a database in PostgreSQL, you must have the special CREATEDB privilege or</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  be an admin<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> have a script do it.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What does the following statement do? CREATE INDEX lower_title_idx ON books ((lower(title))); </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 What does the following statement do? CREATE INDEX lower_title_idx ON books ((lower(title))); </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Modifies an index in place to be lowercase<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Creates a new index with a special operator class âlowerâ for case insensitive comparisons. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What command allows you to edit PostgreSQL queries in your favorite editor? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 What command allows you to edit PostgreSQL queries in your favorite editor? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ed<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> edit SQL #go<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option"> edit <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 To prevent transaction wraparound, a VACUUM operation should be run on every table no less than once every: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 To prevent transaction wraparound, a VACUUM operation should be run on every table no less than once every: </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 2 billion transactions<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 5 billion transactions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> 3 billion transactions <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The rule system: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 The rule system: </p>
         <div class="options py-3"> <label class="rounded p-2 option">  Operates between the parser and the planner.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Takes the output of the parser, one query tree, and the user-defined rewrite rules, which are also query trees with some extra information, and creates zero or more query trees as a result. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of these <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> None of these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  Asynchronous Commits:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46  Asynchronous Commits:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Allow transactions to complete more quickly <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> May cause recent transactions to be lost <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 When looking at âpsâ output on a Unix system, you see the following: Postgres 1016 0.1 2.4 6532 3080 pts/1 SN 13:19 0:00 postgres: tgl regression [local] idle in transaction What does âidle in transactionâ mean?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 When looking at âpsâ output on a Unix system, you see the following: Postgres 1016 0.1 2.4 6532 3080 pts/1 SN 13:19 0:00 postgres: tgl regression [local] idle in transaction What does âidle in transactionâ mean?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The server is idle, awaiting a client connection. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  A transaction is possibly hung.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> A client is connected, and the server is awaiting input.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Only the administrator can make use of tablespaces.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Only the administrator can make use of tablespaces.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  True<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 This is used to determine how text is stored and sorted within PostgreSQL?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 This is used to determine how text is stored and sorted within PostgreSQL?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Collations <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Index <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option"> Database <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which statement is true about PostgreSQL data types?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 Which statement is true about PostgreSQL data types?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Which statement is true about PostgreSQL data types?<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Only the INTEGER type can be declared as an array.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

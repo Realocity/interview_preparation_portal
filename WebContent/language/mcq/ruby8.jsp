@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>ruby 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 what precedes the "check_logged_in" method in a class? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 what precedes the "check_logged_in" method in a class? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> the request parameters table <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  the word "private"<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 what method name indicates to rails that it should validate before saving/updating? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 what method name indicates to rails that it should validate before saving/updating? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">  validate<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> ActionPack <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 how do you ask for all records of the Ads table?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 how do you ask for all records of the Ads table?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> singular<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  @ads = Ad.find(:all)<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  rake db:migrate<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 when data is retrieved from the database, what does Rails turn it into? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 when data is retrieved from the database, what does Rails turn it into? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> a responder object<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> validate <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">  an object <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 what are the main principles of REST? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 what are the main principles of REST? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  1. all important data is a resource, 2. every resource has a proper name (URL), 3. you can perform a standard set of operations on resources (usually CRUD), 4. client and server talk statelessly  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> model names are singular, controller (and table) names are plural <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> a script that alters the structure of the underlying database <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> no. arrays just keep references to objects stored in memory.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 When is it best to use an array rather than a hash? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 When is it best to use an array rather than a hash? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> An array uses indices and a hash uses "keys"<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> puts (pronounced "put-ess") <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">  When the order matters, use an array.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Describe the TDD cycle. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Describe the TDD cycle. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> An array uses indices and a hash uses "keys"<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It's a test that simulates a browser accessing our application. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> This maps requests for the URL /pages/home to the home action in the Pages controller.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 How does a local variable differ from an instance variable when empty?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 How does a local variable differ from an instance variable when empty?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> This is not a standard rails directory, but a directory installed by RSpec in which all test files are kept. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The @ indicates that this is an "instance variable". An instance variable defined in the action (or function) of a controller is automatically available in the view of that same name. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> Ruby complains if we try to evaluate an undefined local variable, but issues no such complaint for an instance variable; instead, instance variables are nil if not defined<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is a .erb file? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 What is a .erb file? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  The "erb" stands for "Embedded RuBy". .erb files look like about.html.erb and live in the "views" directory.They are just html files with embedded ruby in them. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> The @ indicates that this is an "instance variable". An instance variable defined in the action (or function) of a controller is automatically available in the view of that same name. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> It's a test that simulates a browser accessing our application. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What's the best way to describe an object in Ruby?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 What's the best way to describe an object in Ruby?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> An array uses indices and a hash uses "keys" <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  It's easier to describe what objects do, which is respond to messages. An object like a string, for example, can respond to the message length, which returns the number of characters in the string  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,24 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='ruby7.jsp'>7</a>
+     <div>
+				<a class='page' href='ruby1.jsp'>1</a>
 				
+				<a class='page' href='ruby2.jsp'>2</a>
+				
+				<a class='page' href='ruby3.jsp'>3</a>
+				
+				<a class='page' href='ruby4.jsp'>4</a>
+				
+				<a class='page' href='ruby5.jsp'>5</a>
+				
+				<a class='page' href='ruby6.jsp'>6</a>
+				
+				<a class='page' href='ruby7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='ruby9.jsp'>9</a>
-				<a class='page next' href='ruby9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='ruby10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

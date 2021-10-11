@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 In JavaScript, what will be used for calling the function definition expression:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 In JavaScript, what will be used for calling the function definition expression:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Function prototype <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Function literal <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following one is the property of the primary expression:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Which of the following one is the property of the primary expression:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Contains only keywords<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> basic expressions containing all necessary functions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Consider the following snippet of JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Consider the following snippet of JavaScript code:
 1.	var text ="testing: 1, 2, 3";// Sample text  
 2.	var pattern =/\d+/g// Matches all instances of one or more digits  
 Which one of the following statement is most suitable to check if the pattern matches with the sting "text".
@@ -44,7 +45,7 @@ Which one of the following statement is most suitable to check if the pattern ma
         <label class="rounded p-2 option"> text==pattern <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following is used for the calling a function or a method in the JavaScript: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 Which one of the following is used for the calling a function or a method in the JavaScript: </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Property Access Expression<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Functional expression  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -52,14 +53,14 @@ Which one of the following statement is most suitable to check if the pattern ma
         <label class="rounded p-2 option"> Primary expression<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The "new Point(3,2)", is a kind of _______ expression  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 The "new Point(3,2)", is a kind of _______ expression  </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Object Creation Expression <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Primary Expression <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Invocation Expression  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Constructor Calling Expression<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the following operator is used to check weather a specific property exists or not:  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Which one of the following operator is used to check weather a specific property exists or not:  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Exists<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> exist <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -67,7 +68,7 @@ Which one of the following statement is most suitable to check if the pattern ma
         <label class="rounded p-2 option"> in<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which one of the following is an ternary operator:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Which one of the following is an ternary operator:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ? <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> : <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -75,7 +76,7 @@ Which one of the following statement is most suitable to check if the pattern ma
         <label class="rounded p-2 option"> +<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 "An expression that can legally appear on the left side of an assignment expression." is a well known explanation for variables, properties of objects, and elements of arrays. They are called_____. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 "An expression that can legally appear on the left side of an assignment expression." is a well known explanation for variables, properties of objects, and elements of arrays. They are called_____. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Properties <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Prototypes<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +84,7 @@ Which one of the following statement is most suitable to check if the pattern ma
         <label class="rounded p-2 option"> Lvalue <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 ) Which of the following is the correct output for the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 ) Which of the following is the correct output for the following JavaScript code:
 1.	function display1(option)  
 2.	{  
 3.	    return(option ?  "true" :  "false");  
@@ -98,7 +99,7 @@ Which one of the following statement is most suitable to check if the pattern ma
         <label class="rounded p-2 option"> compilation error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which one of the following is correct output for the following given JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 Which one of the following is correct output for the following given JavaScript code:
 1.	var  obj=  
 2.	{  
 3.	    length:20,  
@@ -120,11 +121,20 @@ Which one of the following statement is most suitable to check if the pattern ma
     
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='javaScript3.jsp'>3</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				
+				<a class='page' href='javaScript3.jsp'>3</a>
+				<span class="page current">4</span>	
 				<a class='page' href='javaScript5.jsp'>5</a>
-				<a class='page next' href='javaScript5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript6.jsp'>6</a>
+				<a class='page' href='javaScript7.jsp'>7</a>
+				<a class='page' href='javaScript8.jsp'>8</a>
+				<a class='page' href='javaScript9.jsp'>9</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

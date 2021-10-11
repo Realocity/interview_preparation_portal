@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<title>Insert title here</title>
+<title>Oracle RDBMS MCQ</title>
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The on condition appears at the _______ of the join expression</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 The on condition appears at the _______ of the join expression</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Beginning <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> End<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -31,7 +31,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What is the difference between a join and an outer join operation?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 What is the difference between a join and an outer join operation?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> There is no difference<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Join preserves a few tuples that are otherwise lost in the outer join <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +40,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 The join operations that do not retain mismatched tuples are called as _________ operations</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 The join operations that do not retain mismatched tuples are called as _________ operations</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> outer join<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> natural join<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,7 +48,7 @@
         <label class="rounded p-2 option">  inner join<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  What is the function of the not null constraint?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24  What is the function of the not null constraint?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It prevents illegal data from being entered into the database<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It ensures that data is entered into the database <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -56,14 +56,14 @@
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is the function of the unique constraint? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 What is the function of the unique constraint? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> It ensures that no two values under an attribute are identical <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> It ensures that all the attributes are perfectly unique in their data type <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It ensures that all the relations in the database have a unique set of attributes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It does not have any function in SQL<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What is the functions of on delete cascade? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 What is the functions of on delete cascade? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> It is used to delete a tuple in a table<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It is used to specify the precise attribute that needs to be deleted in a single relation. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +71,7 @@
         <label class="rounded p-2 option"> It is used to execute sub-queries in the from clause.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What does the following condition do?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 What does the following condition do?
 check( name in( ‘Ryan’, ‘Cristiano’, ‘Leo’))
         </p>
         <div class="options py-3">
@@ -81,7 +81,7 @@ check( name in( ‘Ryan’, ‘Cristiano’, ‘Leo’))
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Referential integrity constraints are also called as _________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Referential integrity constraints are also called as _________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Functional dependencies <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Subset dependencies<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -89,7 +89,7 @@ check( name in( ‘Ryan’, ‘Cristiano’, ‘Leo’))
         <label class="rounded p-2 option"> Primary dependencies<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 ________ is a predicate that we expect the database to always satisfy</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 ________ is a predicate that we expect the database to always satisfy</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Assertion<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Reason <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,7 +97,7 @@ check( name in( ‘Ryan’, ‘Cristiano’, ‘Leo’))
         <label class="rounded p-2 option"> Verify <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Data that can be modelled as dimension attributes and measure attributes are called ___________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Data that can be modelled as dimension attributes and measure attributes are called ___________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Mono-dimensional data<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Multi-dimensional data <input type="radio" name="radio"> <span class="checkmark"></span> </label> 

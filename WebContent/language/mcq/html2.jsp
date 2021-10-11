@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>html 2</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 How to insert an image in HTML?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 How to insert an image in HTML?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;img href = "jtp.png" /> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;img url = "jtp.png" /> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 How to add a background color in HTML?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 How to add a background color in HTML?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;marquee bg color: "red"><input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> &lt;marquee bg-color = "red"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 &lt;input> is -</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 &lt;input> is -</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> a format tag.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> an empty tag.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following tag is used to make the underlined text?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which of the following tag is used to make the underlined text?  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;i> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;ul> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> &lt;pre><input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How to create a checkbox in HTML? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 How to create a checkbox in HTML? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> &lt;input type = "checkbox"> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;input type = "button"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;checkbox> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;input type = "check"><input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following tag is used to define options in a drop-down selection list? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following tag is used to define options in a drop-down selection list? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;select> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;list> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> &lt;option> <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 HTML tags are enclosed in-</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 HTML tags are enclosed in-</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> # and # <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> { and } <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> &lt;and > <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following tag is used to add rows in the table?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Which of the following tag is used to add rows in the table?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;td> and &lt;/td> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;th> and &lt;/th> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The &lt;hr> tag in HTML is used for -</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 The &lt;hr> tag in HTML is used for -</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> new line <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> vertical ruler <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> horizontal ruler<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following attribute is used to provide a unique name to an element?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following attribute is used to provide a unique name to an element?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> id <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -99,11 +100,18 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='html1.jsp'>1</a>
-				
+				<span class="page current">1</span>
 				<a class='page' href='html3.jsp'>3</a>
-				<a class='page next' href='html3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='html4.jsp'>4</a>
+				<a class='page' href='html5.jsp'>5</a>
+				<a class='page' href='html6.jsp'>6</a>
+				<a class='page' href='html7.jsp'>7</a>
+				<a class='page' href='html8.jsp'>8</a>
+				<a class='page' href='html9.jsp'>9</a>
+				<a class='page' href='html10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

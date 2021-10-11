@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>css 2</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The CSS property used to make the text bold is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 The CSS property used to make the text bold is </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> font-weight : bold<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> weight: bold<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Are the negative values allowed in padding property?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Are the negative values allowed in padding property?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> NO <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following property is used as the shorthand property of margin properties?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following property is used as the shorthand property of margin properties?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> margin-left <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">margin-right<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The CSS property used to specify the transparency of an element is   </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 The CSS property used to specify the transparency of an element is   </p>
         <div class="options py-3">
          <label class="rounded p-2 option">opacity <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">filter <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option">overlay <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is used to specify the subscript of text using CSS? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which of the following is used to specify the subscript of text using CSS? </p>
         <div class="options py-3"> <label class="rounded p-2 option">vertical-align: sub  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> vertical-align: super <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> vertical-align: subscript <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following CSS property is used to specify the space between every letter inside an element? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following CSS property is used to specify the space between every letter inside an element? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">alpha-spacing<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">character-spacing <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> alphabet-spacing<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The CSS property used to specify whether the text is written in the horizontal or vertical direction?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 The CSS property used to specify whether the text is written in the horizontal or vertical direction?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> writing-mode <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> text-indent <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option">None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Which of the following syntax is correct in CSS to make each word of a sentence start with a capital letter?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">text-style : capital; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">transform : capitalize; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> text-transform : capitalize;<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 How to select the elements with the class name "example"?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 How to select the elements with the class name "example"?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> example <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> #example <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> Class example <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following is the correct syntax to select all paragraph elements in a div element?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following is the correct syntax to select all paragraph elements in a div element?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> div p <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> p <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,13 +98,19 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='cssmcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='cssmcq3.jsp'>3</a>
-				<a class='page next' href='cssmcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cssmcq4.jsp'>4</a>
+				<a class='page' href='cssmcq5.jsp'>5</a>
+				<a class='page' href='cssmcq6.jsp'>6</a>
+				<a class='page' href='cssmcq7.jsp'>7</a>
+				<a class='page' href='cssmcq8.jsp'>8</a>
+				<a class='page' href='cssmcq9.jsp'>9</a>
+				<a class='page' href='cssmcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>shellmcq 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which command runs the shell built-in command âcommandâ with the given argument?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Which command runs the shell built-in command âcommandâ with the given argument?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> builtin <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> caller <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which option of the command âcdâ use the actual filesystem path for cd.. and the value of pwd?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Which option of the command âcdâ use the actual filesystem path for cd.. and the value of pwd?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> -l <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> -L <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which command generates possible completions for string according to the and write it to standard output?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which command generates possible completions for string according to the and write it to standard output?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> compgen<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> complete<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which command executes âcommandâ in place of the current process instead of creating a new process? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which command executes âcommandâ in place of the current process instead of creating a new process? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> exec<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> command <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following statement is not true?	 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which one of the following statement is not true?	 </p>
         <div class="options py-3"> <label class="rounded p-2 option"> vim editor is the improved version of vi editor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> vi editor commands are not case sensitive <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> vi editor has two modes of operation: command mode and insert mode <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> vi stands for visual editor <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which command is used to close the vi editor? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which command is used to close the vi editor? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">q<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> wq <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 In vi editor, the key combination CTRL+f </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 In vi editor, the key combination CTRL+f </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> moves screen down one page <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> moves screen up one page <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">moves screen down one line <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which vi editor command copies the current line of the file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Which vi editor command copies the current line of the file?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> yy <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> yw<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which command is used to delete the character before the cursor location in vi editor?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which command is used to delete the character before the cursor location in vi editor?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> X <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> x <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> d <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which one of the following statement is true?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which one of the following statement is true?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> autoindentation is not possible in vi editor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  autoindentation can be set using the command â:set aiâ<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,18 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='shellmcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>		
 				<a class='page' href='shellmcq3.jsp'>3</a>
-				<a class='page next' href='shellmcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq4.jsp'>4</a>
+				<a class='page' href='shellmcq5.jsp'>5</a>
+				<a class='page' href='shellmcq6.jsp'>6</a>
+				<a class='page' href='shellmcq7.jsp'>7</a>
+				<a class='page' href='shellmcq8.jsp'>8</a>
+				<a class='page' href='shellmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

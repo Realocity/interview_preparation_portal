@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>swift 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 First IOS was written in</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 First IOS was written in</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  1984<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1985<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 We can return multiple values in swift  from function by using? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 We can return multiple values in swift  from function by using? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Array<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> tuple <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is incorrect data type in SWIFT ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following is incorrect data type in SWIFT ? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> UInt<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Double<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> Optional <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Using tupel we can return multiple values. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Using tupel we can return multiple values. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> true<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Cann't say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 MAC OS X is true 64 bit unix. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 MAC OS X is true 64 bit unix. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> false<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> may be <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Cann't say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 If you do not want to mention external name in function call, then what should be preceded before the parameters while defining the function? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 If you do not want to mention external name in function call, then what should be preceded before the parameters while defining the function? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  ?<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  ! <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> \ <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The most recent version of macOS is based on ... ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 The most recent version of macOS is based on ... ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> WINDOWS<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> LINUX <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> CMOS<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 To initialize variable with null require... </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 To initialize variable with null require... </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> ? <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> !<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> NULL<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Meaning of iOS is?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Meaning of iOS is?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Integrated operating <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> systemIntergrated open system<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What is a LLVM ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 What is a LLVM ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> swiftc compiler <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> objective c compiler <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,20 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+    
 				<a class='page' href='swift1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='swift3.jsp'>3</a>
-				<a class='page next' href='swift3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='swift4.jsp'>4</a>
+				<a class='page' href='swift5.jsp'>5</a>
+				<a class='page' href='swift6.jsp'>6</a>
+				<a class='page' href='swift7.jsp'>7</a>
+				<a class='page' href='swift8.jsp'>8</a>
+				<a class='page' href='swift9.jsp'>9</a>
+				<a class='page' href='swift10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>pythonmcq 10</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What happens when '2' == 2 is executed?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 What happens when '2' == 2 is executed?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Ture <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is the correct statement?<br>z = {"x":0, "y":1}  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 Which of the following is the correct statement?<br>z = {"x":0, "y":1}  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> x dictionary z is created <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> x and y are the keys of dictionary z <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What will be the output of this program?<br>print(True ** False / True) </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 What will be the output of this program?<br>print(True ** False / True) </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True ** False / True<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1.0 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> None of the these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 How many control statements python supports? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 How many control statements python supports? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Four <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Five <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How many keywords present in the python programming language? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 How many keywords present in the python programming language? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> 32 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 61 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 33 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 27 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following arithmetic operators cannot be used with strings in python? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 Which of the following arithmetic operators cannot be used with strings in python? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">+<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> * <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">All of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 PVM is often called _________.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 PVM is often called _________.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Python interpreter<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Python compiler <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">Portable virtual machine <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following keywords is used for function declaration in Python language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 Which of the following keywords is used for function declaration in Python language?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> def <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> function_name <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of the these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following objects are present in the function header in python? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 Which of the following objects are present in the function header in python? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Function name and Parameters <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Only function name <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of the these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 When a user does not use the return statement inside a function in Python, what will return the function in that case.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 When a user does not use the return statement inside a function in Python, what will return the function in that case.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -95,13 +96,28 @@
         <label class="rounded p-2 option"> No output <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     
-  
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
+     <div>
+				<a class='page' href='pythonmcq1.jsp'>1</a>
+				
+				<a class='page' href='pythonmcq2.jsp'>2</a>
+				
+				<a class='page' href='pythonmcq3.jsp'>3</a>
+				
+				<a class='page' href='pythonmcq4.jsp'>4</a>
+			
+				<a class='page' href='pythonmcq5.jsp'>5</a>
+				
+				<a class='page' href='pythonmcq6.jsp'>6</a>
+					
+				<a class='page' href='pythonmcq7.jsp'>7</a>
+				
+				<a class='page' href='pythonmcq8.jsp'>8</a>
+				
 				<a class='page' href='pythonmcq9.jsp'>9</a>
-				
-				
+				<span class="page current">10</span>
+			
 				</div>
 				</div>
 				<center>

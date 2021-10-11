@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>vb 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The smallest unit to which one can associate a version number in .NET is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 The smallest unit to which one can associate a version number in .NET is</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> CLR <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Assembly<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Lower bound value of array in VB.NET</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Lower bound value of array in VB.NET</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> -1 <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> 0 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is not correct about the value types and reference types in VB.NET?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Which of the following is not correct about the value types and reference types in VB.NET?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Dim statement is used to create a variable that represents a value type <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Data associated with a value type is allocated on the stack<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> Data associated with a reference type is allocated on the stack <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which NameSpace is used to access the metadata in an Assembly? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Which NameSpace is used to access the metadata in an Assembly? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> System.XML <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> System.Assembler <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> System.IO<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is the purpose of Invoke Method? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 What is the purpose of Invoke Method? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Used to call any procedure <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Used to call the procedure through Delegate variable <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Both	 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 In VB.NET, the finalizer must use the Overrides keyword  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 In VB.NET, the finalizer must use the Overrides keyword  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which one of the following collections receives output from Trace and Debug classes? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Which one of the following collections receives output from Trace and Debug classes? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Trace<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Debug <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Using ___________ we can determine if a variable is initialized in VB.NET</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Using ___________ we can determine if a variable is initialized in VB.NET</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> IsDdNull( ) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> IsEmpty( ) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 _________ can be accessed from all types within the assembly, but not from outside the assembly. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 _________ can be accessed from all types within the assembly, but not from outside the assembly. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Public <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Private <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> Protected <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 How to dereference an object in VB.NET?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 How to dereference an object in VB.NET?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> By setting the object to Null <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> By setting the object to Nothing <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -95,14 +96,22 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     
-  
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='visualBasicmcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='visualBasicmcq1.jsp'>1</a>
 				
-				<a class='page' href='visualBasicmcq4.jsp'>4</a>
-				<a class='page next' href='visualBasicmcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='visualBasicmcq2.jsp'>2</a>
+				<span class="page current">3</span>		
+					<a class='page' href='visualBasicmcq4.jsp'>4</a>
+						<a class='page' href='visualBasicmcq5.jsp'>5</a>
+							<a class='page' href='visualBasicmcq6.jsp'>6</a>
+								<a class='page' href='visualBasicmcq7.jsp'>7</a>
+									<a class='page' href='visualBasicmcq8.jsp'>8</a>
+										<a class='page' href='visualBasicmcq9.jsp'>9</a>
+											<a class='page' href='visualBasicmcq10.jsp'>10</a>
+											
+			
 				</div>
 				</div>
 				<center>

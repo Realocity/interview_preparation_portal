@@ -1,9 +1,10 @@
-<%@ page language="java" contentType="text/Java; charset=UTF-8"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE Java>
-<Java>
+<!DOCTYPE html>
+<html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"> 
 <title>Java Theory</title>
 </head>
 <body>
@@ -12,6 +13,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
+
 <div class="container d-flex justify-content-center mt-50 mb-50">
     <div class="w-100 overflow-auto order-2 order-md-1">
         <div class="card-group-control card-group-control-right">
@@ -243,12 +245,13 @@ Rules for Method overriding
             </div>
         </div>
     </div>
+    
 
 
 <br><br>
   <!-- footer -->  
          
- <%@ include file="/common/footer.jsp" %></div>
+ <%@ include file="/common/footer.jsp" %>
  
  
   <!-- Optional JavaScript -->

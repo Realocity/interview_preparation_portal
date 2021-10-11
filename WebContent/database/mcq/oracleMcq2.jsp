@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is the type of Oracle backup in which all uncommitted changes have been removed from the datafiles?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 What is the type of Oracle backup in which all uncommitted changes have been removed from the datafiles?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Inconsistent backup <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Consistent backup<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which processes is an instance made of Oracle?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Which processes is an instance made of Oracle?
 
         </p>
         <div class="options py-3">
@@ -35,7 +37,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the use of extent in Oracle?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 What is the use of extent in Oracle?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Stores rollback information used when data must be rolled back<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Minimize the amount of wasted (empty) storage<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -43,7 +45,7 @@
         <label class="rounded p-2 option">  None of the Mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following is true in this scenario?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which of the following is true in this scenario?
 
          </p>
         <div class="options py-3">
@@ -53,7 +55,7 @@
         <label class="rounded p-2 option"> None of the Mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  You can create any cluster and associated cluster index in any tablespace that is -
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15  You can create any cluster and associated cluster index in any tablespace that is -
 
          </p>
         <div class="options py-3"> <label class="rounded p-2 option"> CURRENTLY ONLINE <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -62,7 +64,7 @@
         <label class="rounded p-2 option"> OPEN<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following scenarios ends an Oracle transaction? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following scenarios ends an Oracle transaction? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> User disconnects from Oracle <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> COMMIT or ROLLBACK is issued <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -70,7 +72,7 @@
         <label class="rounded p-2 option"> All of the mentioned<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7  Is the size and content of the PGA independent on the Oracle server options installed ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17  Is the size and content of the PGA independent on the Oracle server options installed ?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Yes<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  No<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -78,7 +80,7 @@
         <label class="rounded p-2 option"> May be<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8  Insert & Update are DML Statements.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18  Insert & Update are DML Statements.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -86,7 +88,7 @@
         <label class="rounded p-2 option"> Don't know<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9  Which of the following is a collection of one or more replicated objects (typically tables) that are administrated together.
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19  Which of the following is a collection of one or more replicated objects (typically tables) that are administrated together.
 
         </p>
         <div class="options py-3"> 
@@ -96,7 +98,7 @@
         <label class="rounded p-2 option"> Replication group <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 which is the extension of an Oracle SQL*Plus file ?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 which is the extension of an Oracle SQL*Plus file ?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> .sql <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> .txt<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

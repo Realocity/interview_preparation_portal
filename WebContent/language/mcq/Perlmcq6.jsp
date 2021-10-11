@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Perlmcq 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is correct about Hashes?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 Which of the following is correct about Hashes?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> A hash is a set of key/value pairs. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Hash variables are preceded by a percent (%) sign.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following statement restarts the loop block without evaluating the conditional again?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Which of the following statement restarts the loop block without evaluating the conditional again?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> next <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> last <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following statement repeats a statement or group of statements until a given condition becomes true. It tests the condition before executing the loop body?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Which of the following statement repeats a statement or group of statements until a given condition becomes true. It tests the condition before executing the loop body?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> while<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  until<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following function points current position of a pointer to a particular position in a file? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 Which of the following function points current position of a pointer to a particular position in a file? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">rename <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  tell <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is correct about Perl? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Which of the following is correct about Perl? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  Perl stands for Practical Extraction and Report Language. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Perl is an Open Source software, licensed under its Artistic License, or the GNU General Public License (GPL). <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Perl supports both procedural and object-oriented programming. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the above.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following variable context only happens inside quotes, or things that work like quotes? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 Which of the following variable context only happens inside quotes, or things that work like quotes? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Interpolative<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  List <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">Void <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 How will you get the size of a Hash?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 How will you get the size of a Hash?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Using scalar context <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  using sizeof operator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following statement repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 Which of the following statement repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> while <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  until<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following operator is used when the current value of a variable must be visible to called subroutines?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Which of the following operator is used when the current value of a variable must be visible to called subroutines?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> my <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> local <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option">  None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following function disassociate the filehandle from the corresponding file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Which of the following function disassociate the filehandle from the corresponding file?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> close <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  unlink<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,23 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='Perlmcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='Perlmcq1.jsp'>1</a>
 				
+				<a class='page' href='Perlmcq2.jsp'>2</a>
+				
+				<a class='page' href='Perlmcq3.jsp'>3</a>
+				
+				<a class='page' href='Perlmcq4.jsp'>4</a>
+				
+				<a class='page' href='Perlmcq5.jsp'>5</a>
+				<span class="page current">6</span>
 				<a class='page' href='Perlmcq7.jsp'>7</a>
-				<a class='page next' href='Perlmcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Perlmcq8.jsp'>8</a>
+				
+			
 				</div>
 				</div>
 				<center>

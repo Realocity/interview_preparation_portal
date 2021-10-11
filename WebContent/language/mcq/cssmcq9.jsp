@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>css 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 In css what does h1 can be called as</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 In css what does h1 can be called as</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Selector <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">Attribute <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 In css what does color:red can be called as</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 In css what does color:red can be called as</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Selector <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Rule  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following attributes is used to specify elements to bind style rules to?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Which of the following attributes is used to specify elements to bind style rules to?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">ID <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Class<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 ________ selectors, which are used to specify a rule to bind to a particular unique element  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 ________ selectors, which are used to specify a rule to bind to a particular unique element  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Id <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Both B and C <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 In css what does font-size can be called as </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 In css what does font-size can be called as </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Rule <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Selector <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Property <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Property-name <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 _________ selectors, which are used to specify a group of elements </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 _________ selectors, which are used to specify a group of elements </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">ID<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Class <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> Php<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Is it the best way to include H1 heading only one time in the web page. State true or false.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Is it the best way to include H1 heading only one time in the web page. State true or false.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">Can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Is it the best way to include H1 heading only one time in the web page. State true or false.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 Is it the best way to include H1 heading only one time in the web page. State true or false.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> Can't say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following element is used by the filter property to blur the images?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 Which of the following element is used by the filter property to blur the images?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> opaque() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> scatter() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,26 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='cssmcq8.jsp'>8</a>
+     <div>
+				<a class='page' href='cssmcq1.jsp'>1</a>
 				
+				<a class='page' href='cssmcq2.jsp'>2</a>
+				
+				<a class='page' href='cssmcq3.jsp'>3</a>
+				
+				<a class='page' href='cssmcq4.jsp'>4</a>
+				
+				<a class='page' href='cssmcq5.jsp'>5</a>
+				
+				<a class='page' href='cssmcq6.jsp'>6</a>
+				
+				<a class='page' href='cssmcq7.jsp'>7</a>
+				
+				<a class='page' href='cssmcq8.jsp'>8</a>
+				<span class="page current">9</span>
 				<a class='page' href='cssmcq10.jsp'>10</a>
-				<a class='page next' href='cssmcq10.jsp' title='Next'>&raquo;</a>
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>pythonmcq 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1  What will be the output of the following Python code snippet?<br>d =  {"john":40, "peter":45}</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41  What will be the output of the following Python code snippet?<br>d =  {"john":40, "peter":45}</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  âjohnâ, 40, 45, and âpeterâ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  âjohnâ and âpeterâ<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2  What will be the output of the following Python code snippet?<br>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42  What will be the output of the following Python code snippet?<br>
 d = {"john":40, "peter":45}<br> "john" in d</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label>
@@ -33,7 +34,7 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3  What will be the output of the following <br>d1 = {"john":40, "peter":45}<br>d2 = {"john":466, "peter":45}<br>d1 == d2</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43  What will be the output of the following <br>d1 = {"john":40, "peter":45}<br>d2 = {"john":466, "peter":45}<br>d1 == d2</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  True<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  False<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +42,7 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
         <label class="rounded p-2 option">  Error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Which of the following is a Python tuple? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44  Which of the following is a Python tuple? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">  [1, 2, 3]<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  (1, 2, 3) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,14 +50,14 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
         <label class="rounded p-2 option"> {} <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Suppose t = (1, 2, 4, 3), which of the  following is incorrect? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45  Suppose t = (1, 2, 4, 3), which of the  following is incorrect? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  print(t[3]) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  t[3] = 45 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  print(max(t)) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> print(len(t)) <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  What will be the output of the following Python code?<br>d = {"john":40, "peter":45} d["john"] </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46  What will be the output of the following Python code?<br>d = {"john":40, "peter":45} d["john"] </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 40<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  45 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
         <label class="rounded p-2 option"> âpeterâ <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7  What will be the output of the following Python code?<br>>>>t = (1, 2)<br>>>>2 * t</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47  What will be the output of the following Python code?<br>>>>t = (1, 2)<br>>>>2 * t</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  (1, 2, 1, 2)<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  [1, 2, 1, 2] <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
         <label class="rounded p-2 option"> [1, 1, 2, 2] <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8  Which of these about a set is not true?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48  Which of these about a set is not true?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Mutable data type <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Allows duplicate values <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
         <label class="rounded p-2 option"> Immutable data type <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9  Which of the following is not the correct syntax for creating a set? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49  Which of the following is not the correct syntax for creating a set? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  set([[1,2],[3,4]]) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  set([1,2,2,3,4]) <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
         <label class="rounded p-2 option">  {1,2,3,4} <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What will be the output of the following Python code?<br>nums = set([1,1,2,3,3,3,4,4])print(len(nums)) </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 What will be the output of the following Python code?<br>nums = set([1,1,2,3,3,3,4,4])print(len(nums)) </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 7 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Error, invalid syntax for formation of set <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,11 +100,21 @@ d = {"john":40, "peter":45}<br> "john" in d</p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='pythonmcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='pythonmcq1.jsp'>1</a>
 				
+				<a class='page' href='pythonmcq2.jsp'>2</a>
+				
+				<a class='page' href='pythonmcq3.jsp'>3</a>
+				
+				<a class='page' href='pythonmcq4.jsp'>4</a>
+				<span class="page current">5</span>
 				<a class='page' href='pythonmcq6.jsp'>6</a>
-				<a class='page next' href='pythonmcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='pythonmcq7.jsp'>7</a>
+				<a class='page' href='pythonmcq8.jsp'>8</a>
+				<a class='page' href='pythonmcq9.jsp'>9</a>
+				<a class='page' href='pythonmcq10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Check whether the following given statements for the Strictly equal operator are true or false:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 Check whether the following given statements for the Strictly equal operator are true or false:
 a) If the data type of two values are equal, they are Equal.
 b) If both values are undefined and both are null, they are Equal.
         </p>
@@ -26,7 +27,7 @@ b) If both values are undefined and both are null, they are Equal.
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which one of the following is correct output for the following javascriptcode:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Which one of the following is correct output for the following javascriptcode:
 1.	var string1 = "Letsfindout";  
 2.	 var intvalue = 40;  
 3.	 alert( string1 + intvalue );  
@@ -39,7 +40,7 @@ b) If both values are undefined and both are null, they are Equal.
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which one of the following is not a keyword:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Which one of the following is not a keyword:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> if <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> with <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -47,7 +48,7 @@ b) If both values are undefined and both are null, they are Equal.
         <label class="rounded p-2 option"> use strict <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following symbol is used for creating comments in the javascript: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 Which one of the following symbol is used for creating comments in the javascript: </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> \\<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> // <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -55,7 +56,7 @@ b) If both values are undefined and both are null, they are Equal.
         <label class="rounded p-2 option"> \* */<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is the correct output for the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Which of the following is the correct output for the following JavaScript code:
 1.	functiondisplayArray(x)  
 2.	{  
 3.	varlen=x.length,i=0;  
@@ -76,7 +77,7 @@ b) If both values are undefined and both are null, they are Equal.
         <label class="rounded p-2 option"> Prints 0 to the length of the array <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the given code will be equivalent for the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 Which one of the given code will be equivalent for the following JavaScript code:
 1.	for(var p in o)  
 2.	   console.log(o[p]);  
          </p>
@@ -95,7 +96,7 @@ b) If both values are undefined and both are null, they are Equal.
 2.	console.log(a[i]);<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What are the three important manipulations for a loop on a loop variable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 What are the three important manipulations for a loop on a loop variable?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Updation, Incrementation, Initialization<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Initialization, Testing, Incrementation <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -103,7 +104,7 @@ b) If both values are undefined and both are null, they are Equal.
         <label class="rounded p-2 option"> Initialization, Testing, Updation<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 If the following piece of JavaScript code is executed, will it work if not, what kind of possible error can occur?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 If the following piece of JavaScript code is executed, will it work if not, what kind of possible error can occur?
 1.	function fun(o)  
 2.	{  
 3.	for(;o.next; oo =o.next);  
@@ -117,7 +118,7 @@ b) If both values are undefined and both are null, they are Equal.
         <label class="rounded p-2 option"> No, it will produce a runtime error with the message "Cannot use Linked List"<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is the role of the "continue" keyword in the following piece of JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 What is the role of the "continue" keyword in the following piece of JavaScript code?
 1.	while (x !=0)  
 2.	{  
 3.	if(x ==1)  
@@ -133,7 +134,7 @@ b) If both values are undefined and both are null, they are Equal.
         <label class="rounded p-2 option"> It is used for skipping the rest of the statements in that particular iteration <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which one of the following is not considered as "statement" in the JavaScript? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Which one of the following is not considered as "statement" in the JavaScript? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> use strict <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> debugger <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -144,11 +145,22 @@ b) If both values are undefined and both are null, they are Equal.
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='javaScript5.jsp'>5</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				
+				<a class='page' href='javaScript3.jsp'>3</a>
+				
+				<a class='page' href='javaScript4.jsp'>4</a>
+				
+				<a class='page' href='javaScript5.jsp'>5</a>
+				<span class="page current">6</span>	
 				<a class='page' href='javaScript7.jsp'>7</a>
-				<a class='page next' href='javaScript7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript8.jsp'>8</a>
+				<a class='page' href='javaScript9.jsp'>9</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

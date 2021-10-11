@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>html 9</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Tags and text that do not show directly on the page are placed in </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 Tags and text that do not show directly on the page are placed in </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Head <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Body<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 All HTML documents will be basically</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 All HTML documents will be basically</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Graphs <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Text <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of these is not valid HTML? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 Which of these is not valid HTML? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;fontface=âverdanaâ> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;font face=âverdanaâ> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option">  All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 To create a list using lowercase letters, use </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 To create a list using lowercase letters, use </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;ol âaâ> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;ol=âaâ> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> &lt;ol type=âaâ> <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which code will led text wrap down the side of the image? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which code will led text wrap down the side of the image? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> &lt;img src= âmyImage.gifâ wrap= âonâ>  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;img src= âmyImage.gifâ align= âwrapâ> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;img src= âmyImage.gifâ align= ârightâ> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The tag for the table data is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 The tag for the table data is </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;TR> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;TD> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Defining clickable sub-areas on an image is called</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 Defining clickable sub-areas on an image is called</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> image linking <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> multiple mapping <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The tag used to create a new list item and also include a hyperlink</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 The tag used to create a new list item and also include a hyperlink</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;LI> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;UL><input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The attribute that defines the relationship between the current document and the HREFâed URL is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 The attribute that defines the relationship between the current document and the HREFâed URL is</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> URL <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> REV <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> PRE <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The basic format for text link is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 The basic format for text link is</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;HRE=âURLâ>&lt;/A> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;HRE=âURLâ>Text describing link&lt;/A> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,13 +98,27 @@
     </div> 
     
   
-        <!-- /Intext --><hr>
+    <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='html8.jsp'>8</a>
+     <div>
+				<a class='page' href='html1.jsp'>1</a>
 				
+				<a class='page' href='html2.jsp'>2</a>
+				
+				<a class='page' href='html3.jsp'>3</a>
+				
+				<a class='page' href='html4.jsp'>4</a>
+				
+				<a class='page' href='html5.jsp'>5</a>
+				
+				<a class='page' href='html6.jsp'>6</a>
+				
+				<a class='page' href='html7.jsp'>7</a>
+				
+				<a class='page' href='html8.jsp'>8</a>
+				<span class="page current">9</span>
 				<a class='page' href='html10.jsp'>10</a>
-				<a class='page next' href='html10.jsp' title='Next'>&raquo;</a>
+				
 				</div>
 				</div>
 				<center>

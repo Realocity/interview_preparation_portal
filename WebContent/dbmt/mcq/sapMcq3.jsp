@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<title>Insert title here</title>
+<title>Sap MCQ</title>
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which table type would be most appropriate for accessing table rows using an
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which table type would be most appropriate for accessing table rows using an
 index.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Hashed table <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +32,7 @@ index.</p>
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 If a table contains many duplicate values for a field, minimize the number of
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 If a table contains many duplicate values for a field, minimize the number of
 records returned by using this SELECT statement addition.
         </p>
         <div class="options py-3">
@@ -43,7 +43,7 @@ records returned by using this SELECT statement addition.
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 All of the following pertain to interactive reporting in ABAP except:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 All of the following pertain to interactive reporting in ABAP except:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Call transactions and other programs from a list.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Secondary list shows detail data.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -51,7 +51,7 @@ records returned by using this SELECT statement addition.
         <label class="rounded p-2 option"> AT USER-COMMAND<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  In regard to a function group, which of the following is NOT a true statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24  In regard to a function group, which of the following is NOT a true statement?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Combines similar function modules.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Shares global data with all its function modules. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -59,14 +59,14 @@ records returned by using this SELECT statement addition.
         <label class="rounded p-2 option"> Shares subroutines with all its function modules.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The SAP service that ensures data integrity by handling locking is called: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 The SAP service that ensures data integrity by handling locking is called: </p>
         <div class="options py-3"> <label class="rounded p-2 option">  Update<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Dialog <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Enqueue/Dequeue <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Spool <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which ABAP program attribute provides access protection? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Which ABAP program attribute provides access protection? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Status<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Application <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -74,7 +74,7 @@ records returned by using this SELECT statement addition.
         <label class="rounded p-2 option"> Authorization group<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 All of the following are considered to be valid ABAP modularization techniques
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 All of the following are considered to be valid ABAP modularization techniques
 except:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Subroutine <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +83,7 @@ except:</p>
         <label class="rounded p-2 option"> Function module<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which is the correct sequence of events?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Which is the correct sequence of events?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> AT SELECTION-SCREEN, TOP-OF-PAGE, INITIALIZATION <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> START-OF-SELECTION, AT USER-COMMAND, GET dbtab<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -91,7 +91,7 @@ except:</p>
         <label class="rounded p-2 option"> GET dbtab, GET dbtab LATE, START-OF-SELECTION<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 To create a list of the top 25 customers, you should use</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 To create a list of the top 25 customers, you should use</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> DELETE ADJACENT DUPLICATES <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> READ TABLE itab INDEX 25 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,7 +99,7 @@ except:</p>
         <label class="rounded p-2 option">  APPEND SORTED BY<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following is NOT a numeric data type?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Which of the following is NOT a numeric data type?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> I <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  N<input type="radio" name="radio"> <span class="checkmark"></span> </label> 

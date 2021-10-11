@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>kotlinmcq 1</title>
 </head>
 <body>
@@ -100,9 +101,13 @@
     <div id='pagination'>
      <div><span class="page current">1</span>
 				<a class='page' href='kotlinmcq2.jsp'>2</a>
-				
 				<a class='page' href='kotlinmcq3.jsp'>3</a>
-				<a class='page next' href='kotlinmcq2.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='kotlinmcq4.jsp'>4</a>
+				<a class='page' href='kotlinmcq5.jsp'>5</a>
+				<a class='page' href='kotlinmcq6.jsp'>6</a>
+				<a class='page' href='kotlinmcq7.jsp'>7</a>
+				<a class='page' href='kotlinmcq8.jsp'>8</a>
+			
 				</div>
 				</div>
 				<center>

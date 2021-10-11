@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>html 4</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 An HTML program is saved by using the ____ extension.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 An HTML program is saved by using the ____ extension.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> .ht <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> .html <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 A program in HTML can be rendered and read by -</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 A program in HTML can be rendered and read by -</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Web browser <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Server <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 The tags in HTML are - </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 The tags in HTML are - </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> case-sensitive <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> in upper case <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> in lowercase <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following is the root tag of the HTML document? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 Which of the following is the root tag of the HTML document? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;body> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;head> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,7 +50,7 @@
         <label class="rounded p-2 option"> &lt;html><input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 In HTML5, which of the following tag is used to initialize the document type? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 In HTML5, which of the following tag is used to initialize the document type? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;Doctype HTML> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;\Doctype html> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -57,7 +58,7 @@
         <label class="rounded p-2 option"> &lt;!DOCTYPE html> <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following tag is used to create a combo box (or drop-down box)?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Which of the following tag is used to create a combo box (or drop-down box)?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;list> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;select> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -65,7 +66,7 @@
         <label class="rounded p-2 option"> &lt;ul> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which tag will add rows to your tables? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Which tag will add rows to your tables? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;tr> and &lt;/tr> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;th> and &lt;/th> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -73,7 +74,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is underline tag?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Which of the following is underline tag?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;PRE> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;UL> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -81,7 +82,7 @@
         <label class="rounded p-2 option"> &lt;HR> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Any target specified in the BASE element can be overridden on a case-by-case basis by specifying a different target in different forms</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 Any target specified in the BASE element can be overridden on a case-by-case basis by specifying a different target in different forms</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Anchor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Imagemap <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -89,7 +90,7 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which tag can set the background color for your page?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 Which tag can set the background color for your page?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;body> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;font> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -100,11 +101,20 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='html3.jsp'>3</a>
+     <div>
+				<a class='page' href='html1.jsp'>1</a>
 				
+				<a class='page' href='html2.jsp'>2</a>
+				
+				<a class='page' href='html3.jsp'>3</a>
+				<span class="page current">4</span>
 				<a class='page' href='html5.jsp'>5</a>
-				<a class='page next' href='html5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='html6.jsp'>6</a>
+				<a class='page' href='html7.jsp'>7</a>
+				<a class='page' href='html8.jsp'>8</a>
+				<a class='page' href='html9.jsp'>9</a>
+				<a class='page' href='html10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

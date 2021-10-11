@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>html 10</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The attribute used to create the actual section within the current HTML document is</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 The attribute used to create the actual section within the current HTML document is</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> LINK <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> HERF <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The &lt;A> tag acts almost like the</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 The &lt;A> tag acts almost like the</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;P> <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> &lt;B> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 When images are used as links they get a blue border.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 When images are used as links they get a blue border.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Always <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Never <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Where do you place the &lt;title> tag in HTML? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 Where do you place the &lt;title> tag in HTML? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Base <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Head <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is the correct HTML code for inserting a background image? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 What is the correct HTML code for inserting a background image? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> &lt;body background=abackground.gifa> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;img src=abackground.gifa background /> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;background image=abackground.gifa> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;background=abackground.gifa> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The tags which are required for every HTML page you create </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 The tags which are required for every HTML page you create </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Document<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Comment <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The style element holds the document for setting </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 The style element holds the document for setting </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> colour, alignment and border <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> font, colour and alignment <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> colour, alignment <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 How many characters can be written with 1 kilobyte? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 How many characters can be written with 1 kilobyte? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 1000 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1024 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 One should never combine the astarta and atypea option.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 One should never combine the astarta and atypea option.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 To start a numbered list with regular numerals, use </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 To start a numbered list with regular numerals, use </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> &lt;ol type=aIa> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;ol type=aaa> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,11 +98,27 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+ <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
-				<a class='page' href='html9.jsp'>9</a>
+     <div>
+				<a class='page' href='html1.jsp'>1</a>
 				
+				<a class='page' href='html2.jsp'>2</a>
+				
+				<a class='page' href='html3.jsp'>3</a>
+				
+				<a class='page' href='html4.jsp'>4</a>
+				
+				<a class='page' href='html5.jsp'>5</a>
+				
+				<a class='page' href='html6.jsp'>6</a>
+				
+				<a class='page' href='html7.jsp'>7</a>
+				
+				<a class='page' href='html8.jsp'>8</a>
+				
+				<a class='page' href='html9.jsp'>9</a>
+				<span class="page current">10</span>
 				
 				</div>
 				</div>

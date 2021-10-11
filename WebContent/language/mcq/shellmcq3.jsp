@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>shellmcq 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which command searches the string in file opened in vi editor?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which command searches the string in file opened in vi editor?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> / or ? <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">f or F <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 In vi editor, which command reads the content of another file? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 In vi editor, which command reads the content of another file? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> read<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> r <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which command shows all the abbreviations in vi editor? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Which command shows all the abbreviations in vi editor? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ab<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> abb <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which command sets the number for all lines? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Which command sets the number for all lines? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> :set li <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> :set ln <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> :set nu <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> :set nl<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What is sed? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 What is sed? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">a non-interactive stream editor<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> an IDE <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Sed maintains the hold space (a buffer) to</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Sed maintains the hold space (a buffer) to</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> copy the each line of input<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> save the data for later retrieval <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which is the correct syntax for sed on command line?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Which is the correct syntax for sed on command line?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> sed [options] â[command]â [filename]. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> sed â[command]â [options] [filename]. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> sed â[command]â [filename] [options].<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 If any sed command does not specify any address then the command is applied to</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 If any sed command does not specify any address then the command is applied to</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> each input line <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> none of the input line <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 If no file is specified in sed command then</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 If no file is specified in sed command then</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> sed command will not work <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sed reads from standard input <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,11 +99,19 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
+     <div>
+				<a class='page' href='shellmcq1.jsp'>1</a>
+					
 				<a class='page' href='shellmcq2.jsp'>2</a>
-				
+				<span class="page current">3</span>	
 				<a class='page' href='shellmcq4.jsp'>4</a>
-				<a class='page next' href='shellmcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='shellmcq5.jsp'>5</a>
+				<a class='page' href='shellmcq6.jsp'>6</a>
+				<a class='page' href='shellmcq7.jsp'>7</a>
+				<a class='page' href='shellmcq8.jsp'>8</a>
+				<a class='page' href='shellmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

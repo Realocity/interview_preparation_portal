@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>html 8</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The attribute used choose the type of font in HTML is?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 The attribute used choose the type of font in HTML is?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Character <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Face <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What is the correct HTML tag for inserting a line break? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 What is the correct HTML tag for inserting a line break? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;break> <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> &lt;lb> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 To start a list at the count of 3, use</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 To start a list at the count of 3, use</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;ol begin=â3â> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;ol list=â3â> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> &lt;ol num=â3â> <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 To change the size of an image in HTML, use </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 To change the size of an image in HTML, use </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Pliers <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Bigger and smaller <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> Height and width <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The tag for the table rows is </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 The tag for the table rows is </p>
         <div class="options py-3"> <label class="rounded p-2 option"> &lt;TR> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;TD> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;TH> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What does vlink mean? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 What does vlink mean? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> active link <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> visible link <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> None of the above  <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Who is making the Web standards? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Who is making the Web standards? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The World Wide Web Consortium <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Internet Explorer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What is the most important tool for adding color to certain areas of the page rather than the entire background?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 What is the most important tool for adding color to certain areas of the page rather than the entire background?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Fonts <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Image <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The paragraphs are break using </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 The paragraphs are break using </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> U tag <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> P tag <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option">  HR tag<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 When making bulleted lists, which options do you have?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 When making bulleted lists, which options do you have?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> triangle, disc, circle <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> triangle, square, circle  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,11 +100,24 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='html7.jsp'>7</a>
+     <div>
+				<a class='page' href='html1.jsp'>1</a>
 				
+				<a class='page' href='html2.jsp'>2</a>
+				
+				<a class='page' href='html3.jsp'>3</a>
+				
+				<a class='page' href='html4.jsp'>4</a>
+				
+				<a class='page' href='html5.jsp'>5</a>
+				
+				<a class='page' href='html6.jsp'>6</a>
+				
+				<a class='page' href='html7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='html9.jsp'>9</a>
-				<a class='page next' href='html9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='html10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

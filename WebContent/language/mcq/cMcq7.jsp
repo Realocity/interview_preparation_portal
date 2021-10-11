@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 7</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following function is used to write the integer in a file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Which of the following function is used to write the integer in a file?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> getw() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> putw()<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following statement is correct about the ftell() function?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which of the following statement is correct about the ftell() function?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It returns the current position.<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> It sets the file pointer to the given position. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Study the following program:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Study the following program:
 1.	#include <stdio.h>  
 2.	int main() {  
 3.	    int i = 5;   
@@ -48,7 +49,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> 1 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In which of the following modes, the user can read and write the file? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 In which of the following modes, the user can read and write the file? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> r<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> w <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -56,14 +57,14 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> b+<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What type of data type does the atoi() function return? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 What type of data type does the atoi() function return? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> String <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> char <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Integer <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Float<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following keywords is used to prevent any kind of change in a variable? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 Which of the following keywords is used to prevent any kind of change in a variable? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> continue<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> const <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> extern<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following declarations is invalid in C language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 Which of the following declarations is invalid in C language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> char *str = "javatpoint is the best platform for learn";<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> char str[] = "javatpoint is the best platform for learn"; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> char[] str = "javatpoint is the best platform for learn";<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The enum keyword is used to assign names to the ________ constants.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 The enum keyword is used to assign names to the ________ constants.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Integer <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> String <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> All of the these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Study the following program:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 Study the following program:
 1.	#include<stdio.h>  
 2.	enum flg{a, b, c};  
 3.	enum glf{c, e, f};  
@@ -106,7 +107,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> 3 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following operator's precedence order is correct (from highest to lowest)?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Which of the following operator's precedence order is correct (from highest to lowest)?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> %, *, /, +, - <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> %, +, /, *, - <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -117,11 +118,17 @@ What will be the output of this program? </p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
+				<a class='page' href='cMcq2.jsp'>2</a>
+				<a class='page' href='cMcq3.jsp'>3</a>
+				<a class='page' href='cMcq4.jsp'>4</a>
+				<a class='page' href='cMcq5.jsp'>5</a>
 				<a class='page' href='cMcq6.jsp'>6</a>
-				
+				<span class="page current">7</span>
 				<a class='page' href='cMcq8.jsp'>8</a>
-				<a class='page next' href='cMcq8.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq9.jsp'>9</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

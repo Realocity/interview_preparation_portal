@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Perlmcq 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following data type is suppported in Perl?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which of the following data type is suppported in Perl?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Scalar <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Array <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following special variable represents current package name?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Which of the following special variable represents current package name?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> _PACKAGE_<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Package <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following method shifts the first value of the array off and returns it, shortening the array by 1 and moving everything down? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Which of the following method shifts the first value of the array off and returns it, shortening the array by 1 and moving everything down? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> push @ARRAY, LIST <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> pop @ARRAY<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> unshift @ARRAY, LIST <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following function returns all values of a Hash? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Which of the following function returns all values of a Hash? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> keys<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> values <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following statement repeats a statement or group of statements until a given condition becomes true. It tests the condition before executing the loop body? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Which of the following statement repeats a statement or group of statements until a given condition becomes true. It tests the condition before executing the loop body? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> while <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> until <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> for <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> none of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following operator returns true if the left argument is stringwise equal to the right argument? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Which of the following operator returns true if the left argument is stringwise equal to the right argument? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">eg<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">ne  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">ge <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following operator encloses a string with-in invert quotes?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Which of the following operator encloses a string with-in invert quotes?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">q{ } <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> qq{ } <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> enclose{} <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following operator derefereces a variable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Which of the following operator derefereces a variable?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> -- <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> -&gt;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> ++ <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following function opens a file in read-only mode? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 Which of the following function opens a file in read-only mode? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> open(DATA, "&lt;file.txt");	 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> open(DATA, "&gt;file.txt"); <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following code create a reference for a variable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Which of the following code create a reference for a variable?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> $ref = \$foo; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> $ref = \@ARGV; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,20 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='Perlmcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='Perlmcq1.jsp'>1</a>
 				
+				<a class='page' href='Perlmcq2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='Perlmcq4.jsp'>4</a>
-				<a class='page next' href='Perlmcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Perlmcq5.jsp'>5</a>
+				<a class='page' href='Perlmcq6.jsp'>6</a>
+				<a class='page' href='Perlmcq7.jsp'>7</a>
+				<a class='page' href='Perlmcq8.jsp'>8</a>
+				
+			
 				</div>
 				</div>
 				<center>

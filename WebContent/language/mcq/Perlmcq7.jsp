@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Perlmcq 7</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following special variable represents current line number?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.61 Which of the following special variable represents current line number?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> LINE <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Line<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following method joins the separate strings of LIST into a single string with fields separated by the value of EXPR, and returns the string?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.62 Which of the following method joins the separate strings of LIST into a single string with fields separated by the value of EXPR, and returns the string?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> splice EXPR, LIST<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> split EXPR, LIST <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is true about my operator?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.63 Which of the following is true about my operator?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">The my operator confines a variable to a particular region of code in which it can be used and accessed <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Outside confined region , my variable cannot be used or accessed.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following is true about state variables? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.64 Which of the following is true about state variables? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">state variables maintain their state and they do not get reinitialized upon multiple calls of the subroutines. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> These variables are defined using the state operator and available starting from Perl 5.9.4. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following correctly describes scalar data types in Perl? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.65 Which of the following correctly describes scalar data types in Perl? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> These are simple variables. They are preceded by a dollar sign ($). <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> These are ordered lists of scalars that you access with a numeric index which starts with 0. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> These are unordered sets of key/value pairs that you access using the keys as subscripts. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following variable context doesn't care what the return value is? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.66 Which of the following variable context doesn't care what the return value is? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Scalar<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> List <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> Void<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following method pops off and returns the last value of the array?	</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.67 Which of the following method pops off and returns the last value of the array?	</p>
         <div class="options py-3">
          <label class="rounded p-2 option">push @ARRAY, LIST <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> pop @ARRAY	 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> unshift @ARRAY, LIST<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following statement repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.68 Which of the following statement repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> while <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">until <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option">None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is true about my operator?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.69 Which of the following is true about my operator?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> The my operator confines a variable to a particular region of code in which it can be used and accessed.	 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Outside confined region , my variable cannot be used or accessed. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option">  None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following code create a reference for a subroutine? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.70 Which of the following code create a reference for a subroutine? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> $ref = \$foo; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $ref = \@ARGV; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,24 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+<!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">7</span>
-				<a class='page' href='Perlmcq6.jsp'>6</a>
+     <div>
+				<a class='page' href='Perlmcq1.jsp'>1</a>
 				
+				<a class='page' href='Perlmcq2.jsp'>2</a>
+				
+				<a class='page' href='Perlmcq3.jsp'>3</a>
+				
+				<a class='page' href='Perlmcq4.jsp'>4</a>
+				
+				<a class='page' href='Perlmcq5.jsp'>5</a>
+		
+				<a class='page' href='Perlmcq6.jsp'>6</a>
+						<span class="page current">7</span>
 				<a class='page' href='Perlmcq8.jsp'>8</a>
-				<a class='page next' href='Perlmcq8.jsp' title='Next'>&raquo;</a>
+				
+			
 				</div>
 				</div>
 				<center>

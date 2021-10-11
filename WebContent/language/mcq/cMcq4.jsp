@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 4</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Given the following statement, what will be displayed on the screen?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 Given the following statement, what will be displayed on the screen?
 1.	int * aPtr;  
 2.	*aPtr = 100;  
 3.	cout << *aPtr + 2;</p>
@@ -27,7 +28,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Give the following declarations and an assignment statement. Which one is equivalent to the expression str [4]?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Give the following declarations and an assignment statement. Which one is equivalent to the expression str [4]?
 1.	char str[80];  
 2.	char * p;  
 3.	p = str;</p>
@@ -39,7 +40,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which one is the correct description for the variable balance declared below? 1.	int ** balance;  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which one is the correct description for the variable balance declared below? 1.	int ** balance;  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Balance is a point to an integer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Balance is a pointer to a pointer to an integer<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -47,7 +48,7 @@
         <label class="rounded p-2 option"> Balance is an array of integer <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 A class D is derived from a class B, b is an object of class B, d is an object of class D, and pb is a pointer to class B object. Which of the following assignment statement is not valid? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 A class D is derived from a class B, b is an object of class B, d is an object of class D, and pb is a pointer to class B object. Which of the following assignment statement is not valid? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> d = d;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> b = d; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -55,14 +56,14 @@
         <label class="rounded p-2 option"> *pb = d:<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following statement is not true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Which of the following statement is not true? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> A pointer to an int and a pointer to a double are of the same size. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A pointer must point to a data item on the heap (free store). <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> A pointer can be reassigned to point to another data item. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A pointer can point to an array.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following SLT template class is a container adaptor class?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Which of the following SLT template class is a container adaptor class?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Stack  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> List <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -70,7 +71,7 @@
         <label class="rounded p-2 option"> Vector<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What kinds of iterators can be used with vectors?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 What kinds of iterators can be used with vectors?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Forward iterator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Bi-directional iterator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -78,7 +79,7 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Let p1 be an integer pointer with a current value of 2000. What is the content of p1 after the expression p1++ has been evaluated?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Let p1 be an integer pointer with a current value of 2000. What is the content of p1 after the expression p1++ has been evaluated?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 2001 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 2002<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -86,7 +87,7 @@
         <label class="rounded p-2 option"> 2008 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Let p1 and p2 be integer pointers. Which one is a syntactically wrong statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 Let p1 and p2 be integer pointers. Which one is a syntactically wrong statement?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> p1 = p1 + p2; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> p1 = p1 - 9; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -94,7 +95,7 @@
         <label class="rounded p-2 option"> cout << p1 - p2; <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Suppose that cPtr is a character pointer, and its current content is 300. What will be the new value in cPtr after the following assignment?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 Suppose that cPtr is a character pointer, and its current content is 300. What will be the new value in cPtr after the following assignment?
 1.	cPtr = cPtr + 5;  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 305 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -106,11 +107,17 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
+				<a class='page' href='cMcq2.jsp'>2</a>
 				<a class='page' href='cMcq3.jsp'>3</a>
-				
+				<span class="page current">4</span>
 				<a class='page' href='cMcq5.jsp'>5</a>
-				<a class='page next' href='cMcq5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq6.jsp'>6</a>
+				<a class='page' href='cMcq7.jsp'>7</a>
+				<a class='page' href='cMcq8.jsp'>8</a>
+				<a class='page' href='cMcq9.jsp'>9</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cSharp 5</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The infrastructure that supports these dynamic operations at run time is called the__________.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 The infrastructure that supports these dynamic operations at run time is called the__________.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> CLR  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> CTS<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The___________keyword is new to C# 4.0, and is used to tell the compiler that a variable's type can change or that it is not known until runtime.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 The___________keyword is new to C# 4.0, and is used to tell the compiler that a variable's type can change or that it is not known until runtime.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Covariance<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> dynamic <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 ._______ methods are not supported for dynamic types.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 ._______ methods are not supported for dynamic types.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Anonymous<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Static<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> Extension <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 myMobile.Accept(55, inReject: false); Above statement is an example of which new concept of C# 4.0? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 myMobile.Accept(55, inReject: false); Above statement is an example of which new concept of C# 4.0? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Named Parameters<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Optional Parameters <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> Variance<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 COM Interop is simplified in C#4.0 e.g.var doc = Application.GetDocument("MyFile.txt"); In above statement_______ keyword was essential in parameters of GetDocument() in previous versions of C#. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 COM Interop is simplified in C#4.0 e.g.var doc = Application.GetDocument("MyFile.txt"); In above statement_______ keyword was essential in parameters of GetDocument() in previous versions of C#. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> out <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> named <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> base <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ref<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Covariance and Contravariance are new features introduced in C# 4.0.True/False? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 Covariance and Contravariance are new features introduced in C# 4.0.True/False? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> can not say <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 ._________parameters allows you to give a method parameter a default value so that you do not have to specify it every time you call the method.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 ._________parameters allows you to give a method parameter a default value so that you do not have to specify it every time you call the method.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> optional <input type="radio" name="radio"> <span class="catchmark"></span> </label> 
         <label class="rounded p-2 option"> named <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> .ref <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Duck typing is implemented by using_________ keyword. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Duck typing is implemented by using_________ keyword. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> dynamic  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> base <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Web Forms consists of a _______ and a _________ .</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 Web Forms consists of a _______ and a _________ .</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Template, Component <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> CLR, CTS <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option">  Windows, desktop <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The ______ parentheses that follow _____ indicate that no information is passed to Main ().</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 The ______ parentheses that follow _____ indicate that no information is passed to Main ().</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Empty, class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Empty, submain <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,13 +98,23 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='cSharpMcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='cSharpMcq1.jsp'>1</a>
 				
+				<a class='page' href='cSharpMcq2.jsp'>2</a>
+			
+				<a class='page' href='cSharpMcq3.jsp'>3</a>
+					
+				<a class='page' href='cSharpMcq4.jsp'>4</a>
+				<span class="page current">5</span>
 				<a class='page' href='cSharpMcq6.jsp'>6</a>
-				<a class='page next' href='cSharpMcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cSharpMcq7.jsp'>7</a>
+				<a class='page' href='cSharpMcq8.jsp'>8</a>
+				<a class='page' href='cSharpMcq9.jsp'>9</a>
+				<a class='page' href='cSharpMcq10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

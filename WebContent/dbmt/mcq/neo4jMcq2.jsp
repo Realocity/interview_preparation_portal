@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<title>Insert title here</title>
+<title>Neo4j MCQ</title>
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Neo4j Initial release date?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Neo4j Initial release date?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 2007 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">2008 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -31,7 +31,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Founder of Neo4J?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Founder of Neo4J?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Eliot Horowitz<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Emil Eifrem <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +40,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Joins are represent as?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Joins are represent as?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Constraints<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Nodes<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,7 +48,7 @@
         <label class="rounded p-2 option">  Traversal<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Neo4J Drivers supports how kinds of Java API? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Neo4J Drivers supports how kinds of Java API? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 2<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  3<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -56,14 +56,14 @@
         <label class="rounded p-2 option"> 5<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Each Relationship contains?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15  Each Relationship contains?</p>
         <div class="options py-3"> <label class="rounded p-2 option"> Start Node <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> End Node <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> From Node <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which clause is used to search the data with a specified pattern? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which clause is used to search the data with a specified pattern? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> OPTIONAL MATCH<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> MATCH <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +71,7 @@
         <label class="rounded p-2 option"> FIND<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which clause is used to create nodes, relationships, and properties?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 Which clause is used to create nodes, relationships, and properties?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> CREATE<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  PUT<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +79,7 @@
         <label class="rounded p-2 option"> INSERT<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Neo4j supports Indexes by using Apache Lucence</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Neo4j supports Indexes by using Apache Lucence</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +87,7 @@
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is true about Neo4J?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which of the following is true about Neo4J?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Neo4J uses Native graph storage with Native GPE<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Neo4J supports exporting of query data to JSON and XLS format <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -95,7 +95,7 @@
         <label class="rounded p-2 option">  All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which clause is used to add new properties to an existing node or relationship?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which clause is used to add new properties to an existing node or relationship?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> GET<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> PUT <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

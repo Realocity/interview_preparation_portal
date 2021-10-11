@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cpp 10</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Read the following given program of C++ and predict the most appropriate output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Read the following given program of C++ and predict the most appropriate output of the following program?
 1.	#include<iostream>  
 2.	usingnamespacestd;  
 3.	   
@@ -39,7 +40,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Read the following given program of C++ and predict the most appropriate output of the program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 Read the following given program of C++ and predict the most appropriate output of the program?
 1.	#include<iostream>  
 2.	usingnamespacestd;  
 3.	   
@@ -63,7 +64,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following functions must use the reference?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 Which of the following functions must use the reference?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Copy constructor<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Destructor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4  Read the following given program of C++ and predict the most appropriate output of the program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94  Read the following given program of C++ and predict the most appropriate output of the program?
 1.	#include<iostream>  
 2.	usingnamespacestd;  
 3.	   
@@ -97,14 +98,14 @@ ref= 30 <input type="radio" name="radio"> <span class="crossmark"></span> </labe
 ref=30 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Why inline functions are useful?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95  Why inline functions are useful?</p>
         <div class="options py-3"> <label class="rounded p-2 option"> Functions are large and contain several nested loops <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Usually, it is small, and we want to avoid the function calls <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> The function has several static variables<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following statements is true about the inline functions? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 Which of the following statements is true about the inline functions? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Macros do not have the returns statement, while inline function has the return statement. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Usually, the macros are processed by the preprocessor while on the other hand inline functions are processed in the later stages of compilation. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -112,7 +113,7 @@ ref=30 <input type="radio" name="radio"> <span class="crossmark"></span> </label
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 How can a user make a c++class in such a way that the object of that class can be created only by using the new operator, and if the user tries to make the object directly, the program will throw a compiler error?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 How can a user make a c++class in such a way that the object of that class can be created only by using the new operator, and if the user tries to make the object directly, the program will throw a compiler error?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> By making the destructor private. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> By making the constructor private. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -120,7 +121,7 @@ ref=30 <input type="radio" name="radio"> <span class="crossmark"></span> </label
         <label class="rounded p-2 option"> By making both constructor and destructor private <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 In C++, which of the following has the associatively of left to right?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 In C++, which of the following has the associatively of left to right?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Addressof <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Unary operator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -128,7 +129,7 @@ ref=30 <input type="radio" name="radio"> <span class="crossmark"></span> </label
         <label class="rounded p-2 option"> Array element access<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 A function declared as the " friend " function can always access the data in _______. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 A function declared as the " friend " function can always access the data in _______. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> The private part of its class. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The part declared as public of its class. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -136,7 +137,7 @@ ref=30 <input type="radio" name="radio"> <span class="crossmark"></span> </label
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Read the following given program of C++ and predict the most appropriate output of the program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 Read the following given program of C++ and predict the most appropriate output of the program?
 1.	#include<iostream>  
 2.	using namespace std;  
 3.	  
@@ -156,10 +157,18 @@ ref=30 <input type="radio" name="radio"> <span class="crossmark"></span> </label
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
+     <div>
+     			<a class='page' href='cpp1.jsp'>1</a>
+				<a class='page' href='cpp2.jsp'>2</a>
+				<a class='page' href='cpp3.jsp'>3</a>
+				<a class='page' href='cpp4.jsp'>4</a>
+				<a class='page' href='cpp5.jsp'>5</a>
+				<a class='page' href='cpp6.jsp'>6</a>
+				<a class='page' href='cpp7.jsp'>7</a>
+				<a class='page' href='cpp8.jsp'>8</a>
 				<a class='page' href='cpp9.jsp'>9</a>
+				<span class="page current">10</span>
 				
-			
 				</div>
 				</div>
 				<center>

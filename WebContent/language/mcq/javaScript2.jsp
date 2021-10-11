@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is the correct output for the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Which of the following is the correct output for the following JavaScript code:
 1.	var grade='C';  
 2.	var result;  
 3.	switch(grade)  
@@ -47,7 +48,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is the correct output for the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Which of the following is the correct output for the following JavaScript code:
 1.	var grade='D';  
 2.	var result;  
 3.	switch(grade)  
@@ -73,7 +74,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is the correct output for the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following is the correct output for the following JavaScript code:
 1.	var x=3;  
 2.	var y=2;  
 3.	var z=0;  
@@ -91,7 +92,7 @@
         <label class="rounded p-2 option"> 2 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following is the correct output for the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which of the following is the correct output for the following JavaScript code:
 1.	var grade='Z';  
 2.	var result;  
 3.	switch(grade)  
@@ -114,14 +115,14 @@
         <label class="rounded p-2 option"> 0<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following variables takes precedence over the others if the names are the same? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which of the following variables takes precedence over the others if the names are the same? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Global variable <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The local element <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> The two of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the following is the correct way for calling the JavaScript code? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which one of the following is the correct way for calling the JavaScript code? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Preprocessor<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Triggering Event <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -129,7 +130,7 @@
         <label class="rounded p-2 option"> Function/Method<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following type of a variable is volatile?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 Which of the following type of a variable is volatile?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Mutable variable<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Dynamic variable <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -137,7 +138,7 @@
         <label class="rounded p-2 option"> Immutable variable<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following option is used as hexadecimal literal beginning?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 Which of the following option is used as hexadecimal literal beginning?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 00  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 0x<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -145,7 +146,7 @@
         <label class="rounded p-2 option"> Both 0x and 0X<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints______.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints______.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Prints an exception error <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Prints an overflow error <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -153,7 +154,7 @@
         <label class="rounded p-2 option"> Prints the value as such <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In the JavaScript, which one of the following is not considered as an error: </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 In the JavaScript, which one of the following is not considered as an error: </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Syntax error <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Missing of semicolons <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -162,13 +163,20 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+    <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='javaScript1.jsp'>1</a>
-				
+				<span class="page current">2</span>	
 				<a class='page' href='javaScript3.jsp'>3</a>
-				<a class='page next' href='javaScript3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='javaScript4.jsp'>4</a>
+				<a class='page' href='javaScript5.jsp'>5</a>
+				<a class='page' href='javaScript6.jsp'>6</a>
+				<a class='page' href='javaScript7.jsp'>7</a>
+				<a class='page' href='javaScript8.jsp'>8</a>
+				<a class='page' href='javaScript9.jsp'>9</a>
+				<a class='page' href='javaScript10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

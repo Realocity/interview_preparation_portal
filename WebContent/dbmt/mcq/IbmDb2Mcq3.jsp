@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<title>Insert title here</title>
+<title>IBM DB MCQ</title>
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following are logical objects?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 Which of the following are logical objects?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Table space <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Tables<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -31,7 +31,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following can refer to both local as well as remote tables?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Which of the following can refer to both local as well as remote tables?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Synonyms<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Alias <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +40,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What is the maximum size of a VARCHAR data type in DB2?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 What is the maximum size of a VARCHAR data type in DB2?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 256 bytes<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1032 bytes<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,7 +48,7 @@
         <label class="rounded p-2 option"> 1064 bytes <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What does a negative SQL code indicates? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 What does a negative SQL code indicates? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Exception<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Failure <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -56,14 +56,14 @@
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which operation is not associated with cursor? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 Which operation is not associated with cursor? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Declare <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Open <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Read <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Close<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which utility provides statistical information such as the number of pages and rows and stores them in Catalog tables? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Which utility provides statistical information such as the number of pages and rows and stores them in Catalog tables? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">RUNSTATS<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> REORG <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +71,7 @@
         <label class="rounded p-2 option"> COPY<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which utility is used to restore the table space?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Which utility is used to restore the table space?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> RUNSTATS<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> REORG <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +79,7 @@
         <label class="rounded p-2 option"> COPY<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Log files consist of error logs, which are used to recover from application errors. The logs keep the record of changes in the database. State whether true or false?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 Log files consist of error logs, which are used to recover from application errors. The logs keep the record of changes in the database. State whether true or false?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +87,7 @@
         <label class="rounded p-2 option"> Can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which utility is used to execute a COBOL-DB2 program?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 Which utility is used to execute a COBOL-DB2 program?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> IGYCTCRL <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> IKJEFT01 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -95,7 +95,7 @@
         <label class="rounded p-2 option">  None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 When you will face SQLCODE 100? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 When you will face SQLCODE 100? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> No Rows found satisfying the SQL statement or End of Cursor <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Object not defined in DB2 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

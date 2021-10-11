@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 6</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Array is a _________ data structure.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 Array is a _________ data structure.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Non-linear <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Primary<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following statement is correct about the array? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Which of the following statement is correct about the array? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> In the array, users can only allocate the memory at the run time.<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> In the array, users can only allocate the memory at the compile time. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following statement is correct about the C language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 Which of the following statement is correct about the C language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">The C language is a binary language with some extra features.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The C language is a high-level language with some low features.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> The C language is a low-level language. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In the following program fragment, s and b are two integers:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 In the following program fragment, s and b are two integers:
 2M
 Java Try Catch
 1.	b = s + b  
@@ -55,7 +56,7 @@ What does it intend to do? </p>
         <label class="rounded p-2 option"> Add or subtract the values of s and b<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Study the following program fragment
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Study the following program fragment
 1.	int i = 263;  
 2.	putchar(i);  
 What will be the output of this program fragment? </p>
@@ -65,7 +66,7 @@ What will be the output of this program fragment? </p>
         <label class="rounded p-2 option"> prints garbage<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Study the following statement
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 Study the following statement
 1.	printf ("%d", 9/5);  
 What will be the output of this statement? </p>
         <div class="options py-3"> 
@@ -75,7 +76,7 @@ What will be the output of this statement? </p>
         <label class="rounded p-2 option"> None of the these<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 A global variable is declared __________.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 A global variable is declared __________.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Outside of the function<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Inside of the function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +84,7 @@ What will be the output of this statement? </p>
         <label class="rounded p-2 option"> Anywhere in the program<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Who defines the user-defined function?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 Who defines the user-defined function?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Compiler <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Computer<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -91,7 +92,7 @@ What will be the output of this statement? </p>
         <label class="rounded p-2 option"> Users <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following functions is already declared in the "header file"?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Which of the following functions is already declared in the "header file"?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> User-define function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Built-in function <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -99,7 +100,7 @@ What will be the output of this statement? </p>
         <label class="rounded p-2 option"> None of the these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following operations cannot be performed in file handling? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Which of the following operations cannot be performed in file handling? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Open the file <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Read the file <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -110,11 +111,17 @@ What will be the output of this statement? </p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
+				<a class='page' href='cMcq2.jsp'>2</a>
+				<a class='page' href='cMcq3.jsp'>3</a>
+				<a class='page' href='cMcq4.jsp'>4</a>
 				<a class='page' href='cMcq5.jsp'>5</a>
-				
+				<span class="page current">6</span>
 				<a class='page' href='cMcq7.jsp'>7</a>
-				<a class='page next' href='cMcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq8.jsp'>8</a>
+				<a class='page' href='cMcq9.jsp'>9</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

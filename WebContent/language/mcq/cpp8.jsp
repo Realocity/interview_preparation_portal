@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cpp 8</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What will be the output if we execute the following C++ code and pass the given arguments on the terminal?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 What will be the output if we execute the following C++ code and pass the given arguments on the terminal?
 1.	#include <iostream>  
 2.	usingnamespace std;  
 3.	int main(intargc, charconst*argv[])  
@@ -40,7 +41,7 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following methods can be considered the correct and efficient way of handling arguments with spaces? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 Which of the following methods can be considered the correct and efficient way of handling arguments with spaces? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Use single quotes<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Either single or double quotes <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,7 +50,7 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 According to you, which of the following is the correct way to interpret Hello World as a single argument?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 According to you, which of the following is the correct way to interpret Hello World as a single argument?
 1. $ ./output 'Hello World'
 2. $ ./output "Hello World"</p>
         <div class="options py-3">
@@ -59,7 +60,7 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
         <label class="rounded p-2 option"> Both 1 and 2 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following statements is correct about the second parameter of the main() function? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 Which of the following statements is correct about the second parameter of the main() function? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The second parameter is an array of character pointers<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The first string of the list is the name of the program's output file <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -67,14 +68,14 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is correct about the first parameter of the "main()" function? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which of the following is correct about the first parameter of the "main()" function? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> The first argument is of int type <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Stores the count of command-line arguments <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The first argument is non-negative <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  Which of the following given can be considered as the correct output of the following C ++ code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86  Which of the following given can be considered as the correct output of the following C ++ code?
 1.	#include<iostream>  
 2.	usingnamespace std;  
 3.	int main()  
@@ -99,7 +100,7 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
         <label class="rounded p-2 option"> It will obtain Segmentation fault <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What will be the output of the following C++ code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 What will be the output of the following C++ code?
 1.	#include<iostream>  
 2.	usingnamespace std;  
 3.	int main()  
@@ -123,7 +124,7 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
         <label class="rounded p-2 option"> 1 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following is usually represented by the first parameters of the main function? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Which of the following is usually represented by the first parameters of the main function? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Number of command-line arguments <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> List of command-line arguments <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -131,7 +132,7 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
         <label class="rounded p-2 option"> Stack of command-line arguments<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What will happen when we move the try block far away from catch block?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 What will happen when we move the try block far away from catch block?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Reduces the amount of code in the cache <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Increases the amount of code in the cache <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -139,7 +140,7 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
         <label class="rounded p-2 option"> Increases the amount of code <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What will be the output of the following C++ code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 What will be the output of the following C++ code?
 1.	#include <iostream>  
 2.	#include <string>  
 3.	usingnamespace std;  
@@ -185,13 +186,26 @@ Hello World<input type="radio" name="radio"> <span class="crossmark"></span> </l
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='cpp7.jsp'>7</a>
+     <div>
+				<a class='page' href='cpp1.jsp'>1</a>
+				<a class='page' href='cpp2.jsp'>2</a>
 				
+				
+				<a class='page' href='cpp3.jsp'>3</a>
+		
+				<a class='page' href='cpp4.jsp'>4</a>
+				
+				<a class='page' href='cpp5.jsp'>5</a>
+				
+				<a class='page' href='cpp6.jsp'>6</a>
+				
+				<a class='page' href='cpp7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='cpp9.jsp'>9</a>
-				<a class='page next' href='cpp9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cpp10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Perlmcq 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Is perl a case sensitive language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Is perl a case sensitive language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">false	 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following is correct about Array in Perl?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Which of the following is correct about Array in Perl?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> An array is a variable that stores an ordered list of scalar values. <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Array variables are preceded by an "at" (@) sign. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following method sorts the LIST and returns the sorted array value?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following method sorts the LIST and returns the sorted array value?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">splice [ SUBROUTINE ] LIST <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">split [ SUBROUTINE ] LIST <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> sort [ SUBROUTINE ] LIST <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following function returns all keys of a Hash? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which of the following function returns all keys of a Hash? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> keys<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> values <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following statement expects the expression to return a label name and then jumps to that labeled statement? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which of the following statement expects the expression to return a label name and then jumps to that labeled statement? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> goto LABEL <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> goto EXPR <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> goto &NAME <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following operator checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following operator checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">==<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> != <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> &gt; <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following operator encloses a string with-in single quotes?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 Which of the following operator encloses a string with-in single quotes?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">q{ } <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> qq{ } <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> enclose{} <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 How will you get the count of parameters passed to a perl subroutine?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 How will you get the count of parameters passed to a perl subroutine?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Using args <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">using scalar(@_) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is true about state variables?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which of the following is true about state variables?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> state variables maintain their state and they do not get reinitialized upon multiple calls of the subroutines. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> These variables are defined using the state operator and available starting from Perl 5.9.4. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following code create a reference for a hash?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following code create a reference for a hash?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  $ref = \$foo; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $ref = \@ARGV; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,13 +97,19 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='Perlmcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='Perlmcq3.jsp'>3</a>
-				<a class='page next' href='Perlmcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Perlmcq4.jsp'>4</a>
+				<a class='page' href='Perlmcq5.jsp'>5</a>
+				<a class='page' href='Perlmcq6.jsp'>6</a>
+				<a class='page' href='Perlmcq7.jsp'>7</a>
+				<a class='page' href='Perlmcq8.jsp'>8</a>
+				
+			
 				</div>
 				</div>
 				<center>

@@ -4,10 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
+ 
 <%@include file="/common/normal_navbar.jsp" %>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
@@ -103,7 +105,7 @@
 				<a class='page' href='firebaseMcq2.jsp'>2</a>
 				
 				<a class='page' href='firebaseMcq3.jsp'>3</a>
-				<a class='page next' href='firebaseMcq2.jsp' title='Next'>&raquo;</a>
+			
 				</div>
 				</div>
 				<center>

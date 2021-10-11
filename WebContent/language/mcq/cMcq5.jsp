@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 5</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which is valid expression in c language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 Which is valid expression in c language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> int my_num = 100,000; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> int my_num = 100000;<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 If addition had higher precedence than multiplication, then the value of the expression (1 + 2 * 3 + 4 * 5) would be which of the following?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 If addition had higher precedence than multiplication, then the value of the expression (1 + 2 * 3 + 4 * 5) would be which of the following?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 27<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> 47 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What will be the output of this program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 What will be the output of this program?
 1.	int main()      
 2.	{      
 3.	int a=10, b=20;        
@@ -51,7 +52,7 @@
         <label class="rounded p-2 option"> a = 10, b = 10 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The following statements are about EOF. Which of them is true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 The following statements are about EOF. Which of them is true? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Its value is defined within stdio.h<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Its value is implementation dependent <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -59,7 +60,7 @@
         <label class="rounded p-2 option"> All of the these type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What does this statement mean?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 What does this statement mean?
 1.	x - = y + 1; </p>
         <div class="options py-3"> <label class="rounded p-2 option"> x = x - y + 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> x = -x - y - 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -67,7 +68,7 @@
         <label class="rounded p-2 option"> x = x - y - 1<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Study the following statement
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 Study the following statement
 1.	for (i = 3; i < 15; i + = 3)  
 2.	{printf ("%d", i);  
 3.	 ++i;  
@@ -80,7 +81,7 @@ What will be the output? </p>
         <label class="rounded p-2 option"> 3 7 11 15<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Study the following statement
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 Study the following statement
 1.	main()  
 2.	{     
 3.	   char *s = "Hello,"  
@@ -96,7 +97,7 @@ World!<input type="radio" name="radio"> <span class="checkmark"></span> </label>
         <label class="rounded p-2 option"> Compile error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Study the following array definition
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Study the following array definition
 1.	int num[10] = {3, 3, 3};  
 Which of the following statement is correct?</p>
         <div class="options py-3"> 
@@ -106,7 +107,7 @@ Which of the following statement is correct?</p>
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What will the output after execution of the following statements?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 What will the output after execution of the following statements?
 1.	main()  
 2.	{  
 3.	  printf ("\\n ab");  
@@ -120,7 +121,7 @@ Which of the following statement is correct?</p>
         <label class="rounded p-2 option"> hai <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What will the output after execution of the following statements?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 What will the output after execution of the following statements?
 1.	void main()  
 2.	{  
 3.	  int i = 065, j = 65;  
@@ -136,11 +137,17 @@ Which of the following statement is correct?</p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
+				<a class='page' href='cMcq2.jsp'>2</a>
+				<a class='page' href='cMcq3.jsp'>3</a>
 				<a class='page' href='cMcq4.jsp'>4</a>
-				
+				<span class="page current">5</span>
 				<a class='page' href='cMcq6.jsp'>6</a>
-				<a class='page next' href='cMcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq7.jsp'>7</a>
+				<a class='page' href='cMcq8.jsp'>8</a>
+				<a class='page' href='cMcq9.jsp'>9</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

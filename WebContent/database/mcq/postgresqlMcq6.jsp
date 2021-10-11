@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What command turns on timing?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 What command turns on timing?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  on timing<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> start time<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Advisory locks are allocated out of a shared memory pool whose size is defined by the configuration variablesâ¦.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Advisory locks are allocated out of a shared memory pool whose size is defined by the configuration variablesâ¦.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> max_connections<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> max_locks_per_transaction <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 To restore a PostgreSQL backup created with pg_dump, the following may be used:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 To restore a PostgreSQL backup created with pg_dump, the following may be used:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> $ psql -F database_dump.psql database_name<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $ psql -R database_dump.psql database_name<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option">  $ psql -r database_dump.psql database_name<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In order to echo all input from the script, you use the ________ psql command. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 In order to echo all input from the script, you use the ________ psql command. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> -a<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  -A<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> -E<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Dynamic Tracing is enabled by default at compile time. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Dynamic Tracing is enabled by default at compile time. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> may be <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> don't know<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Bob works for StataCorp. His workstationâs IP address is 10.5.34.8. He needs access to a database called âpartnersâ directly from his workstation. Which of the following is the correct entry in pg_hba.conf? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 Bob works for StataCorp. His workstationâs IP address is 10.5.34.8. He needs access to a database called âpartnersâ directly from his workstation. Which of the following is the correct entry in pg_hba.conf? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> host partners bob 10.5.34.8/24 krb5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> host partners bob 10.5.34.8/32 kerb5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> host partners bob 10.5.34.8/32 krb5<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What does MCV stand for?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 What does MCV stand for?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Massive Checkpoint Vault<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Most Common Values<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> Many Common Variables<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 By default, in what subdirectory of the database data directory are WAL logs contained?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 By default, in what subdirectory of the database data directory are WAL logs contained?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> pg-xlog <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> pg-log<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> pg_xlog<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which is NOT true of array indexes?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Which is NOT true of array indexes?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Partial functional indexes of arrays are supported on Btree, GiST, and GIN indexes.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  GIN indexes can search for arrays containing specific elements. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option">  By default, PostgreSQL indexes arrays so that inner elements can be searched.<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 PostgreSQL supports Index Only Scans.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 PostgreSQL supports Index Only Scans.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> true <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> false <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

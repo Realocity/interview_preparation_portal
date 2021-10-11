@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>shellmcq 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 The positional parameters are______</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 The positional parameters are______</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> special variables and patterns <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> pattern matching parameters <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The shell script is___</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 The shell script is___</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> File containing a series of commands <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> File containing special symbols <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 For storing the number of positional parameters, what is used?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 For storing the number of positional parameters, what is used?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> $n <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $* <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> $2 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 To make the scripts interactive, the ________ command is used. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 To make the scripts interactive, the ________ command is used. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ip<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> input <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> read <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The internal tool of a shell is the read command.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 The internal tool of a shell is the read command.</p>
         <div class="options py-3"> <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> None of these <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">maybe <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 With ____ first line of every shell script begins. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 With ____ first line of every shell script begins. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">&<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> # <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> !<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 By shell into the parameter, __ reads the first argument</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 By shell into the parameter, __ reads the first argument</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> $1 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> $3 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> 1$ <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 We have to make it executable first by using ___, to run a script</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 We have to make it executable first by using ___, to run a script</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> chmod +w <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> chmod +r<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> chmod +rwx <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 For looping with a list what is used?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 For looping with a list what is used?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> for <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> until <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> while <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 To shift arguments left we use ____ statement.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 To shift arguments left we use ____ statement.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> set <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> paste <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -95,14 +96,26 @@
         <label class="rounded p-2 option"> shift <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
     
-  
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='shellmcq7.jsp'>7</a>
+     <div>
+				<a class='page' href='shellmcq1.jsp'>1</a>
+					
+				<a class='page' href='shellmcq2.jsp'>2</a>
 				
+				<a class='page' href='shellmcq3.jsp'>3</a>
+			
+				<a class='page' href='shellmcq4.jsp'>4</a>
+					
+				<a class='page' href='shellmcq5.jsp'>5</a>
+					
+				<a class='page' href='shellmcq6.jsp'>6</a>
+				
+				<a class='page' href='shellmcq7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='shellmcq9.jsp'>9</a>
-				<a class='page next' href='shellmcq9.jsp' title='Next'>&raquo;</a>
+				
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon"> 
 <title>Programming Language Options</title>
 </head>
 <body>
@@ -231,7 +232,7 @@ a {
   </div>
   <div class="card-four-grid-space">
     <div class="num">MCQ</div>
-    <a class="card-four" href="mcq/csslmcq1.jsp" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
+    <a class="card-four" href="mcq/cssmcq1.jsp" style="--bg-img: url('https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/basic-types-of-html-tags/cover.jpg')">
       <div>
         <h1>Basic types of CSS tags</h1>
         <p>Learn about some of the most common CSS tags…</p>

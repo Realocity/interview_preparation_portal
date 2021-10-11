@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>ruby 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 what generates web pages from page templates? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 what generates web pages from page templates? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> underscores <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Embedded Ruby (ERb) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 where do you edit routs? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 where do you edit routs? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> :controller<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> underscores  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 if looping through âfâ object, how do you make a text field ânameâ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 if looping through âfâ object, how do you make a text field ânameâ? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;%= yield %><input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> â¦ have the same URL<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> &lt;%= f.text_field :name %> <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 what does a model object do before it saves or updates data? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 what does a model object do before it saves or updates data? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> underscores <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  it runs its validators <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> rake db:migrate<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 what does "rake" mean? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 what does "rake" mean? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> #1+1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> singular <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  ruby make <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> flight_id<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 how do you start a loop that reads through the array object "@ads"?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 how do you start a loop that reads through the array object "@ads"?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> a web page<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ruby make <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> ActionPack<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 what scripts does the model-generator command create?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 what scripts does the model-generator command create?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> their names begin with an underscore<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  the model class (app/models/something.rb) and the data migration (db/migrate/..._create_something.rb) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> rails generate migration AddPhoneToTickets phone:string<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 what does Embedded Ruby (ERb) process as inputs?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 what does Embedded Ruby (ERb) process as inputs?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  data from model objects AND the page template <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> HTTP methods (post, get, put, delete)<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> their names begin with an underscore<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 what kind of test do you create yourself?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 what kind of test do you create yourself?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> an object <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ActionPack <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option">  integration test <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 what is "format" in "repond_to do |format|"?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 what is "format" in "repond_to do |format|"?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> underscores  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> an object  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,22 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='ruby5.jsp'>5</a>
+     <div>
+				<a class='page' href='ruby1.jsp'>1</a>
 				
+				<a class='page' href='ruby2.jsp'>2</a>
+				
+				<a class='page' href='ruby3.jsp'>3</a>
+				
+				<a class='page' href='ruby4.jsp'>4</a>
+				
+				<a class='page' href='ruby5.jsp'>5</a>
+				<span class="page current">6</span>
 				<a class='page' href='ruby7.jsp'>7</a>
-				<a class='page next' href='ruby7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='ruby8.jsp'>8</a>
+				<a class='page' href='ruby9.jsp'>9</a>
+				<a class='page' href='ruby10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

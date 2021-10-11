@@ -4,17 +4,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Mysql Support Different Character Sets, Which Command Is Used To Display All
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Mysql Support Different Character Sets, Which Command Is Used To Display All
 Character Sets?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> SHOW; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@ Character Sets?</p>
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2Which One Is The Correct Declaration For Choosing The Character Set Other Than
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12Which One Is The Correct Declaration For Choosing The Character Set Other Than
 Default? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Varchar(20);<input type="radio" name="radio"> <span class="crossmark"></span> </label>
@@ -34,7 +36,7 @@ Default? </p>
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which "text Type" Has The Maximum Number Of Bytes?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which "text Type" Has The Maximum Number Of Bytes?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Long Text<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Medium Text<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -42,7 +44,7 @@ Default? </p>
         <label class="rounded p-2 option"> Text <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which Among The Following Have The Maximum Bytes? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which Among The Following Have The Maximum Bytes? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Varchar<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Char <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -50,14 +52,14 @@ Default? </p>
         <label class="rounded p-2 option"> Text Type<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 The "father" Of MySQL Is ______. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 The "father" Of MySQL Is ______. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Bill Joy <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Michael Widenius <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Bill Gates <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Stephanie Wall<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 To Use MySQL On Your Computer, You'll Need </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 To Use MySQL On Your Computer, You'll Need </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Perl, PHP Or Java<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A Browser <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -65,7 +67,7 @@ Default? </p>
         <label class="rounded p-2 option"> FTP And Telnet<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The Main MySQL Program That Does All The Data Handling Is Called</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 The Main MySQL Program That Does All The Data Handling Is Called</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Mysql<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Mysql.exe<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -73,7 +75,7 @@ Default? </p>
         <label class="rounded p-2 option"> Mysqld<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 MySQL Comes With As Standard With Client Libraries For:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 MySQL Comes With As Standard With Client Libraries For:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> C Only <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Java Only<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -81,7 +83,7 @@ Default? </p>
         <label class="rounded p-2 option"> Perl, PHP And C<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What Kind Of Replication Is Supported By The MySQL Server?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 What Kind Of Replication Is Supported By The MySQL Server?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Multiple-master Replication <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Single File Based Clustering <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -89,7 +91,7 @@ Default? </p>
         <label class="rounded p-2 option"> MySQL Doesn't Support Replication <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Commands Passed To The MySQL Daemon Are Written In</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Commands Passed To The MySQL Daemon Are Written In</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  English<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Swedish <input type="radio" name="radio"> <span class="crossmark"></span> </label> 

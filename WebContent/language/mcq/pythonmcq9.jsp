@@ -3,7 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>pythonmcq 9</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What will be the output of this statement?<br>>>>"a"+"bc"  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 What will be the output of this statement?<br>>>>"a"+"bc"  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> a+bc <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> abc<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What will be the output of this code?<br>>>>"javatpoint"[5:]  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 What will be the output of this code?<br>>>>"javatpoint"[5:]  </p>
         <div class="options py-3">
          <label class="rounded p-2 option">javatpoint <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 The output to execute string.ascii_letters can also be obtained from:?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 The output to execute string.ascii_letters can also be obtained from:?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> character<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">ascii_lowercase_string.digits <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +42,7 @@
         <label class="rounded p-2 option"> ascii_lowercase+string.ascii_upercase <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What will be the output of this statement?<br>>>> str1 = "javat"  
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 What will be the output of this statement?<br>>>> str1 = "javat"  
 >>> str2 = ":"  
 >>> str3 = "point"  
 >>> str1[-1:]  
@@ -52,14 +54,14 @@
         <label class="rounded p-2 option"> java <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What will be the output of this statement?<br>>>> print (r"\njavat\npoint")   </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 What will be the output of this statement?<br>>>> print (r"\njavat\npoint")   </p>
         <div class="options py-3"> <label class="rounded p-2 option"> javapoint<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> java point <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> \njavat\npoint <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">Print the letter r and then javat and then point <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will be the output of this statement?<br>>>> print(0xA + 0xB + 0xC)   </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 What will be the output of this statement?<br>>>> print(0xA + 0xB + 0xC)   </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">33<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 63 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -67,7 +69,7 @@
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What will be the output of this statement?<br>>>> print(ord('h') - ord('z'))  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 What will be the output of this statement?<br>>>> print(ord('h') - ord('z'))  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 18<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> -18 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -75,7 +77,7 @@
         <label class="rounded p-2 option"> -17<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following option is not a core data type in the python language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Which of the following option is not a core data type in the python language?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Dictionary <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Lists <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +85,7 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What error will occur when you execute the following code?<br>MANGO = APPLE  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 What error will occur when you execute the following code?<br>MANGO = APPLE  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> NameError <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> SyntaxError <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -91,7 +93,7 @@
         <label class="rounded p-2 option"> ValueError <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What will be the output of this statement?<br>L = [2, 54, 'javatpoint', 5]  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 What will be the output of this statement?<br>L = [2, 54, 'javatpoint', 5]  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Dictionary<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Tuple <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -102,11 +104,25 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='pythonmcq8.jsp'>8</a>
+     <div>
+				<a class='page' href='pythonmcq1.jsp'>1</a>
 				
+				<a class='page' href='pythonmcq2.jsp'>2</a>
+				
+				<a class='page' href='pythonmcq3.jsp'>3</a>
+				
+				<a class='page' href='pythonmcq4.jsp'>4</a>
+			
+				<a class='page' href='pythonmcq5.jsp'>5</a>
+				
+				<a class='page' href='pythonmcq6.jsp'>6</a>
+					
+				<a class='page' href='pythonmcq7.jsp'>7</a>
+				
+				<a class='page' href='pythonmcq8.jsp'>8</a>
+				<span class="page current">9</span>
 				<a class='page' href='pythonmcq10.jsp'>10</a>
-				<a class='page next' href='pythonmcq10.jsp' title='Next'>&raquo;</a>
+			
 				</div>
 				</div>
 				<center>

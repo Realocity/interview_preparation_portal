@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is the syntax for HAS_PERMS_BY_NAME in SQL Server 2014?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 What is the syntax for HAS_PERMS_BY_NAME in SQL Server 2014?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  HAS_PERMS_NAME (securable_class, permission  
 [, sub-securable ][, sub-securable_class])
@@ -32,7 +34,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Point out the correct statement.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 Point out the correct statement.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> In versions of SQL Server through SQL Server 2014, sub-securables cannot use brackets in the form â[sub name]â. Use âsub nameâ instead<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> HAS_PERMS_BY_NAME returns NULL when the query fails <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +43,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 _________ returns a list of the permissions effectively granted to the principal on a securable.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 _________ returns a list of the permissions effectively granted to the principal on a securable.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> HAS_PERMS_BY_NAME<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sys.fn_my_permissions<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -49,7 +51,7 @@
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is the syntax for fn_my_permissions function in SQL Server 2014? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 What is the syntax for fn_my_permissions function in SQL Server 2014? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> fn_my_permissions ( securable , securable_class )<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> fn_my_permissions ( securable , âsecurable_classâ ) <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -57,14 +59,14 @@
         <label class="rounded p-2 option"> fn_my_permissions ( âsecurableâ , âsecurable_classâ )<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5  Point out the wrong statement.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45  Point out the wrong statement.</p>
         <div class="options py-3"> <label class="rounded p-2 option"> The entity that receives permission to a securable is called a principal <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The SCHEMA securable scope contains the USER securables <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> A table is a securable<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The schema securable scope contains the following securable is __________ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 The schema securable scope contains the following securable is __________ </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Contract <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Asymmetric key<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> Object<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following returns a row for each security principal in a SQL Server database?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 Which of the following returns a row for each security principal in a SQL Server database?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> sys.database_role_members<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> sys.sql_logins <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Any SQL Server authentication login can see ________ login name.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Any SQL Server authentication login can see ________ login name.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Own and sa<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> sa<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option"> None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 To add or remove server role membership use ____________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 To add or remove server role membership use ____________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  ALTER ROLE<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ALTER ANY LOGIN <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,7 +98,7 @@
         <label class="rounded p-2 option">  None of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What is the role of WITH NAME in the following code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 What is the role of WITH NAME in the following code?
 ALTER SERVER ROLEserver_role_name
 {
 [ADD MEMBER server_principal]

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>sqlMcq 3</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 _______ clause creates temporary relation for the query on which it is defined. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 _______ clause creates temporary relation for the query on which it is defined. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> WITH <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> FROM<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 The SQL statement:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 The SQL statement:
 1.	SELECT ROUND (65.726, -1) FROM DUAL;  
 Prints:</p>
         <div class="options py-3">
@@ -34,7 +35,7 @@ Prints:</p>
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is true about the SQL AS clause?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 Which of the following is true about the SQL AS clause?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The AS clause in SQL is used to change the column name in the output or assign a name to a derived column.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> The SQL AS clause can only be used with the JOIN clause.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -42,7 +43,7 @@ Prints:</p>
         <label class="rounded p-2 option"> All of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 _________ command makes the updates performed by the transaction permanent in the database? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 _________ command makes the updates performed by the transaction permanent in the database? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ROLLBACK<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  COMMIT<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -50,14 +51,14 @@ Prints:</p>
         <label class="rounded p-2 option"> DELETE<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How can you change "Thomas" into "Michel" in the "LastName" column in the Users table? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 How can you change "Thomas" into "Michel" in the "LastName" column in the Users table? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  UPDATE User SET LastName = 'Thomas' INTO LastName = 'Michel' <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  MODIFY Users SET LastName = 'Michel' WHERE LastName = 'Thomas'<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  MODIFY Users SET LastName = 'Thomas' INTO LastName = 'Michel'<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> UPDATE Users SET LastName = 'Michel' WHERE LastName = 'Thomas'<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which command is used to change the definition of a table in SQL? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 Which command is used to change the definition of a table in SQL? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  CREATE<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  UPDATE<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -65,7 +66,7 @@ Prints:</p>
         <label class="rounded p-2 option"> SELECT<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which type of JOIN is used to returns rows that do not have matching values? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 Which type of JOIN is used to returns rows that do not have matching values? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Natural JOIN<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Outer JOIN<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -73,7 +74,7 @@ Prints:</p>
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 A CASE SQL statement is ________?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 A CASE SQL statement is ________?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> A way to establish a loop in SQL. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A way to establish an IF-THEN-ELSE in SQL<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -81,7 +82,7 @@ Prints:</p>
         <label class="rounded p-2 option">  All of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which statement is true regarding routines and triggers?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 Which statement is true regarding routines and triggers?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Both run automatically.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Both are stored in the database.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -89,7 +90,7 @@ Prints:</p>
         <label class="rounded p-2 option">  Both have to be called to operate. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which statement is true regarding procedures?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Which statement is true regarding procedures?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  They include procedural and SQL statements.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  They work similarly to the functions.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -100,11 +101,20 @@ Prints:</p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='sqlMcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='sqlMcq1.jsp'>1</a>
 				
+				<a class='page' href='sqlMcq2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='sqlMcq4.jsp'>4</a>
-				<a class='page next' href='sqlMcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='sqlMcq5.jsp'>5</a>
+				<a class='page' href='sqlMcq6.jsp'>6</a>
+				<a class='page' href='sqlMcq7.jsp'>7</a>
+				<a class='page' href='sqlMcq8.jsp'>8</a>
+				<a class='page' href='sqlMcq9.jsp'>9</a>
+				<a class='page' href='sqlMcq10.jsp'>10</a>
+				
+		
 				</div>
 				</div>
 				<center>

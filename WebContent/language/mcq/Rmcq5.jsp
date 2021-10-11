@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Rmcq 5</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is the meaning of â&gt;-â?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.41 What is the meaning of â&gt;-â?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Functions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Loops<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 In the expression x <- 4 in R, what is the class of âxâ as determined by the `class()â function?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.42 In the expression x <- 4 in R, what is the class of âxâ as determined by the `class()â function?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Character<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Numeric <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 R has how many atomic classes of objects?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.43 R has how many atomic classes of objects?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 2 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Point out the correct statement?	</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.44 Point out the correct statement?	</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Empty vectors can be created with the vector() function <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> A sequence is represented as a vector but can contain objects of different classes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> The value NaN represents undefined value<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Numbers in R are generally treated as _______ precision real numbers. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.45 Numbers in R are generally treated as _______ precision real numbers. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> single <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> double <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> real <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> imaginary<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 If you explicitly want an integer, you need to specify the _____ suffix. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.46 If you explicitly want an integer, you need to specify the _____ suffix. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">D<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> R <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> K<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Point out the correct statement?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.47 Point out the correct statement?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The value NaN represents undefined value	<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Number Inf represents infinity in R <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option">ârawâ objects are commonly used directly in data analysis <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Attributes of an object (if any) can be accessed using the ______ function.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.48 Attributes of an object (if any) can be accessed using the ______ function.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> objects() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> attrib()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> obj()<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 R objects can have attributes, which are like ________ for the object.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.49 R objects can have attributes, which are like ________ for the object.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> metadata <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> features <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> dimensions <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following can be considered as object attribute?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.50 Which of the following can be considered as object attribute?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> dimensions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> class <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,21 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">5</span>
-				<a class='page' href='Rmcq4.jsp'>4</a>
+     <div>
+				<a class='page' href='Rmcq1.jsp'>1</a>
 				
+				<a class='page' href='Rmcq2.jsp'>2</a>
+			
+				<a class='page' href='Rmcq3.jsp'>3</a>
+					
+				<a class='page' href='Rmcq4.jsp'>4</a>
+				<span class="page current">5</span>
 				<a class='page' href='Rmcq6.jsp'>6</a>
-				<a class='page next' href='Rmcq6.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Rmcq7.jsp'>7</a>
+				<a class='page' href='Rmcq8.jsp'>8</a>
+				<a class='page' href='Rmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Rmcq 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is output of getOption(âdefaultPackagesâ) in R studio?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 What is output of getOption(âdefaultPackagesâ) in R studio?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Installs a new package <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">Shows default packages in R <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 R language is a dialect of which of the following languages?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 R language is a dialect of which of the following languages?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> S<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> C <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 R language has superficial similarity with _________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 R language has superficial similarity with _________</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> C<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Python<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> SAS <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is the mode of âaâ in the following R code?<br>a <- c(1,â aâ, FALSE) </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 What is the mode of âaâ in the following R code?<br>a <- c(1,â aâ, FALSE) </p>
         <div class="options py-3">
          <label class="rounded p-2 option">Numeric <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Character <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Logical<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is the length of b?<br>b&gt;- 2:7 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 What is the length of b?<br>b&gt;- 2:7 </p>
         <div class="options py-3"> <label class="rounded p-2 option">  4<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 6<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What is the mode of b in the following R code?<br>  b &gt;- c(TRUE, TRUE, 1) </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 What is the mode of b in the following R code?<br>  b &gt;- c(TRUE, TRUE, 1) </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">Numeric<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Character <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">Logical <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What are the typeof(x) and mode(x) in the following R syntax?<br> x<-1:3</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 What are the typeof(x) and mode(x) in the following R syntax?<br> x<-1:3</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Numeric, Integer<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Integer, Numeric <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> Numeric, Numeric<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 How many atomic vector types does R have? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 How many atomic vector types does R have? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">6 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> 10<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is the function to set row names for a data frame? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 What is the function to set row names for a data frame? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> row.names() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> colnames() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> column name cannot be set for a data frame <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 A single element of a character vector is referred as ________</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 A single element of a character vector is referred as ________</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Character string <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> String <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,18 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='Rmcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>
 				<a class='page' href='Rmcq3.jsp'>3</a>
-				<a class='page next' href='Rmcq3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='Rmcq4.jsp'>4</a>
+				<a class='page' href='Rmcq5.jsp'>5</a>
+				<a class='page' href='Rmcq6.jsp'>6</a>
+				<a class='page' href='Rmcq7.jsp'>7</a>
+				<a class='page' href='Rmcq8.jsp'>8</a>
+				<a class='page' href='Rmcq9.jsp'>9</a>
+				
+			
 				</div>
 				</div>
 				<center>

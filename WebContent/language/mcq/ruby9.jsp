@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>ruby 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is a Class?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 What is a Class?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  An array uses indices and a hash uses "keys"<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Classes are simply a convenient way to organize functions (also called methods). In pages_controller.rb, PagesController is a Class which holds a "home" action.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What kind of object is "@title" and what is special about it in Rails? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 What kind of object is "@title" and what is special about it in Rails? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It's a test that simulates a browser accessing our application.<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> The "erb" stands for "Embedded RuBy". .erb files look like about.html.erb and live in the "views" directory.They are just html files with embedded ruby in them. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What does the routes.rb file do with "get pages/home"?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 What does the routes.rb file do with "get pages/home"?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> When a request is made for, say, /pages/home, the Pages controller executes the code in the "home" action and then automatically renders the view corresponding to the action -- in this case, home.html.erb.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> This maps requests for the URL /pages/home to the home action in the Pages controller. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> It's a test that simulates a browser accessing our application. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Describe a "symbol" in Rails? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 Describe a "symbol" in Rails? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Ruby complains if we try to evaluate an undefined local variable, but issues no such complaint for an instance variable; instead, instance variables are nil if not defined<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Symbols look kind of like strings, but prefixed with a colon instead of surrounded by quotes. For example, :name is a symbol. You can think of symbols as basically strings without all the extra baggage <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> This is not a standard rails directory, but a directory installed by RSpec in which all test files are kept.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What is the status code for "success" when throwing a GET?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 What is the status code for "success" when throwing a GET?  </p>
         <div class="options py-3"> <label class="rounded p-2 option"> 300 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 200 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 400<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 150<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What is the command to print to the screen?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 What is the command to print to the screen?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> When the order matters, use an array.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> An array uses indices and a hash uses "keys" <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">  puts (pronounced "put-ess")<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is the main benefit that a Class gets by inheritance from ApplicationController?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 What is the main benefit that a Class gets by inheritance from ApplicationController?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> An array uses indices and a hash uses "keys" <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> When a request is made for, say, /pages/home, the Pages controller executes the code in the "home" action and then automatically renders the view corresponding to the action -- in this case, home.html.erb. <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> When the order matters, use an array. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Name two ways to indicate a "block" in Rails</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Name two ways to indicate a "block" in Rails</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> This maps requests for the URL /pages/home to the home action in the Pages controller. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The request hits the rails router which dispatches to the proper controller action. In this case, it goes to the index action in the Users controller.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> When the order matters, use an array.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is an integration test?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 What is an integration test?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">   It's a test that simulates a browser accessing our application.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> When the order matters, use an array. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> An array uses indices and a hash uses "keys" <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 What is the most special aspect of nil?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 What is the most special aspect of nil?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> This maps requests for the URL /pages/home to the home action in the Pages controller. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> A controller is a container for a group of (possibly dynamic) web pages. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -98,11 +99,25 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='ruby8.jsp'>8</a>
+     <div>
+				<a class='page' href='ruby1.jsp'>1</a>
 				
+				<a class='page' href='ruby2.jsp'>2</a>
+				
+				<a class='page' href='ruby3.jsp'>3</a>
+				
+				<a class='page' href='ruby4.jsp'>4</a>
+				
+				<a class='page' href='ruby5.jsp'>5</a>
+				
+				<a class='page' href='ruby6.jsp'>6</a>
+				
+				<a class='page' href='ruby7.jsp'>7</a>
+				
+				<a class='page' href='ruby8.jsp'>8</a>
+				<span class="page current">9</span>
 				<a class='page' href='ruby10.jsp'>10</a>
-				<a class='page next' href='ruby10.jsp' title='Next'>&raquo;</a>
+			
 				</div>
 				</div>
 				<center>

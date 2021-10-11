@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cpp 4</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following can be considered as the object of an array? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 Which of the following can be considered as the object of an array? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Index of an array  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Elements of the Array<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 How many types of elements can an array store?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 How many types of elements can an array store?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Same types of elements <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> Char and int type <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following statement is true about the new and malloc?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Which of the following statement is true about the new and malloc?
 I. The "new" is a type of operator while "malloc" is a kind of function
 II. "new" invokes a constructor, whereas "malloc" does not invoke the constructor
 III. "malloc" returns void pointer and also needed to typecast whereas "new" returns required the pointer
@@ -45,7 +46,7 @@ III. "malloc" returns void pointer and also needed to typecast whereas "new" ret
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Elements of a one-dimensional array are numbered as 0,1,2,3,4,5, and so on; these numbers are known as ____ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 Elements of a one-dimensional array are numbered as 0,1,2,3,4,5, and so on; these numbers are known as ____ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Subscript of Array <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Members of Array <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -53,7 +54,7 @@ III. "malloc" returns void pointer and also needed to typecast whereas "new" ret
         <label class="rounded p-2 option"> Both A and C<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following statement is true about the new and malloc?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Which of the following statement is true about the new and malloc?
 I. The pointer object initialization of a specific class using "malloc" also needs to include constructor calls; on the other hand, doing so with the "new" keyword does not include any constructor calls.
 II. The pointer object initialization of a specific class using the "new" keyword also needs to include a constructor call. On the other hand, doing so with the "malloc" does not need to include any constructor calls.
 III. Pointer object initialization of a specific class using either "new" or "malloc" involves the constructor call </p>
@@ -63,7 +64,7 @@ III. Pointer object initialization of a specific class using either "new" or "ma
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following statement is correct about Virtual Inheritance? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 Which of the following statement is correct about Virtual Inheritance? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> It is a technique to ensure that a private member of a base class can be accessed <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It is a technique to optimize the multiple inheritances <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@ III. Pointer object initialization of a specific class using either "new" or "ma
         <label class="rounded p-2 option"> It is a C++ technique to avoid multiple copies of the base class into the derived or child classes <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which one of the following statements correctly refers to the Delete and Delete[] in C++ programming language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Which one of the following statements correctly refers to the Delete and Delete[] in C++ programming language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Delete is syntactically correct although, if the Delete[] is used, it will obtain an error. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The "Delete" is used for deleting the standard objects, while on the other hand, the "Delete[]" is used to delete the pointer objects <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@ III. Pointer object initialization of a specific class using either "new" or "ma
         <label class="rounded p-2 option"> The "Delete" is used for deleting a single standard object, whereas the "Delete[]" is used for deleting an array of the multiple objects <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Consider the following given program and choose the most appropriate output from the given options:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Consider the following given program and choose the most appropriate output from the given options:
 1.	#include <iostream>  
 2.	using namespace std;  
 3.	class A{  
@@ -104,7 +105,7 @@ III. Pointer object initialization of a specific class using either "new" or "ma
         <label class="rounded p-2 option"> The Constructor will be invoked five times, and after that destructor will also be invoked five times. <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Consider the following given program and choose the most appropriate output from the given options:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 Consider the following given program and choose the most appropriate output from the given options:
 1.	#include<iostream>   
 2.	using namespace std;   
 3.	class Base {   
@@ -137,7 +138,7 @@ III. Pointer object initialization of a specific class using either "new" or "ma
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following can be considered as the correct syntax for declaring an array of pointers of integers that has a size of 10 in C++?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 Which of the following can be considered as the correct syntax for declaring an array of pointers of integers that has a size of 10 in C++?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> int arr = new int[10];  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> int *arr = new int*[10]<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -148,11 +149,20 @@ III. Pointer object initialization of a specific class using either "new" or "ma
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='cpp3.jsp'>3</a>
+     <div>
+				<a class='page' href='cpp1.jsp'>1</a>
+				<a class='page' href='cpp2.jsp'>2</a>
 				
+				
+				<a class='page' href='cpp3.jsp'>3</a>
+				<span class="page current">4</span>
 				<a class='page' href='cpp5.jsp'>5</a>
-				<a class='page next' href='cpp5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cpp6.jsp'>6</a>
+				<a class='page' href='cpp7.jsp'>7</a>
+				<a class='page' href='cpp8.jsp'>8</a>
+				<a class='page' href='cpp9.jsp'>9</a>
+				<a class='page' href='cpp10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

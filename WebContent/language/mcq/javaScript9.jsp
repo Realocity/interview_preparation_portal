@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 9</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 To know about an object, whether the object is a prototype (or a part of a prototype chain) of another object, the user can use_______ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.81 To know about an object, whether the object is a prototype (or a part of a prototype chain) of another object, the user can use_______ </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ==operator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> equals() method<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 In the following given line of code, the prototype representing the_____
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.82 In the following given line of code, the prototype representing the_____
 1.	functionx(){};  
         </p>
         <div class="options py-3">
@@ -34,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What will be the output obtained by "shift ()" in the given code of JavaScript?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.83 What will be the output obtained by "shift ()" in the given code of JavaScript?
 1.	var a =[];  
 2.	a.unshift(5);  
 3.	a.unshift(22);  
@@ -51,7 +52,7 @@
         <label class="rounded p-2 option"> 5 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which one of the following options is the correct output for the given code of java script?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.84 Which one of the following options is the correct output for the given code of java script?
 1.	var sum=0;  
 2.	   
 3.	vararr=[101,150,201,30];  
@@ -69,7 +70,7 @@
         <label class="rounded p-2 option"> error<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following options is the correct output for the given code of JavaScript?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.85 Which one of the following options is the correct output for the given code of JavaScript?
 1.	var values=["Three","two","one"];  
 2.	varans=values.shift();  
 3.	document.writeln(ans);  
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> error <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which one of the following options is the correct output for the given code of JavaScript?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.86 Which one of the following options is the correct output for the given code of JavaScript?
 1.	vararr=[4,3,2,1];  
 2.	var rev=arr.reverse();  
 3.	document.writeln(rev);  
@@ -92,7 +93,7 @@
         <label class="rounded p-2 option"> 1<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which one of the following options is the correct output for the given code of javascript?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.87 Which one of the following options is the correct output for the given code of javascript?
 1.	var values=[4,5,6,7]  
 2.	varans=values.slice(1);  
 3.	document.writeln(ans);  
@@ -104,7 +105,7 @@
         <label class="rounded p-2 option"> 4, 5, 6,7 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which one of the following method or operator is used for identification of the array? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.88 Which one of the following method or operator is used for identification of the array? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Typeof <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> ==<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -112,7 +113,7 @@
         <label class="rounded p-2 option"> isarrayType()<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 For which purpose the array "map()" methods is used ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.89 For which purpose the array "map()" methods is used ? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> It used for mapping the elements of another array into itself. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It passes each data-item of the array and returns the necessary mapped elements.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -120,7 +121,7 @@
         <label class="rounded p-2 option"> It passes every element of the array on which it is invoked to the function you specify, and returns an array containing the values returned by that function. <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Both the "rduucedRight()" and "reduce()" methods follow which one of the following common operation?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.90 Both the "rduucedRight()" and "reduce()" methods follow which one of the following common operation?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> inject and fold <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> filter and fold <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -129,13 +130,27 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+    <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">9</span>
-				<a class='page' href='javaScript8.jsp'>8</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				
+				<a class='page' href='javaScript3.jsp'>3</a>
+				
+				<a class='page' href='javaScript4.jsp'>4</a>
+				
+				<a class='page' href='javaScript5.jsp'>5</a>
+			
+				<a class='page' href='javaScript6.jsp'>6</a>
+					
+				<a class='page' href='javaScript7.jsp'>7</a>
+				
+				<a class='page' href='javaScript8.jsp'>8</a>
+					<span class="page current">9</span>
 				<a class='page' href='javaScript10.jsp'>10</a>
-				<a class='page next' href='javaScript10.jsp' title='Next'>&raquo;</a>
+			
 				</div>
 				</div>
 				<center>

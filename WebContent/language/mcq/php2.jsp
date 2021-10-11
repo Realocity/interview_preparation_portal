@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>php 2</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is the use of strpos() function in PHP? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Which of the following is the use of strpos() function in PHP? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The strpos() function is used to search for the spaces in a string <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The strpos() function is used to search for a number in a string<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What does PEAR stands for?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 What does PEAR stands for?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> PHP enhancement and application reduce<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> PHP event and application repository <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -31,7 +32,7 @@
          <label class="rounded p-2 option"> Both a and b<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is the correct way to create a function in PHP? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following is the correct way to create a function in PHP? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Create myFunction() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> New_function myFunction()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -39,7 +40,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following PHP function is used to generate unique id?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which of the following PHP function is used to generate unique id?  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> id()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> mdid()<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -47,14 +48,14 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following is the correct way of defining a variable in PHP?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which of the following is the correct way of defining a variable in PHP?  </p>
         <div class="options py-3"> <label class="rounded p-2 option"> $variable name = value; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $variable_name = value;<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> $variable_name = value <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> $variable name as value;<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following is the correct use of the strcmp() function in PHP?  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following is the correct use of the strcmp() function in PHP?  </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> The strcmp() function is used to compare the strings excluding case<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The strcmp() function is used to compare the uppercase strings <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -62,7 +63,7 @@
         <label class="rounded p-2 option"> The strcmp() function is used to compare the strings including case<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is the use of fopen() function in PHP? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 What is the use of fopen() function in PHP? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> The fopen() function is used to open folders in PHP <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The fopen() function is used to open remote server <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -70,7 +71,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What is the use of isset() function in PHP?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 What is the use of isset() function in PHP?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> The isset() function is used to check whether variable is set or not<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> The isset() function is used to check whether the variable is free or not<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -78,7 +79,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What is the use of sprintf() function in PHP?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 What is the use of sprintf() function in PHP?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> The sprintf() function is used to print the output of program<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> The sprintf() function is used to send output to variable<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -86,7 +87,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following is the correct way to open the file "sample.txt" as readable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following is the correct way to open the file "sample.txt" as readable?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> fopen("sample.txt", "r"); <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> fopen("sample.txt", "r+");<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,11 +98,19 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
-				<a class='page' href='php1.jsp'>1</a>
-				
+     <div>
+				<a class='page' href='php1.jsp'>1</a>	
+				<span class="page current">2</span>	
 				<a class='page' href='php3.jsp'>3</a>
-				<a class='page next' href='php3.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='php4.jsp'>4</a>
+				<a class='page' href='php5.jsp'>5</a>
+				<a class='page' href='php6.jsp'>6</a>
+				<a class='page' href='php7.jsp'>7</a>
+				<a class='page' href='php8.jsp'>8</a>
+				<a class='page' href='php9.jsp'>9</a>
+				<a class='page' href='php10.jsp'>10</a>
+				
+			
 				</div>
 				</div>
 				<center>

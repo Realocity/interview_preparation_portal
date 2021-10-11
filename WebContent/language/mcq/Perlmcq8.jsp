@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Perlmcq 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following data types are preceded by an "at" sign (@) in Perl?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 Which of the following data types are preceded by an "at" sign (@) in Perl?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  Scalar<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Array<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2  In which of the following variable context, assignment to a scalar variable evaluates the right-hand side in a scalar context?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72  In which of the following variable context, assignment to a scalar variable evaluates the right-hand side in a scalar context?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Scalar <input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> List <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is correct about $[ Special Variable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 Which of the following is correct about $[ Special Variable?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> This special variable is a scalar containing the first index of all arrays.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Because Perl arrays have zero-based indexing, $[ will almost always be 0.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> All of the above. <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following function returns true if the named key exists in a Hash? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 Which of the following function returns true if the named key exists in a Hash? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> check<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  exists <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following statement substitutes a call to the named subroutine for the currently running subroutine? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 Which of the following statement substitutes a call to the named subroutine for the currently running subroutine? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> goto LABEL <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> goto EXPR <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  goto &NAME<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following special variable represents current package name? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 Which of the following special variable represents current package name? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">_PACKAGE_<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Package <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following function returns all values of a Hash?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Which of the following function returns all values of a Hash?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> keys<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> values <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following statement jumps to the statement labeled with LABEL and resumes execution from there?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 Which of the following statement jumps to the statement labeled with LABEL and resumes execution from there?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> goto LABEL <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">goto EXPR <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"> None of the above.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following function points current position of a pointer to a particular position in a file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 Which of the following function points current position of a pointer to a particular position in a file?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> rename <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  tell <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> None of the above. <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following function disassociate the filehandle from the corresponding file?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 Which of the following function disassociate the filehandle from the corresponding file?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> close <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> unlink <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -96,12 +97,25 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+<!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
+     <div>
+				<a class='page' href='Perlmcq1.jsp'>1</a>
+				
+				<a class='page' href='Perlmcq2.jsp'>2</a>
+				
+				<a class='page' href='Perlmcq3.jsp'>3</a>
+				
+				<a class='page' href='Perlmcq4.jsp'>4</a>
+				
+				<a class='page' href='Perlmcq5.jsp'>5</a>
+		
+				<a class='page' href='Perlmcq6.jsp'>6</a>
+					
 				<a class='page' href='Perlmcq7.jsp'>7</a>
+					<span class="page current">8</span>
 				
-				
+			
 				</div>
 				</div>
 				<center>

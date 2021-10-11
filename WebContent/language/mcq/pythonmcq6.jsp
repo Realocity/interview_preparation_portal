@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>pythonmcq 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What is the maximum possible length of an identifier? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 What is the maximum possible length of an identifier? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 16 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">	32 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Who developed the Python language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 Who developed the Python language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">	Zim Den<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Guido van Rossum <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 In which year was the Python language developed?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 In which year was the Python language developed?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 1995<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 1972 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option"> 1989 <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 In which language is Python written? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 In which language is Python written? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">English <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> PHP <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option">All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which one of the following is the correct extension of the Python file?	 </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 Which one of the following is the correct extension of the Python file?	 </p>
         <div class="options py-3"> <label class="rounded p-2 option"> .py <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> .python <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> .p <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 In which year was the Python 3.0 version developed? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 In which year was the Python 3.0 version developed? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">2008<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 2000 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option">2005 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What do we use to define a block of code in Python language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 What do we use to define a block of code in Python language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option">Key <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Brackets <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> None of these<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which character is used in Python to make a single line comment?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 Which character is used in Python to make a single line comment?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> / <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">// <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -79,7 +80,7 @@
         <label class="rounded p-2 option"># <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following statements is correct regarding the object-oriented programming concept in Python?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Which of the following statements is correct regarding the object-oriented programming concept in Python?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Classes are real-world entities while objects are not real <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Objects are real-world entities while classes are not real <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> All of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following statements is correct in this python code?<br>class Name:  
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Which of the following statements is correct in this python code?<br>class Name:  
     def __init__(javatpoint):  
         javajavatpoint = java  
 name1=Name("ABC")  
@@ -103,11 +104,22 @@ name2=name1
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='pythonmcq5.jsp'>5</a>
+     <div>
+				<a class='page' href='pythonmcq1.jsp'>1</a>
 				
+				<a class='page' href='pythonmcq2.jsp'>2</a>
+				
+				<a class='page' href='pythonmcq3.jsp'>3</a>
+				
+				<a class='page' href='pythonmcq4.jsp'>4</a>
+			
+				<a class='page' href='pythonmcq5.jsp'>5</a>
+					<span class="page current">6</span>
 				<a class='page' href='pythonmcq7.jsp'>7</a>
-				<a class='page next' href='pythonmcq7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='pythonmcq8.jsp'>8</a>
+				<a class='page' href='pythonmcq9.jsp'>9</a>
+				<a class='page' href='pythonmcq10.jsp'>10</a>
+			
 				</div>
 				</div>
 				<center>

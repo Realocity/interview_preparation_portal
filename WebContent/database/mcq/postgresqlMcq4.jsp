@@ -4,18 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>Database MCQ</title>
 </head>
 <body>
  <!-- navbar -->
 <%@include file="/common/normal_navbar.jsp" %>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="${pageContext.request.contextPath}/css/mystyle.css" rel="stylesheet" type="text/css"/>
 <br><br>
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 True or False: A tablespace is a place where database objects are stored on disk.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 True or False: A tablespace is a place where database objects are stored on disk.</p>
         <div class="options py-3">
          <label class="rounded p-2 option">  True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +26,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 ALTER TABLE may be issued while a VACUUM process is running.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 ALTER TABLE may be issued while a VACUUM process is running.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> true<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option">  false<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +35,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 PostgreSQL is so lightweight that performance and reliability are not affected by hardware.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 PostgreSQL is so lightweight that performance and reliability are not affected by hardware.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> true<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> false<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +43,7 @@
         <label class="rounded p-2 option">  can not say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 VACUUM operation is used:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 VACUUM operation is used:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> To recover or reuse disk space occupied by updated or deleted rows.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  To protect against loss of very old data due to transaction ID wraparound.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +51,14 @@
         <label class="rounded p-2 option"> All of these<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Within a table, a single column may be encrypted. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 Within a table, a single column may be encrypted. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> True <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> May be <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Don't know<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The core PostgreSQL source code includes what interfaces? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 The core PostgreSQL source code includes what interfaces? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Ruby and PHP interfaces <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> C++ and Java interfaces <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +66,7 @@
         <label class="rounded p-2 option"> VB and VB.NET interfaces<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Unless you specify NOT NULL, PostgreSQL will assume that a column is:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 Unless you specify NOT NULL, PostgreSQL will assume that a column is:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Required<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Optional <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -72,7 +74,7 @@
         <label class="rounded p-2 option"> Text<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Query trees can be viewed in the server logs as long as which of the following configuration parameters are enabled?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Query trees can be viewed in the server logs as long as which of the following configuration parameters are enabled?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> debug_print_parse <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> debug_print_plan<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +82,7 @@
         <label class="rounded p-2 option"> debug_print_rewritten<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 To describe a table in PostgreSQL which of the following is correct:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 To describe a table in PostgreSQL which of the following is correct:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  psql> D table_name<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> psql> describe table_name <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +90,7 @@
         <label class="rounded p-2 option"> psql> d table_name <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The value NULL, in database terminology, means?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 The value NULL, in database terminology, means?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  The value is undetermined at this time<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  The value is undetermined<input type="radio" name="radio"> <span class="crossmark"></span> </label> 

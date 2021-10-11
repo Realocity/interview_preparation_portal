@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>javaScript 10</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which one of the following given task is performed by the "pop()" method of the array?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.91 Which one of the following given task is performed by the "pop()" method of the array?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Itupdates the element of the array <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> it increments the total length of the array by 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What will happen if we use the "join()" method along with the "reverse()" method? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.92 What will happen if we use the "join()" method along with the "reverse()" method? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It will reverse and concatenates the elements of the array<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> It will reverse the element and store the elements in the same array <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What will be the output of the following given code of JavaScript?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.93 What will be the output of the following given code of JavaScript?
 1.	var x1 =[,,,];  
 2.	var x2 =newArray(10);  
 3.	0in x1   
@@ -45,7 +46,7 @@
         <label class="rounded p-2 option"> false true<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What will happen if we execute the following piece of code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.94 What will happen if we execute the following piece of code?
 1.	<script>  
 2.	  
 3.	var arr=[4,3,,1];    
@@ -61,7 +62,7 @@
         <label class="rounded p-2 option"> It does not run at all<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What output we may get if we execute the following JavaScript code:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.95 What output we may get if we execute the following JavaScript code:
 1.	<script>  
 2.	function myFunction() {  
 3.	  
@@ -83,7 +84,7 @@
         <label class="rounded p-2 option"> No output <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will be the output of the following JavaScript code?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.96 What will be the output of the following JavaScript code?
 1.	<script>  
 2.	var string1=[1,2,3];  
 3.	  
@@ -99,7 +100,7 @@
         <label class="rounded p-2 option"> It will print nothing<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is the primary role of the "return ()" statement in a function body?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.97 What is the primary role of the "return ()" statement in a function body?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> It returns the value and continues executing rest of the statements<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> It returns the value and stops the program execution <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -107,7 +108,7 @@
         <label class="rounded p-2 option"> It returns the value and stops executing the function<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 If a function which does not return a value is known as _____ </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.98 If a function which does not return a value is known as _____ </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Static function <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Procedures</label><input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -115,7 +116,7 @@
         <label class="rounded p-2 option"> Dynamic function<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The execution of a function stops when the program control encounters the _________ statement in the body of the function.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.99 The execution of a function stops when the program control encounters the _________ statement in the body of the function.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> return statement <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> continue statement <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -123,7 +124,7 @@
         <label class="rounded p-2 option"> goto statement <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 In which events/scenarios, A function name gets optional in JavaScript? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.100 In which events/scenarios, A function name gets optional in JavaScript? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> When a function is defined as a looping statement <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> When the function is called <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -134,9 +135,25 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">10</span>
-				<a class='page' href='javaScript9.jsp'>9</a>
+     <div>
+				<a class='page' href='javaScript1.jsp'>1</a>
 				
+				<a class='page' href='javaScript2.jsp'>2</a>
+				
+				<a class='page' href='javaScript3.jsp'>3</a>
+				
+				<a class='page' href='javaScript4.jsp'>4</a>
+				
+				<a class='page' href='javaScript5.jsp'>5</a>
+			
+				<a class='page' href='javaScript6.jsp'>6</a>
+					
+				<a class='page' href='javaScript7.jsp'>7</a>
+				
+				<a class='page' href='javaScript8.jsp'>8</a>
+				
+				<a class='page' href='javaScript9.jsp'>9</a>
+					<span class="page current">10</span>
 			
 				</div>
 				</div>

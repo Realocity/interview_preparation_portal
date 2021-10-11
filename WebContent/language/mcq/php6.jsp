@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>php 6</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.51 What will be the output of the following program?
 1.	<?php  
 2.	$x = 15;  
 3.	$y = 20;  
@@ -36,7 +37,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.52 What will be the output of the following program?
 1.	<?php  
 2.	echo lcfirst("Welcome To The JavaTpoint.com");  
 3.	?>  
@@ -48,7 +49,7 @@
          <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.53 What will be the output of the following program?
 1.	<?php  
 2.	$a = "1";  
 3.	switch($a)  
@@ -69,7 +70,7 @@
         <label class="rounded p-2 option"> HelloWorldThis is javaTpoint.com <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.54 What will be the output of the following program?
 1.	<?php  
 2.	echo strtr("Walcoma to the juvuTpoint.com", "au", "ea");  
 3.	?>  
@@ -81,7 +82,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.55 What will be the output of the following program?
 1.	<?php  
 2.	while()  
 3.	{  
@@ -95,7 +96,7 @@
         <label class="rounded p-2 option"> Error <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.56 What will be the output of the following program?
 1.	<?php    
 2.	  $var1="Hello World";    
 3.	  echo strrev("$var1");     
@@ -108,7 +109,7 @@
         <label class="rounded p-2 option"> None of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following function is used to compute the difference between two arrays in PHP?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.57 Which of the following function is used to compute the difference between two arrays in PHP?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> diff_array <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> array_diff <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -116,7 +117,7 @@
         <label class="rounded p-2 option"> diff_arrays<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What will be the output of the following program?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.58 What will be the output of the following program?
 1.	<?php    
 2.	$a = array(16, 5, 2);  
 3.	echo array_product($a);  
@@ -129,7 +130,7 @@
         <label class="rounded p-2 option"> 32 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which PHP function converts an English text datetime into a Unix timestamp?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.59 Which PHP function converts an English text datetime into a Unix timestamp?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> str_to_time() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> strtodate() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -137,7 +138,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following function in PHP returns the time of sunrise of a particular day and location?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.60 Which of the following function in PHP returns the time of sunrise of a particular day and location?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> date_sunrise() <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> date-sunrise() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -146,13 +147,25 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+  <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">6</span>
-				<a class='page' href='php5.jsp'>5</a>
+     <div>
+				<a class='page' href='php1.jsp'>1</a>	
+					
+				<a class='page' href='php2.jsp'>2</a>
 				
+				<a class='page' href='php3.jsp'>3</a>
+				
+				<a class='page' href='php4.jsp'>4</a>
+				
+				<a class='page' href='php5.jsp'>5</a>
+				<span class="page current">6</span>
 				<a class='page' href='php7.jsp'>7</a>
-				<a class='page next' href='php7.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='php8.jsp'>8</a>
+				<a class='page' href='php9.jsp'>9</a>
+				<a class='page' href='php10.jsp'>10</a>
+				
+			
 				</div>
 				</div>
 				<center>

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>css 8</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following element is used within the table element to define a caption?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 Which of the following element is used within the table element to define a caption?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> &lt;tablecaption&gt; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> &lt;caption&gt; <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following property is used to specify table borders in CSS?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Which of the following property is used to specify table borders in CSS?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> table<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> border <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following property sets whether the table borders are collapsed into a single border or separated:?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 Which of the following property sets whether the table borders are collapsed into a single border or separated:?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> border<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> border-collapse<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> table-border <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following property is used to change the width of table? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 Which of the following property is used to change the width of table? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> width<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> table <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option">resize <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following property sets the vertical alignment? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 Which of the following property sets the vertical alignment? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> align <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> vertical <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> vertical-align <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> vertical-alignment<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following property is used to control the space between the border and content in a table? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 Which of the following property is used to control the space between the border and content in a table? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">border<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> margin <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> resize <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following property is used to change the background in a table? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 Which of the following property is used to change the background in a table? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> table-background <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> background <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> none of the mentioned<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following property is used to change the height of a table? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 Which of the following property is used to change the height of a table? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">height  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">table-height <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option">position-y <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following property is used to align the text in a table? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 Which of the following property is used to align the text in a table? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> align <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> text <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> none of the mentioned <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following property is used to set order in a table?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 Which of the following property is used to set order in a table?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> border <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> padding <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,11 +100,23 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='cssmcq7.jsp'>7</a>
+     <div>
+				<a class='page' href='cssmcq1.jsp'>1</a>
 				
+				<a class='page' href='cssmcq2.jsp'>2</a>
+				
+				<a class='page' href='cssmcq3.jsp'>3</a>
+				
+				<a class='page' href='cssmcq4.jsp'>4</a>
+				
+				<a class='page' href='cssmcq5.jsp'>5</a>
+				
+				<a class='page' href='cssmcq6.jsp'>6</a>
+				
+				<a class='page' href='cssmcq7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='cssmcq9.jsp'>9</a>
-				<a class='page next' href='cssmcq9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cssmcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

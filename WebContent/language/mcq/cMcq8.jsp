@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 8</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following is not an arithmetic operation?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 Which of the following is not an arithmetic operation?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> x * = 65; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> x / = 42;<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following operator is represented a relational operation?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Which of the following operator is represented a relational operation?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> ==<input type="radio" name="radio"> <span class="checkmark"></span> </label>
          <label class="rounded p-2 option"> ++ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following keyword is used for union in c language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 Which of the following keyword is used for union in c language?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> un<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> unt<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option">  union<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Study the following program fragment
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 Study the following program fragment
 1.	char ch = 'Z'  
 What will store in ch? </p>
         <div class="options py-3">
@@ -51,7 +52,7 @@ What will store in ch? </p>
         <label class="rounded p-2 option"> 122<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Study the following program:
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 Study the following program:
 1.	main ()  
 2.	{  
 3.	  if(5 < '5')  
@@ -66,7 +67,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> Not equal to 5<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following variable name is correct in c language? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76 Which of the following variable name is correct in c language? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  For<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  for<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -74,23 +75,23 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option"> hello.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following header files is not used in C language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 What kinds of iterators can be used with vectors?</p>
         <div class="options py-3">
-         <label class="rounded p-2 option"> <assert.h><input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option">  <ctype.h><input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> <iostream.h> <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option"> <locale.h><input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+         <label class="rounded p-2 option"> Forward iterator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> Bi-directional iterator <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> Random access iterator<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following header files is used for character type function in C language? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 Let p1 be an integer pointer with a current value of 2000. What is the content of p1 after the expression p1++ has been evaluated?</p>
         <div class="options py-3"> 
-        <label class="rounded p-2 option"> <assert.h> <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> <ctype.h><input type="radio" name="radio"> <span class="checkmark"></span> </label> 
-        <label class="rounded p-2 option">  <iostream.h><input type="radio" name="radio"> <span class="crossmark"></span> </label> 
-        <label class="rounded p-2 option"> <locale.h><input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
+        <label class="rounded p-2 option"> 2001 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> 2002<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
+        <label class="rounded p-2 option"> 2004 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
+        <label class="rounded p-2 option"> 2008 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following declaration is incorrect in C language?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 Which of the following declaration is incorrect in C language?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> scanf("%d%d", a, b);  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  scanf("%d%d", a b);<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -98,7 +99,7 @@ What will be the output of this program? </p>
         <label class="rounded p-2 option">  scanf(" %d%d", &x,&y);<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 If a = 0x6db7, what will be the value of "a << 6" in decimal?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 If a = 0x6db7, what will be the value of "a << 6" in decimal?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> 28087 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 28996 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -109,11 +110,18 @@ What will be the output of this program? </p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
+				<a class='page' href='cMcq2.jsp'>2</a>
+				<a class='page' href='cMcq3.jsp'>3</a>
+				<a class='page' href='cMcq4.jsp'>4</a>
+				<a class='page' href='cMcq5.jsp'>5</a>
+				<a class='page' href='cMcq6.jsp'>6</a>
+
 				<a class='page' href='cMcq7.jsp'>7</a>
-				
+				<span class="page current">8</span>
 				<a class='page' href='cMcq9.jsp'>9</a>
-				<a class='page next' href='cMcq9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

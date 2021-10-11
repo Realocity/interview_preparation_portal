@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>swift 4</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Which of the following declares a mutable array in Swift?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.31 Which of the following declares a mutable array in Swift?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> let x =[Int]() <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> var x=[Int]<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Application running in foreground but currently not receiving any events .what is the current state of Application?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.32 Application running in foreground but currently not receiving any events .what is the current state of Application?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Background state<input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> Inactive state <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -32,7 +33,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Tuples as well as structs both allow  us to combine different types into one type. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.33 Tuples as well as structs both allow  us to combine different types into one type. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> True<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> False<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -40,7 +41,7 @@
         <label class="rounded p-2 option">  Cann't say<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 What is the element that is used to specify the type of variable or expression? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.34 What is the element that is used to specify the type of variable or expression? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Explicit Title<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Named Factor<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -48,14 +49,14 @@
         <label class="rounded p-2 option"> Class Annotation<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 IPhone OS is based on which language? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.35 IPhone OS is based on which language? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> C++ <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> C<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> java <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> both (i) and (ii)<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 To create mutable object __ is used </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.36 To create mutable object __ is used </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> var<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> let <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -63,7 +64,7 @@
         <label class="rounded p-2 option"> none<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is the latest version of iPhone operating system ? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.37 What is the latest version of iPhone operating system ? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 3.1<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 8.4 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -71,7 +72,7 @@
         <label class="rounded p-2 option"> 5.0 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 Which of the following statements is/are false?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.38 Which of the following statements is/are false?
 1. var is used to declare variable whose value we can change.
 2. let is used to make variable as constant.
         </p>
@@ -82,7 +83,7 @@
         <label class="rounded p-2 option"> None of the above <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following is immutable?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.39 Which of the following is immutable?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> var num =5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> num =5 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -90,7 +91,7 @@
         <label class="rounded p-2 option"> all the above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 what are the  features of swift programming? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.40 what are the  features of swift programming? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> it eliminates entire classes of unsafe code <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Variables are always used before use. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -100,13 +101,22 @@
     </div> 
     
   
-    <!-- /Intext --><hr>
+     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">4</span>
-				<a class='page' href='swift3.jsp'>3</a>
+    
+				<a class='page' href='swift1.jsp'>1</a>
 				
+				<a class='page' href='swift2.jsp'>2</a>
+				 
+				<a class='page' href='swift3.jsp'>3</a>
+				<span class="page current">4</span>
 				<a class='page' href='swift5.jsp'>5</a>
-				<a class='page next' href='swift5.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='swift6.jsp'>6</a>
+				<a class='page' href='swift7.jsp'>7</a>
+				<a class='page' href='swift8.jsp'>8</a>
+				<a class='page' href='swift9.jsp'>9</a>
+				<a class='page' href='swift10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

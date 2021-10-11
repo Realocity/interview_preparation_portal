@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cMcq 3</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 What feature makes C++ so powerful?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 What feature makes C++ so powerful?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Easy implementation  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Reusing the old code<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Which of the following will copy the null-terminated string that is in array src into array dest? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.22 Which of the following will copy the null-terminated string that is in array src into array dest? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> dest = src; <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> dest == src; <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 In the statement "COUT << "javatpoint" << end1;", end1 is a ___.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 In the statement "COUT << "javatpoint" << end1;", end1 is a ___.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Extractor<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Inserter <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> Terminator<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Each instance of a class has a different set of  </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Each instance of a class has a different set of  </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Class interfaces <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Methods <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> Attribute values<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 How many instances of a class can be declared? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 How many instances of a class can be declared? </p>
         <div class="options py-3"> <label class="rounded p-2 option"> 1 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 10 <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> As per required <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> None of the these <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 What will the result of num variable after execution of the following statements?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 What will the result of num variable after execution of the following statements?
 1.	int num = 58;  
 2.	num % = 11; </p>
         <div class="options py-3"> 
@@ -66,7 +67,7 @@
         <label class="rounded p-2 option"> 11<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 What is the maximum number of characters that can be held in the string variable char address line [40]?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 What is the maximum number of characters that can be held in the string variable char address line [40]?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> 38<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> 39 <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -74,7 +75,7 @@
         <label class="rounded p-2 option"> 41<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 What will the result of num1 variable after execution of the following statements?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 What will the result of num1 variable after execution of the following statements?
 1.	int j = 1, num1 = 4;  
 2.	while (++j <= 10)  
 3.	{  
@@ -87,7 +88,7 @@
         <label class="rounded p-2 option"> 14 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 What will the result of len variable after execution of the following statements?
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 What will the result of len variable after execution of the following statements?
 1.	int len;  
 2.	char str1[] = {"39 march road"};  
 3.	len = strlen(str1);  
@@ -99,7 +100,7 @@
         <label class="rounded p-2 option"> 14 <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Study the following statement
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Study the following statement
 1.	#include <stdio.h>  
 2.	    int main()  
 3.	    {  
@@ -119,11 +120,18 @@ What will be the output?</p>
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='cMcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='cMcq1.jsp'>1</a>
 				
+				<a class='page' href='cMcq2.jsp'>2</a>
+				<span class="page current">3</span>
 				<a class='page' href='cMcq4.jsp'>4</a>
-				<a class='page next' href='cMcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cMcq5.jsp'>5</a>
+				<a class='page' href='cMcq6.jsp'>6</a>
+				<a class='page' href='cMcq7.jsp'>7</a>
+				<a class='page' href='cMcq8.jsp'>8</a>
+				<a class='page' href='cMcq9.jsp'>9</a>
+				<a class='page' href='cMcq10.jsp'>10</a>
 				</div>
 				</div>
 				<center>

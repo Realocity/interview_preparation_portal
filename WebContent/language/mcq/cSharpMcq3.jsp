@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>cSharp 3</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 	_______ variables are visible only in the block they are declared.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.21 	_______ variables are visible only in the block they are declared.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> System <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Global <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 A structure in C# provides a unique way of packing together data of ______ types.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.23 A structure in C# provides a unique way of packing together data of ______ types.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Different <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Same <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option">  Calling<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Structâs data members are ____________ by default. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.24 Structâs data members are ____________ by default. </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Protected <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Public <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> Default <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 A _______ creates an object by copying variables from another object. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.25 A _______ creates an object by copying variables from another object. </p>
         <div class="options py-3"> <label class="rounded p-2 option"> Copy constructor <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Default constructorDefault constructor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Invoking constructor <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Calling constructor <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 The methods that have the same name, but different parameter lists and different definitions is called______. </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.26 The methods that have the same name, but different parameter lists and different definitions is called______. </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Method Overloading  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Method Overriding <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> Method Overreading <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 The C# provides special methods known as _____ methods to provide access to data members.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.27 The C# provides special methods known as _____ methods to provide access to data members.</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Loop <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Functions <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> Accessor<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 When an instance method declaration includes the abstract modifier, the method is said to be an ______.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.28 When an instance method declaration includes the abstract modifier, the method is said to be an ______.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Abstract method  <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Instance method <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> Expression method<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 The theory of _____ implies that user can control the access to a class, method, or variable.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.29 The theory of _____ implies that user can control the access to a class, method, or variable.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Data hiding <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Encapsulation <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> Polymorphism <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Inheritance is ______ in nature.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.30 Inheritance is ______ in nature.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Commutative  <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Associative <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -97,13 +98,21 @@
     </div> 
     
   
-     <!-- /Intext --><hr>
+    <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">3</span>
-				<a class='page' href='cSharpMcq2.jsp'>2</a>
+     <div>
+				<a class='page' href='cSharpMcq1.jsp'>1</a>
 				
+				<a class='page' href='cSharpMcq2.jsp'>2</a>
+				<span class="page current">2</span>
 				<a class='page' href='cSharpMcq4.jsp'>4</a>
-				<a class='page next' href='cSharpMcq4.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='cSharpMcq5.jsp'>5</a>
+				<a class='page' href='cSharpMcq6.jsp'>6</a>
+				<a class='page' href='cSharpMcq7.jsp'>7</a>
+				<a class='page' href='cSharpMcq8.jsp'>8</a>
+				<a class='page' href='cSharpMcq9.jsp'>9</a>
+				<a class='page' href='cSharpMcq10.jsp'>10</a>
+				
 				</div>
 				</div>
 				<center>

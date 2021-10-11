@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>sqlMcq 8</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
 <br><br>
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 A SQL query will not work if there are no indexes on the relations - Is it true? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.71 A SQL query will not work if there are no indexes on the relations - Is it true? </p>
         <div class="options py-3">
          <label class="rounded p-2 option">  NO<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Yes<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -23,7 +24,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Table Employee has 10 records. It has a non-NULL SALARY column which is also UNIQUE.
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.72 Table Employee has 10 records. It has a non-NULL SALARY column which is also UNIQUE.
 The SQL statement
 SELECT COUNT(*) FROM Employee WHERE SALARY > ANY (SELECT SALARY FROM EMPLOYEE);
 prints
@@ -36,7 +37,7 @@ prints
          <span class="crossmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 The SQL statement - SELECT SUBSTR('abcdefghij', INSTR('123321234', '2', 3, 2), 2) FROM DUAL; Prints</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.73 The SQL statement - SELECT SUBSTR('abcdefghij', INSTR('123321234', '2', 3, 2), 2) FROM DUAL; Prints</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> gh<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> 23<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -44,7 +45,7 @@ prints
         <label class="rounded p-2 option">  ab<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 The SQL statement - SELECT ROUND(45.926, -1) FROM DUAL; </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.74 The SQL statement - SELECT ROUND(45.926, -1) FROM DUAL; </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> is illegal<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> prints garbage <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -52,14 +53,14 @@ prints
         <label class="rounded p-2 option"> prints 50<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following must be enclosed in double-quotes? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.75 Which of the following must be enclosed in double-quotes? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  Dates<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Column Alias <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  Strings<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6  Which of the following command makes the updates performed by the transaction permanent in the database?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.76  Which of the following command makes the updates performed by the transaction permanent in the database?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> ROLLBACK<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  COMMIT<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -67,7 +68,7 @@ prints
         <label class="rounded p-2 option"> DELETE<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 A subquery in an SQL SELECT statement is enclosed in:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.77 A subquery in an SQL SELECT statement is enclosed in:</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> parenthesis -- (...).<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  brackets -- [...].<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -75,7 +76,7 @@ prints
         <label class="rounded p-2 option"> braces -- {...}.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 The result of a SQL SELECT statement is a ______.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.78 The result of a SQL SELECT statement is a ______.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  file<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> report<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -83,7 +84,7 @@ prints
         <label class="rounded p-2 option"> form<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 In an SQL SELECT statement querying a single table, according to the SQL-92 standard the asterisk (*) means that:</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.79 In an SQL SELECT statement querying a single table, according to the SQL-92 standard the asterisk (*) means that:</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  all columns of the table are to be returned.<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option">  all records meeting the full criteria are to be returned.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -91,7 +92,7 @@ prints
         <label class="rounded p-2 option">  None of the above is correct.<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 The HAVING clause does which of the following?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.80 The HAVING clause does which of the following?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">  Acts EXACTLY like a WHERE clause.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option">  Acts like a WHERE clause but is used for columns rather than groups.<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -100,13 +101,27 @@ prints
     </div> 
     
   
-    <!-- /Intext --><hr>
+   <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">8</span>
-				<a class='page' href='sqlMcq7.jsp'>7</a>
+     <div>
+				<a class='page' href='sqlMcq1.jsp'>1</a>
 				
+				<a class='page' href='sqlMcq2.jsp'>2</a>
+				
+				<a class='page' href='sqlMcq3.jsp'>3</a>
+				
+				<a class='page' href='sqlMcq4.jsp'>4</a>
+				
+				<a class='page' href='sqlMcq5.jsp'>5</a>
+				
+				<a class='page' href='sqlMcq6.jsp'>6</a>
+				
+				<a class='page' href='sqlMcq7.jsp'>7</a>
+				<span class="page current">8</span>
 				<a class='page' href='sqlMcq9.jsp'>9</a>
-				<a class='page next' href='sqlMcq9.jsp' title='Next'>&raquo;</a>
+				<a class='page' href='sqlMcq10.jsp'>10</a>
+				
+		
 				</div>
 				</div>
 				<center>

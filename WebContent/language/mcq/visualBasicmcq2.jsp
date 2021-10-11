@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/favicon.ico" type="image/x-icon">
 <title>vb 2</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <div class="wrapper bg-white rounded">
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.1 Is the Class type in VB.NET a value type?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.11 Is the Class type in VB.NET a value type?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> yes <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> no <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -24,7 +25,7 @@
        
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.2 Choose the correct statement about a delegate in VB.NET</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.12 Choose the correct statement about a delegate in VB.NET</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> A delegate is a strongly type function pointer <input type="radio" name="radio"> <span class="crossmark"></span> </label>
          <label class="rounded p-2 option"> It is a type-safe function pointer <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -33,7 +34,7 @@
          <span class="checkmark"></span> </label> </div> 
     </div> 
     <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.3 Which of the following is not the member of System.Collections? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.13 Which of the following is not the member of System.Collections? </p>
         <div class="options py-3">
          <label class="rounded p-2 option"> BitArray <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> Enum <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
@@ -41,7 +42,7 @@
         <label class="rounded p-2 option"> Stack <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.4 Which of the following control can contain other controls?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.14 Which of the following control can contain other controls?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> GroupBox<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> TabPage <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -49,14 +50,14 @@
         <label class="rounded p-2 option"> All of the above<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.5 Which of the following object is used by the DataAdapter to retrieve the data from database? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.15 Which of the following object is used by the DataAdapter to retrieve the data from database? </p>
         <div class="options py-3"> <label class="rounded p-2 option">  Command <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Connection <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> DataReader <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> None<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.6 Which of the following control doesn't receive the focus and doesn't have a TabIndex property? </p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.16 Which of the following control doesn't receive the focus and doesn't have a TabIndex property? </p>
         <div class="options py-3"> 
         <label class="rounded p-2 option">PictureBox<input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> LablControl <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -64,7 +65,7 @@
         <label class="rounded p-2 option"> TabControl control <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.7 Which of the following is not true for Shared members?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.17 Which of the following is not true for Shared members?</p>
         <div class="options py-3">
          <label class="rounded p-2 option"> Shared members belong to the type but not to any instance of a type <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> They can be accessed without creating an instance of the type. <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -72,7 +73,7 @@
         <label class="rounded p-2 option"> They are accessed using instance name<input type="radio" name="radio"> <span class="checkmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.8 If no access modifier is specified for a class, it is considered _________.</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.18 If no access modifier is specified for a class, it is considered _________.</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> Public <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> Private<input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -80,7 +81,7 @@
         <label class="rounded p-2 option"> Protected<input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.9 Which of the following namespaces is used to access "computer name" and its IP address in VB.NET?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.19 Which of the following namespaces is used to access "computer name" and its IP address in VB.NET?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> System.NET.DNS <input type="radio" name="radio"> <span class="checkmark"></span> </label> 
         <label class="rounded p-2 option"> System.Diagnostics.Process <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -88,7 +89,7 @@
         <label class="rounded p-2 option"> None of the Above <input type="radio" name="radio"> <span class="crossmark"></span> </label> </div> 
     </div> 
      <div class="content"> 
-        <p class="text-justify h5 pb-2 font-weight-bold">Q.10 Which of the following namespace provides support for obtaining information and dynamic creation of types at runtime?</p>
+        <p class="text-justify h5 pb-2 font-weight-bold">Q.20 Which of the following namespace provides support for obtaining information and dynamic creation of types at runtime?</p>
         <div class="options py-3"> 
         <label class="rounded p-2 option"> System.IO <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
         <label class="rounded p-2 option"> System.ComponentModel <input type="radio" name="radio"> <span class="crossmark"></span> </label> 
@@ -99,11 +100,19 @@
   
     <!-- /Intext --><hr>
     <div id='pagination'>
-     <div><span class="page current">2</span>
+     <div>
 				<a class='page' href='visualBasicmcq1.jsp'>1</a>
-				
+				<span class="page current">2</span>		
 				<a class='page' href='visualBasicmcq3.jsp'>3</a>
-				<a class='page next' href='visualBasicmcq3.jsp' title='Next'>&raquo;</a>
+					<a class='page' href='visualBasicmcq4.jsp'>4</a>
+						<a class='page' href='visualBasicmcq5.jsp'>5</a>
+							<a class='page' href='visualBasicmcq6.jsp'>6</a>
+								<a class='page' href='visualBasicmcq7.jsp'>7</a>
+									<a class='page' href='visualBasicmcq8.jsp'>8</a>
+										<a class='page' href='visualBasicmcq9.jsp'>9</a>
+											<a class='page' href='visualBasicmcq10.jsp'>10</a>
+											
+			
 				</div>
 				</div>
 				<center>
