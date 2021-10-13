@@ -98,34 +98,34 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
     1. Dashboard Page
 
-![dashboard page](https://github.com/Realocity/interview_preparation_portal/images/dashboard.PNG)
+![dashboard page](https://github.com/Realocity/interview_preparation_portal/blob/main/images/programing.jpeg)
 
     2. Programing List
-![programing list](https://github.com/Realocity/interview_preparation_portal/images/programing.JPEG)
+![programing list](https://github.com/Realocity/interview_preparation_portal/blob/main/images/programing.jpeg)
 
     3. Database List
-![database list](https://github.com/Realocity/interview_preparation_portal/images/database.JPEG)
+![database list](https://github.com/Realocity/interview_preparation_portal/blob/main/images/database.jpeg)
 
     4. Company List
-![Company list](https://github.com/Realocity/interview_preparation_portal/images/company.JPEG)
+![Company list](https://github.com/Realocity/interview_preparation_portal/blob/main/images/company.jpeg)
 
     5. Personal Development
-![personal development](https://github.com/Realocity/interview_preparation_portal/images/personalDevelopment.JPEG)
+![personal development](https://github.com/Realocity/interview_preparation_portal/blob/main/images/personalDevelopment.jpeg)
 
     6. Resume Page
-![resume page](https://github.com/Realocity/interview_preparation_portal/images/resume.JPEG)
+![resume page](https://github.com/Realocity/interview_preparation_portal/blob/main/images/resume.jpeg)
 
     7. Option From
-![option from](https://github.com/Realocity/interview_preparation_portal/images/optionFrom.JPEG)
+![option from](https://github.com/Realocity/interview_preparation_portal/blob/main/images/optionFrom.jpeg)
 
     8. Practice Test Page
-![test](https://github.com/Realocity/interview_preparation_portal/images/test.JPEG)
+![test](https://github.com/Realocity/interview_preparation_portal/blob/main/images/test.jpeg)
 
     9. Feedback Page
-![feedback page](https://github.com/Realocity/interview_preparation_portal/images/feedback.JPEG)
+![feedback page](https://github.com/Realocity/interview_preparation_portal/blob/main/images/feedback.jpeg)
 
     10. About Page
-![about page](https://github.com/Realocity/interview_preparation_portal/images/aboutUs.JPEG)
+![about page](https://github.com/Realocity/interview_preparation_portal/blob/main/images/aboutUs.jpeg)
 
 <!-- LICENSE -->
 ## License
