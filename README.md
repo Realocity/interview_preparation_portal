@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Realocity/interview_preparation_portal">
-    <img src="images/logo.png" alt="Logo" width="140" height="80">
+    <img src="images/IPP.png" alt="Logo" width="150" height="80">
   </a>
 
   <h3 align="center">Interview Preparation Portal</h3>
@@ -98,28 +98,34 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
     1. Dashboard Page
 
-![dashboard page](https://user-images.githubusercontent.com/31382963/43042394-4624cedc-8d9a-11e8-9219-aa8c349294f9.JPG)
+![dashboard page](https://github.com/Realocity/interview_preparation_portal/images/dashboard.PNG)
 
     2. Programing List
-![programing list](https://user-images.githubusercontent.com/31382963/43042422-e6676d3c-8d9a-11e8-8573-87af7196b5b4.JPG)
+![programing list](https://github.com/Realocity/interview_preparation_portal/images/programing.JPEG)
 
     3. Database List
-![database list](https://user-images.githubusercontent.com/31382963/43042423-e693d39a-8d9a-11e8-9eee-8e18848e2c4c.JPG)
+![database list](https://github.com/Realocity/interview_preparation_portal/images/database.JPEG)
 
-    4. Database Management System List
-![database management system list](https://user-images.githubusercontent.com/31382963/43042424-e6bcadf6-8d9a-11e8-8e7b-99ef7a83d5fc.JPG)
+    4. Company List
+![Company list](https://github.com/Realocity/interview_preparation_portal/images/company.JPEG)
 
-    5. Framework List
-![framework list](https://user-images.githubusercontent.com/31382963/43042425-e6e62226-8d9a-11e8-84b3-676a3c411659.JPG)
+    5. Personal Development
+![personal development](https://github.com/Realocity/interview_preparation_portal/images/personalDevelopment.JPEG)
 
     6. Resume Page
-![resume page](https://user-images.githubusercontent.com/31382963/43046263-e43bcdf2-8de3-11e8-907c-c9290f9fc174.JPG)
+![resume page](https://github.com/Realocity/interview_preparation_portal/images/resume.JPEG)
 
-    7. Personal Development Page
-![personal development page](https://user-images.githubusercontent.com/31382963/43046264-e47265f6-8de3-11e8-8053-3ac52c5583b0.JPG)
+    7. Option From
+![option from](https://github.com/Realocity/interview_preparation_portal/images/optionFrom.JPEG)
 
-    8. Feedback Page
-![feedback page](https://user-images.githubusercontent.com/31382963/43046264-e47265f6-8de3-11e8-8053-3ac52c5583b0.JPG)
+    8. Practice Test Page
+![test](https://github.com/Realocity/interview_preparation_portal/images/test.JPEG)
+
+    9. Feedback Page
+![feedback page](https://github.com/Realocity/interview_preparation_portal/images/feedback.JPEG)
+
+    10. About Page
+![about page](https://github.com/Realocity/interview_preparation_portal/images/aboutUs.JPEG)
 
 <!-- LICENSE -->
 ## License
